@@ -1,0 +1,749 @@
+  [4;36;1mSQL (0.001093)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000562)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 10:45:08', 'What is your name?', '2008-06-21 10:45:08')[0m
+  [4;36;1mSQL (0.000527)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;36;1mSQL (0.001109)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000649)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:15:41', 'What is your name?', '2008-06-21 11:15:41')[0m
+  [4;36;1mSQL (0.000555)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;36;1mSQL (0.001100)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000577)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:16:14', 'What is your name?', '2008-06-21 11:16:14')[0m
+  [4;36;1mSQL (0.000528)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;36;1mSQL (0.000827)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000520)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:17:06', 'What is your name?', '2008-06-21 11:17:06')[0m
+  [4;36;1mSQL (0.000470)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000809)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000563)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000956)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:18:23', 'What is your name?', '2008-06-21 11:18:23')[0m
+  [4;36;1mSQL (0.000613)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000832)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001088)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000578)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:18:42', 'What is your name?', '2008-06-21 11:18:42')[0m
+  [4;36;1mSQL (0.000543)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000824)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000684)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000546)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000543)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:23:56', 'What is your name?', '2008-06-21 11:23:56')[0m
+  [4;36;1mSQL (0.000489)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;36;1mSQL (0.000726)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000541)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 11:24:18', 'What is your name?', '2008-06-21 11:24:18')[0m
+  [4;36;1mSQL (0.000473)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000821)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001079)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000718)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 14:02:14', 'What is your name?', '2008-06-21 14:02:14')[0m
+  [4;36;1mSQL (0.000622)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;36;1mSQL (0.001092)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000564)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 14:15:06', 'What is your name?', '2008-06-21 14:15:06')[0m
+  [4;36;1mSQL (0.000530)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000748)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001073)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000567)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "created_at") VALUES('2008-06-21 14:17:24', 'What is your name?', '2008-06-21 14:17:24')[0m
+  [4;36;1mSQL (0.000527)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000971)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001087)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000598)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "question_group_id", "created_at") VALUES('2008-06-21 14:30:46', 'What is your name?', NULL, '2008-06-21 14:30:46')[0m
+  [4;36;1mSQL (0.000536)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000753)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001075)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000662)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "question_group_id", "created_at") VALUES('2008-06-21 14:34:21', 'What is your name?', NULL, '2008-06-21 14:34:21')[0m
+  [4;36;1mSQL (0.000610)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mSQL (0.000858)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001065)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+  [4;35;1mQuestion Create (0.000617)[0m   [0mINSERT INTO "questions" ("updated_at", "text", "question_group_id", "created_at") VALUES('2008-06-21 14:36:15', 'What is your name?', NULL, '2008-06-21 14:36:15')[0m
+  [4;36;1mSQL (0.000543)[0m   [0;1mSELECT count(*) AS count_all FROM "questions" [0m
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:44:36) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:44:36) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:44:36) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:44:36) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:44:36) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:44:36) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:44:36) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:44:36) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:44:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:44:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:44:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00153 (655 reqs/sec) | Rendering: 0.00060 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/edit/1]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00148 (674 reqs/sec) | Rendering: 0.00059 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/edit/1]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00147 (679 reqs/sec) | Rendering: 0.00058 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/edit/1]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00148 (677 reqs/sec) | Rendering: 0.00058 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/edit/1]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:44:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:44:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Rendering /questions/edit.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/show.html.erb
+Rendering /questions/new.html.erb
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:45:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.01566 (63 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:45:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00187 (533 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-23 22:45:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00195 (513 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:45:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:45:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00267 (373 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:45:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00265 (377 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:45:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00267 (373 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-23 22:45:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00263 (380 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:45:24) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:45:24) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00264 (378 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-23 22:45:24) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00264 (378 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:45:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00155 (644 reqs/sec) | Rendering: 0.00061 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00146 (684 reqs/sec) | Rendering: 0.00058 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00147 (680 reqs/sec) | Rendering: 0.00057 (38%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00177 (565 reqs/sec) | Rendering: 0.00075 (42%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-23 22:45:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Rendering /questions/edit.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/show.html.erb
+Rendering /questions/new.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+ERROR: compiling _run_erb_47app47views47questions47index46html46erb RAISED compile error
+/Users/sabman/Rails/projects/farmer-census/app/views/questions/index.html.erb:16: syntax error, unexpected $end, expecting kEND
+Function body: def _run_erb_47app47views47questions47index46html46erb(local_assigns)
+_erbout = ''; _erbout.concat "<h1>Listing questions</h1>\n"
+_erbout.concat "\n"
+_erbout.concat "\n"
+ for question in @questions ; _erbout.concat "\n"
+_erbout.concat "\t";  if question.qtype == "text_field" ; _erbout.concat "\n"
+_erbout.concat "    "; _erbout.concat((h question.text ).to_s); _erbout.concat "<br />\n"
+_erbout.concat "\t\t"; _erbout.concat(( text_field_tag "answer_#{question.id}" ).to_s); _erbout.concat "<br />\n"
+_erbout.concat "\t";  elsif question.qtype == "text_area" ; _erbout.concat "\n"
+ end ; _erbout.concat "\n"
+_erbout.concat "</table>\n"
+_erbout.concat "\n"
+_erbout.concat "<br />\n"
+_erbout.concat "\n"
+_erbout.concat(( link_to 'New question', new_question_path ).to_s); _erbout.concat "\n"
+_erbout
+end
+Backtrace: /Users/sabman/Rails/projects/farmer-census/app/views/questions/index.html.erb:16:in `compile_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:868:in `render_with_no_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec_on_rails/lib/spec/rails/example/view_example_group.rb:128:in `send'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec_on_rails/lib/spec/rails/example/view_example_group.rb:128:in `render'
+./spec/views/questions/index.html.erb_spec.rb:20
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_methods.rb:78:in `instance_eval'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_methods.rb:78:in `run_with_description_capturing'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_methods.rb:19:in `execute'
+/usr/local/lib/ruby/1.8/timeout.rb:48:in `timeout'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_methods.rb:16:in `execute'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:292:in `execute_examples'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:291:in `each'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:291:in `execute_examples'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:121:in `run'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:22:in `run'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:21:in `each'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:21:in `run'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/options.rb:90:in `run_examples'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/command_line.rb:19:in `run'
+script/spec:4
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-24 00:37:22) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.01507 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-24 00:37:22) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00189 (529 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-06-24 00:37:22) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00196 (509 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-24 00:37:22) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-24 00:37:22) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00378 (264 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-24 00:37:22) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00262 (381 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-24 00:37:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00260 (384 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-06-24 00:37:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00262 (381 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-24 00:37:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-24 00:37:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00264 (379 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-06-24 00:37:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00263 (380 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00148 (673 reqs/sec) | Rendering: 0.00059 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00143 (699 reqs/sec) | Rendering: 0.00057 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00144 (692 reqs/sec) | Rendering: 0.00057 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering questions/edit
+Completed in 0.00144 (694 reqs/sec) | Rendering: 0.00057 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mStage Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mStage Load (0.000000)[0m   [0mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mStage Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mStage Load (0.000000)[0m   [0mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mStage Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mStage Load (0.000000)[0m   [0mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-06-24 00:37:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mStage Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: stages: SELECT * FROM "stages" [0m
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
+Rendering /questions/index.html.erb
