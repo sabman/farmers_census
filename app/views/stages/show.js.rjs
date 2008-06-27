@@ -1,3 +1,5 @@
+page.replace_html :stage_title, @stage.title 
+
 page.replace_html :census_answers, :partial => "question", :collection => @questions 
 page.visual_effect :highlight, :census_answers
 

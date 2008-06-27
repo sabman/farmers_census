@@ -1,4 +1,7 @@
-<h1><%=h @stage.title %></h1>
+<div id="stage_title">
+	<%=h @stage.title %>
+</div>
+
 
 <div id='census_answers'>
 	<%= render :partial => "question", :collection => @questions %>
