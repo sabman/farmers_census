@@ -1,0 +1,85 @@
+body { background-color:#F1F7D4;}
+#doc2 { background-color: #FFF;}
+#hd, #ft { background-color : #7F007F; color: #FFF; height:70px; border: 1px solid #000}
+#hd h1 { font-size: 210%; padding: 10px;}
+.navigation { background-color: #000; color: #FFF; padding: 5px;} 
+.navigation a { text-decoration:none; color: #FFF; padding: 5px;} }
+#bd { border: 2px solid #000;}
+p.thumb { margin: 0 0 10px 0; padding: 0; text-align: center; line-height: 1em; list-style: none; }	
+p.thumb a { display: block; margin: 0; padding: 4px 4px 9px 4px; border: 1px solid #ccc; border-top-color: #eee; border-right-color: #ddd;
+			border-bottom-color: #bbb; 	background-color: #fff; text-align: center; }
+p.thumb a { margin-left: 15px; margin-right: 15px; margin-bottom: 10px; }	
+.blog h3 { margin: 0 40px; }
+hr { margin-left: 10px; }
+.blog p { font-family: Constantia, Georgia, "Times New Roman", serif; margin: 0 auto; line-height:  1.4;
+			min-width:  20em; max-width:  40em; font-size:  122%; width:  75%; padding: 3px 0 3px 0; }
+
+.blog h3 a { font-size:  152%; font-family: Constantia, Georgia, "Times New Roman", serif; 
+						font-weight:  normal; letter-spacing:  0; text-decoration: none; color:  #7F007F; }
+
+.about h3 a { font-size:  152%; font-family: Constantia, Georgia, "Times New Roman", serif; padding-left: 25px;
+			font-weight:  normal; letter-spacing:  0; text-decoration: none; color:  #7F007F; }
+.blog p { font-family: Constantia, Georgia, "Times New Roman", serif; margin: 0 auto; line-height:  1.4;
+			min-width:  20em; max-width:  40em; font-size:  122%; width:  75%; padding: 3px 0 3px 0; }	
+h1.section_header { padding-top: 5px; padding-bottom: 5px; padding-left: 20px; font-size: 135%; 
+					background-image: url(/images/gradient.jpg); background-repeat: no-repeat;
+					color: white; width: 100%; 	font-family:  Calibri, Helvetica, Arial, sans-serif;
+   					text-transform:  capitalize; margin-top: .6px;}
+.sidebar  {  border: 1px solid #000; background-color: #F5D6F5;}
+.sidebar h1.section_header { background-image: url(/images/sidebar_gradient.jpg); background-repeat: no-repeat; }
+.sidebar p { font-family: Constantia, Georgia, "Times New Roman", serif; margin: 0 auto; line-height:  1.4; font-size:  122%; width:  75%; padding: 3px; }
+form { margin: 0 auto; line-height:  1.4; font-size:  122%; width:  75%; padding: 0 5px 0 5px; }
+form label { font-family: Constantia, Georgia, "Times New Roman", serif; }
+#content { width: 500px; }
+p.photo a, ul.thumbnails a {display: block;	float: left; margin: 0; padding: 4px 4px 9px 4px; border: 1px solid #ccc;
+	border-top-color: #eee;	border-right-color: #ddd; border-bottom-color: #bbb; background-color: #fff; text-align: center; }
+
+p.phota a:hover, ul.thumbnails a:hover, p.thumb a:hover { border-color: #ccc; background-color: #eee; }
+ul.thumbnails a { width: 180px; margin-right: 10px; margin-bottom: 10px; }
+ul.thumbnails { margin: 10px; padding: 0; float: left; text-align:center; background-color: #fff; line-height: 1em; list-style: none; }
+p, pre, blockquote, form, label, ul, ol, dl, fieldset, address { margin:20px 0pt; }
+
+#avatar { margin: 2px; line-height: 1; font-size: 95%; width: 75%; padding:2px; }
+form textarea {width: 600px; height: 120px}
+.editblog form textarea {height: 300px;}
+
+.added {font-size: 75%; font-style: italic; margin-left: 40px;}
+/* COMMENTS */
+ol#comment-list { list-style-type:none; padding:0pt; }
+.comment-head { margin:0pt; }
+.comment-author-details { line-height:14px; margin:0pt; }
+div.comment-author-details h3 { float:left; font-weight:normal; margin:5px 0px 5px 5px; padding:0pt; position:relative; }
+div.comment-author-details div { margin:5px 0px 0px 5px; }
+div.comment-author-details *:link, div.comment-author-details *:visited { font-weight:bold; }
+.comment-body { background:transparent url(/images/comment-right.png) no-repeat scroll right top; clear:both; margin:0pt; padding:0pt; 	}
+.comment-body-paragraph { background:transparent url(/images/comment-left.png) no-repeat scroll left top; margin:0pt; padding:16px 10px 10px 20px; }
+.comment-link { background:transparent url(/images/comment-left.png) no-repeat scroll left bottom; margin:0pt; padding:0px 0px 0px 10px; }
+.comment-link em { background:transparent url(/images/comment-right.png) no-repeat scroll right bottom; display:block; padding:0px 10px 10px 0px; }
+.comment-admin-body { background:transparent url(/images/admin-right.png) no-repeat scroll right top; clear:both; color:#000000; margin:0pt; padding:0pt; }
+.comment-admin-body-paragraph { background:transparent url(/images/admin-left.png) no-repeat scroll left top; margin:0pt; padding:16px 10px 10px 20px; }
+.comment-admin-link { background:transparent url(/images/admin-left.png) no-repeat scroll left bottom; margin:0pt; padding:0px 0px 0px 10px; }
+.comment-admin-link em { background:transparent url(/images/admin-right.png) no-repeat scroll right bottom; display:block; 	padding:0px 10px 10px 0px; }
+.user-img { display: inline; }
+div.directory { padding: 3px; margin: 3px 3px 3px 20px; }
+div.directory a { padding: 2px; margin: 10px 1.5px 1.5px 1.5px; border: 1.5px solid #F5D6F5; text-decoration: none; color: #000099; }
+div.directory a:hover, div.directory a:active { border: 1.5px solid #F5D6F5; background-color: #7F007F; color: #FFF; }
+div.directory span.current { padding: 2px; margin: 10px 1.5px 1.5px 1.5px; border: 1.5px solid #F5D6F5; background-color: #7F007F; color: #FFF; }
+
+
+
+/* Button styling*/
+.admin_menu { margin: 20px 60px; }
+.admin_menu a { color: #000; background-color: #F5D6F5; border-color: #c1d5b7 #5f7852 #5f7852 #c1d5b7; text-decoration: none;
+	 border-width: 1px; border-style: solid; font-weight: bold; padding-left: 7px; padding-right: 7px; margin: 8px; padding-top: 4px; padding-bottom: 4px;} 
+.admin_menu a.:link, .admin_menu a.:visited { color: #FFF; text-decoration: none; } 
+.result {
+	background:white none repeat scroll 0%;
+	border:1px solid #CCCCCC;
+	margin-bottom:5px;
+	padding:9px 0px 9px 9px;
+	width:615px;
+	}
+	
+.userImage img { display: inline; height: 100%;}
+.userInfo { margin-left: 140px;}
+.userActions {}
