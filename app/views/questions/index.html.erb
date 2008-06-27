@@ -1,6 +1,5 @@
 <h1>Listing questions</h1>
 
-
 <% for stage in @stages %>
 	<h2><%= stage.title %></h2>
 	<% for question in Question.find_all_by_stage_id(stage.id) %>

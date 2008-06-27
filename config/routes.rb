@@ -1,7 +1,35 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :users
-  map.resources :questions
-  map.resource :session
+  map.resources :surveys, :has_many => :questions 
+  map.resources :questions, :has_one => :stage
+  map.resources :stages, :has_many => :questions
+  
+  #map.census '/census/:controller/:action/:id'
+
+  #map.resources :users
+  #map.resources :questions
+  #map.resource :censusnsus, :has_many => :stages
+    
+  #map.resources :stages, :has_many => :questions
+  #map.resource :survey, :has_many => :questions
+  
+  #map.resource :answer, :has_one => :question  # -> /census/1/answers
+  #map.resource :survey, :has_many => :answers # -> /census/1/answers
+  
+  #map.resource :farm, :has_one => :census
+  
+  #map.resource :question, :has_many => :answers
+    
+  #map.resource :session
+  
+  # census has many stages
+  # stage belongs to census
+    # stage has many questions
+    # question belongs to stage
+  # map.resource :census do |c|
+  #   c.resources :stages do |stage|
+  #     stage.resources :questions
+  #   end
+  # end
 
   # The priority is based upon order of creation: first created -> highest priority.
 

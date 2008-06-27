@@ -1,10 +1,12 @@
 class QuestionsController < ApplicationController
+  
+  def lightbox
+    
+  end
   # GET /questions
   # GET /questions.xml
   def index
-    @questions = Question.find(:all)
-    @stages = Stage.find(:all)
-
+    @questions = Question.find_by_stage_id(params[:stage_id])
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @questions }

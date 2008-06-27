@@ -11,12 +11,6 @@
 
 ActiveRecord::Schema.define(:version => 20080623112028) do
 
-  create_table "census", :force => true do |t|
-    t.string   "title"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "questions", :force => true do |t|
     t.string   "text"
     t.string   "list"
@@ -28,6 +22,12 @@ ActiveRecord::Schema.define(:version => 20080623112028) do
   end
 
   create_table "stages", :force => true do |t|
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "surveys", :force => true do |t|
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
