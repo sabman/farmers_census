@@ -20113,3 +20113,102 @@ Rendered stages/_question (0.00031)
 Rendered stages/_question (0.00026)
 Rendered stages/_prev_next_stage (0.00583)
 Completed in 0.11365 (8 reqs/sec) | Rendering: 0.03181 (27%) | DB: 0.00583 (5%) | 200 OK [http://localhost/stages/show/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-06-28 15:39:10) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTZiOGU5ZTgxYzdmMTg3YmE3OTQ4NDc4YmMyM2U2
+ZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1877d33b18acae9676fa1ae9e6a2b622a7b647bf
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "authenticity_token"=>"8af2e27700a7d1c772749ee48c3e837f8d492be7", "answer_47"=>"", "action"=>"show", "answer_48"=>"", "id"=>"4", "answer_49"=>"", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000764)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;35;1mQuestion Load (0.006342)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;36;1mStage Load (0.000810)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mSQL (0.000608)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000798)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering stages/show
+Rendered stages/_question (0.00527)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00089)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00122)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00094)
+Rendered stages/_prev_next_stage (0.00360)
+Completed in 0.12491 (8 reqs/sec) | Rendering: 0.04435 (35%) | DB: 0.00932 (7%) | 200 OK [http://localhost/stages/show/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-06-28 15:39:12) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTZiOGU5ZTgxYzdmMTg3YmE3OTQ4NDc4YmMyM2U2
+ZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1877d33b18acae9676fa1ae9e6a2b622a7b647bf
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "authenticity_token"=>"8af2e27700a7d1c772749ee48c3e837f8d492be7", "answer_36"=>"", "action"=>"show", "answer_37"=>"", "id"=>"3", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000763)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mQuestion Load (0.006099)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;35;1mStage Load (0.002964)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000598)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000752)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering stages/show
+Rendered stages/_question (0.00467)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00041)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00095)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00026)
+Rendered stages/_prev_next_stage (0.00366)
+Completed in 0.13351 (7 reqs/sec) | Rendering: 0.03439 (25%) | DB: 0.01118 (8%) | 200 OK [http://localhost/stages/show/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-06-28 15:39:13) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTZiOGU5ZTgxYzdmMTg3YmE3OTQ4NDc4YmMyM2U2
+ZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1877d33b18acae9676fa1ae9e6a2b622a7b647bf
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "authenticity_token"=>"8af2e27700a7d1c772749ee48c3e837f8d492be7", "answer_25"=>"", "action"=>"show", "answer_26"=>"", "id"=>"4", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;36;1mStage Load (0.000741)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;35;1mQuestion Load (0.006402)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;36;1mStage Load (0.000861)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mSQL (0.000540)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000737)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering stages/show
+Rendered stages/_question (0.00536)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00032)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00087)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00117)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00085)
+Rendered stages/_prev_next_stage (0.00355)
+Completed in 0.23640 (4 reqs/sec) | Rendering: 0.03987 (16%) | DB: 0.00928 (3%) | 200 OK [http://localhost/stages/show/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-06-28 15:39:15) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTZiOGU5ZTgxYzdmMTg3YmE3OTQ4NDc4YmMyM2U2
+ZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--1877d33b18acae9676fa1ae9e6a2b622a7b647bf
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "authenticity_token"=>"8af2e27700a7d1c772749ee48c3e837f8d492be7", "answer_36"=>"", "action"=>"show", "answer_37"=>"", "id"=>"5", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000746)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mQuestion Load (0.003048)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;35;1mStage Load (0.000745)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000520)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000995)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering stages/show
+Rendered stages/_question (0.00497)
+Rendered stages/_question (0.00049)
+Rendered stages/_question (0.00043)
+Rendered stages/_question (0.00049)
+Rendered stages/_question (0.00049)
+Rendered stages/_prev_next_stage (0.00313)
+Completed in 0.12216 (8 reqs/sec) | Rendering: 0.04346 (35%) | DB: 0.00605 (4%) | 200 OK [http://localhost/stages/show/5]
