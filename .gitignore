@@ -1,0 +1,11 @@
+*.log
+log/*.log
+db/schema.rb
+db/schema.sql
+db/*.sqlite3
+.DS_Store
+tmp/**/*
+doc/api
+doc/app
+doc/plugins
+config/database.yml
