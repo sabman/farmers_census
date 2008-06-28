@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(:version => 20080623112028) do
     t.string   "list"
     t.string   "qtype"
     t.integer  "stage_id"
-    t.integer  "census_id"
+    t.integer  "survey_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

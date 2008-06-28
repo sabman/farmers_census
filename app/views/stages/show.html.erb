@@ -7,6 +7,8 @@
 	<%= render :partial => "question", :collection => @questions %>
 </div>
 
+<% content_for :sidebar do %>
 <div id='prev_next_links'>
 	<%= render :partial => "prev_next_stage", :locals => { :prev_stage => @prev_stage, :next_stage => @next_stage  } %>
 </div>
+<% end %>
