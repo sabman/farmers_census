@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.home '', :controller => "front_page", :action => "show" 
+  
   map.resources :surveys, :has_many => :questions 
   map.resources :questions, :has_one => :stage
   map.resources :stages, :has_many => :questions

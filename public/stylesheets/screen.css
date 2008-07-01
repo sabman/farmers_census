@@ -1,0 +1,164 @@
+body {
+  font-family: Verdana, 'Lucida Grande', sans-serif;     
+  font-size: small;
+  background-color: #7B112F; 
+  color: #333;
+  margin: 25px;
+}
+
+#logo {
+  margin: 10px;
+  float: right;
+}
+
+#content {
+  background-color: #fff;
+  padding: 5px 20px 20px 20px;	
+}
+
+img {
+  border: 0;
+  border-width: 0;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 2px solid #ececec;  
+  margin: 1em 0;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0px;
+  display: block;
+}
+
+/* LINKS */
+
+a {
+  color: #000; 
+}
+
+a:visited {
+  color: #666; 
+}
+
+a:hover {
+  color: #fff; background-color:#000;
+}
+
+/* FORMS */
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+form p {
+  padding: 0.5em 0em;
+}
+
+fieldset {
+  border: 0;
+  margin: 1em 0;
+}
+
+fieldset legend {
+  font-size: 1.4em;
+  font-weight: bold;   
+  color: #333;
+}
+
+form label {
+  color: #333;
+  display: block;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+form label.required {
+  font-weight: bold;
+}
+
+form .hint {
+  color: #777;
+  display: block;
+  font-size: 0.9em;
+  font-style: italic;  
+}
+
+form input {
+  font-size: 120%;
+}
+
+/* TABLES */
+
+table {
+  border-collapse: collapse;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+table td {
+  text-align: center;
+}
+
+
+table th,
+table td {
+  border-bottom: 2px solid #ececec;
+  padding: 12px 8px;
+}
+
+table.controls td {
+  padding: 0px 5px;
+  border: none;
+}
+
+table .odd {
+  background: #ececec;
+}
+
+/* ERRORS */
+
+.form_error_message {
+  color: red;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}

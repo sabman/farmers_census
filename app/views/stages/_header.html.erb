@@ -1,0 +1,16 @@
+<%= complex_bar_graph [progress_bar(stage)] %>
+
+<br/>
+<br/>
+<br/>
+
+<div id="links">
+	<%- if(prev_stage != stage) -%>
+		<%= link_to  "#{prev_stage.title}", :action => 'show', :id => prev_stage %> | 
+	<%- end -%>
+	<b><%=h @stage.title %></b>
+	<%- if(next_stage != stage) -%>
+		| <%= link_to_unless (next_stage == stage),  "#{next_stage.title}", :action => 'show', :id => next_stage %>
+	<%- end -%>
+</div>
+

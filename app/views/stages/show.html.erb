@@ -1,14 +1,10 @@
-<div id="stage_title">
-	<%=h @stage.title %>
+<div id="header">
+<%= render :partial => "header", :locals => { 
+		:stage => @stage, 
+		:prev_stage => @prev_stage, 
+		:next_stage => @next_stage } %>
 </div>
-
 
 <div id='census_answers'>
 	<%= render :partial => "question", :collection => @questions %>
 </div>
-
-<% content_for :sidebar do %>
-<div id='prev_next_links'>
-	<%= render :partial => "prev_next_stage", :locals => { :prev_stage => @prev_stage, :next_stage => @next_stage  } %>
-</div>
-<% end %>

@@ -1,6 +1,7 @@
-page.replace_html :stage_title, @stage.title 
+page.replace_html :progress_bar, :partial => "header", 
+  :locals => { :stage => @stage, :prev_stage => @prev_stage, 
+    :next_stage => @next_stage
+}
 
 page.replace_html :census_answers, :partial => "question", :collection => @questions
 page.visual_effect :highlight, :census_answers
-
-page.replace_html :prev_next_links, :partial => "prev_next_stage", :locals => { :prev_stage => @prev_stage, :next_stage => @next_stage  }
