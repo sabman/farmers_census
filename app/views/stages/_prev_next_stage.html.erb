@@ -1,6 +1,0 @@
-<%= link_to_remote "#{prev_stage.title}",
-	{:url => {:action => 'show', :id => prev_stage}, 
-	:submit => "census_answers" }, :method => 'get', :update => 'census_answers' %> | 
-<%= link_to_remote "#{next_stage.title}",
-		{:url => {:action => 'show', :id => next_stage}, 
-		:submit => "census_answers" }, :method => 'get', :update => 'census_answers' %>
