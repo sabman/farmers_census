@@ -1,20 +1,14 @@
-<h1>Listing stages</h1>
+<h1>Census Stages</h1>
 
 <table>
   <tr>
-    <th>Title</th>
+    <th>Stage Name</th>
   </tr>
 
 <% for stage in @stages %>
   <tr>
     <td><%=h stage.title %></td>
     <td><%= link_to 'Show', stage %></td>
-    <td><%= link_to 'Edit', edit_stage_path(stage) %></td>
-    <td><%= link_to 'Destroy', stage, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New stage', new_stage_path %>
