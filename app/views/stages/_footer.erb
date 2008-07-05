@@ -1,0 +1,26 @@
+<%= hidden_field_tag "next", "same" %>
+
+<div id="submit_buttons">
+	<%- if(prev_stage != current_stage) -%>
+	
+		<%= submit_tag "<< Previous", 
+						{ :disable_with => "Please wait...", 
+							:onclick => "$('next').value='previous';"}  %> 
+	<%- else -%>  
+		<b><%=h current_stage.title %></b>
+	<%- end -%>
+		
+	
+	<%- if(next_stage != current_stage) -%>
+		<%= submit_tag "Next >>", 
+						{ :disable_with => "Please wait...",  
+							:onclick => "$('next').value='next';" } %>
+	<%- else -%>  
+		<%= submit_tag "All done!", 
+						{ :disable_with => "Please wait...",  
+							:onclick => "$('next').value='last';" } %>	
+	<%- end -%>
+</div>
+	
+
+
