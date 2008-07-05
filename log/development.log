@@ -34849,3 +34849,2081 @@ Rendered stages/_question (0.00168)
 Rendered stages/_question (0.00027)
 Rendered stages/_footer (0.00068)
 Completed in 0.09498 (10 reqs/sec) | Rendering: 0.02115 (22%) | DB: 0.00560 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 15:55:44) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000748)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+Redirected to http://localhost:3000/stages/1
+Completed in 0.04530 (22 reqs/sec) | DB: 0.00075 (1%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 15:55:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000740)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003532)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000542)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000767)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00324)
+Rendered stages/_question (0.00470)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00119)
+Rendered stages/_question (0.00168)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00067)
+Completed in 0.09551 (10 reqs/sec) | Rendering: 0.02246 (23%) | DB: 0.00558 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:47:54) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000759)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mSQL (0.000531)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000765)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.04863 (20 reqs/sec) | DB: 0.00206 (4%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:47:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000786)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.011254)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000775)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000719)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00315)
+Rendered stages/_question (0.00467)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00095)
+Rendered stages/_question (0.00086)
+Rendered stages/_footer (0.00097)
+Completed in 0.12302 (8 reqs/sec) | Rendering: 0.02793 (22%) | DB: 0.01405 (11%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:00) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_21"=>[""], "answer_10"=>"", "answer_22"=>[""], "answer_11"=>"", "answer_12"=>[""], "answer_13"=>"", "answer_14"=>"", "answer_7"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_15"=>"", "answer_8"=>"", "id"=>"2", "answer_16"=>"", "answer_9"=>"", "controller"=>"stages", "answer_17"=>[""], "next"=>"next", "answer_18"=>"", "answer_20"=>[""], "answer_19"=>[""]}
+  [4;35;1mStage Load (0.000767)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000519)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000721)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Redirected to http://localhost:3000/stages/3
+Completed in 0.04783 (20 reqs/sec) | DB: 0.00201 (4%) | 302 Found [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mQuestion Load (0.005433)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;36;1mStage Load (0.000757)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;35;1mSQL (0.000540)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000730)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00315)
+Rendered stages/_question (0.00467)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00164)
+Rendered stages/_question (0.00162)
+Rendered stages/_question (0.00034)
+Rendered stages/_footer (0.00114)
+Completed in 0.10191 (9 reqs/sec) | Rendering: 0.02402 (23%) | DB: 0.00821 (8%) | 200 OK [http://localhost/stages/3]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:07) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "answer_25"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_26"=>"", "id"=>"3", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "next"=>"next", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;36;1mStage Load (0.000826)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mSQL (0.000578)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000783)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Redirected to http://localhost:3000/stages/4
+Completed in 0.05751 (17 reqs/sec) | DB: 0.00219 (3%) | 302 Found [http://localhost/stages/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000810)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mQuestion Load (0.006389)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;35;1mStage Load (0.000765)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mSQL (0.000509)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000731)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00322)
+Rendered stages/_question (0.00526)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00089)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00114)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00085)
+Rendered stages/_footer (0.00099)
+Completed in 0.10413 (9 reqs/sec) | Rendering: 0.02455 (23%) | DB: 0.00920 (8%) | 200 OK [http://localhost/stages/4]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:10) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "answer_36"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_37"=>"", "id"=>"4", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "next"=>"next", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000806)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000573)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000759)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Redirected to http://localhost:3000/stages/5
+Completed in 0.05018 (19 reqs/sec) | DB: 0.00214 (4%) | 302 Found [http://localhost/stages/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000742)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mQuestion Load (0.002999)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;36;1mStage Load (0.000744)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;35;1mSQL (0.000503)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000749)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00311)
+Rendered stages/_question (0.00465)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_footer (0.00097)
+Completed in 0.09141 (10 reqs/sec) | Rendering: 0.01801 (19%) | DB: 0.00574 (6%) | 200 OK [http://localhost/stages/5]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:13) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "answer_47"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_48"=>"", "id"=>"5", "answer_49"=>"", "controller"=>"stages", "next"=>"next"}
+  [4;36;1mStage Load (0.000742)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mSQL (0.000525)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000725)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.04768 (20 reqs/sec) | DB: 0.00199 (4%) | 302 Found [http://localhost/stages/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000742)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005913)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000780)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000515)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000727)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00313)
+Rendered stages/_question (0.00572)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00099)
+Completed in 0.10199 (9 reqs/sec) | Rendering: 0.02360 (23%) | DB: 0.00868 (8%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:20) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"next", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000767)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mSQL (0.000523)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000726)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04828 (20 reqs/sec) | DB: 0.00202 (4%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000764)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004402)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000740)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00311)
+Rendered stages/_question (0.00468)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00094)
+Completed in 0.09316 (10 reqs/sec) | Rendering: 0.01922 (20%) | DB: 0.00643 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:48:24) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;36;1mStage Load (0.000752)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.04801 (20 reqs/sec) | DB: 0.00149 (3%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:48:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000757)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005911)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000816)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000526)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000730)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00318)
+Rendered stages/_question (0.00555)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00094)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00087)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00087)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00098)
+Completed in 0.10349 (9 reqs/sec) | Rendering: 0.02497 (24%) | DB: 0.00874 (8%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:49:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003535)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000731)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00339)
+Rendered stages/_question (0.00461)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00120)
+Rendered stages/_question (0.00168)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00067)
+Completed in 0.09704 (10 reqs/sec) | Rendering: 0.02132 (21%) | DB: 0.00552 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:49:41) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000758)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mSQL (0.000543)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000748)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.05506 (18 reqs/sec) | DB: 0.00205 (3%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:49:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000744)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.008325)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000768)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000515)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000739)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.11564)
+Rendered stages/_question (0.00475)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00083)
+Rendered stages/_footer (0.00098)
+Completed in 0.22100 (4 reqs/sec) | Rendering: 0.13908 (62%) | DB: 0.01109 (5%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:49:45) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_21"=>[""], "answer_10"=>"", "answer_22"=>[""], "answer_11"=>"", "answer_12"=>[""], "answer_13"=>"", "answer_14"=>"", "answer_7"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_15"=>"", "answer_8"=>"", "id"=>"2", "answer_16"=>"", "answer_9"=>"", "controller"=>"stages", "answer_17"=>[""], "next"=>"next", "answer_18"=>"", "answer_20"=>[""], "answer_19"=>[""]}
+  [4;35;1mStage Load (0.000731)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000523)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000724)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Redirected to http://localhost:3000/stages/3
+Completed in 0.05223 (19 reqs/sec) | DB: 0.00198 (3%) | 302 Found [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:49:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000758)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mQuestion Load (0.005378)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;36;1mStage Load (0.000767)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;35;1mSQL (0.000508)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000717)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00317)
+Rendered stages/_question (0.00467)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00093)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00028)
+Rendered stages/_footer (0.00098)
+Completed in 0.10635 (9 reqs/sec) | Rendering: 0.02211 (20%) | DB: 0.00813 (7%) | 200 OK [http://localhost/stages/3]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:49:48) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "answer_25"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_26"=>"", "id"=>"3", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "next"=>"next", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;36;1mStage Load (0.000764)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mSQL (0.000540)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000731)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Redirected to http://localhost:3000/stages/4
+Completed in 0.04800 (20 reqs/sec) | DB: 0.00203 (4%) | 302 Found [http://localhost/stages/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:49:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000742)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mQuestion Load (0.006337)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;35;1mStage Load (0.000813)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mSQL (0.000518)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000814)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00353)
+Rendered stages/_question (0.00541)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00116)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00096)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00125)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00100)
+Rendered stages/_footer (0.00099)
+Completed in 0.24001 (4 reqs/sec) | Rendering: 0.16008 (66%) | DB: 0.00922 (3%) | 200 OK [http://localhost/stages/4]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:50:06) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "answer_36"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_37"=>"", "id"=>"4", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "next"=>"next", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000765)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000529)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000810)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Redirected to http://localhost:3000/stages/5
+Completed in 0.05718 (17 reqs/sec) | DB: 0.00210 (3%) | 302 Found [http://localhost/stages/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:50:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000743)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mQuestion Load (0.003012)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;36;1mStage Load (0.000737)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;35;1mSQL (0.000562)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000786)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00321)
+Rendered stages/_question (0.00480)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_footer (0.00099)
+Completed in 0.09395 (10 reqs/sec) | Rendering: 0.01860 (19%) | DB: 0.00584 (6%) | 200 OK [http://localhost/stages/5]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:50:14) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "answer_47"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_48"=>"", "id"=>"5", "answer_49"=>"", "controller"=>"stages", "next"=>"next"}
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000738)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.04943 (20 reqs/sec) | DB: 0.00200 (4%) | 302 Found [http://localhost/stages/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:50:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000748)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005902)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000851)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000581)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000741)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.11680)
+Rendered stages/_question (0.00558)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00089)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00027)
+Rendered stages/_footer (0.00099)
+Completed in 0.21619 (4 reqs/sec) | Rendering: 0.13744 (63%) | DB: 0.00882 (4%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:50:19) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"next", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000745)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mSQL (0.000528)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000737)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.05144 (19 reqs/sec) | DB: 0.00201 (3%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:50:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000772)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004441)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000794)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000613)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00326)
+Rendered stages/_question (0.00462)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00091)
+Completed in 0.09878 (10 reqs/sec) | Rendering: 0.01946 (19%) | DB: 0.00662 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:50:35) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000751)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;36;1mStage Load (0.000782)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.05159 (19 reqs/sec) | DB: 0.00153 (2%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:50:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000750)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005919)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000765)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000509)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000721)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00311)
+Rendered stages/_question (0.11982)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00098)
+Completed in 0.21569 (4 reqs/sec) | Rendering: 0.13765 (63%) | DB: 0.00866 (4%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:50:46) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"next", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000750)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mSQL (0.000528)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000735)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04847 (20 reqs/sec) | DB: 0.00201 (4%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:50:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000768)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004460)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000779)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000557)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00326)
+Rendered stages/_question (0.00652)
+Rendered stages/_question (0.00040)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00040)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00038)
+Rendered stages/_footer (0.00131)
+Completed in 0.10717 (9 reqs/sec) | Rendering: 0.02495 (23%) | DB: 0.00656 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:53:54) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"next", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000756)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mSQL (0.000521)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000734)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04832 (20 reqs/sec) | DB: 0.00201 (4%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:53:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000782)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004444)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000741)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00316)
+Rendered stages/_question (0.00466)
+Rendered stages/_question (0.00031)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00093)
+Completed in 0.20826 (4 reqs/sec) | Rendering: 0.13382 (64%) | DB: 0.00649 (3%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:56:19) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000788)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+
+
+NoMethodError (undefined method `update_attributes' for "http://localhost:3000/stages":String):
+    /app/controllers/stages_controller.rb:74:in `update'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:106:in `call'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:106:in `respond_to'
+    /app/controllers/stages_controller.rb:73:in `update'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/local/bin/mongrel_rails:19:in `load'
+    /usr/local/bin/mongrel_rails:19
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:58:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004445)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000743)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00319)
+Rendered stages/_question (0.00464)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_footer (0.00182)
+Completed in 0.10087 (9 reqs/sec) | Rendering: 0.02164 (21%) | DB: 0.00645 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 19:59:00) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000748)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04520 (22 reqs/sec) | DB: 0.00075 (1%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 19:59:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000748)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004530)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000800)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000521)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00318)
+Rendered stages/_question (0.00477)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00094)
+Completed in 0.09636 (10 reqs/sec) | Rendering: 0.01973 (20%) | DB: 0.00660 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:00:44) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04455 (22 reqs/sec) | DB: 0.00074 (1%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:00:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000755)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004588)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000786)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000524)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00312)
+Rendered stages/_question (0.00469)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00092)
+Completed in 0.09477 (10 reqs/sec) | Rendering: 0.01927 (20%) | DB: 0.00665 (7%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:00:49) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"previous", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000749)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;36;1mStage Load (0.000751)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.15514 (6 reqs/sec) | DB: 0.00150 (0%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:00:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000848)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.006174)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000850)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.001373)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00357)
+Rendered stages/_question (0.00590)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00097)
+Rendered stages/_question (0.00239)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00071)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00117)
+Rendered stages/_footer (0.00102)
+Completed in 0.13367 (7 reqs/sec) | Rendering: 0.03213 (24%) | DB: 0.00976 (7%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:00:58) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"previous", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000745)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mStage Load (0.000747)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Redirected to http://localhost:3000/stages/5
+Completed in 0.04685 (21 reqs/sec) | DB: 0.00149 (3%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:00:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000812)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mQuestion Load (0.003066)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000523)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000733)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00318)
+Rendered stages/_question (0.00465)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_footer (0.00102)
+Completed in 0.09291 (10 reqs/sec) | Rendering: 0.01815 (19%) | DB: 0.00587 (6%) | 200 OK [http://localhost/stages/5]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:01:03) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "answer_47"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_48"=>"", "id"=>"5", "answer_49"=>"", "controller"=>"stages", "next"=>"previous"}
+  [4;35;1mStage Load (0.000757)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mStage Load (0.000752)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Redirected to http://localhost:3000/stages/4
+Completed in 0.04727 (21 reqs/sec) | DB: 0.00151 (3%) | 302 Found [http://localhost/stages/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:01:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000743)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mQuestion Load (0.006338)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;35;1mStage Load (0.000754)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mSQL (0.000514)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000725)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00315)
+Rendered stages/_question (0.00529)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00092)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00114)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00087)
+Rendered stages/_footer (0.00105)
+Completed in 0.10371 (9 reqs/sec) | Rendering: 0.02509 (24%) | DB: 0.00907 (8%) | 200 OK [http://localhost/stages/4]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:01:06) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "answer_36"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_37"=>"", "id"=>"4", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "next"=>"previous", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000790)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mStage Load (0.000786)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Redirected to http://localhost:3000/stages/3
+Completed in 0.04737 (21 reqs/sec) | DB: 0.00158 (3%) | 302 Found [http://localhost/stages/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:01:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mQuestion Load (0.005463)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;35;1mStage Load (0.000769)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000511)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000724)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00317)
+Rendered stages/_question (0.00464)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00092)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00028)
+Rendered stages/_footer (0.00097)
+Completed in 0.10409 (9 reqs/sec) | Rendering: 0.02199 (21%) | DB: 0.00820 (7%) | 200 OK [http://localhost/stages/3]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:02:50) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "answer_25"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_26"=>"", "id"=>"3", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "next"=>"previous", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;35;1mStage Load (0.000744)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.04749 (21 reqs/sec) | DB: 0.00149 (3%) | 302 Found [http://localhost/stages/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:02:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000742)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.008352)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000818)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000541)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000746)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00321)
+Rendered stages/_question (0.00463)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00092)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00082)
+Rendered stages/_footer (0.00098)
+Completed in 0.10926 (9 reqs/sec) | Rendering: 0.02626 (24%) | DB: 0.01120 (10%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:02:53) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_21"=>[""], "answer_10"=>"", "answer_22"=>[""], "answer_11"=>"", "answer_12"=>[""], "answer_13"=>"", "answer_14"=>"", "answer_7"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_15"=>"", "answer_8"=>"", "id"=>"2", "answer_16"=>"", "answer_9"=>"", "controller"=>"stages", "answer_17"=>[""], "next"=>"previous", "answer_18"=>"", "answer_20"=>[""], "answer_19"=>[""]}
+  [4;35;1mStage Load (0.000822)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mStage Load (0.000778)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+Redirected to http://localhost:3000/stages/1
+Completed in 0.05011 (19 reqs/sec) | DB: 0.00160 (3%) | 302 Found [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:02:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000777)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003510)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000520)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000748)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00324)
+Rendered stages/_question (0.00486)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00118)
+Rendered stages/_question (0.00167)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00069)
+Completed in 0.09456 (10 reqs/sec) | Rendering: 0.02120 (22%) | DB: 0.00556 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:02:56) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000749)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mSQL (0.000524)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000750)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.05012 (19 reqs/sec) | DB: 0.00202 (4%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:02:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.008227)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000843)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000528)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000727)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00329)
+Rendered stages/_question (0.00517)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00082)
+Rendered stages/_question (0.00084)
+Rendered stages/_footer (0.00096)
+Completed in 0.11053 (9 reqs/sec) | Rendering: 0.02801 (25%) | DB: 0.01106 (10%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:02:59) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_21"=>[""], "answer_10"=>"", "answer_22"=>[""], "answer_11"=>"", "answer_12"=>[""], "answer_13"=>"", "answer_14"=>"", "answer_7"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_15"=>"", "answer_8"=>"", "id"=>"2", "answer_16"=>"", "answer_9"=>"", "controller"=>"stages", "answer_17"=>[""], "next"=>"next", "answer_18"=>"", "answer_20"=>[""], "answer_19"=>[""]}
+  [4;35;1mStage Load (0.000779)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000558)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000928)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Redirected to http://localhost:3000/stages/3
+Completed in 0.04992 (20 reqs/sec) | DB: 0.00227 (4%) | 302 Found [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:02:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mQuestion Load (0.005409)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;36;1mStage Load (0.000890)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;35;1mSQL (0.000594)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000752)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00319)
+Rendered stages/_question (0.00478)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00024)
+Rendered stages/_question (0.00089)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00025)
+Rendered stages/_footer (0.00098)
+Completed in 0.10013 (9 reqs/sec) | Rendering: 0.02169 (21%) | DB: 0.00839 (8%) | 200 OK [http://localhost/stages/3]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:03:02) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "answer_25"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_26"=>"", "id"=>"3", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "next"=>"next", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;36;1mStage Load (0.000832)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;35;1mSQL (0.000571)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000741)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Redirected to http://localhost:3000/stages/4
+Completed in 0.05314 (18 reqs/sec) | DB: 0.00214 (4%) | 302 Found [http://localhost/stages/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:03:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000741)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mQuestion Load (0.006323)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;35;1mStage Load (0.000867)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mSQL (0.000541)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000759)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00314)
+Rendered stages/_question (0.00552)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00114)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00085)
+Rendered stages/_footer (0.00098)
+Completed in 0.10513 (9 reqs/sec) | Rendering: 0.02563 (24%) | DB: 0.00923 (8%) | 200 OK [http://localhost/stages/4]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:03:05) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "answer_36"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_37"=>"", "id"=>"4", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "next"=>"next", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000753)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000527)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Redirected to http://localhost:3000/stages/5
+Completed in 0.04977 (20 reqs/sec) | DB: 0.00202 (4%) | 302 Found [http://localhost/stages/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:03:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000745)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mQuestion Load (0.003042)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;36;1mStage Load (0.000739)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;35;1mSQL (0.000506)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000831)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00322)
+Rendered stages/_question (0.00475)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_footer (0.00102)
+Completed in 0.09401 (10 reqs/sec) | Rendering: 0.01896 (20%) | DB: 0.00586 (6%) | 200 OK [http://localhost/stages/5]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:03:08) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "answer_47"=>"", "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_48"=>"", "id"=>"5", "answer_49"=>"", "controller"=>"stages", "next"=>"next"}
+  [4;36;1mStage Load (0.000760)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mSQL (0.000523)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000734)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.04855 (20 reqs/sec) | DB: 0.00202 (4%) | 302 Found [http://localhost/stages/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:03:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000747)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005887)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000857)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000569)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000757)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00315)
+Rendered stages/_question (0.00566)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00031)
+Rendered stages/_question (0.00028)
+Rendered stages/_footer (0.00097)
+Completed in 0.10234 (9 reqs/sec) | Rendering: 0.02358 (23%) | DB: 0.00882 (8%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:03:11) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"fd139a601befd66171c8a7935bae22839f36d9a0", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"next", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000749)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mSQL (0.000520)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000736)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages/7
+Completed in 0.04904 (20 reqs/sec) | DB: 0.00201 (4%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:03:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--0698b861907b7509425eefe1a929c48190636929
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000759)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004473)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000744)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000606)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00323)
+Rendered stages/_question (0.00474)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00091)
+Completed in 0.09431 (10 reqs/sec) | Rendering: 0.01964 (20%) | DB: 0.00658 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:07:58) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"previous", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000745)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;36;1mStage Load (0.000746)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Redirected to http://localhost:3000/stages/6
+Completed in 0.04770 (20 reqs/sec) | DB: 0.00149 (3%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:07:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000766)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mQuestion Load (0.005951)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;35;1mStage Load (0.000856)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mSQL (0.000567)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.001001)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00332)
+Rendered stages/_question (0.00562)
+Rendered stages/_question (0.00031)
+Rendered stages/_question (0.00094)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00032)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00096)
+Completed in 0.10691 (9 reqs/sec) | Rendering: 0.02450 (22%) | DB: 0.00914 (8%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:02) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_54"=>[""], "answer_55"=>"", "answer_56"=>"", "answer_57"=>"", "answer_58"=>[""], "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_60"=>"", "answer_59"=>"", "id"=>"6", "answer_50"=>"", "controller"=>"stages", "answer_51"=>"", "next"=>"previous", "answer_52"=>[""], "answer_53"=>""}
+  [4;35;1mStage Load (0.000747)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;36;1mStage Load (0.000762)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Redirected to http://localhost:3000/stages/5
+Completed in 0.04778 (20 reqs/sec) | DB: 0.00151 (3%) | 302 Found [http://localhost/stages/6]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000749)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mQuestion Load (0.003041)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '5') [0m
+  [4;35;1mStage Load (0.000769)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mSQL (0.000506)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000825)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00326)
+Rendered stages/_question (0.00467)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00030)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00028)
+Rendered stages/_footer (0.00097)
+Completed in 0.09347 (10 reqs/sec) | Rendering: 0.01888 (20%) | DB: 0.00589 (6%) | 200 OK [http://localhost/stages/5]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:04) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_45"=>"", "answer_46"=>"", "answer_47"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_48"=>"", "id"=>"5", "answer_49"=>"", "controller"=>"stages", "next"=>"previous"}
+  [4;35;1mStage Load (0.001471)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;36;1mStage Load (0.005909)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Redirected to http://localhost:3000/stages/4
+Completed in 0.07494 (13 reqs/sec) | DB: 0.00738 (9%) | 302 Found [http://localhost/stages/5]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000743)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mQuestion Load (0.006470)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '4') [0m
+  [4;35;1mStage Load (0.000844)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mSQL (0.000612)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000771)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00325)
+Rendered stages/_question (0.00531)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00092)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00114)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00084)
+Rendered stages/_footer (0.00100)
+Completed in 0.11192 (8 reqs/sec) | Rendering: 0.02541 (22%) | DB: 0.00944 (8%) | 200 OK [http://localhost/stages/4]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:10) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_43"=>"", "answer_44"=>[""], "answer_33"=>[""], "answer_34"=>"", "answer_35"=>"", "answer_36"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_37"=>"", "id"=>"4", "answer_38"=>"", "controller"=>"stages", "answer_40"=>[""], "answer_39"=>"", "next"=>"previous", "answer_41"=>"", "answer_42"=>""}
+  [4;35;1mStage Load (0.000779)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+  [4;36;1mStage Load (0.000758)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Redirected to http://localhost:3000/stages/3
+Completed in 0.04997 (20 reqs/sec) | DB: 0.00154 (3%) | 302 Found [http://localhost/stages/4]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000788)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mQuestion Load (0.007793)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '3') [0m
+  [4;35;1mStage Load (0.001101)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000652)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000987)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00362)
+Rendered stages/_question (0.00941)
+Rendered stages/_question (0.00050)
+Rendered stages/_question (0.00054)
+Rendered stages/_question (0.00069)
+Rendered stages/_question (0.00046)
+Rendered stages/_question (0.00035)
+Rendered stages/_question (0.00033)
+Rendered stages/_question (0.00173)
+Rendered stages/_question (0.00122)
+Rendered stages/_question (0.00034)
+Rendered stages/_footer (0.00133)
+Completed in 0.14264 (7 reqs/sec) | Rendering: 0.03221 (22%) | DB: 0.01132 (7%) | 200 OK [http://localhost/stages/3]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:14) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_32"=>"", "answer_23"=>"", "answer_24"=>"", "answer_25"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_26"=>"", "id"=>"3", "answer_27"=>"", "controller"=>"stages", "answer_28"=>"", "next"=>"previous", "answer_30"=>"", "answer_29"=>"", "answer_31"=>[""]}
+  [4;35;1mStage Load (0.000761)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+  [4;36;1mStage Load (0.000746)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.04816 (20 reqs/sec) | DB: 0.00151 (3%) | 302 Found [http://localhost/stages/3]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000769)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.008411)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000836)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000516)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000720)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00315)
+Rendered stages/_question (0.00472)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00084)
+Rendered stages/_footer (0.00100)
+Completed in 0.11134 (8 reqs/sec) | Rendering: 0.02635 (23%) | DB: 0.01125 (10%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:17) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_21"=>[""], "answer_10"=>"", "answer_22"=>[""], "answer_11"=>"", "answer_12"=>[""], "answer_13"=>"", "answer_14"=>"", "answer_7"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "answer_15"=>"", "answer_8"=>"", "id"=>"2", "answer_16"=>"", "answer_9"=>"", "controller"=>"stages", "answer_17"=>[""], "next"=>"previous", "answer_18"=>"", "answer_20"=>[""], "answer_19"=>[""]}
+  [4;35;1mStage Load (0.000763)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mStage Load (0.000732)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+Redirected to http://localhost:3000/stages/1
+Completed in 0.05147 (19 reqs/sec) | DB: 0.00149 (2%) | 302 Found [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000751)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003579)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000585)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000765)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00329)
+Rendered stages/_question (0.00484)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00118)
+Rendered stages/_question (0.00170)
+Rendered stages/_question (0.00027)
+Rendered stages/_footer (0.00070)
+Completed in 0.09547 (10 reqs/sec) | Rendering: 0.02136 (22%) | DB: 0.00568 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:08:24) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000748)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mSQL (0.000536)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.001557)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.05168 (19 reqs/sec) | DB: 0.00284 (5%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:08:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000785)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.008289)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000854)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000568)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000779)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00323)
+Rendered stages/_question (0.00469)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00088)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00085)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00083)
+Rendered stages/_footer (0.00099)
+Completed in 0.11039 (9 reqs/sec) | Rendering: 0.02644 (23%) | DB: 0.01127 (10%) | 200 OK [http://localhost/stages/2]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:09:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.001063)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003754)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000665)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000814)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00644)
+Rendered stages/_question (0.00478)
+Rendered stages/_question (0.00038)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00213)
+Rendered stages/_question (0.00285)
+Rendered stages/_question (0.00034)
+Rendered stages/_footer (0.00073)
+Completed in 0.13977 (7 reqs/sec) | Rendering: 0.02913 (20%) | DB: 0.00630 (4%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:10:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000742)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mQuestion Load (0.003761)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;36;1mSQL (0.000538)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000730)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00317)
+Rendered stages/_question (0.00537)
+Rendered stages/_question (0.00037)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00139)
+Rendered stages/_question (0.00282)
+Rendered stages/_question (0.00028)
+Rendered stages/_footer (0.00070)
+Completed in 0.10270 (9 reqs/sec) | Rendering: 0.02343 (22%) | DB: 0.00577 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing FrontPageController#show (for 127.0.0.1 at 2008-07-05 20:10:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--a2f4449cb4ebb3baa37f46a98730ee10980689c4
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01743 (57 reqs/sec) | Rendering: 0.00476 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:10:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mStage Load (0.003036)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.04998 (20 reqs/sec) | Rendering: 0.01177 (23%) | DB: 0.00304 (6%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:11:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000771)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004468)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000751)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000519)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00316)
+Rendered stages/_question (0.00463)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00032)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00026)
+Rendered stages/_footer (0.00093)
+Completed in 0.09469 (10 reqs/sec) | Rendering: 0.01999 (21%) | DB: 0.00651 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing FrontPageController#show (for 127.0.0.1 at 2008-07-05 20:11:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01718 (58 reqs/sec) | Rendering: 0.00472 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:11:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mStage Load (0.003030)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.17342 (5 reqs/sec) | Rendering: 0.01211 (6%) | DB: 0.00303 (1%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:11:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000739)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mQuestion Load (0.005913)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '6') [0m
+  [4;36;1mStage Load (0.000761)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 5) [0m
+  [4;35;1mSQL (0.000513)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000726)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00319)
+Rendered stages/_question (0.00550)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00091)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00090)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00086)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00096)
+Completed in 0.10280 (9 reqs/sec) | Rendering: 0.02399 (23%) | DB: 0.00865 (8%) | 200 OK [http://localhost/stages/6]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:11:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMmQ4OWQ5YzNlN2ZjZmM1MjY1ZTJjYjdlNmEzMzlh
+MmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--250cbb8d701fa47e118a29e08b2cfca5e38a3393
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mStage Load (0.003014)[0m   [0;1mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.05000 (19 reqs/sec) | Rendering: 0.01161 (23%) | DB: 0.00301 (6%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:11:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mStage Load (0.002991)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.04994 (20 reqs/sec) | Rendering: 0.01157 (23%) | DB: 0.00299 (5%) | 200 OK [http://localhost/stages]
+
+
+Processing FrontPageController#show (for 127.0.0.1 at 2008-07-05 20:12:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01719 (58 reqs/sec) | Rendering: 0.00476 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:12:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mStage Load (0.003013)[0m   [0;1mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.05068 (19 reqs/sec) | Rendering: 0.01188 (23%) | DB: 0.00301 (5%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:12:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mStage Load (0.000773)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mQuestion Load (0.003515)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '1') [0m
+  [4;35;1mSQL (0.000524)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000754)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00313)
+Rendered stages/_question (0.00466)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00118)
+Rendered stages/_question (0.00173)
+Rendered stages/_question (0.00027)
+Rendered stages/_footer (0.00069)
+Completed in 0.09440 (10 reqs/sec) | Rendering: 0.02155 (22%) | DB: 0.00557 (5%) | 200 OK [http://localhost/stages/1]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:12:07) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"answer_3"=>"", "answer_4"=>"", "answer_5"=>"", "answer_6"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"1", "controller"=>"stages", "next"=>"next", "answer_1"=>"", "answer_2"=>""}
+  [4;36;1mStage Load (0.000771)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;35;1mSQL (0.000535)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000727)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Redirected to http://localhost:3000/stages/2
+Completed in 0.04812 (20 reqs/sec) | DB: 0.00203 (4%) | 302 Found [http://localhost/stages/1]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:12:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"stages"}
+  [4;35;1mStage Load (0.001604)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mQuestion Load (0.010850)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '2') [0m
+  [4;35;1mStage Load (0.000801)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+  [4;36;1mSQL (0.000511)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mStage Load (0.000742)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00314)
+Rendered stages/_question (0.00477)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00028)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00089)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00026)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00025)
+Rendered stages/_question (0.00084)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00083)
+Rendered stages/_question (0.00085)
+Rendered stages/_footer (0.00100)
+Completed in 0.12775 (7 reqs/sec) | Rendering: 0.02653 (20%) | DB: 0.01451 (11%) | 200 OK [http://localhost/stages/2]
+
+
+Processing FrontPageController#show (for 127.0.0.1 at 2008-07-05 20:12:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01721 (58 reqs/sec) | Rendering: 0.00472 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing FrontPageController#show (for 127.0.0.1 at 2008-07-05 20:13:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01837 (54 reqs/sec) | Rendering: 0.00472 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-05 20:13:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+
+
+SyntaxError (/Users/sabman/Rails/projects/farmer-census/app/controllers/stages_controller.rb:76: syntax error, unexpected '}', expecting kTHEN or ':' or '\n' or ';'
+/Users/sabman/Rails/projects/farmer-census/app/controllers/stages_controller.rb:78: syntax error, unexpected kELSE, expecting '}'
+/Users/sabman/Rails/projects/farmer-census/app/controllers/stages_controller.rb:81: syntax error, unexpected kEND, expecting '}'
+/Users/sabman/Rails/projects/farmer-census/app/controllers/stages_controller.rb:96: syntax error, unexpected kEND, expecting '}'):
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:215:in `load_without_new_constant_marking'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:215:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:214:in `load_file'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:95:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:260:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:467:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:479:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/inflector.rb:283:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/local/bin/mongrel_rails:19:in `load'
+    /usr/local/bin/mongrel_rails:19
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:14:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mStage Load (0.003072)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.05010 (19 reqs/sec) | Rendering: 0.01171 (23%) | DB: 0.00307 (6%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#show (for 127.0.0.1 at 2008-07-05 20:14:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"stages"}
+  [4;36;1mStage Load (0.000758)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+  [4;35;1mQuestion Load (0.004512)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" = '7') [0m
+  [4;36;1mStage Load (0.000772)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 6) [0m
+  [4;35;1mSQL (0.000526)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/show
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+Rendered stages/_header (0.00326)
+Rendered stages/_question (0.00477)
+Rendered stages/_question (0.00031)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00027)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_question (0.00029)
+Rendered stages/_footer (0.00096)
+Completed in 0.09643 (10 reqs/sec) | Rendering: 0.02036 (21%) | DB: 0.00657 (6%) | 200 OK [http://localhost/stages/7]
+
+
+Processing StagesController#update (for 127.0.0.1 at 2008-07-05 20:14:11) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--111cbf07a51887c5fc030f6ab3d97686c2d49d72
+  Parameters: {"answer_65"=>"", "answer_66"=>"", "answer_67"=>"", "answer_68"=>"", "authenticity_token"=>"b5f1cc6e06be69252be6867c3378f34c2f876e01", "_method"=>"put", "action"=>"update", "id"=>"7", "answer_61"=>"", "controller"=>"stages", "answer_62"=>"", "next"=>"last", "answer_63"=>"", "answer_64"=>""}
+  [4;35;1mStage Load (0.000886)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 7) [0m
+Redirected to http://localhost:3000/stages
+Completed in 0.04455 (22 reqs/sec) | DB: 0.00089 (1%) | 302 Found [http://localhost/stages/7]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:14:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHRg==--2a90dec1b62a56c3f55871f9c0194d520f038c6d
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mStage Load (0.002967)[0m   [0;1mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.05015 (19 reqs/sec) | Rendering: 0.01163 (23%) | DB: 0.00297 (5%) | 200 OK [http://localhost/stages]
+
+
+Processing StagesController#index (for 127.0.0.1 at 2008-07-05 20:15:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWFiMTNiOTkyNDhhZjFlY2EzNDQ5MWFhMTcyZDM0
+NzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiRTdGFnZSB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0ZWQu
+BjoKQHVzZWR7BjsHVA==--4d50e83d0d421dd2f3f09ca66bc81fb256ca92e8
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mStage Load (0.002998)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering stages/index
+Completed in 0.05015 (19 reqs/sec) | Rendering: 0.01165 (23%) | DB: 0.00300 (5%) | 200 OK [http://localhost/stages]

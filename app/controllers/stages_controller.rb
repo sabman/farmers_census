@@ -62,11 +62,16 @@ class StagesController < ApplicationController
   # PUT /stages/1.xml
   def update
     @stage = Stage.find(params[:id])
+    if params[:next] == 'next' 
+      @stage = @stage.next
+    elsif params[:next] == 'previous'
+      @stage = @stage.previous
+    end
 
     respond_to do |format|
       if @stage.update_attributes(params[:stage])
         flash[:notice] = 'Stage was successfully updated.'
-        format.html { redirect_to(@stage) }
+        format.html { params[:next] == 'last' ? redirect_to(stages_url) : redirect_to(@stage) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
