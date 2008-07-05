@@ -1,10 +1,13 @@
 <div id="header">
-<%= render :partial => "header", :locals => { 
-		:stage => @stage, 
-		:prev_stage => @prev_stage, 
-		:next_stage => @next_stage } %>
+<%= render :partial => "header", :locals => {:stage => @stage} %>
 </div>
 
+<% form_for @stage do |f| -%>
 <div id='census_answers'>
 	<%= render :partial => "question", :collection => @questions %>
-</div>
+	<%= render :partial => "footer", :locals => { 
+			:current_stage => @stage, 
+			:prev_stage => @prev_stage, 
+			:next_stage => @next_stage } %>
+</div>  
+<% end -%>

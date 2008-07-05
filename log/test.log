@@ -17552,3 +17552,5 @@ Rendering front_page/show
   [4;36;1mStage Load (0.000673)[0m   [0;1mSELECT * FROM "stages" ORDER BY stages.id DESC LIMIT 1[0m
   [4;35;1mSQL (0.000450)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
   [4;36;1mStage Load (0.000681)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;36;1mSQL (0.000481)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mSQL (0.000478)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m

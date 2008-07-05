@@ -9,13 +9,13 @@ module StagesHelper
     when 3  
       return ["Node Detectable", percentage.to_f ]
     when 4 
-      return ["Flag Leaf Just Visible", percentage.to_f ]
+      return ["Flag Leaf Visible", percentage.to_f ]
     when 5
-      return ["First Ears Just Visible", percentage.to_f ]
+      return ["First Ears Visible", percentage.to_f ]
     when 6
-      return ["Ripening :)", percentage.to_f ]
+      return ["Ripening", percentage.to_f ]
     when 7..10
-      return ["Ripening :)", percentage.to_f ]
+      return ["Harvest Time :)", percentage.to_f ]
     end
   end
 end
