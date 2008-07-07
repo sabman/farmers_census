@@ -2,4 +2,11 @@
 <br/>
 <br/>
 <br/>
+<br/>
 <h2><%= stage.title %></h2>
+<%- if not stage.title_label.nil? -%>
+	<%= image_tag("#{stage.title_label}") %>
+<%- else -%>
+	<%= image_tag("/images/labels/missing_small.png") %>
+<%- end -%>
+	

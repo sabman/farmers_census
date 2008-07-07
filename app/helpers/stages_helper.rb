@@ -18,4 +18,23 @@ module StagesHelper
       return ["Harvest Time :)", percentage.to_f ]
     end
   end
+  
+  def find_lables_and_images(question)
+    
+    # array for text labels 
+    labels = Array.new
+		labels = question.list.split("|")
+
+    # array for image paths
+    images = Array.new 
+    images = question.label_list.split("|") unless question.label_list.nil? 
+		if images.size == 0 || question.label_list.nil?
+		  (labels.size).times{ images << "/images/labels/missing_small.png" } 
+	  end
+    # replace any missing images with missing 
+    images.collect!{ |i| i=="" ? "/images/labels/missing_small.png" : i }
+    
+		labels_images = labels.zip(images) 	
+		labels_images
+  end
 end

@@ -19,4 +19,12 @@ describe StagesHelper do
       progress_bar(@stage).should be_kind_of(Array)
     end
   end
+  
+  require File.dirname(__FILE__) + '/../spec_helper'
+
+  describe "find_form_tag" do
+    it "should take the record find the appropriate" do
+      
+    end
+  end
 end

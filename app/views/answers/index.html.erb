@@ -1,0 +1,30 @@
+<h1>Listing answers</h1>
+
+<table>
+  <tr>
+    <th>Text</th>
+    <th>Question</th>
+    <th>Survey</th>
+    <th>Farm</th>
+    <th>User</th>
+    <th>Stage</th>
+  </tr>
+
+<% for answer in @answers %>
+  <tr>
+    <td><%=h answer.text %></td>
+    <td><%=h answer.question_id %></td>
+    <td><%=h answer.survey_id %></td>
+    <td><%=h answer.farm_id %></td>
+    <td><%=h answer.user_id %></td>
+    <td><%=h answer.stage_id %></td>
+    <td><%= link_to 'Show', answer %></td>
+    <td><%= link_to 'Edit', edit_answer_path(answer) %></td>
+    <td><%= link_to 'Destroy', answer, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New answer', new_answer_path %>

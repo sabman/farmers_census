@@ -1,0 +1,35 @@
+<h1>New answer</h1>
+
+<% form_for(@answer) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_area :text %>
+  </p>
+  <p>
+    <%= f.label :question_id %><br />
+    <%= f.text_field :question_id %>
+  </p>
+  <p>
+    <%= f.label :survey_id %><br />
+    <%= f.text_field :survey_id %>
+  </p>
+  <p>
+    <%= f.label :farm_id %><br />
+    <%= f.text_field :farm_id %>
+  </p>
+  <p>
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </p>
+  <p>
+    <%= f.label :stage_id %><br />
+    <%= f.text_field :stage_id %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', answers_path %>

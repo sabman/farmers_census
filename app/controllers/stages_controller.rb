@@ -62,7 +62,7 @@ class StagesController < ApplicationController
   # PUT /stages/1.xml
   def update
     @stage = Stage.find(params[:id])
-    if params[:next] == 'next' 
+    if params[:next] == 'next'
       @stage = @stage.next
     elsif params[:next] == 'previous'
       @stage = @stage.previous
