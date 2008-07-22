@@ -13,7 +13,7 @@
 <% for answer in @answers %>
   <tr>
     <td><%=h answer.text %></td>
-    <td><%=h answer.question_id %></td>
+    <td><%=h Question.find(answer.question_id).text %></td>
     <td><%=h answer.survey_id %></td>
     <td><%=h answer.farm_id %></td>
     <td><%=h answer.user_id %></td>

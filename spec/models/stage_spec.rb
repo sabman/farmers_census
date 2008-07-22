@@ -9,6 +9,14 @@ describe Stage do
     @stage.should be_valid
   end
   
+  describe "find_for_sitemap" do
+    before :each do
+      @stage_1 = Stage.create(:title => "Contact Details")
+      @stage_2 = Stage.create(:title => "Farm Details")
+    end
+    
+  end
+  
   describe "instance method next and previous" do
     before :each do
       @stage_1 = Stage.create(:title => "Stage 1")

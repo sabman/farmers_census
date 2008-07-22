@@ -19,8 +19,7 @@ module StagesHelper
     end
   end
   
-  def find_lables_and_images(question)
-    
+  def find_lables_and_images(question)    
     # array for text labels 
     labels = Array.new
 		labels = question.list.split("|")

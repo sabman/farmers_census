@@ -6,22 +6,22 @@
 		<%= image_tag "/images/labels/missing_small.png"  %> <br/>
 	<%- end -%>
 	
-	<% if question.qtype == "text_field" %>
+	<% if question.qtype == "text_field" %>  
   	<%= text_field_tag "answer_#{question.id}" %><br />
 	<% elsif question.qtype == "text_area" %>
   	<%= text_area_tag "answer_#{question.id}" %><br />		
 	<% elsif question.qtype == "yes_no" %>
-		<%= radio_button "answer_#{question.id}", "", "" %> <%= image_tag("/images/labels/yes.png", :alt => "Yes") %><br />
-		<%= radio_button "answer_#{question.id}", "", "" %> <%= image_tag("/images/labels/no.png", :alt => "No") %><br />
+		<%= radio_button "answer_#{question.id}", "", "yes" %> <%= image_tag("/images/labels/yes.png", :alt => "Yes") %><br />
+		<%= radio_button "answer_#{question.id}", "", "no" %> <%= image_tag("/images/labels/no.png", :alt => "No") %><br />
 	<% elsif question.qtype == "options" %>
 		<%- labels_images = find_lables_and_images(question) -%>
 		<%- labels_images.each do |label_image| -%>
-			<%= radio_button_tag "answer_#{question.id}", "", "" %> <%= image_tag "#{label_image[1]}" %> <%= "#{label_image[0]}" %><br />
+			<%= radio_button_tag "answer_#{question.id}", "#{label_image[0]}", "" %> <%= image_tag "#{label_image[1]}" %> <%= "#{label_image[0]}" %><br />
 		<%- end -%>
 	<% elsif question.qtype == "list" %>
 		<%- labels_images = find_lables_and_images(question) -%>
 		<%- labels_images.each do |label_image| -%>
-			<%= check_box_tag "answer_#{question.id}", "", "" %> <%= image_tag "#{label_image[1]}" %> <%= "#{label_image[0]}" %><br />						
+			<%= check_box_tag "answer_#{question.id}", "#{label_image[0]}", nil %> <%= image_tag "#{label_image[1]}" %> <%= "#{label_image[0]}" %><br />						
 		<%- end -%>
 	<% end %>
 </p>

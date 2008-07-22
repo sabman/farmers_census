@@ -4,7 +4,9 @@
 
 <% form_for @stage do |f| -%>
 <div id='census_answers'>
-	<%= render :partial => "question", :collection => @questions %>
+	<%# render :partial => "question", :collection => @questions %>
+	<%= render :partial => "answer", :collection => @answers %>
+	
 	<%= render :partial => "footer", :locals => { 
 			:current_stage => @stage, 
 			:prev_stage => @prev_stage, 

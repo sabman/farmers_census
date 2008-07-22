@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080705234902) do
+ActiveRecord::Schema.define(:version => 20080828112028) do
 
   create_table "answers", :force => true do |t|
     t.text     "text"
@@ -22,6 +22,23 @@ ActiveRecord::Schema.define(:version => 20080705234902) do
     t.datetime "updated_at"
   end
 
+  create_table "answers_options", :id => false, :force => true do |t|
+    t.integer "answer_id"
+    t.integer "option_id"
+  end
+
+  create_table "options", :force => true do |t|
+    t.string   "text"
+    t.string   "filename"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "options_questions", :id => false, :force => true do |t|
+    t.integer "question_id"
+    t.integer "option_id"
+  end
+
   create_table "questions", :force => true do |t|
     t.string   "title_label"
     t.string   "label_list"
@@ -29,9 +46,13 @@ ActiveRecord::Schema.define(:version => 20080705234902) do
     t.string   "list"
     t.string   "qtype"
     t.integer  "stage_id"
-    t.integer  "survey_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "questions_surveys", :id => false, :force => true do |t|
+    t.integer "survey_id"
+    t.integer "question_id"
   end
 
   create_table "stages", :force => true do |t|
@@ -45,6 +66,11 @@ ActiveRecord::Schema.define(:version => 20080705234902) do
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "surveys_questions", :id => false, :force => true do |t|
+    t.integer "survey_id"
+    t.integer "question_id"
   end
 
   create_table "users", :force => true do |t|

@@ -1,4 +1,5 @@
 class StagesController < ApplicationController
+  before_filter :verify_survey
   # GET /stages
   # GET /stages.xml
   def index
@@ -14,9 +15,10 @@ class StagesController < ApplicationController
   # GET /stages/1.xml
   def show
     @stage = Stage.find(params[:id])
-    @questions = Question.find_all_by_stage_id(params[:id])
+    @questions = @stage.questions
     @prev_stage = @stage.previous 
-    @next_stage = @stage.next
+    @next_stage = @stage.next 
+    @answers = current_survey.answers.find_all_by_stage_id(@stage.id)
     
     respond_to do |format|
       format.html # show.html.erb
@@ -67,7 +69,9 @@ class StagesController < ApplicationController
     elsif params[:next] == 'previous'
       @stage = @stage.previous
     end
-
+        
+    current_survey.update_attributes(params[:survey])
+    
     respond_to do |format|
       if @stage.update_attributes(params[:stage])
         flash[:notice] = 'Stage was successfully updated.'
@@ -89,6 +93,25 @@ class StagesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(stages_url) }
       format.xml  { head :ok }
+    end
+  end
+
+  def map_test
+    
+  end
+  protected
+  
+  def verify_survey
+    if session[:current_survey] != nil    
+      return
+    else
+      s = Survey.create
+      questions = Question.find :all  
+      questions.each do |question|
+        a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => s.id)
+      end
+      s.questions << questions
+      session[:current_survey] = s.id
     end
   end
 end

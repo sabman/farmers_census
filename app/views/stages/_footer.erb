@@ -1,24 +1,23 @@
+<%# param[:next] = {previous|next|last} to let the controller know when we reach the last stage of the form wizard %>
 <%= hidden_field_tag "next", "same" %>
 
 <div id="submit_buttons">
 	<%- if(prev_stage != current_stage) -%>
-	
-		<%= submit_tag "<< Previous", 
+		<%= submit_tag "<< #{prev_stage.title}",
 						{ :disable_with => "Please wait...", 
 							:onclick => "$('next').value='previous';"}  %> 
-	<%- else -%>  
+	<%- else -%> 
 		<b><%=h current_stage.title %></b>
 	<%- end -%>
 		
-	
 	<%- if(next_stage != current_stage) -%>
-		<%= submit_tag "Next >>", 
-						{ :disable_with => "Please wait...",  
-							:onclick => "$('next').value='next';" } %>
-	<%- else -%>  
-		<%= submit_tag "All done!", 
-						{ :disable_with => "Please wait...",  
-							:onclick => "$('next').value='last';" } %>	
+		<%= submit_tag "#{next_stage.title} >>",
+						{ :disable_with => "Please wait...",
+							:onclick => "$('next').value='next';" } %> 
+	<%- else -%>
+		<%= submit_tag "All done!",
+						{ :disable_with => "Please wait...",
+							:onclick => "$('next').value='last';" } %>
 	<%- end -%>
 </div>
 	

@@ -4,10 +4,8 @@ one:
   text: MyString
   qtype: MyString
   stage_id: 1
-  census_id: 1
 
 two:
   text: MyString
   qtype: MyString
-  stage_id: 1
-  census_id: 1
+  stage_id: 1 

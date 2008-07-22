@@ -7,7 +7,6 @@ class CreateQuestions < ActiveRecord::Migration
       t.string :list
       t.string :qtype
       t.integer :stage_id
-      t.integer :survey_id
       
       t.timestamps
     end

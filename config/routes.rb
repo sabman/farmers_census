@@ -1,11 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :answers
 
+  map.map_test '/map_test', :controller => "stages", :action => "map_test"
   map.home '', :controller => "front_page", :action => "show" 
   
-  map.resources :surveys, :has_many => :questions 
+  map.resources :surveys, :has_many => :questions
   map.resources :questions, :has_one => :stage
   map.resources :stages, :has_many => :questions
+  
+  map.sitemap 'sitemap.xml', :controller => 'sitemap', :action => 'sitemap'
   
   #map.census '/census/:controller/:action/:id'
 
@@ -72,6 +75,7 @@ ActionController::Routing::Routes.draw do |map|
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
+  #map.connect ':controller/:action' 
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end
