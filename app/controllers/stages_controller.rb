@@ -111,7 +111,8 @@ class StagesController < ApplicationController
         a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => s.id)
       end
       s.questions << questions
-      session[:current_survey] = s.id
+      session[:current_survey] = s.id 
+      flash[:notice] = "Start taking the new census"
     end
   end
 end

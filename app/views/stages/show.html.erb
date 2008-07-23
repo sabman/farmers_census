@@ -3,8 +3,7 @@
 </div>
 
 <% form_for @stage do |f| -%>
-<div id='census_answers'>
-	<%# render :partial => "question", :collection => @questions %>
+<div id='census_answers'>                                        
 	<%= render :partial => "answer", :collection => @answers %>
 	
 	<%= render :partial => "footer", :locals => { 

@@ -3,7 +3,8 @@ class Survey < ActiveRecord::Base
   has_and_belongs_to_many :questions
   
   def question_answered?(question_id)
-    return false if answers.find_by_question_id(question_id).nil?
+    ans = answers.find_by_question_id(question_id) 
+    return false if( (ans.text.nil? or ans.text =="") and ans.options.empty? )
     return true
   end
   

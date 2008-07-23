@@ -2,13 +2,16 @@
 
 <table>
   <tr>
+    <th>Stage Number</th>
     <th>Stage Name</th>
+    <th>Completed</th>
   </tr>
 
 <% for stage in @stages %>
   <tr>
+    <td><%= link_to "Stage: #{stage.id}", stage %></td>
     <td><%=h stage.title %></td>
-    <td><%= link_to 'Show', stage %></td>
+    <td><%=h stage.percent_completed(session[:current_survey]) %></td>
   </tr>
 <% end %>
 </table>

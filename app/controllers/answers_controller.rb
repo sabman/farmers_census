@@ -1,3 +1,5 @@
+# FIXME: unchecking all options doesn't send back any params
+
 class AnswersController < ApplicationController
   # GET /answers
   # GET /answers.xml

@@ -7,6 +7,7 @@ describe Survey do
     @q1 = Question.create(:text => "blah?")
     @a1 = Answer.create(:text => "ans", :question_id => @q1.id, :survey_id => @survey.id)
     @q2 = Question.create(:text => "blah?")
+    @survey.questions << [@q1, @q2]
   end
 
   it "should be valid" do
