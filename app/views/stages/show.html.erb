@@ -3,8 +3,13 @@
 </div>
 
 <% form_for @stage do |f| -%>
-<div id='census_answers'>                                        
+<div id='census_answers'> 
+
 	<%= render :partial => "answer", :collection => @answers %>
+ 	<%- if @stage.title.downcase == 'getting in touch' -%>
+  	<%= render :partial => "address" %>
+	<%- end -%>
+		
 	
 	<%= render :partial => "footer", :locals => { 
 			:current_stage => @stage, 

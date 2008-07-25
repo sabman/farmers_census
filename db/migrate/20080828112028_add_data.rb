@@ -29,7 +29,7 @@ class AddData < ActiveRecord::Migration
     Question.create(:title_label => "/images/labels/acreage.png", :text => "Acreage", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/primary_crops_products.png", :text => "Primary crops/products", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/secondary_processing_on_farm.png", :text => "Secondary processing on farm?", :qtype => 'text_field', :stage_id => stage.id )
-    q = Question.create(:title_label => "/images/labels/animals.png", :label_list => "/images/labels/yes.png|/images/labels/no.png", :text => "Animals?", :qtype => 'yes_no', :stage_id => stage.id )
+    q = Question.create(:title_label => "/images/labels/animals.png", :label_list => "/images/labels/yes.png|/images/labels/no.png", :text => "Animals?", :qtype => 'yes_no', :list => "yes|no", :stage_id => stage.id )
     create_options(q)
     
     Question.create(:title_label => "/images/labels/if_so_number_types_breeds.png", :text => "Types & breeds of livestock", :qtype => "text_area", :stage_id => stage.id )
@@ -130,11 +130,15 @@ class AddData < ActiveRecord::Migration
     Question.create(:title_label => "/images/labels/telephone.png", :text => "telephone", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/email.png", :text => "email", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/website.png", :text => "website", :qtype => 'text_field', :stage_id => stage.id )
-    Question.create(:title_label => "/images/labels/address.png", :text => "address", :qtype => 'text_field', :stage_id => stage.id )
+    Question.create(:title_label => "/images/labels/address.png", :text => "street address", :qtype => 'text_field', :stage_id => stage.id )
+    Question.create(:title_label => nil, :text => "city", :qtype => 'text_field', :stage_id => stage.id ) 
     Question.create(:title_label => "/images/labels/state.png", :text => "state", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/postal_code.png", :text => "postal code", :qtype => 'text_field', :stage_id => stage.id )
-    Question.create(:title_label => "/images/labels/county.png", :text => "county", :qtype => 'text_field', :stage_id => stage.id )
+#    Question.create(:title_label => "/images/labels/county.png", :text => "county", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/country.png", :text => "country", :qtype => 'text_field', :stage_id => stage.id ) 
+    Question.create(:title_label => nil, :text => "lat", :qtype => 'text_field', :stage_id => stage.id ) 
+    Question.create(:title_label => nil, :text => "lng", :qtype => 'text_field', :stage_id => stage.id ) 
+    
     qs = Question.find :all
     census.questions = qs
   end

@@ -49233,3 +49233,389 @@ Rendering /sitemap/sitemap.xml.builder
   [4;36;1mQuestion Create (0.000330)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-23 14:02:12', 'blah?', NULL, NULL, NULL, NULL, '2008-07-23 14:02:12')[0m
   [4;35;1mAnswer Create (0.000285)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-23 14:02:12', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-23 14:02:12')[0m
   [4;36;1mQuestion Create (0.000263)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-23 14:02:12', 'blah?', NULL, NULL, NULL, NULL, '2008-07-23 14:02:12')[0m
+  [4;36;1mSurvey Create (0.000729)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:32:52', NULL, '2008-07-25 17:32:52')[0m
+  [4;35;1mQuestion Create (0.000481)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:32:52', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;36;1mAnswer Create (0.000378)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:32:52', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;35;1mQuestion Create (0.000338)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:32:52', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;36;1mSurvey Create (0.000559)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:32:52', NULL, '2008-07-25 17:32:52')[0m
+  [4;35;1mQuestion Create (0.000643)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:32:52', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;36;1mAnswer Create (0.000382)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:32:52', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;35;1mQuestion Create (0.000302)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:32:52', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:32:52')[0m
+  [4;36;1mSurvey Create (0.000760)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:33:05', NULL, '2008-07-25 17:33:05')[0m
+  [4;35;1mQuestion Create (0.000331)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:33:05', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+  [4;36;1mAnswer Create (0.000299)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:33:05', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+  [4;35;1mQuestion Create (0.000251)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:33:05', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+  [4;36;1mSurvey Create (0.000571)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:33:05', NULL, '2008-07-25 17:33:05')[0m
+  [4;35;1mQuestion Create (0.000627)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:33:05', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+  [4;36;1mAnswer Create (0.000367)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:33:05', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+  [4;35;1mQuestion Create (0.000342)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:33:05', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:33:05')[0m
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-07-26 03:36:13) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.001145)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.002236)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000379)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1000, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000259)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1000, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-07-26 03:36:13) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.001199)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.002558)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000457)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1001, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000822)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1001, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-07-26 03:36:13) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000622)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.003272)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000661)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1002, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000376)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1002, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-07-26 03:36:13) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000713)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.001840)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000642)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1003, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000340)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1003, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-07-26 03:36:13) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000629)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.001638)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000318)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1004, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000368)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1004, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-07-26 03:36:13) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000630)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.001701)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000337)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1005, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000347)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1005, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-07-26 03:36:13) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000616)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.001683)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000338)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1006, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000258)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1006, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-07-26 03:36:13) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000607)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:13', NULL, '2008-07-25 17:36:13')[0m
+  [4;35;1mQuestion Load (0.001626)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000327)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 953125641, 996332878, NULL, NULL, 1007, '2008-07-25 17:36:13')[0m
+  [4;35;1mAnswer Create (0.000257)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:13', NULL, 996332877, 996332878, NULL, NULL, 1007, '2008-07-25 17:36:13')[0m
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-07-26 03:36:14) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000648)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001646)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000277)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-07-26 03:36:14) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000632)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001637)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mStage Load (0.000258)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-07-26 03:36:14) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000661)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001694)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000510)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000631)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001620)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mAnswer Create (0.000337)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1011, '2008-07-25 17:36:14')[0m
+  [4;36;1mAnswer Create (0.000531)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1011, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.001087)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.002173)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mAnswer Create (0.000427)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1012, '2008-07-25 17:36:14')[0m
+  [4;36;1mAnswer Create (0.000367)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1012, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000746)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001630)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mAnswer Create (0.000320)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1013, '2008-07-25 17:36:14')[0m
+  [4;36;1mAnswer Create (0.000520)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1013, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000673)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001658)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mAnswer Create (0.000344)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1014, '2008-07-25 17:36:14')[0m
+  [4;36;1mAnswer Create (0.000265)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1014, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000634)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001662)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mStage Load (0.000267)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000594)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001627)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000251)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000623)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001629)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mStage Load (0.000250)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.001189)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001640)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000249)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000720)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;36;1mQuestion Load (0.001672)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mStage Load (0.000248)[0m   [0mSELECT * FROM "stages" WHERE ("stages"."id" = 1) [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000635)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001640)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000323)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1020, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000259)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1020, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000667)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001818)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000363)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1021, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000264)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1021, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000623)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001633)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000322)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1022, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000265)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1022, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000657)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001696)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000376)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1023, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000350)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1023, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000664)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001726)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000622)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1024, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000390)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1024, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000693)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.001698)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000454)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1025, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000258)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1025, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-07-26 03:36:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000873)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:14', NULL, '2008-07-25 17:36:14')[0m
+  [4;35;1mQuestion Load (0.002394)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000389)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 953125641, 996332878, NULL, NULL, 1026, '2008-07-25 17:36:14')[0m
+  [4;35;1mAnswer Create (0.000295)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:14', NULL, 996332877, 996332878, NULL, NULL, 1026, '2008-07-25 17:36:14')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000657)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001644)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000334)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 1027, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000262)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 1027, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000603)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001643)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000336)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 1028, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000279)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 1028, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000629)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001665)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000332)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 1029, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000269)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 1029, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000621)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001643)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000364)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 18786870, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000265)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 18786870, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000589)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001646)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000427)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 18738950, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000298)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 18738950, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000619)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001650)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000334)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 18704020, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000273)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 18704020, '2008-07-25 17:36:15')[0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-07-26 03:36:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000624)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:36:15', NULL, '2008-07-25 17:36:15')[0m
+  [4;35;1mQuestion Load (0.001642)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mAnswer Create (0.000340)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 953125641, 996332878, NULL, NULL, 18651320, '2008-07-25 17:36:15')[0m
+  [4;35;1mAnswer Create (0.000295)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:36:15', NULL, 996332877, 996332878, NULL, NULL, 18651320, '2008-07-25 17:36:15')[0m
+  [4;36;1mSurvey Create (0.000795)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:46:26', NULL, '2008-07-25 17:46:26')[0m
+  [4;35;1mQuestion Create (0.000417)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:46:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:46:26')[0m
+  [4;36;1mAnswer Create (0.000353)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:46:26', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:46:26')[0m
+  [4;35;1mQuestion Create (0.000311)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:46:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:46:26')[0m
+  [4;36;1mSurvey Create (0.000644)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:46:26', NULL, '2008-07-25 17:46:26')[0m
+  [4;35;1mQuestion Create (0.190169)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:46:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:46:26')[0m
+  [4;36;1mAnswer Create (0.000626)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:46:27', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:46:27')[0m
+  [4;35;1mQuestion Create (0.000357)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:46:27', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:46:27')[0m
+  [4;36;1mSurvey Create (0.000710)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:50:43', NULL, '2008-07-25 17:50:43')[0m
+  [4;35;1mQuestion Create (0.000489)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:50:43', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:50:43')[0m
+  [4;36;1mAnswer Create (0.000317)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:50:43', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:50:43')[0m
+  [4;35;1mQuestion Create (0.000257)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:50:43', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:50:43')[0m
+  [4;36;1mSurvey Create (0.001125)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:50:44', NULL, '2008-07-25 17:50:44')[0m
+  [4;35;1mQuestion Create (0.000436)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:50:44', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:50:44')[0m
+  [4;36;1mAnswer Create (0.000349)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:50:44', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:50:44')[0m
+  [4;35;1mQuestion Create (0.000343)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:50:44', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:50:44')[0m
+  [4;36;1mSurvey Create (0.000758)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:51:49', NULL, '2008-07-25 17:51:49')[0m
+  [4;35;1mQuestion Create (0.000434)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:51:49', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;36;1mAnswer Create (0.000305)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:51:49', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;35;1mQuestion Create (0.000322)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:51:49', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;36;1mSurvey Create (0.000743)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:51:49', NULL, '2008-07-25 17:51:49')[0m
+  [4;35;1mQuestion Create (0.000425)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:51:49', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;36;1mAnswer Create (0.000414)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:51:49', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;35;1mQuestion Create (0.000351)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:51:49', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:51:49')[0m
+  [4;36;1mSurvey Create (0.000814)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:54:42', NULL, '2008-07-25 17:54:42')[0m
+  [4;35;1mQuestion Create (0.000387)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:54:42', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;36;1mAnswer Create (0.000385)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:54:42', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;35;1mQuestion Create (0.000258)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:54:42', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;36;1mSurvey Create (0.000749)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:54:42', NULL, '2008-07-25 17:54:42')[0m
+  [4;35;1mQuestion Create (0.000357)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:54:42', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;36;1mAnswer Create (0.000322)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:54:42', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;35;1mQuestion Create (0.000341)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:54:42', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:54:42')[0m
+  [4;36;1mSurvey Create (0.000763)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:56:24', NULL, '2008-07-25 17:56:24')[0m
+  [4;35;1mQuestion Create (0.000444)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:24', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;36;1mAnswer Create (0.000290)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:56:24', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;35;1mQuestion Create (0.000255)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:24', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;36;1mSurvey Create (0.000718)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:56:24', NULL, '2008-07-25 17:56:24')[0m
+  [4;35;1mQuestion Create (0.000341)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:24', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;36;1mAnswer Create (0.000342)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:56:24', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;35;1mQuestion Create (0.000342)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:24', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:24')[0m
+  [4;36;1mSurvey Create (0.000790)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:56:37', NULL, '2008-07-25 17:56:37')[0m
+  [4;35;1mQuestion Create (0.000388)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:37', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:37')[0m
+  [4;36;1mAnswer Create (0.000565)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:56:37', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:56:37')[0m
+  [4;35;1mQuestion Create (0.000256)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:37', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:37')[0m
+  [4;36;1mSurvey Create (0.000769)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:56:37', NULL, '2008-07-25 17:56:37')[0m
+  [4;35;1mQuestion Create (0.000420)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:38', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:38')[0m
+  [4;36;1mAnswer Create (0.000292)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:56:38', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:56:38')[0m
+  [4;35;1mQuestion Create (0.000256)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:56:38', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:56:38')[0m
+  [4;36;1mSurvey Create (0.000828)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:08', NULL, '2008-07-25 17:57:08')[0m
+  [4;35;1mQuestion Create (0.000367)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:08', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;36;1mAnswer Create (0.000314)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:08', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;35;1mQuestion Create (0.000253)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:08', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;36;1mSurvey Create (0.000560)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:08', NULL, '2008-07-25 17:57:08')[0m
+  [4;35;1mQuestion Create (0.000623)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:08', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;36;1mAnswer Create (0.000646)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:08', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;35;1mQuestion Create (0.000268)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:08', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:08')[0m
+  [4;36;1mSurvey Create (0.000779)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:26', NULL, '2008-07-25 17:57:26')[0m
+  [4;35;1mQuestion Create (0.000678)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:26')[0m
+  [4;36;1mAnswer Create (0.000288)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:26', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:26')[0m
+  [4;35;1mQuestion Create (0.000265)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:26')[0m
+  [4;36;1mSurvey Create (0.000662)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:26', NULL, '2008-07-25 17:57:26')[0m
+  [4;35;1mQuestion Create (0.000374)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:26', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:26')[0m
+  [4;36;1mAnswer Create (0.000332)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:27', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:27')[0m
+  [4;35;1mQuestion Create (0.000334)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:27', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:27')[0m
+  [4;36;1mSurvey Create (0.000745)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:44', NULL, '2008-07-25 17:57:44')[0m
+  [4;35;1mQuestion Create (0.000431)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:44', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:44')[0m
+  [4;36;1mAnswer Create (0.000332)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:44', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:44')[0m
+  [4;35;1mQuestion Create (0.000262)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:44', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:44')[0m
+  [4;36;1mSurvey Create (0.000795)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-07-25 17:57:44', NULL, '2008-07-25 17:57:44')[0m
+  [4;35;1mQuestion Create (0.000540)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:44', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:44')[0m
+  [4;36;1mAnswer Create (0.000374)[0m   [0;1mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-07-25 17:57:44', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-07-25 17:57:44')[0m
+  [4;35;1mQuestion Create (0.000290)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "survey_id", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-07-25 17:57:45', 'blah?', NULL, NULL, NULL, NULL, '2008-07-25 17:57:45')[0m

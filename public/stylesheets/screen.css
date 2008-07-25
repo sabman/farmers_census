@@ -162,3 +162,13 @@ table .odd {
   font-size: 12px;
   list-style: square;
 }
+
+#address-unsure-icon {
+display:none;
+}
+#address-warning-icon {
+display:none;
+}
+#address-good-icon {
+display:none;
+}

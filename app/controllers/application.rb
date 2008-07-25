@@ -18,4 +18,5 @@ class ApplicationController < ActionController::Base
     current_survey = Survey.find(session[:current_survey])
     return current_survey
   end
+  
 end

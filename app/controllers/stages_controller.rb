@@ -1,4 +1,5 @@
 class StagesController < ApplicationController
+  include GeoKit::Geocoders
   before_filter :verify_survey
   # GET /stages
   # GET /stages.xml
@@ -19,6 +20,7 @@ class StagesController < ApplicationController
     @prev_stage = @stage.previous 
     @next_stage = @stage.next 
     @answers = current_survey.answers.find_all_by_stage_id(@stage.id)
+    @current_survey = current_survey
     
     respond_to do |format|
       format.html # show.html.erb
@@ -96,10 +98,22 @@ class StagesController < ApplicationController
     end
   end
 
-  def map_test
-    
+  def validate_address 
+    @current_survey = current_survey  
+    @loc = MultiGeocoder.geocode(params[:address]) 
+    #TODO: refactor this to get everything related to creating the view out of the action
+    @map = Variable.new("map")
+    @marker = Variable.new("marker")
+    @center = GLatLng.new([@loc.lat,@loc.lng])
+    @zoom = 14
+    icon_standard = Variable.new("icon_standard")
+    @marker = GMarker.new(@center,:icon => icon_standard,
+              :info_window => "<div id='standard_info_window'>#{@loc.full_address}</div>",
+              :title => @loc.full_address, :max_width => 200, 
+              :draggable => true, :bouncy => true)
   end
-  protected
+  
+  private
   
   def verify_survey
     if session[:current_survey] != nil    
