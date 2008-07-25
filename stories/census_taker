@@ -1,0 +1,22 @@
+#TODO: have to reset_session when the survey is 80% > complete and redirect to the map page?
+As a farmers I want to come to the site and have a simple choice
+
+1. Farmer? Take the farmers census
+	- Address Geocoding Map
+		- latitude/longitude fields
+	- Image Uploading
+	- Email Admin when a new survey is completed
+	- Admin pages
+	
+2. Nominate a farmer to take the census
+
+3. Find a local farmer
+
+4. tabs/static pages
+
+5. admin pages
+
+
+Labels Needed: 
+"Street address"
+"City"

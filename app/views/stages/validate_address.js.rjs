@@ -1,0 +1,28 @@
+page["address-warning-icon"].set_style :display => 'none'
+page["address-unsure-icon"].set_style :display => 'none'
+page["address-good-icon"].set_style :display => 'none'
+if @loc.success 
+  page["address-good-icon"].set_style :display => 'inline'
+  page["street address"][:value] = @loc.street_address 
+  page[:city][:value] = @loc.city
+  page[:country][:value] = @loc.country_code
+  page["postal code"][:value] = @loc.zip
+  page[:state][:value] = @loc.state
+  page[:lng][:value] = @loc.lng
+  page[:lat][:value] = @loc.lat
+  
+  page << @map.clear_overlays
+  page << @map.add_overlay(@marker)
+  page << @map.set_center(@center,@zoom)  
+
+  unless @current_survey.lat.nil? and @current_survey.lng.nil?  
+    page << "create_draggable_marker_for_edit(#{@current_survey.lng.to_f}, #{@current_survey.lat.to_f});"
+  end
+  
+  page << 'var pointSW = new GLatLng(23.226236,-127.111816); var pointNE = new GLatLng(52.643063,-64.599609);	var groundOverlay = new GGroundOverlay("http://img37.picoodle.com/img/img37/4/7/22/f_handdrawntrm_b7407d9.png", new GLatLngBounds(pointSW, pointNE));map.addOverlay(groundOverlay);'
+  #page << 'var bounds = map.getBounds();var southWest = bounds.getSouthWest();var northEast = bounds.getNorthEast();var lngDelta = (northEast.lng() - southWest.lng());var latDelta = (northEast.lat() - southWest.lat());var rectBounds = new GLatLngBounds(new GLatLng(southWest.lat() + latDelta,southWest.lng() + lngDelta),new GLatLng(northEast.lat() - latDelta,northEast.lng() - lngDelta));map.addOverlay(new Rectangle(rectBounds, null, "#F5DEB3", "#F5DEB3", 50 ));'
+else
+  page["address-warning-icon"].set_style :display => 'inline'
+end
+
+# TODO 
