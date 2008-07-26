@@ -1,3 +1,7 @@
+<%= GMap.header %>
+<%= javascript_include_tag 'mapping_helpers', :cache => true %>
+
+
 <script type="text/javascript" charset="utf-8">   
 
 	// Create a standard icon TODO: get the fingure print graphic from Serverine
@@ -42,7 +46,7 @@
 	                northEast.lng() - lngDelta));
 	map.addOverlay(new Rectangle(rectBounds, null, '#F5DEB3', '#F5DEB3', 70 ));
 	
- 	<%- unless @current_survey.lat.nil? or  @current_survey.lat.nil?   -%>
+ 	<%- unless @current_survey.lat.nil? or  @current_survey.lat.nil? -%>
   	create_draggable_marker_for_edit(<%= @current_survey.lng.to_f %>, <%= @current_survey.lat.to_f %>);
 	  pointCenter = new GLatLng(<%= @current_survey.lat.to_f %>,<%= @current_survey.lng.to_f %>);	
 		map.setCenter(pointCenter,5);

@@ -22,12 +22,16 @@ class Survey < ActiveRecord::Base
   
   def lat
     lat_q=questions.find_by_text("lat").id
-    answers.find_by_question_id(lat_q).text 
+    ans = answers.find_by_question_id(lat_q).text 
+    return nil if ans.to_f == 0     
+    return ans    
   end    
   
   def lng
     lng_q=questions.find_by_text("lng").id
-    answers.find_by_question_id(lng_q).text     
+    ans = answers.find_by_question_id(lng_q).text
+    return nil if ans.to_f == 0     
+    return ans 
   end
   
   def full_address
