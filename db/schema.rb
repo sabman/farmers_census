@@ -27,6 +27,19 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
     t.integer "option_id"
   end
 
+  create_table "avatars", :force => true do |t|
+    t.integer  "survey_id"
+    t.integer  "parent_id"
+    t.string   "content_type"
+    t.string   "filename"
+    t.string   "thumbnail"
+    t.integer  "size"
+    t.integer  "width"
+    t.integer  "height"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "options", :force => true do |t|
     t.string   "text"
     t.string   "filename"
