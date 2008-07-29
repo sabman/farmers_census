@@ -10,4 +10,12 @@ module ApplicationHelper
   #     end
   #   end
   # end
+  
+  def show_avatar
+    if @current_survey.avatar
+      return @current_survey.avatar.public_filename
+    else
+      return 'no_avatar.jpg'
+    end
+  end
 end

@@ -1,7 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :answers
-
-  map.map_test '/map_test', :controller => "stages", :action => "map_test"
+  
+  map.addavatar "avatar/create", :controller => 'avatar', :action => 'create'
+  
+  #map.map_test '/map_test', :controller => "stages", :action => "map_test"
   map.home '', :controller => "front_page", :action => "show" 
   
   map.resources :surveys, :has_many => :questions
@@ -9,6 +11,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :stages, :has_many => :questions
   
   map.sitemap 'sitemap.xml', :controller => 'sitemap', :action => 'sitemap'
+  
   
   #map.census '/census/:controller/:action/:id'
 

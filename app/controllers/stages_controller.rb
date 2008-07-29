@@ -21,6 +21,7 @@ class StagesController < ApplicationController
     @next_stage = @stage.next 
     @answers = current_survey.answers.find_all_by_stage_id(@stage.id)
     @current_survey = current_survey
+    @avatar = Avatar.new
     
     respond_to do |format|
       format.html # show.html.erb

@@ -6,10 +6,11 @@
 <div id='census_answers'> 
 
 	<%= render :partial => "answer", :collection => @answers %>
- 	<%- if @stage.title.downcase == 'getting in touch' -%>
+ 	<%- if @stage.title.downcase == 'getting in touch' -%> 
+	<%# 'getting in touch' stage require the map %>
   	<%= render :partial => "address" %>
 	<%- end -%>
-		
+	
 	
 	<%= render :partial => "footer", :locals => { 
 			:current_stage => @stage, 
@@ -17,3 +18,14 @@
 			:next_stage => @next_stage } %>
 </div>  
 <% end -%>
+
+<%- if @stage.title.downcase == 'contact details' -%>
+	<%# content_for :sidebar do -%>
+		<p><%= image_tag "#{show_avatar}" %></p>
+		<% form_for( @avatar, :url => addavatar_path(), 
+			:html => {:multipart => true, :id => 'avatar' }  )do |f| -%>
+			<p><%= f.file_field :uploaded_data, "size" => 10 %></p>
+			<p><%= submit_tag 'Create' %></p>
+		<% end -%>
+	<%# end -%>
+<%- end -%>

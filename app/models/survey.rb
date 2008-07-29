@@ -1,6 +1,7 @@
 class Survey < ActiveRecord::Base
   has_many :answers 
   has_and_belongs_to_many :questions
+  has_one :avatar
 
   def find_answer_by_question(q_text)
     answers.find_by_question_id(
