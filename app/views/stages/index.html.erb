@@ -1,5 +1,14 @@
 <h1>Census Stages</h1>
 
+	<%# content_for :sidebar do -%>
+		<p><%= image_tag "#{show_avatar}" %></p>
+		<% form_for( @avatar, :url => addavatar_path(), 
+			:html => {:multipart => true, :id => 'avatar' }  )do |f| -%>
+			<p><%= f.file_field :uploaded_data, "size" => 10 %></p>
+			<p><%= submit_tag 'Create' %></p>
+		<% end -%>
+	<%# end -%>
+
 <table>
   <tr>
     <th>Stage Number</th>
@@ -15,3 +24,9 @@
   </tr>
 <% end %>
 </table>
+
+<% if @current_survey.percentage_completed >= 70 %>
+	 <%= link_to "Thank you... check out our map", :action => "done" %>
+<% elsif @current_survey.percentage_completed >= 60 %>
+	Thank you... you are almost there, try to answer just a few questions and you will be on your way!
+<% end %>

@@ -13,7 +13,7 @@ module ApplicationHelper
   
   def show_avatar
     if @current_survey.avatar
-      return @current_survey.avatar.public_filename
+      return @current_survey.avatar.public_filename(:thumb)
     else
       return 'no_avatar.jpg'
     end

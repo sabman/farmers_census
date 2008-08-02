@@ -5,11 +5,15 @@
     <br/><%= answer_form.send("#{answer.question.qtype}", :text, :id => "#{answer.question.text}", :rows => 3) %>
   <%- elsif answer.question.qtype == "list"  -%>
     <%- for option in answer.question.options -%>
-			<br/> <%= check_box_tag "survey[answer_attributes][#{answer.id}][option_ids][]", option.id, answer.options.include?(option) %> <%= "#{option.text}" %> 
+			<br/> <%= check_box_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
+										option.id, answer.options.include?(option), 
+										:id => option.text  ) %> <%= "#{option.text}" %> 
     <%- end -%>
   <%- elsif answer.question.qtype == "options" or answer.question.qtype == "yes_no" -%>
   	<%- for option in answer.question.options -%>
-			<br/> <%= radio_button_tag "survey[answer_attributes][#{answer.id}][option_ids][]", option.id, answer.options.include?(option) %> <%= "#{option.text}" %> 
+			<br/> <%= radio_button_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
+										option.id, answer.options.include?(option), 
+										:id => option.text ) %> <%= "#{option.text}" %> 
     <%- end -%>
 	<%- end -%>
   <hr/>

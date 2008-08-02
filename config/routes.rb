@@ -1,16 +1,15 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :answers
-  
+  map.resources :answers 
   map.addavatar "avatar/create", :controller => 'avatar', :action => 'create'
-  
-  #map.map_test '/map_test', :controller => "stages", :action => "map_test"
-  map.home '', :controller => "front_page", :action => "show" 
-  
+  map.home '', :controller => "front_page", :action => "show"   
   map.resources :surveys, :has_many => :questions
   map.resources :questions, :has_one => :stage
-  map.resources :stages, :has_many => :questions
-  
+  map.resources :stages, :has_many => :questions, :collection => { :done => :get }  
   map.sitemap 'sitemap.xml', :controller => 'sitemap', :action => 'sitemap'
+
+  map.resources :sessions 
+  map.login '/login', :controller => 'sessions', :action => 'new' 
+  map.logout '/logout', :controller => 'sessions', :action => 'destroy' 
   
   
   #map.census '/census/:controller/:action/:id'

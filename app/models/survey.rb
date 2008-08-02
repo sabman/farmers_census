@@ -3,6 +3,13 @@ class Survey < ActiveRecord::Base
   has_and_belongs_to_many :questions
   has_one :avatar
 
+  def percentage_completed
+    stages = Stage.find :all
+    total = 0; count = 0
+    stages.each{ |s| total = total + s.percent_completed(id); count = count+1  }
+    total/count
+  end
+
   def find_answer_by_question(q_text)
     answers.find_by_question_id(
       questions.find_by_text(q_text).id
@@ -22,6 +29,7 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
+    return nil if id == 1
     lat_q=questions.find_by_text("lat").id
     ans = answers.find_by_question_id(lat_q).text 
     return nil if ans.to_f == 0     
@@ -29,6 +37,7 @@ class Survey < ActiveRecord::Base
   end    
   
   def lng
+    return nil if id == 1
     lng_q=questions.find_by_text("lng").id
     ans = answers.find_by_question_id(lng_q).text
     return nil if ans.to_f == 0     
@@ -36,12 +45,18 @@ class Survey < ActiveRecord::Base
   end
   
   def full_address
+    return nil if id == 1
     street_address = find_answer_by_question("street address").text
     city = find_answer_by_question("city").text
     state = find_answer_by_question("state").text
     postal_code = find_answer_by_question("postal code").text
     country = find_answer_by_question("country").text    
     "#{street_address}, #{city}, #{state} #{postal_code}, #{country}"
+  end
+  
+  def farm_name
+    return nil if id == 1
+    find_answer_by_question("Name of farm").text
   end
    
 end

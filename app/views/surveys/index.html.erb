@@ -1,20 +1,6 @@
-<h1>Listing surveys</h1>
-
-<table>
-  <tr>
-    <th>Title</th>
-  </tr>
-
 <% for survey in @surveys %>
-  <tr>
-    <td><%=h survey.title %></td>
-    <td><%= link_to 'Show', survey %></td>
-    <td><%= link_to 'Edit', edit_survey_path(survey) %></td>
-    <td><%= link_to 'Destroy', survey, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+	Name of farm: <%= survey.farm_name  %> <br/>
+	Full Address: <%= survey.full_address %> <br/>
+	Lng, Lat: <%= survey.lng %>, <%= survey.lat %> <br/>
+	<hr/>
 <% end %>
-</table>
-
-<br />
-
-<%= link_to 'New survey', new_survey_path %>

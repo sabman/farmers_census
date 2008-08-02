@@ -1,5 +1,14 @@
+<%= GMap.header %>
+<%= show_maps Survey.find(:all)  %>
+
 <h1>Narrative on Young American Farmers</h1>
 
-<p><%= link_to "Take the census", stages_path %></p>
+<% if session[:current_survey].nil? %>
+	<p><%= link_to "Take the census", stages_path %></p>
+<% else %>	
+	<p><%= link_to "Survey in progress... please continue", stages_path %></p>
+<% end %>
 
 <p><%= link_to "Nominate a farmer", '/nominate' %></p>
+
+<div id="mainmap"><%= @map.div :width => 600, :height => 400 -%></div>

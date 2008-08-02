@@ -4,6 +4,7 @@
 class ApplicationController < ActionController::Base
   include AuthenticatedSystem
   helper :all # include all helpers, all the time
+  helper_method :admin?
 
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
@@ -18,5 +19,19 @@ class ApplicationController < ActionController::Base
     current_survey = Survey.find(session[:current_survey])
     return current_survey
   end
+
   
+  protected
+  def admin?
+    session[:admin_password] == "severines admin password"
+  end
+  
+  def verify_admin
+    unless admin?
+      redirect_to(login_path)
+      return false
+    end
+    true
+  end
+
 end

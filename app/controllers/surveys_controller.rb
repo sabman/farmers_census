@@ -1,4 +1,5 @@
 class SurveysController < ApplicationController
+  before_filter :verify_admin
   # GET /surveys
   # GET /surveys.xml
   def index
@@ -84,4 +85,5 @@ class SurveysController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
 end
