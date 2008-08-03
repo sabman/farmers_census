@@ -5,7 +5,7 @@ class AdminMailer < ActionMailer::Base
   end
 
   def nomination_notification(survey, domain)  
-    subject = "[American-Farmer] Hey #{Admin::NAME}! a new notification was submitted!"
+    subject = "[American-Farmer] Hey #{Admin::NAME}! a new nomination was submitted!"
     setup_email(survey, domain, subject) 
   end
         
