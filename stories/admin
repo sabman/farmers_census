@@ -1,0 +1,15 @@
+- We want to be able to email the admin when the survey submitted so that they don't have to login
+to check the site all the time ... 
+
+- in the stages_controller the done action is the appropriate place to kick off the emailing process
+
+- we are going to use GMAIL as our SMTP server so we will need some sort of plugin that enhances action_mailer to support TLS 
+
+- in the SagesController#done we can call AdminMailer like so:
+	AdminMailer.deliver_done_survey(current_survey, request.host_with_port)
+
+                                          
+- We will need some place to store the Admin information... perhaps config/admin.yml 
+but for now I've put it in app/models/admin.rb
+
+need ./lib/smtp_tls.rb 

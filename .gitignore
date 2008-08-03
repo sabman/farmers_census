@@ -9,3 +9,4 @@ doc/api
 doc/app
 doc/plugins
 config/database.yml
+public/avatars/**/*

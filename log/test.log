@@ -73753,3 +73753,1272 @@ Processing StagesController#index (for 0.0.0.0 at 2008-08-02 15:10:15) [GET]
 Processing StagesController#index (for 0.0.0.0 at 2008-08-02 15:10:15) [GET]
   Session ID: 
   Parameters: {"action"=>"index", "controller"=>"stages"}
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-08-03 14:41:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.01897 (52 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-08-03 14:41:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00193 (518 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-08-03 14:41:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions
+Completed in 0.00203 (492 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-08-03 14:41:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-08-03 14:41:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00275 (363 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-08-03 14:41:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00272 (367 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-08-03 14:41:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00541 (184 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-08-03 14:41:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/questions/1
+Completed in 0.00309 (324 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-08-03 14:41:30) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-08-03 14:41:30) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+Redirected to http://test.host/questions/1
+Completed in 0.00280 (357 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-08-03 14:41:30) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"questions", "question"=>{}}
+Redirected to http://test.host/questions/1
+Completed in 0.00271 (368 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+Rendering questions/edit
+Completed in 0.00182 (549 reqs/sec) | Rendering: 0.00087 (48%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+Rendering questions/edit
+Completed in 0.00174 (575 reqs/sec) | Rendering: 0.00085 (49%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+Rendering questions/edit
+Completed in 0.00186 (539 reqs/sec) | Rendering: 0.00089 (47%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+Rendering questions/edit
+Completed in 0.00177 (564 reqs/sec) | Rendering: 0.00086 (48%) | DB: 0.00000 (0%) | 200 OK [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-08-03 14:41:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Rendering template within layouts/application
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mQuestion Load (0.000410)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mQuestion Load (0.000468)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mQuestion Load (0.000353)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mQuestion Load (0.000392)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mQuestion Load (0.000373)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;35;1mQuestion Load (0.000356)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-08-03 14:41:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+  [4;36;1mQuestion Load (0.000364)[0m   [0;1mSELECT * FROM "questions" WHERE ("questions"."stage_id" IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering /questions/index.html.erb
+Rendering /questions/new.html.erb
+Rendering /questions/edit.html.erb
+Rendering /questions/show.html.erb
+  [4;35;1mSQL (0.001143)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.000334)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000269)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+  [4;36;1mUser Create (0.000532)[0m   [0;1mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('dd57ef6fcd765c97f8d4f4f47c9954e8cd78debd', '2008-08-03 04:41:32', '2e7baafc4807fe327ab176be944fc9dc47d9a905', NULL, NULL, 'quire', 'quire@example.com', '2008-08-03 04:41:32')[0m
+  [4;35;1mSQL (0.000932)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mUser Load (0.001174)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.000645)[0m   [0mUPDATE "users" SET "remember_token" = '24d46a5ca302a966743e039b061afaf0276656db', "remember_token_expires_at" = '2008-08-17 04:41:32', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.001216)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.000510)[0m   [0mUPDATE "users" SET "remember_token" = '8bc4440bfabf8c1025123beee5d54f78869dfb63', "remember_token_expires_at" = '2008-08-10 04:41:33', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.001191)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.000528)[0m   [0mUPDATE "users" SET "remember_token" = '8bc4440bfabf8c1025123beee5d54f78869dfb63', "remember_token_expires_at" = '2008-08-10 04:41:33', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.001187)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Update (0.000617)[0m   [0mUPDATE "users" SET "remember_token" = '80a2cfef92db1e499dac48976ee7f3a9a4021983', "remember_token_expires_at" = '2008-08-17 04:41:33', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;36;1mUser Update (0.000282)[0m   [0;1mUPDATE "users" SET "remember_token" = NULL, "remember_token_expires_at" = NULL, "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.001174)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mUser Update (0.000579)[0m   [0;1mUPDATE "users" SET "remember_token" = '80a2cfef92db1e499dac48976ee7f3a9a4021983', "remember_token_expires_at" = '2008-08-17 04:41:33', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.001161)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;36;1mUser Load (0.001157)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.001166)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mSQL (0.000379)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quentin2' AND "users".id <> 1) [0m
+  [4;35;1mSQL (0.000271)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quentin@example.com' AND "users".id <> 1) [0m
+  [4;36;1mUser Update (0.000594)[0m   [0;1mUPDATE "users" SET "login" = 'quentin2', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.002624)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'quentin2') LIMIT 1[0m
+  [4;36;1mUser Load (0.001368)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mSQL (0.000287)[0m   [0mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quentin' AND "users".id <> 1) [0m
+  [4;36;1mSQL (0.000247)[0m   [0;1mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quentin@example.com' AND "users".id <> 1) [0m
+  [4;35;1mUser Update (0.001376)[0m   [0mUPDATE "users" SET "crypted_password" = '4b6dd603c64f03bc2f676658e287094878df9603', "updated_at" = '2008-08-03 04:41:33' WHERE "id" = 1[0m
+  [4;36;1mUser Load (0.001182)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."login" = 'quentin') LIMIT 1[0m
+  [4;35;1mSQL (0.000658)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.000278)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000228)[0m   [0mSELECT "email" FROM "users" WHERE ("users".email IS NULL) [0m
+  [4;36;1mSQL (0.000584)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.000526)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.000278)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000247)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+  [4;36;1mSQL (0.000557)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.000638)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.000402)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000246)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+  [4;36;1mSQL (0.000479)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.000530)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+  [4;36;1mSQL (0.000253)[0m   [0;1mSELECT "login" FROM "users" WHERE ("users".login IS NULL) [0m
+  [4;35;1mSQL (0.000240)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+  [4;36;1mSQL (0.000467)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (0.000592)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2008-08-03 14:41:33) [POST]
+  Session ID: 
+  Parameters: {"user"=>{"password_confirmation"=>"quire", "password"=>"quire", "login"=>"quire", "email"=>nil}, "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;36;1mSQL (0.000371)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000230)[0m   [0mSELECT "email" FROM "users" WHERE ("users".email IS NULL) [0m
+Rendering template within layouts/application
+  [4;36;1mSQL (0.000692)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2008-08-03 14:41:33) [POST]
+  Session ID: 
+  Parameters: {"user"=>{"password_confirmation"=>nil, "password"=>"quire", "login"=>"quire", "email"=>"quire@example.com"}, "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;35;1mSQL (0.000289)[0m   [0mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;36;1mSQL (0.000243)[0m   [0;1mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+Rendering template within layouts/application
+  [4;35;1mSQL (0.000586)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2008-08-03 14:41:33) [POST]
+  Session ID: 
+  Parameters: {"user"=>{"password_confirmation"=>"quire", "password"=>nil, "login"=>"quire", "email"=>"quire@example.com"}, "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;36;1mSQL (0.000288)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000260)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+Rendering template within layouts/application
+  [4;36;1mSQL (0.001003)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2008-08-03 14:41:33) [POST]
+  Session ID: 
+  Parameters: {"user"=>{"password_confirmation"=>"quire", "password"=>"quire", "login"=>nil, "email"=>"quire@example.com"}, "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;35;1mSQL (0.000284)[0m   [0mSELECT "login" FROM "users" WHERE ("users".login IS NULL) [0m
+  [4;36;1mSQL (0.000249)[0m   [0;1mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+Rendering template within layouts/application
+  [4;35;1mSQL (0.000583)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2008-08-03 14:41:33) [POST]
+  Session ID: 
+  Parameters: {"user"=>{"password_confirmation"=>"quire", "password"=>"quire", "login"=>"quire", "email"=>"quire@example.com"}, "action"=>"create", "controller"=>"users"}
+Cookie set: auth_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+  [4;36;1mSQL (0.000316)[0m   [0;1mSELECT "login" FROM "users" WHERE (LOWER("users".login) = 'quire') [0m
+  [4;35;1mSQL (0.000242)[0m   [0mSELECT "email" FROM "users" WHERE (LOWER("users".email) = 'quire@example.com') [0m
+  [4;36;1mUser Create (0.000548)[0m   [0;1mINSERT INTO "users" ("salt", "updated_at", "crypted_password", "remember_token_expires_at", "remember_token", "login", "email", "created_at") VALUES('9414548aaa56740f3712a45776dc2b296162b358', '2008-08-03 04:41:33', 'dec0ee0051044122df521fd65420cb75ae98e6a5', NULL, NULL, 'quire', 'quire@example.com', '2008-08-03 04:41:33')[0m
+Redirected to http://test.host/
+Completed in 0.01187 (84 reqs/sec) | DB: 0.00169 (14%) | 302 Found [http://test.host/users/create?user%5Bemail%5D=quire%40example.com&user%5Blogin%5D=quire&user%5Bpassword%5D=quire&user%5Bpassword_confirmation%5D=quire]
+  [4;35;1mSQL (0.000502)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+Rendering /surveys/edit.html.erb
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-08-03 14:41:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.01937 (51 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-08-03 14:41:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1293 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-08-03 14:41:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1283 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-08-03 14:41:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1264 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-08-03 14:41:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1290 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-08-03 14:41:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1300 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-08-03 14:41:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1298 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-08-03 14:41:34) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00094 (1068 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-08-03 14:41:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00113 (888 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-08-03 14:41:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1261 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-08-03 14:41:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (996 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1253 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1281 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1310 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1305 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/new]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1157 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/new]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1264 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/new]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00091 (1095 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/new]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1234 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/new]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1251 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1303 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1262 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1272 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1269 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1280 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1270 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1248 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1272 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1278 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1267 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1246 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1285 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-08-03 14:41:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1086 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+Rendering /surveys/show.html.erb
+Rendering /surveys/index.html.erb
+Rendering /surveys/new.html.erb
+
+
+Processing FrontPageController#show (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+Rendering template within layouts/application
+Rendering front_page/show
+Completed in 0.01637 (61 reqs/sec) | Rendering: 0.00132 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/]
+Rendering front_page/show
+  [4;36;1mSurvey Load (0.000387)[0m   [0;1mSELECT * FROM "surveys" [0m
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-08-03 14:41:35) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1267 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-08-03 14:41:35) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1283 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-08-03 14:41:35) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1283 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-08-03 14:41:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1273 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-08-03 14:41:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00104 (964 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-08-03 14:41:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1288 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-08-03 14:41:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1293 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-08-03 14:41:35) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-08-03 14:41:35) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1277 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-08-03 14:41:35) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00113 (883 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-08-03 14:41:35) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1293 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1280 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1196 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00107 (933 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1274 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1303 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1316 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00088 (1132 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-08-03 14:41:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1310 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1285 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1302 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1290 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1285 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1293 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1281 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1303 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1314 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1291 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1303 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1329 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-08-03 14:41:36) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00090 (1117 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+Rendering /answers/new.html.erb
+Rendering /answers/index.html.erb
+  [4;35;1mQuestion Load (0.000386)[0m   [0mSELECT * FROM "questions" WHERE ("questions"."id" = 1) [0m
+Rendering /answers/edit.html.erb
+Rendering /answers/show.html.erb
+  [4;36;1mSQL (0.000707)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+
+
+Processing SitemapController#sitemap (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"sitemap", "controller"=>"sitemap"}
+  [4;35;1mStage Load (0.000406)[0m   [0mSELECT * FROM "stages" [0m
+Rendering sitemap/sitemap
+Completed in 0.02422 (41 reqs/sec) | Rendering: 0.00101 (4%) | DB: 0.00111 (4%) | 200 OK [http://test.host/sitemap.xml]
+
+
+Processing SitemapController#sitemap (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"sitemap", "controller"=>"sitemap"}
+  [4;36;1mStage Load (0.000421)[0m   [0;1mSELECT * FROM "stages" [0m
+Rendering sitemap/sitemap
+Completed in 0.00457 (218 reqs/sec) | Rendering: 0.00097 (21%) | DB: 0.00042 (9%) | 200 OK [http://test.host/sitemap.xml]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-08-03 14:41:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000725)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000316)[0m   [0;1mSELECT * FROM "questions" [0m
+Redirected to http://test.host/stages
+Completed in 0.04192 (23 reqs/sec) | DB: 0.00104 (2%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-08-03 14:41:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000739)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000309)[0m   [0;1mSELECT * FROM "questions" [0m
+Redirected to http://test.host/stages
+Completed in 0.01356 (73 reqs/sec) | DB: 0.00105 (7%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-08-03 14:41:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000697)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000316)[0m   [0;1mSELECT * FROM "questions" [0m
+Redirected to http://test.host/stages
+Completed in 0.01081 (92 reqs/sec) | DB: 0.00101 (9%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-08-03 14:41:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.001421)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000321)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.001880)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Rendering template within layouts/application
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-08-03 14:41:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000718)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000320)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.001326)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Redirected to http://test.host/stages/1
+Completed in 0.02088 (47 reqs/sec) | DB: 0.00236 (11%) | 302 Found [http://test.host/stages/update/1]
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-08-03 14:41:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000728)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000304)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.000824)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Redirected to http://test.host/stages/1
+Completed in 0.01665 (60 reqs/sec) | DB: 0.00186 (11%) | 302 Found [http://test.host/stages/update/1]
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-08-03 14:41:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000724)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000607)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.000835)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Redirected to http://test.host/stages/1
+Completed in 0.01779 (56 reqs/sec) | DB: 0.00217 (12%) | 302 Found [http://test.host/stages/update/1]
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-08-03 14:41:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000733)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;36;1mQuestion Load (0.000337)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.000836)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Redirected to http://test.host/stages/1
+Completed in 0.01931 (51 reqs/sec) | DB: 0.00191 (9%) | 302 Found [http://test.host/stages/update/1]
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-08-03 14:41:37) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000759)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000349)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-08-03 14:41:37) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000826)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000364)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-08-03 14:41:37) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000672)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000288)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000716)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000300)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00921 (108 reqs/sec) | Rendering: 0.00076 (8%) | DB: 0.00427 (46%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000864)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000424)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.01081 (92 reqs/sec) | Rendering: 0.00079 (7%) | DB: 0.00129 (11%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000813)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000336)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.01042 (95 reqs/sec) | Rendering: 0.00089 (8%) | DB: 0.00115 (11%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000709)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000312)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00985 (101 reqs/sec) | Rendering: 0.00084 (8%) | DB: 0.00102 (10%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000689)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000301)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00938 (106 reqs/sec) | Rendering: 0.00079 (8%) | DB: 0.00099 (10%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-08-03 14:41:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000685)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:37', NULL, '2008-08-03 04:41:37')[0m
+  [4;35;1mQuestion Load (0.000286)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00886 (112 reqs/sec) | Rendering: 0.00076 (8%) | DB: 0.00097 (10%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000774)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000334)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.01033 (96 reqs/sec) | Rendering: 0.00080 (7%) | DB: 0.00111 (10%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000723)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000299)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00948 (105 reqs/sec) | Rendering: 0.00076 (8%) | DB: 0.00102 (10%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000785)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000420)[0m   [0mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00955 (104 reqs/sec) | Rendering: 0.00089 (9%) | DB: 0.00120 (12%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000734)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000301)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000710)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000335)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000708)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000297)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000829)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000312)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000716)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000327)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000678)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000284)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000699)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000269)[0m   [0mSELECT * FROM "questions" [0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000649)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000480)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.001005)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000663)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mQuestion Load (0.000273)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.000757)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000910)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000306)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.000736)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000820)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mQuestion Load (0.000275)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.001401)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000818)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000290)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.000801)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;35;1mSurvey Create (0.000596)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mQuestion Load (0.000252)[0m   [0;1mSELECT * FROM "questions" [0m
+  [4;35;1mSurvey Load (0.000709)[0m   [0mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-08-03 14:41:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+  [4;36;1mSurvey Create (0.000633)[0m   [0;1mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:38', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.000279)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mSurvey Load (0.000696)[0m   [0;1mSELECT * FROM "surveys" WHERE ("surveys"."id" = 1) [0m
+Rendering template within layouts/application
+  [4;35;1mQuestion Create (0.000649)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:38', 'whats ur name?', NULL, NULL, NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mQuestion Create (0.000269)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:38', 'cest ce vu fe?', NULL, NULL, NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Load (0.001345)[0m   [0mSELECT id, updated_at FROM "questions" ORDER BY updated_at LIMIT 20[0m
+  [4;36;1mQuestion Create (0.000614)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:38', 'whats ur name?', NULL, NULL, NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mQuestion Create (0.000275)[0m   [0mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:38', 'cest ce vu fe?', NULL, NULL, NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Create (0.000593)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 1', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Create (0.000253)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 2', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Create (0.000246)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 3', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Load (0.000795)[0m   [0mSELECT * FROM "stages" LIMIT 1[0m
+  [4;36;1mStage Load (0.000777)[0m   [0;1mSELECT * FROM "stages" ORDER BY stages.id DESC LIMIT 1[0m
+  [4;35;1mStage Create (0.000900)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 1', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Create (0.000258)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 2', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Create (0.000254)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 3', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Load (0.000760)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+  [4;35;1mStage Load (0.000847)[0m   [0mSELECT * FROM "stages" ORDER BY stages.id DESC LIMIT 1[0m
+  [4;36;1mStage Load (0.000765)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+  [4;35;1mStage Create (0.000834)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 1', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Create (0.000351)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 2', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Create (0.000247)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 3', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Load (0.000777)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+  [4;35;1mStage Load (0.001097)[0m   [0mSELECT * FROM "stages" ORDER BY stages.id DESC LIMIT 1[0m
+  [4;36;1mSQL (0.000510)[0m   [0;1mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;35;1mSQL (0.000460)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Create (0.001253)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 1', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Create (0.000372)[0m   [0mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 2', NULL, '2008-08-03 04:41:38')[0m
+  [4;36;1mStage Create (0.000332)[0m   [0;1mINSERT INTO "stages" ("updated_at", "title", "title_label", "created_at") VALUES('2008-08-03 04:41:38', 'Stage 3', NULL, '2008-08-03 04:41:38')[0m
+  [4;35;1mStage Load (0.001029)[0m   [0mSELECT * FROM "stages" LIMIT 1[0m
+  [4;36;1mStage Load (0.001045)[0m   [0;1mSELECT * FROM "stages" ORDER BY stages.id DESC LIMIT 1[0m
+  [4;35;1mSQL (0.000539)[0m   [0mSELECT count(*) AS count_all FROM "stages" [0m
+  [4;36;1mStage Load (0.000870)[0m   [0;1mSELECT * FROM "stages" WHERE ("stages"."id" = 2) [0m
+Rendering /sitemap/sitemap.xml.builder
+Rendering sessions/new
+Rendering sessions/create
+Rendering sessions/destroy
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2008-08-03 14:41:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://test.host/
+Completed in 0.01759 (56 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/logout]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2008-08-03 14:41:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Redirected to http://test.host/login
+Completed in 0.00077 (1295 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/sessions]
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2008-08-03 14:41:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 0.01241 (80 reqs/sec) | Rendering: 0.00147 (11%) | DB: 0.00000 (0%) | 200 OK [http://test.host/sessions/new]
+  [4;35;1mSurvey Create (0.000816)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:40', NULL, '2008-08-03 04:41:40')[0m
+  [4;36;1mQuestion Create (0.000407)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:40', 'blah?', NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;35;1mAnswer Create (0.000368)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-08-03 04:41:40', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;36;1mQuestion Create (0.000329)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:40', 'blah?', NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;35;1mSQL (0.000332)[0m   [0mINSERT INTO "questions_surveys" ("question_id", "survey_id") VALUES (996332878, 996332878)[0m
+  [4;36;1mSQL (0.000262)[0m   [0;1mINSERT INTO "questions_surveys" ("question_id", "survey_id") VALUES (996332879, 996332878)[0m
+  [4;35;1mAnswer Load (0.001177)[0m   [0mSELECT * FROM "answers" WHERE ("answers"."question_id" = 996332878) AND ("answers".survey_id = 996332878) LIMIT 1[0m
+  [4;36;1mAnswer Load (0.000347)[0m   [0;1mSELECT * FROM "answers" WHERE ("answers"."question_id" = 996332879) AND ("answers".survey_id = 996332878) LIMIT 1[0m
+  [4;35;1mSurvey Create (0.000665)[0m   [0mINSERT INTO "surveys" ("updated_at", "title", "created_at") VALUES('2008-08-03 04:41:40', NULL, '2008-08-03 04:41:40')[0m
+  [4;36;1mQuestion Create (0.000605)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:40', 'blah?', NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;35;1mAnswer Create (0.000372)[0m   [0mINSERT INTO "answers" ("updated_at", "text", "question_id", "survey_id", "farm_id", "user_id", "stage_id", "created_at") VALUES('2008-08-03 04:41:40', 'ans', 996332878, 996332878, NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;36;1mQuestion Create (0.000357)[0m   [0;1mINSERT INTO "questions" ("qtype", "list", "updated_at", "text", "title_label", "label_list", "stage_id", "created_at") VALUES(NULL, NULL, '2008-08-03 04:41:40', 'blah?', NULL, NULL, NULL, '2008-08-03 04:41:40')[0m
+  [4;35;1mSQL (0.000326)[0m   [0mINSERT INTO "questions_surveys" ("question_id", "survey_id") VALUES (996332878, 996332878)[0m
+  [4;36;1mSQL (0.000287)[0m   [0;1mINSERT INTO "questions_surveys" ("question_id", "survey_id") VALUES (996332879, 996332878)[0m

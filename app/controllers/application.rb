@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
   
   protected
   def admin?
-    session[:admin_password] == "severines admin password"
+    session[:admin_password] == Admin::PASSWORD
   end
   
   def verify_admin

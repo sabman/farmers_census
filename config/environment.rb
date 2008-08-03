@@ -115,3 +115,14 @@ GeoKit::Geocoders::geocoder_ca = false
 # various geocoders.  Make sure you read up on relevant Terms of Use for each
 # geocoder you are going to use.
 GeoKit::Geocoders::provider_order = [:google,:yahoo]
+
+# ActionMailer: This is the setting for smtp. Gmail now uses TLS so ./lib/smtp/tls.rb should be there
+# We also need to have the ActionMailerTls plugin installed
+ActionMailer::Base.smtp_settings = {
+   :address => "smtp.gmail.com",
+   :port => "587",
+   :domain => "gmail.com",
+   :authentication => :plain,
+   :user_name => "kiez.team@gmail.com",
+   :password => "stick343" 
+ }
