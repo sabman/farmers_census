@@ -1,0 +1,73 @@
+<p>
+  <b>First name:</b>
+  <%=h @nomination.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%=h @nomination.last_name %>
+</p>
+
+<p>
+  <b>Farm name:</b>
+  <%=h @nomination.farm_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @nomination.email %>
+</p>
+
+<p>
+  <b>Known as:</b>
+  <%=h @nomination.known_as %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @nomination.title %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @nomination.address %>
+</p>
+
+<p>
+  <b>Telephone no:</b>
+  <%=h @nomination.telephone_no %>
+</p>
+
+<p>
+  <b>Date of birth:</b>
+  <%=h @nomination.date_of_birth %>
+</p>
+
+<p>
+  <b>Nominees profile:</b>
+  <%=h @nomination.nominees_profile %>
+</p>
+
+<p>
+  <b>Nominees contributions:</b>
+  <%=h @nomination.nominees_contributions %>
+</p>
+
+<p>
+  <b>Your name:</b>
+  <%=h @nomination.your_name %>
+</p>
+
+<p>
+  <b>Your email:</b>
+  <%=h @nomination.your_email %>
+</p>
+
+<p>
+  <b>Your contact details:</b>
+  <%=h @nomination.your_contact_details %>
+</p>
+
+
+<%= link_to 'Edit', edit_nomination_path(@nomination) %> |
+<%= link_to 'Back', nominations_path %>

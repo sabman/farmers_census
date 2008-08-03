@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :nominations
+
   map.resources :answers 
   map.addavatar "avatar/create", :controller => 'avatar', :action => 'create'
   map.home '', :controller => "front_page", :action => "show"   

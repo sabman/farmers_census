@@ -1,0 +1,28 @@
+Nominations may be 
+
+I would like to nominate the following person to be profiled here
+	first_name:string
+	last_name:string
+	farm_name:string
+	email:string
+	known_as:string
+	title:string
+	address:text
+	telephone_no:string
+	date_of_birth:date
+	nominees_profile:text
+	nominees_contributions:text
+	your_name:string
+	your_email:string
+	your_contact_details:string
+	
+	                                  
+first_name:string last_name:string farm_name:string email:string known_as:string title:string address:text telephone_no:string date_of_birth:date nominees_profile:text nominees_contributions:text your_name:string your_email:string your_contact_details:string
+
+I want to nominate... 
+I click on nominate 
+ takes me to new nomination form
+	clicking submit sends admin an email and  
+	takes me back to the main page (with a thanks for the nomination message!)     
+	
+CHECK: Do we need Captcha?

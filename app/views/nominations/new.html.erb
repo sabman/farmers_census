@@ -1,0 +1,67 @@
+<h1>New nomination</h1>
+
+<% form_for(@nomination) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name %>
+  </p>
+  <p>
+    <%= f.label :last_name %><br />
+    <%= f.text_field :last_name %>
+  </p>
+  <p>
+    <%= f.label :farm_name %><br />
+    <%= f.text_field :farm_name %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :known_as %><br />
+    <%= f.text_field :known_as %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_area :address %>
+  </p>
+  <p>
+    <%= f.label :telephone_no %><br />
+    <%= f.text_field :telephone_no %>
+  </p>
+  <p>
+    <%= f.label :date_of_birth %><br />
+    <%= f.date_select :date_of_birth %>
+  </p>
+  <p>
+    <%= f.label :nominees_profile %><br />
+    <%= f.text_area :nominees_profile %>
+  </p>
+  <p>
+    <%= f.label :nominees_contributions %><br />
+    <%= f.text_area :nominees_contributions %>
+  </p>
+  <p>
+    <%= f.label :your_name %><br />
+    <%= f.text_field :your_name %>
+  </p>
+  <p>
+    <%= f.label :your_email %><br />
+    <%= f.text_field :your_email %>
+  </p>
+  <p>
+    <%= f.label :your_contact_details %><br />
+    <%= f.text_field :your_contact_details %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', nominations_path %>

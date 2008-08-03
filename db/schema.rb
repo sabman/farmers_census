@@ -40,6 +40,25 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
     t.datetime "updated_at"
   end
 
+  create_table "nominations", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "farm_name"
+    t.string   "email"
+    t.string   "known_as"
+    t.string   "title"
+    t.text     "address"
+    t.string   "telephone_no"
+    t.date     "date_of_birth"
+    t.text     "nominees_profile"
+    t.text     "nominees_contributions"
+    t.string   "your_name"
+    t.string   "your_email"
+    t.string   "your_contact_details"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "options", :force => true do |t|
     t.string   "text"
     t.string   "filename"
