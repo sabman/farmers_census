@@ -4,7 +4,7 @@ class Admin
   # Change that to use this passoword
   
   # TODO: Change to Siverines account before shipping
-  NAME  = 'Shoaib Burq'
-  EMAIL = 'shoaib@nomad-labs.com'
-  PASSWORD = 'abc123'
+  NAME  = 'Severine'
+  EMAIL = 'farmers.census@gmail.com'      #farmers#43
+  PASSWORD = 'abc123'  #password for this site           
 end
