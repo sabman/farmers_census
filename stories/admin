@@ -12,4 +12,5 @@ to check the site all the time ...
 - We will need some place to store the Admin information... perhaps config/admin.yml 
 but for now I've put it in app/models/admin.rb
 
-need ./lib/smtp_tls.rb 
+need ./lib/smtp_tls.rb                     
+

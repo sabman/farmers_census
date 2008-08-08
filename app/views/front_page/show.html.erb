@@ -1,4 +1,5 @@
 <%= GMap.header %>
+<%= javascript_include_tag 'mapping_helpers', :cache => true %>
 <%= show_maps Survey.find(:all)  %>
 
 <h1>Narrative on Young American Farmers</h1>
