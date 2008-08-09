@@ -38,15 +38,16 @@ hr {
 /* LINKS */
 
 a {
-  color: #000; 
+  color: #000; text-decoration:none;
 }
 
 a:visited {
-  color: #666; 
+  color: #666; text-decoration:none;
 }
 
 a:hover {
-  color: #fff; background-color:#000;
+  /* color: #fff; background-color:#000; */
+	text-decoration:none;
 }
 
 /* FORMS */

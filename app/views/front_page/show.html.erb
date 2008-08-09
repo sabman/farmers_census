@@ -2,14 +2,34 @@
 <%= javascript_include_tag 'mapping_helpers', :cache => true %>
 <%= show_maps Survey.find(:all)  %>
 
-<h1>Narrative on Young American Farmers</h1>
+<h1>
+	<%= image_tag("/images/text/Narrative_on_Young_American_Farmers.png",
+					:title => "Narrative on Young American Farmers", 
+					:id =>"Narrative_on_Young_American_Farmers", 
+					:alt => "Narrative on Young American Farmers") %>
+</h1>
 
 <% if session[:current_survey].nil? %>
-	<p><%= link_to "Take the census", stages_path %></p>
+	<p><%= link_to image_tag("/images/text/Take_the_Survey.png", 
+		:alt => "Take the Survey", 
+		:title => "Take the Survey", 
+		:id =>"Take_the_Survey", 
+		:mouseover => "/images/text/Take_the_Survey_mouseover.png"), stages_path %></p>
 <% else %>	
-	<p>Survey in progress... <%= link_to "please continue", stages_path %></p>
+	<p> <%= image_tag("/images/text/Survey_in_progress.png", 
+		:alt => "Survey in progress ...", 
+		:id =>"Survey_in_progress" ) %> 
+		<%= link_to image_tag("/images/text/Please_Continue.png", 
+		:alt => "please continue", 
+		:title => "please continue", 
+		:id =>"please_continue", 
+	 	:mouseover => "/images/text/Please_Continue_mouseover.png" ), stages_path %></p>
 <% end %>
 
-<p><%= link_to "Nominate a farmer", new_nomination_path %></p>
+<p><%= link_to image_tag("/images/text/Nominate_a_Farmer.png", 
+	:alt => "Nominate a Farmer", 
+	:title => "Nominate a Farmer", 
+	:id =>"Nominate_a_Farmer", 
+ 	:mouseover => "/images/text/Nominate_a_Farmer_mouseover.png" ), new_nomination_path %></p>
 
 <div id="mainmap"><%= @map.div :width => 640, :height => 420 -%></div>
