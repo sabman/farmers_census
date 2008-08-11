@@ -1,12 +1,12 @@
 class CreateNominations < ActiveRecord::Migration
   def self.up
     create_table :nominations do |t|
+      t.string :title
       t.string :first_name
       t.string :last_name
       t.string :farm_name
       t.string :email
-      t.string :known_as
-      t.string :title
+      #t.string :known_as
       t.text :address
       t.string :telephone_no
       t.date :date_of_birth

@@ -1,66 +1,58 @@
-<h1>New nomination</h1>
+<%= image_label("New_Nomination") %>
 
 <% form_for(@nomination) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :first_name %><br />
-    <%= f.text_field :first_name %>
+    <%= f.label image_tag("/images/labels/name.png") %><br />
+    <%= f.text_field :full_name %>     
   </p>
   <p>
-    <%= f.label :last_name %><br />
-    <%= f.text_field :last_name %>
-  </p>
-  <p>
-    <%= f.label :farm_name %><br />
+    <%= image_label "name_of_farm" %><br />
     <%= f.text_field :farm_name %>
   </p>
   <p>
-    <%= f.label :email %><br />
+    <%= image_label "email" %><br />
     <%= f.text_field :email %>
   </p>
   <p>
-    <%= f.label :known_as %><br />
-    <%= f.text_field :known_as %>
-  </p>
-  <p>
-    <%= f.label :title %><br />
+    <%= image_label "title" %><br />
     <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label :address %><br />
+    <%= image_label "address" %><br />
     <%= f.text_area :address %>
   </p>
   <p>
-    <%= f.label :telephone_no %><br />
+    <%= image_label "telephone2" %><br />
     <%= f.text_field :telephone_no %>
   </p>
   <p>
-    <%= f.label :date_of_birth %><br />
-    <%= f.date_select :date_of_birth %>
+    <%= image_label "date_of_birth" %><br />
+    <%= f.text_field :date_of_birth_str %>
   </p>
   <p>
-    <%= f.label :nominees_profile %><br />
+    <%= image_label :nominees_profile %><br />
     <%= f.text_area :nominees_profile %>
   </p>
   <p>
-    <%= f.label :nominees_contributions %><br />
+    <%= image_label :nominees_contributions %><br />
     <%= f.text_area :nominees_contributions %>
   </p>
   <p>
-    <%= f.label :your_name %><br />
+    <%= image_label :your_name %><br />
     <%= f.text_field :your_name %>
   </p>
   <p>
-    <%= f.label :your_email %><br />
+    <%= image_label :your_email %><br />
     <%= f.text_field :your_email %>
   </p>
   <p>
-    <%= f.label :your_contact_details %><br />
+    <%= image_label :your_contact_details %><br />
     <%= f.text_field :your_contact_details %>
   </p>
   <p>
-    <%= f.submit "Create" %>
+    <%= image_submit_tag("labels/Nominate.png") %>
   </p>
 <% end %>
 

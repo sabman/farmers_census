@@ -71,7 +71,8 @@ class AddData < ActiveRecord::Migration
 
     # Stage: Affiliations and Memberships
     stage = Stage.create(:title_label => "/images/labels/affiliations_and_memberships.png", :title => "Affiliations & Memberships")
-    Question.create(:title_label => "/images/labels/grange_memberships.png", :text => "Grange membership?", :label_list => "/images/labels/yes.png|/images/labels/no.png", :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id )
+    q = Question.create(:title_label => "/images/labels/grange_memberships.png", :text => "Grange membership?", :label_list => "/images/labels/yes.png|/images/labels/no.png", :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id )
+    create_options(q)   
     Question.create(:title_label => "/images/labels/local_certifying_body.png", :text => "Local certifying body/regional sustainable aggricultural group", :qtype => "text_field", :stage_id => stage.id )
     q = Question.create(:title_label => "/images/labels/other_farm_groups.png", :label_list => nil,  :text => "Other farm groups", :qtype => "list", :stage_id => stage.id, :list =>"national farmers organization|national farmers union|farm bureau federation" )
     create_options(q)
@@ -113,16 +114,12 @@ class AddData < ActiveRecord::Migration
     create_options(q)
     
     Question.create(:title_label => nil, :text => "Total CSA members", :qtype => "text_field", :stage_id => stage.id )
-#    Question.create(:text => "Does farm sell at farmers markets y/n", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/does_farm_sell_at_farmers_markets.png", :text => "Are there any farmers markets where you sell", :qtype => "text_area", :stage_id => stage.id ) # TODO: make it a map !!
-#    Question.create(:text => "Does farm sell to food brokers/distributors?", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/does_farm_sell_to_food_brokers_distributors.png", :text => "Any food brokers/distributors that you sell to?", :qtype => "text_area", :stage_id => stage.id ) # TODO: make it a map !!
-#    Question.create(:text => "Does farm sell directly to restaurants?", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :stage_id => stage.id )
     q = Question.create(:title_label => "/images/labels/does_farm_sell_directly_to_restaurants.png", :text => "Any restaurants you directly to?", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id ) # TODO: make it a map !!
     create_options(q)
-#    Question.create(:text => "Does farm sell directly to institutions?", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :stage_id => stage.id )
+
     Question.create(:title_label => "/images/labels/does_farm_sell_directly_to_institutions.png", :text => "Any institutions you sell directly to?", :qtype => "text_area", :stage_id => stage.id ) # TODO: make it a map !!
-#    Question.create(:text => "Does farm sell through the internet?", :label_list => "/images/labels/yes.png|/images/labels/no.png",  :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/does_farm_sell_through_the_internet.png", :text => "Any internet site you sell through?", :qtype => "text_field", :stage_id => stage.id ) 
     
     # Stage x: Getting in touch

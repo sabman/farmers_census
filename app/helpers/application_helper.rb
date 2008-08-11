@@ -11,6 +11,10 @@ module ApplicationHelper
   #   end
   # end
 
+  def image_label(label_name)
+    image_tag("/images/labels/#{label_name}.png")
+  end
+
   def title(page_title)
     content_for(:title) { h(page_title) }  
   end

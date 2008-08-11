@@ -65,6 +65,7 @@ Rails::Initializer.run do |config|
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
   config.gem "RedCloth", :version => ">= 4.0.1", :source => "http://code.whytheluckystiff.net/" 
+  config.gem "chronic", :version => ">= 0.2.3" 
 end
 # These defaults are used in GeoKit::Mappable.distance_to and in acts_as_mappable
 GeoKit::default_units = :miles

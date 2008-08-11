@@ -1,5 +1,8 @@
 body { background-color:#F1F7D4;}
-#doc2 { background-color: #FFF;}
+#doc { background-color: #FFF;}
+#doc2 { background-color: #FFF; width:975px;}
+#doc3 { background-color: #FFF;}
+#doc4 { background-color: #FFF;}
 #hd, #ft { background-color : #FFF; color: #FFF; height:100px; border:none; }
 #hd h1 { font-size: 210%; padding: 10px;}
 #hd img {vertical-align:middle;} /* added */
@@ -89,3 +92,58 @@ div.directory span.current { padding: 2px; margin: 10px 1.5px 1.5px 1.5px; borde
 
 #map_div{ width:700px; height:420px; }
 .first { padding-left:10px;}
+input { border-color:#AAA; border-style:dashed; }
+textarea { border-color:#AAA; border-style:dashed; }
+
+
+/* ERRORS */
+
+.form_error_message {
+  color: red;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+#address-unsure-icon {
+display:none;
+}
+#address-warning-icon {
+display:none;
+}
+#address-good-icon {
+display:none;
+}
