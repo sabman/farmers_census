@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Narrative on Young American Farmers - <%= yield(:title) || "Greenhorns" %></title>
+  <%# stylesheet_link_tag 'reset-fonts-grids' %>
+  <%= stylesheet_link_tag 'screen' %>
+  <%# javascript_include_tag("markerGroup") %>
+  <%= javascript_include_tag :defaults %>
+</head>
+<body>
+
+<div id="content">
+  <p style="color: red"><%= flash[:error] %></p>
+  <p style="color: green"><%= flash[:notice] %></p>
+  <%= yield  %>
+</div>
+
+</body>
+</html>

@@ -10,6 +10,10 @@ module ApplicationHelper
   #     end
   #   end
   # end
+
+  def title(page_title)
+    content_for(:title) { h(page_title) }  
+  end
   
   def show_avatar
     if @current_survey.avatar

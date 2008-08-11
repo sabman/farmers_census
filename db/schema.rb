@@ -71,6 +71,14 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
     t.integer "option_id"
   end
 
+  create_table "pages", :force => true do |t|
+    t.string   "name"
+    t.string   "permalink"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "questions", :force => true do |t|
     t.string   "title_label"
     t.string   "label_list"

@@ -22,7 +22,7 @@ module FrontPageHelper
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      
    # bnd = MultiPoint.from_coordinates(coords).envelope
    # @map.center_zoom_on_bounds_init([[bnd.lower_corner.y,bnd.lower_corner.x],[bnd.upper_corner.y,bnd.upper_corner.x]])
-    @map.center_zoom_init([39.5,-97],4)   
+    @map.center_zoom_init([34.5,-97.6],4)   
     
     @map.record_init( '      
 

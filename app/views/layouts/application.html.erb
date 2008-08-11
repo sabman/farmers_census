@@ -1,22 +1,66 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Narrative on Young American Farmers</title>
-  <%# stylesheet_link_tag 'reset-fonts-grids' %>
-  <%= stylesheet_link_tag 'screen' %>
-  <%# javascript_include_tag("markerGroup") %>
-  <%= javascript_include_tag :defaults %>
+  <title>Narrative on Young American Farmers - <%= yield(:title) || "Greenhorns" %></title>
+  <%= stylesheet_link_tag 'reset-fonts-grids', :cache => true %>
+	<%= stylesheet_link_tag 'styles', :cache => true %>			
+	<%= javascript_include_tag :defaults, :cache => true %>
 </head>
 <body>
+<div id="doc2" class="yui-t5">
 
-<div id="content">
-  <p style="color: red"><%= flash[:error] %></p>
-  <p style="color: green"><%= flash[:notice] %></p>
-  <%= yield  %>
-</div>
+  <div id="hd" class="header">
+		<h1><%= link_to image_tag("/images/text/Narrative_on_Young_American_Farmers.gif",
+						:title => "Narrative on Young American Farmers", 
+						:id =>"Narrative_on_Young_American_Farmers", 
+						:alt => "Narrative on Young American Farmers"), home_path %> <%= image_tag("/images/farm_tools_small.png") %> </h1> 
+	</div> <!-- hd end -->
 
+  <div id="bd">
+
+    <div class="yui-g navigation">
+     	<%= link_to image_tag("/images/text/Home.png", 
+									:title => "Home", 
+									:alt => "Home",
+									:mouseover => "/images/text/Home_mouseover.png"), home_path %> 
+			<%= image_tag("/images/text/pipe.png", :alt => "|") %>									
+			<%= link_to image_tag("/images/text/About_this_site.png", 
+									:title => "About this site", 
+									:alt => "About this site",
+									:mouseover => "/images/text/About_this_site_mouseover.png"), static_path("about") %>
+      <%= image_tag("/images/text/pipe.png", :alt => "|") %>									     								 
+			<%= link_to image_tag("/images/text/Sponsors.png", 
+									:title => "Sponsors", 
+									:alt => "Sponsors",
+									:mouseover => "/images/text/Sponsors_mouseover.png"), static_path("sponsors") %>									
+    </div> <!-- yui-g navigation end -->
+
+    <div class="yui-ge main">
+
+      <div class="yui-u first">
+			  <p style="color: red"><%= flash[:error] %></p>
+			  <p style="color: green"><%= flash[:notice] %></p>
+	 			<%= yield %> 
+			</div> <!-- yui-u first end -->
+			
+      <div class="yui-u"> 
+				<div class ='sidebar'>
+					<h1>The Project</h1>
+					<p>Here is some dummy text. To be removed upon completion. if you know of a map that provides compelling information- we'd love to put it up. Please email severine@pixiepoppins.org amtrak routes. Other tabs at the top of the SERVE YOUR COUNTRY FOOD website brooke will hopefully conceive of the visual  access to these links.I like the scrolls, and dandilion seeds floating. and the tools the tools are great anything after-- means that its a click away once you get into that tab links about this survey about the greenhorns--link to website www.thegreenhorns.net STOP PRESS -profiles of young farmers--press release link to blog -- www.thegreenhorns.wordpress.com ( The Irresistible fleet of bicycles)-- and our blogroll of other blogs map of the united states of American farmers young farmer resources to download---greenhorns guidebook pdf.</p> <p>(i'll get others for this page)--the long list of online films link to wiki--foryoungfarmers.wikispaces.com young farmer events sage advice of the week from greyhairs to greenhorns-- I'd like to be able to post these up every week --directives and wisdoms from old farmers to new ones. paraphenalia donate to The Greenhorns size of credit card-- this site made possible by ORGANIC VALLEY --a stitched border for their logo. similar site for reference. http://www.plunkett.co.uk/</p>
+					<%= yield :sidebar %> 
+				</div> <!-- sidebar end -->
+			</div> <!-- yui-u second -->
+			
+    </div>  <!-- yui-g main -->
+
+ 	</div> <!-- bd end -->     
+  <div id="ft"> 
+		<div class="yui-g footer">
+    	footer blah blah .... 
+		</div>
+	</div> <!-- ft end -->  
+
+</div> <!-- doc2 end -->
 </body>
 </html>

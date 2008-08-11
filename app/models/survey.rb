@@ -21,7 +21,8 @@ class Survey < ActiveRecord::Base
     return false if( (ans.text.nil? or ans.text =="") and ans.options.empty? )
     return true
   end
-  
+
+  # Update all answers for this survey - takes a has of answer _id and params hash
   def answer_attributes=(answer_attributes)  
     answer_attributes.each_pair do |answer_id, params_hash|
       answers.find(answer_id.to_i).update_attributes(params_hash)

@@ -2,13 +2,6 @@
 <%= javascript_include_tag 'mapping_helpers', :cache => true %>
 <%= show_maps Survey.find(:all)  %>
 
-<h1>
-	<%= image_tag("/images/text/Narrative_on_Young_American_Farmers.png",
-					:title => "Narrative on Young American Farmers", 
-					:id =>"Narrative_on_Young_American_Farmers", 
-					:alt => "Narrative on Young American Farmers") %>
-</h1>
-
 <% if session[:current_survey].nil? %>
 	<p><%= link_to image_tag("/images/text/Take_the_Survey.png", 
 		:alt => "Take the Survey", 
@@ -32,4 +25,4 @@
 	:id =>"Nominate_a_Farmer", 
  	:mouseover => "/images/text/Nominate_a_Farmer_mouseover.png" ), new_nomination_path %></p>
 
-<div id="mainmap"><%= @map.div :width => 640, :height => 420 -%></div>
+<div id="mainmap"><%= @map.div -%></div>

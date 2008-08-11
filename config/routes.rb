@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :pages
+
   map.resources :nominations
 
   map.resources :answers 
@@ -13,6 +15,7 @@ ActionController::Routing::Routes.draw do |map|
   map.login '/login', :controller => 'sessions', :action => 'new' 
   map.logout '/logout', :controller => 'sessions', :action => 'destroy' 
   
+  map.static 'static/:permalink', :controller => "pages", :action => "show"
   
   #map.census '/census/:controller/:action/:id'
 

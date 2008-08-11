@@ -2,7 +2,7 @@
  "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <title>Narrative on Young American Farmers</title>
+  <title>Narrative on Young American Farmers - <%= yield(:title) || "Greenhorns" %></title>
   <%= stylesheet_link_tag 'reset-fonts-grids', :cache => true %>
 	<%= stylesheet_link_tag 'screen', :cache => true %>			
 	<%= javascript_include_tag :defaults, :cache => true %>
@@ -18,7 +18,11 @@
     </div>
 
     <div class="yui-gc">
-      <div class="yui-u first"> <%= yield %> </div>
+      <div class="yui-u first">
+			  <p style="color: red"><%= flash[:error] %></p>
+			  <p style="color: green"><%= flash[:notice] %></p>
+	 			<%= yield %> 
+			</div>
       <div class="yui-u"> <div class ='sidebar'> <%= yield :sidebar %> </div> </div>
     </div>
     <div id="ft"> </div>
