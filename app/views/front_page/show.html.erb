@@ -1,6 +1,6 @@
 <%= GMap.header %>
-<%= javascript_include_tag 'mapping_helpers', :cache => true %>
 <%= show_maps Survey.find(:all)  %>
+<%= javascript_include_tag 'mapping_helpers' %>
 
 <% if session[:current_survey].nil? %>
 	<p><%= link_to image_tag("/images/text/Take_the_Survey.png", 
