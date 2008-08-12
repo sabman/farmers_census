@@ -113,7 +113,7 @@ module FrontPageHelper
         //alert ("Restricting "+Y+" "+X);
         map.setCenter(new GLatLng(Y,X));
       }     
-  		//remove_copyright();
+  		remove_copyright();
   		')  	
   		
     @map.to_html 
