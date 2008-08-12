@@ -90,7 +90,7 @@ div.directory span.current { padding: 2px; margin: 10px 1.5px 1.5px 1.5px; borde
 .userActions {}
 .footer { color:#666;}
 
-#map_div{ width:700px; height:420px; }
+/*#map_div{ width:700px; height:420px; }*/
 .first { padding-left:10px;}
 input { border-color:#AAA; border-style:dashed; }
 textarea { border-color:#AAA; border-style:dashed; }
