@@ -26,6 +26,6 @@ class Nomination < ActiveRecord::Base
   end
   
   def validate
-    errors.add(:date_of_birth, "is invalid; should be mm/dd/yyyy")
+    errors.add(:date_of_birth, "is invalid; should be mm/dd/yyyy") if @date_of_birth_invalid
   end
 end
