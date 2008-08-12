@@ -3,8 +3,8 @@ body { background-color:#F1F7D4;}
 #doc2 { background-color: #FFF; width:975px;}
 #doc3 { background-color: #FFF;}
 #doc4 { background-color: #FFF;}
-#hd, #ft { background-color : #FFF; color: #FFF; height:100px; border:none; }
-#hd h1 { font-size: 210%; padding: 10px;}
+#hd, #ft { background-color : #FFF; color: #FFF; height:115px; border:none; }
+#hd h1 { font-size: 210%; padding-left: 10px;}
 #hd img {vertical-align:middle;} /* added */
 
 .navigation { background-color: #FFF; color: #000; padding: 5px;} 
@@ -45,7 +45,7 @@ ul.thumbnails { margin: 10px; padding: 0; float: left; text-align:center; backgr
 p, pre, blockquote, form, label, ul, ol, dl, fieldset, address { margin:20px 0pt; }
 
 #avatar { margin: 2px; line-height: 1; font-size: 95%; width: 75%; padding:2px; }
-form textarea {width: 600px; height: 120px}
+form textarea {width: 400px; height: 120px}
 .editblog form textarea {height: 300px;}
 
 .added {font-size: 75%; font-style: italic; margin-left: 40px;}

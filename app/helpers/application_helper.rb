@@ -19,6 +19,10 @@ module ApplicationHelper
     content_for(:title) { h(page_title) }  
   end
   
+  def stylesheets(*args)
+    content_for(:head) { stylesheet_link_tag(*args) }
+  end
+  
   def show_avatar
     if @current_survey.avatar
       return @current_survey.avatar.public_filename(:thumb)

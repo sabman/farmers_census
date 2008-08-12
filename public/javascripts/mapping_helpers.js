@@ -120,3 +120,19 @@ Rectangle.prototype.isHidden = function() {
 	else 
 		return 0;		
 }
+
+function remove_copyright(){
+	var x = document.getElementsByTagName("span")
+	var n = x.length;
+	for(var i=0; i<n ; i=i+1){
+		x[i].style.visibility="hidden";
+	}
+}
+
+function show_copyright(){
+	var x = document.getElementsByTagName("span")
+	var n = x.length;
+	for(var i=0; i<n ; i=i+1){
+		x[i].style.visibility="";
+	}
+}

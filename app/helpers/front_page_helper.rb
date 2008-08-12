@@ -59,16 +59,19 @@ module FrontPageHelper
                 	     
   	GEvent.addListener(map, "zoomend", function(oldz, newz){
       if(newz < 6) { // 0-4 show only mapSmallOverlay and rectOverlay 
+        remove_copyright(); 
   			if(!mapDetailedOverlay.isHidden()){mapDetailedOverlay.hide();}
     	  if(rectOverlay.isHidden()){rectOverlay.show();}
   			if(mapSmallOverlay.isHidden()){mapSmallOverlay.show();}
   		} 
   		else if(newz >= 6 && newz <= 7) { // 6-7 only show mapDetailedOverlay and recOverlay 
+  		  remove_copyright();    
   			if(rectOverlay.isHidden()){rectOverlay.show();}
    			if(mapDetailedOverlay.isHidden()){ mapDetailedOverlay.show();}
     	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}   			  
   		} 
   		else { // for everything else no overlays
+  		  show_copyright();
   			if(!rectOverlay.isHidden()){rectOverlay.hide();}
    			if(!mapDetailedOverlay.isHidden()){ mapDetailedOverlay.hide();}
     	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}
@@ -81,7 +84,7 @@ module FrontPageHelper
       }  		
       // Add a move listener to restrict the bounds range
       GEvent.addListener(map, "move", function() {
-        checkBounds();
+        checkBounds();        
       });
 
       // The allowed region which the whole map must be within
@@ -109,8 +112,8 @@ module FrontPageHelper
         if (Y > AmaxY) {Y = AmaxY;}
         //alert ("Restricting "+Y+" "+X);
         map.setCenter(new GLatLng(Y,X));
-      }      
-  		')  	
+      }     
+  		remove_copyright();')  	
   		
     @map.to_html 
   end
