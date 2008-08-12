@@ -7,10 +7,9 @@
 
 	<%= render :partial => "answer", :collection => @answers %>
  	<%- if @stage.title.downcase == 'getting in touch' -%> 
-	<%# 'getting in touch' stage require the map %>
+		<%# 'getting in touch' stage require the map %>
   	<%= render :partial => "address" %>
-	<%- end -%>
-	
+	<%- end -%>	
 	
 	<%= render :partial => "footer", :locals => { 
 			:current_stage => @stage, 
