@@ -8,15 +8,16 @@ module FrontPageHelper
     @map.control_init(:small_map => true, :map_type => false)
     @map.record_init @map.add_map_type(GMapType::G_PHYSICAL_MAP)    
     @map.set_map_type_init(GMapType::G_PHYSICAL_MAP)
-
+    @map.record_init('var icon_handprint = create_icon();')
+    icon_handprint = Variable.new("icon_handprint")
     coords = [] 
     recs.each do |rec|
       unless rec.lng == nil or rec.lat == nil
         coords << [rec.lng.to_f, rec.lat.to_f] 
-        @map.record_init @map.add_overlay( 
+        @map.record_init @map.add_overlay(
           GMarker.new([rec.lat.to_f, rec.lng.to_f], 
-            :title => "[TITLE]",
-            :info_window => "[DESCRIPTION]" ))                
+            :title => "[TITLE]", :icon => icon_handprint,   
+            :info_window => "#{image_tag show_avatar(rec)} <h2>#{rec.farm_name}</h2> #{rec.full_address}"))
        end
     end
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      

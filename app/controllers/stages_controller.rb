@@ -124,11 +124,14 @@ class StagesController < ApplicationController
   end     
   
   private
-  
+
+  # check if there is already a survey in progress
+  # if not create a new survey and for every question create an empty answer
+  # 
   def verify_survey
     if session[:current_survey] != nil    
       return
-    else
+    else 
       s = Survey.create
       questions = Question.find :all  
       questions.each do |question|

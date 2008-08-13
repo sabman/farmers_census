@@ -23,9 +23,10 @@ module ApplicationHelper
     content_for(:head) { stylesheet_link_tag(*args) }
   end
   
-  def show_avatar
-    if @current_survey.avatar
-      return @current_survey.avatar.public_filename(:thumb)
+  def show_avatar(rec=nil)
+    rec = @current_survey ? @current_survey : rec
+    if rec.avatar
+      return rec.avatar.public_filename(:thumb)
     else
       return 'no_avatar.jpg'
     end

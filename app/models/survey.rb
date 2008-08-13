@@ -59,5 +59,5 @@ class Survey < ActiveRecord::Base
     return nil if id == 1
     find_answer_by_question("Name of farm").text
   end
-   
+    
 end

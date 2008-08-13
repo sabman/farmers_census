@@ -32,7 +32,8 @@ function create_draggable_editable_marker()
 			if (currMarker) { 
 				map.removeOverlay(currMarker); 
 			} 
-			currMarker = new GMarker(point, {draggable: true}); 
+			var customIcon = create_icon();
+			currMarker = new GMarker(point, {draggable: true, icon:customIcon}); 
 			map.addOverlay(currMarker); 
 			// update the form fields 
 			document.getElementById("lng").value = point.x; 
@@ -135,4 +136,23 @@ function show_copyright(){
 	for(var i=0; i<n ; i=i+1){
 		x[i].style.visibility="";
 	}
+}
+
+function create_icon(){
+	var icon_handdrawn = addOptionsToIcon(
+		new GIcon(),{ iconAnchor : new GPoint(9,34), infoWindowAnchor : new GPoint(22,22),
+		image : "/images/hand_print_icon"+rand(0,7)+".png"});
+	return icon_handdrawn;
+}
+
+function rand( min, max ) {
+    // http://kevin.vanzonneveld.net
+    // +   original by: Leslie Hoare
+    // *     example 1: rand(1, 1);
+    // *     returns 1: 1
+    if( max ) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    } else {
+        return Math.floor(Math.random() * (min + 1));
+    }
 }
