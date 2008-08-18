@@ -41,12 +41,11 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
   end
 
   create_table "nominations", :force => true do |t|
+    t.string   "title"
     t.string   "first_name"
     t.string   "last_name"
     t.string   "farm_name"
     t.string   "email"
-    t.string   "known_as"
-    t.string   "title"
     t.text     "address"
     t.string   "telephone_no"
     t.date     "date_of_birth"
@@ -75,6 +74,7 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
     t.string   "name"
     t.string   "permalink"
     t.text     "content"
+    t.string   "label"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,0 +1,40 @@
+%h1 Listing nominations
+
+%table
+  %tr
+    %th First name
+    %th Last name
+    %th Farm name
+    %th Email
+    %th Title
+    %th Address
+    %th Telephone no
+    %th Date of birth
+    %th Nominees profile
+    %th Nominees contributions
+    %th Your name
+    %th Your email
+    %th Your contact details
+  
+- for nomination in @nominations 
+  %tr
+    %td= h nomination.first_name 
+    %td= h nomination.last_name 
+    %td= h nomination.farm_name 
+    %td= h nomination.email 
+    %td= h nomination.title 
+    %td= h nomination.address 
+    %td= h nomination.telephone_no 
+    %td= h nomination.date_of_birth 
+    %td= h nomination.nominees_profile 
+    %td= h nomination.nominees_contributions 
+    %td= h nomination.your_name 
+    %td= h nomination.your_email 
+    %td= h nomination.your_contact_details 
+    %td=  link_to 'Show', nomination 
+    %td=  link_to 'Edit', edit_nomination_path(nomination) 
+    %td=  link_to 'Destroy', nomination, :confirm => 'Are you sure?', :method => :delete   
+
+%br /
+
+=  link_to 'New nomination', new_nomination_path 

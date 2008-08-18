@@ -3,7 +3,7 @@ body { background-color:#F1F7D4;}
 #doc2 { background-color: #FFF; width:975px;}
 #doc3 { background-color: #FFF;}
 #doc4 { background-color: #FFF;}
-#hd, #ft { background-color : #FFF; color: #FFF; height:115px; border:none; }
+#hd, #ft { background-color : #FFF; color: #FFF; height:270px; border:none; }
 #hd h1 { font-size: 210%; padding-left: 10px;}
 #hd img {vertical-align:middle;} /* added */
 
@@ -45,7 +45,7 @@ ul.thumbnails { margin: 10px; padding: 0; float: left; text-align:center; backgr
 p, pre, blockquote, form, label, ul, ol, dl, fieldset, address { margin:20px 0pt; }
 
 #avatar { margin: 2px; line-height: 1; font-size: 95%; width: 75%; padding:2px; }
-form textarea {width: 400px; height: 120px}
+form textarea {width: 400px; height: 80px;}
 .editblog form textarea {height: 300px;}
 
 .added {font-size: 75%; font-style: italic; margin-left: 40px;}
@@ -92,8 +92,8 @@ div.directory span.current { padding: 2px; margin: 10px 1.5px 1.5px 1.5px; borde
 
 /*#map_div{ width:700px; height:420px; }*/
 .first { padding-left:10px;}
-input { border-color:#AAA; border-style:dashed; }
-textarea { border-color:#AAA; border-style:dashed; }
+input { border-color:#AAA; border-style:dashed; color:#666; }
+textarea { border-color:#AAA; border-style:dashed; color:#666; }
 
 
 /* ERRORS */
@@ -147,3 +147,5 @@ display:none;
 #address-good-icon {
 display:none;
 }
+
+#first_name {float:left;}

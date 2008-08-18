@@ -1,7 +1,7 @@
 class Survey < ActiveRecord::Base
   has_many :answers 
   has_and_belongs_to_many :questions
-  has_one :avatar
+  has_many :avatars
 
   def percentage_completed
     stages = Stage.find :all
@@ -30,7 +30,7 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
-    return nil if id == 1
+    #return nil if id == 1
     lat_q=questions.find_by_text("lat").id
     ans = answers.find_by_question_id(lat_q).text 
     return nil if ans.to_f == 0     
@@ -38,7 +38,7 @@ class Survey < ActiveRecord::Base
   end    
   
   def lng
-    return nil if id == 1
+    #return nil if id == 1
     lng_q=questions.find_by_text("lng").id
     ans = answers.find_by_question_id(lng_q).text
     return nil if ans.to_f == 0     

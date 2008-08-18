@@ -1,0 +1,13 @@
+<%- unless edit == false -%>
+	<p>
+		<% fields_for "question[options_attributes][]", option do |option_form| -%>
+			<%= option_form.text_field :text %> <br/>
+			<%= option_form.text_field :filename %>
+		<% end %>
+	</p>
+<%- else -%>
+	<p>
+			<%= option.text %> <br/>
+			<%= image_tag(option.filename, :alt => option.text, :title => option.text ) %>
+	</p>
+<%- end -%>	

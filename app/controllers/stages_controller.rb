@@ -126,19 +126,18 @@ class StagesController < ApplicationController
   private
 
   # check if there is already a survey in progress
-  # if not create a new survey and for every question create an empty answer
-  # 
   def verify_survey
     if session[:current_survey] != nil    
       return
     else 
-      s = Survey.create
+      # if not create a new survey and for every question, create an empty answer
+      survey = Survey.create
       questions = Question.find :all  
       questions.each do |question|
-        a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => s.id)
+        a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => survey.id)
       end
-      s.questions << questions
-      session[:current_survey] = s.id 
+      survey.questions << questions
+      session[:current_survey] = survey.id 
       flash[:notice] = "Start taking the new census"
     end
   end

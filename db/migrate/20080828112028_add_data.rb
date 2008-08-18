@@ -1,8 +1,8 @@
 class AddData < ActiveRecord::Migration
   def self.up
-    census = Survey.create(:title => "Farmer Census")
+    # census = Survey.create(:title => "Farmer Census")
                 
-    # qtypes: 
+    # qtypes (Question Types): 
     # text_field
     # text_area
     # yes_no
@@ -12,14 +12,29 @@ class AddData < ActiveRecord::Migration
     # Stage 1: Contact Details
     stage = Stage.create(:title_label => "/images/labels/contact_details.png", :title => "Contact Details")
     Question.create(:title_label => "/images/labels/name.png", :text => "First name", :qtype => 'text_field', :stage_id => stage.id )
-    Question.create(:title_label => nil, :text => "Last name", :qtype => 'text_field', :stage_id => stage.id )
+    Question.create(:title_label => "/images/labels/last_name.png", :text => "Last name", :qtype => 'text_field', :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/name_of_farm.png", :text => "Name of farm", :qtype => 'text_field', :stage_id => stage.id )
-    q = Question.create(:title_label => nil, :label_list => "/images/labels/married.png|/images/labels/single.png|/images/labels/partnership.png|/images/labels/other.png", :text => "Partnership Status", :qtype => 'options', :stage_id => stage.id, :list => "married|single|partnership|other" )
-    create_options(q)
-      
-    q = Question.create(:title_label => nil, :label_list => "/images/labels/renter.png|/images/labels/owner.png||/images/labels/seasonal_labor.png|/images/labels/student.png|/images/labels/staff.png", :text => "Status at the Farm", :qtype => 'options', :stage_id => stage.id, :list => "renter|owner|intern|seasonal labor|student|staff")
+    
+    q = Question.create(:title_label => nil, :label_list => nil, :text => "Born:", :qtype => 'options', :stage_id => stage.id, :list => "urban|rural|suburban|x-urban|other")
     create_options(q)
     
+    Question.create(:title_label => "/images/labels/why_do_you_farm.png", :text => "Why do you farm?", :qtype => "text_area", :stage_id => stage.id )
+        
+    Question.create(:title_label => nil, :text => "Land tenure prospect", :qtype => "text_field", :stage_id => stage.id )   
+    
+    Question.create(:title_label => nil, :text => "Previous farming zip codes", :qtype => "text_field", :stage_id => stage.id )   
+    
+    Question.create(:title_label => nil, :text => "Children on the farm?", :qtype => "text_field", :stage_id => stage.id )   
+
+    q = Question.create(:title_label => nil, :label_list => "/images/labels/renter.png|/images/labels/owner.png||/images/labels/seasonal_labor.png|/images/labels/student.png|/images/labels/staff.png", :text => "Status at the Farm", :qtype => 'options', :stage_id => stage.id, :list => "renter|owner|intern|seasonal labor|student|staff")
+    create_options(q)
+        
+    q = Question.create(:title_label => nil, 
+      :label_list => "/images/labels/married.png|/images/labels/single.png|/images/labels/partnership.png|/images/labels/other.png|||",
+      :text => "Partnership Status", :qtype => 'options', :stage_id => stage.id, 
+      :list => "married|single|partnership|other|partner also farmer ?|partner/spouse not a farmer|n/a" )
+    create_options(q)
+      
     Question.create(:title_label => "/images/labels/educational_background.png", :text => "Educational background", :qtype => "text_field", :stage_id => stage.id )
     
     # Stage 2: Farm Details
@@ -58,7 +73,6 @@ class AddData < ActiveRecord::Migration
     Question.create(:title_label => "/images/labels/what_made_it_possible.png", :text => "What made it possible?", :qtype => "text_area", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/what_kind_of_political_institutional_support_would_you_like_to_see.png", :text => "What kind of institutional/ political support would you like to see?:", :qtype => "text_area", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/would_you_nominate_anyone_locally_to_facilitate_future_young_farmer_meetings.png", :text => "Would you nominate anyone local to facilitate future young farmer meetings?", :qtype => "text_area", :stage_id => stage.id )
-    Question.create(:title_label => "/images/labels/why_do_you_farm.png", :text => "Why do you farm?", :qtype => "text_area", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/who_are_your_literary_and_practical_heroes.png", :text => "Who are your literary and practical heros?", :qtype => "text_area", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/cultural.png", :text => "political heroes? cultural?", :qtype => "text_area", :stage_id => stage.id )
     q = Question.create(:title_label => "/images/labels/best_way_to_reach_you.png", :label_list => "/images/labels/telephone.png|/images/labels/email.png|/images/labels/snailmail.png", :text => "Best way to reach you?", :qtype => "list", :stage_id => stage.id, :list => "telephone|email|snailmail")
@@ -67,7 +81,7 @@ class AddData < ActiveRecord::Migration
     q = Question.create(:title_label => "/images/labels/would_you_like_to_join_the_mailing_list.png", :text => "Woud you like to join the mailing list y/n", :label_list => "/images/labels/yes.png|/images/labels/no.png", :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id)
     create_options(q)
     
-    Question.create(:title_label => nil, :text => "Are you interested in being profiled on the site so that the press can find you?", :qtype => "text_area", :stage_id => stage.id)
+    Question.create(:title_label => "/images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png", :text => "Are you interested in being profiled on the site so that the press can find you?", :qtype => "text_area", :stage_id => stage.id)
 
     # Stage: Affiliations and Memberships
     stage = Stage.create(:title_label => "/images/labels/affiliations_and_memberships.png", :title => "Affiliations & Memberships")
@@ -85,16 +99,17 @@ class AddData < ActiveRecord::Migration
     create_options(q)
     
     Question.create(:title_label => "/images/labels/estimated_yearly_farm_income_gross.png", :text => "Estimated yearly farm income (gross)", :qtype => "text_field", :stage_id => stage.id )
-    q = Question.create(:title_label => "/images/labels/political_affiliation.png", :label_list => "/images/labels/d.png|/images/labels/r.png|/images/labels/g.png|/images/labels/i.png", :text => "Political affiliation?", :qtype => "list", :stage_id => stage.id, :list =>"democrats|republicans|greens|independent" )
+    q = Question.create(:title_label => "/images/labels/political_affiliation.png", :label_list => "/images/labels/democrats.png|/images/labels/republicans.png|/images/labels/greens.png|/images/labels/independent.png", :text => "Political affiliation?", :qtype => "list", :stage_id => stage.id, :list =>"democrats|republicans|greens|independent" )
     create_options(q)
 
     Question.create(:title_label => "/images/labels/ethnicity.png", :text => "Ethnicity?", :qtype => "text_field", :stage_id => stage.id )
-    q = Question.create(:title_label => "/images/labels/does_farm_work_with_low_income_people_on_food_security_issues.png", :text => "Does farm work with low-income people on food security issues?", :label_list => "/images/labels/yes.png|/images/labels/no.png", :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id ) 
+    q = Question.create(:title_label => "/images/labels/does_your_farm_work_with_low_income_people_on_food_security_issues.png", :text => "Does farm work with low-income people on food security issues?", :label_list => "/images/labels/yes.png|/images/labels/no.png", :qtype => "yes_no", :list => "yes|no",  :stage_id => stage.id ) # updated
     create_options(q)
 
     # Farming Practices
     stage = Stage.create(:title_label => "/images/labels/farming_practices.png", :title => "Farming Practices")
-    Question.create(:title_label => "/images/labels/amount_of_inputs_grown_on_farm_grain_for_feeding_green_manure_etc.png", :text => "$ amount of inputs grown on farm (grain for feeding, green manure, etc)", :qtype => "text_field", :stage_id => stage.id )
+    #Question.create(:title_label => "/images/labels/amount_of_inputs_grown_on_farm_grain_for_feeding_green_manure_etc.png", :text => "$ amount of inputs grown on farm (grain for feeding, green manure, etc)", :qtype => "text_field", :stage_id => stage.id )
+    Question.create(:title_label => "/images/labels/amount_of_inputs_grown_on_farm.png", :text => "$ amount of inputs grown on farm (grain for feeding, green manure, etc)", :qtype => "text_field", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/amount_of_inputs_purchased_within_200_miles_of_farm.png", :text => "$ amount of inputs purchased WITHIN 200 miles of farm", :qtype => "text_field", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/amount_of_inputs_that_are_sourced_further_than_200_miles_from_farm.png", :text => "$ amount of inputs purchased that are sourced (mined, produced, etc) FURTHER THAN 200 miles of farm", :qtype => "text_area", :stage_id => stage.id )
     Question.create(:title_label => "/images/labels/weekly_diesel_gas_expenditure.png", :text => "$ weekly diesel/gas expenditure", :qtype => "text_field", :stage_id => stage.id )
@@ -102,7 +117,7 @@ class AddData < ActiveRecord::Migration
 
     # Produce & Market
     stage = Stage.create(:title_label => "/images/labels/produce_and_market.png", :title => "Produce & Market")
-    q = Question.create(:title_label => nil, :text => "Produce labeling", :qtype => "list", :stage_id => stage.id, :list => "natural|food alliance|certified|local branding")
+    q = Question.create(:title_label => "/images/labels/produce_labeling.png", :text => "Produce labeling", :qtype => "list", :stage_id => stage.id, :list => "natural|food alliance|certified|local branding", :label_list => "/images/labels/natural.png|/images/labels/food_alliance.png|/images/labels/certified.png|/images/labels/local_branding.png" )
     create_options(q)
     
     Question.create(:title_label => nil, :text => "Any other labeling", :qtype => "text_area", :stage_id => stage.id )
@@ -136,8 +151,8 @@ class AddData < ActiveRecord::Migration
     Question.create(:title_label => nil, :text => "lat", :qtype => 'text_field', :stage_id => stage.id ) 
     Question.create(:title_label => nil, :text => "lng", :qtype => 'text_field', :stage_id => stage.id ) 
     
-    qs = Question.find :all
-    census.questions = qs
+    # qs = Question.find :all
+    # census.questions = qs
   end
 
   def self.down

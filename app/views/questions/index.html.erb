@@ -1,27 +1,12 @@
 <h1>Listing questions</h1>
 
-<% for stage in @stages %>
-	<h2><%= stage.title %></h2>
-	<% for question in Question.find_all_by_stage_id(stage.id) %>
-	<p>
-		<%=h question.text %><br />		
-		<% if question.qtype == "text_field" %>
-	  	<%= text_field_tag "answer_#{question.id}" %><br />
-		<% elsif question.qtype == "text_area" %>
-	  	<%= text_area_tag "answer_#{question.id}" %><br />		
-		<% elsif question.qtype == "yes_no" %>
-			<%= radio_button "answer_#{question.id}", "", "" %> Yes<br />
-			<%= radio_button "answer_#{question.id}", "", "" %> No<br />
-		<% elsif question.qtype == "options" %>
-			<% for option in question.list.split("|") %>
-				<%= radio_button_tag "answer_#{question.id}", "", "" %> <%= "#{option}" %><br />
-			<% end %>
-		<% elsif question.qtype == "list" %>
-			<% for option in question.list.split("|") %>
-				<%= check_box_tag "answer_#{question.id}", "", "" %> <%= "#{option}" %><br />
-			<% end %>
-		<% end %>
-	</p>
-	<% end %>
+<% for question in @questions %>
+	<%= question.text %> <br/>    
+	<%= image_tag("#{question.title_label}", :alt => "#{question.text}", :title => "#{question.text}") %> <br/>	
+	<% if(question.qtype == "options" or question.qtype == "list") %>
+		<%= render :partial => "option", :collection => question.options, :locals => {:edit => false}  %>
+	<% end %>	
+	<%= link_to "show", question_path(question) %> | 
+	<%= link_to "edit", edit_question_path(question) %>
 	<hr/>
 <% end %>

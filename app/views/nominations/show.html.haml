@@ -1,0 +1,68 @@
+%p
+  %bFirst name:
+  =h @nomination.first_name 
+
+
+%p
+  %bLast name:
+  =h @nomination.last_name 
+
+
+%p
+  %bFarm name:
+  =h @nomination.farm_name 
+
+
+%p
+  %bEmail:
+  =h @nomination.email 
+
+
+%p
+  %bTitle:
+  =h @nomination.title 
+
+
+%p
+  %bAddress:
+  =h @nomination.address 
+
+
+%p
+  %bTelephone no:
+  =h @nomination.telephone_no 
+
+
+%p
+  %bDate of birth:
+  =h @nomination.date_of_birth 
+
+
+%p
+  %bNominees profile:
+  =h @nomination.nominees_profile 
+
+
+%p
+  %bNominees contributions:
+  =h @nomination.nominees_contributions 
+
+
+%p
+  %bYour name:
+  =h @nomination.your_name 
+
+
+%p
+  %bYour email:
+  =h @nomination.your_email 
+
+
+%p
+  %bYour contact details:
+  =h @nomination.your_contact_details 
+
+
+
+=link_to 'Edit', edit_nomination_path(@nomination)  |
+=link_to 'Back', nominations_path 

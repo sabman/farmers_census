@@ -4,7 +4,7 @@
 <div id="submit_buttons">
 	<%- if(prev_stage != current_stage) -%>
 		<%= submit_tag "<< #{prev_stage.title}",
-						{ :disable_with => "Please wait...", 
+						{ :disable_with => "on to the previous page ...", 
 							:onclick => "$('next').value='previous';"}  %> 
 	<%- else -%> 
 		<b><%=h current_stage.title %></b>
@@ -12,11 +12,11 @@
 		
 	<%- if(next_stage != current_stage) -%>
 		<%= submit_tag "#{next_stage.title} >>",
-						{ :disable_with => "Please wait...",
+						{ :disable_with => "on to the next page ...",
 							:onclick => "$('next').value='next';" } %> 
 	<%- else -%>
 		<%= submit_tag "All done!",
-						{ :disable_with => "Please wait...",
+						{ :disable_with => "loading front page ...",
 							:onclick => "$('next').value='last';" } %>
 	<%- end -%>
 </div>

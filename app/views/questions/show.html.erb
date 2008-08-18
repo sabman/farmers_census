@@ -2,11 +2,34 @@
   <b>Text:</b>
   <%=h @question.text %>
 </p>
+  
+<p>
+	<b>Title Label:</b>
+	<%=h @question.title_label %>
+</p>
+
+<p>
+	<%= image_tag @question.title_label, :alt => "#{@question.text}" %>
+</p>
 
 <p>
   <b>Qtype:</b>
   <%=h @question.qtype %>
 </p>
+
+<p>
+	<b>List</b>
+	<%=h @question.list %>  
+</p>	
+
+<p>
+	<b>Label List</b>
+	<%=h @question.label_list %>  
+</p>	
+
+<% if(@question.qtype == "options" or @question.qtype == "list") %>
+	<%= render :partial => "option", :collection => @question.options, :locals => { :edit => false}  %>
+<% end %>
 
 
 <%= link_to 'Edit', edit_question_path(@question) %> |

@@ -1,14 +1,19 @@
 <h1>Census Stages</h1>
 
-	<%# content_for :sidebar do -%>
-		<p><%= image_tag "#{show_avatar}" %></p>
+	<% content_for :sidebar do -%>
+		<div id="images">
+			<% show_avatars do |image| %>
+				<%= image_tag "#{image}" %>
+			<% end %>
+		</div>		
 		<% form_for( @avatar, :url => addavatar_path(), 
 			:html => {:multipart => true, :id => 'avatar' }  )do |f| -%>
 			<p><%= f.file_field :uploaded_data, "size" => 10 %></p>
-			<p><%= submit_tag 'Create' %></p>
+			<p>Upload images of yourself and your farm and put your face on the map!</p>
+			<p><%= submit_tag 'Upload' %></p>
 		<% end -%>
-	<%# end -%>
-
+	<%- end -%>
+	
 <table>
   <tr>
     <th>Stage Number</th>

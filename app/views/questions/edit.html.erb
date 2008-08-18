@@ -7,10 +7,30 @@
     <%= f.label :text %><br />
     <%= f.text_field :text %>
   </p>
+
+	<p>
+		<%= f.label :title_label %> <br/>
+		<%= f.text_area :title_label %>
+	</p>
+
   <p>
     <%= f.label :qtype %><br />
     <%= f.text_field :qtype %>
   </p>
+
+	<p>
+    <%= f.label :list %><br />
+    <%= f.text_area :list %>
+	</p>	
+
+	<p>
+    <%= f.label :label_list %><br />
+    <%= f.text_area :label_list %>
+	</p>
+
+	<% if(@question.qtype == "options" or @question.qtype == "list") %>
+		<%= render :partial => "option", :collection => @question.options, :locals => {:edit => true}  %>
+	<% end %>
 
   <p>
     <%= f.submit "Update" %>
