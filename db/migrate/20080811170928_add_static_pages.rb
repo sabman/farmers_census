@@ -7,8 +7,8 @@ class AddStaticPages < ActiveRecord::Migration
 
       We challenge the eaters, thinkers, mothers, markets and policy makers of this country-- to support the young farmers. We challenge the ecologists, humanists, activists, pacifists and survivalists to join in this movement. We vote with our fork, we vote with our vote, let us vote with our lives-- and restore agriculture, that delicious foundation of our human society. It is hard work, and we can only do it together." )
         
-    # Page.create(:name => "Sponsors", :permalink => "sponsors", :label => "/images/text/Sponsors.png", 
-    #   :content => "!http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif!")
+    Page.create(:name => "Sponsors", :permalink => "sponsors", :label => "/images/text/Sponsors.png", 
+      :content => "!http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif!")
        
     Page.create(:name => "Why?", :permalink => "why", :label => "/images/text/Why.png", 
     :content => 'This map is a way for us to feel our own numbers, and connect with nearby farmers as well as nearby markets/media.
