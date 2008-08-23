@@ -27,7 +27,7 @@
 
 <div id="mainmap"><%= @map.div :width => 800, :height => 600 -%></div>
 
-<% content_for(:sidebar) do %>
+<% content_for(:footer) do %>
   <p>The Greenhorns would like to thank Organic Valley for their generous sponsorhisp of Serve Your Country Food.</p>
 	<%= textilize h(Page.find_by_permalink('sponsors').content) %>
 <% end %>

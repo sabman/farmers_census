@@ -26,6 +26,18 @@ class AddStaticPages < ActiveRecord::Migration
 
       Cerise Mayo  New Amsterdam Market director
       cerise.mayo@gmail.com')
+      
+      
+    Page.create(:name => "FAQ", :permalink => "faq", :label => "text/FAQ.png", 
+      
+      :content => '1. What is  SERVE YOUR COUNTRY FOOD.
+
+      It\'s an online database of young farmers, a hand-drawn map of America with lots of dots on it. Each one a new farm.
+      Its also a survey that helps us collect information about young farmers that we can use to shape our policy vision+ media outreach. 
+      It helps press folks talk to young farmers directly without calling the greenhorns office. 
+      It\'s a political installation of transparent commitment to soil fertility and community health.
+      and...it\'s fun! It\'s free. And its sponsored by Organic Valley.')
+      
                   
   end
 
