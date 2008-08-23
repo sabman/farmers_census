@@ -12,42 +12,34 @@
 <div id="doc4" class="yui-t3">
 
   <div id="hd" class="header">
-		<h1><%= link_to image_tag("/images/serve_your_country_food.png",
-						:title => "Serve your country food", 
-						:id =>"Serve_your_country_food", 
-						:alt => "Serve your country food"), home_path %>  <%# TODO: add handdrawn banner from brooke %>
-						<%= image_tag("/images/farm_tools.png") %> </h1>  
+	  <h1>
+		  <%= link_to image_label_no_mouseover("serve_your_country_food.png"), home_path %>  
+		      <%# TODO: add handdrawn banner from brooke %>
+      <%= image_tag("farm_tools.png") %> 
+	  </h1>  
 	  <%= image_tag("hr_gray_875x25.png") %>
 	</div> <!-- hd end -->
 
   <div id="bd">
     <div class="yui-g navigation">
-     	<%= link_to image_tag("/images/text/Home.png", :title => "Home", :alt => "Home", :mouseover => "/images/text/Home_mouseover.png"), home_path %> 
+     	<%= link_to image_label_mouseover("text/Home.png"), home_path %> 
 			<% Page.find(:all).each do |page| %>
-				<%= image_tag("/images/text/pipe.png", :alt => "|") %>									
-				<%= link_to image_tag(page.label, :title => page.name, :alt => page.name, :mouseover => mouseover_file(page.label)), static_path(page.permalink) %>
+				<%= image_tag("text/pipe.png", :alt => "|") %>
+				<%= link_to image_label_mouseover(page.label), static_path(page.permalink) %>
 			<% end %>
     </div> <!-- yui-g navigation end -->
 
-    <div class="yui-ge">
-
-      <div class="yui-u first">
+    <div class="yui-g">
 			  <p style="color: red"><%= flash[:error] %></p>
 			  <p style="color: green"><%= flash[:notice] %></p>
-	 			<%= yield %> 
-			</div> <!-- yui-u first end -->
-			
-      <div class="yui-u"> 
-				<div class ='sidebar'>
-					<%= yield(:sidebar ) || render(:partial => "/layouts/default_sidebar_content") %> 
-				</div> <!-- sidebar end -->
-			</div> <!-- yui-u second -->
-			
-    </div>  <!-- yui-gc -->
+	 			<%= yield %> 			
+    </div>  <!-- yui-g -->
 
 	  <div id="ft"> 
 			<div class="yui-g footer">
-	    	footer blah blah .... 
+				<div class ='sidebar'>
+					<%= yield(:footer ) || render(:partial => "/layouts/default_sidebar_content") %> 
+				</div> <!-- sidebar end -->	    	
 			</div>
 		</div> <!-- ft end -->
 		

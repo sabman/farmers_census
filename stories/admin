@@ -1,5 +1,4 @@
-- We want to be able to email the admin when the survey submitted so that they don't have to login
-to check the site all the time ... 
+- We want to be able to email the admin when the survey submitted so that they don't have to login to check the site all the time ... 
 
 - in the stages_controller the done action is the appropriate place to kick off the emailing process
 
@@ -12,5 +11,5 @@ to check the site all the time ...
 - We will need some place to store the Admin information... perhaps config/admin.yml 
 but for now I've put it in app/models/admin.rb
 
-need ./lib/smtp_tls.rb                     
+- need ./lib/smtp_tls.rb                     
 

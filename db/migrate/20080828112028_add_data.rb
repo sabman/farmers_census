@@ -22,7 +22,7 @@ class AddData < ActiveRecord::Migration
         
     Question.create(:title_label => nil, :text => "Land tenure prospect", :qtype => "text_field", :stage_id => stage.id )   
     
-    Question.create(:title_label => nil, :text => "Previous farming zip codes", :qtype => "text_field", :stage_id => stage.id )   
+    Question.create(:title_label => nil, :text => "Previous farming zip codes (comma separated e.g. 12345, 54321)", :qtype => "text_field", :stage_id => stage.id )   
     
     Question.create(:title_label => nil, :text => "Children on the farm?", :qtype => "text_field", :stage_id => stage.id )   
 

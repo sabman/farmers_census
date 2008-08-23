@@ -53,6 +53,21 @@ module ApplicationHelper
 
   def mouseover_file(file)
     File.join(File.dirname(file), File.basename(file, File.extname(file))+"_mouseover"+File.extname(file))    
+  end   
+  
+  def image_label_no_mouseover(file)
+    image_tag("#{file}",
+				:title => "#{File.basename(file, File.extname(file))}", 
+		  	:id =>"#{File.basename(file, File.extname(file))}", 
+		  	:alt => "#{File.basename(file, File.extname(file))}")
+  end
+
+  def image_label_mouseover(file)
+    image_tag("#{file}",
+				:title => "#{File.basename(file, File.extname(file))}", 
+		  	:id =>"#{File.basename(file, File.extname(file))}", 
+		  	:alt => "#{File.basename(file, File.extname(file))}",
+		  	:mouseover => "#{mouseover_file(file)}")
   end
   
 end

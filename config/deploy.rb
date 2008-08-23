@@ -10,7 +10,7 @@ require 'eycap/recipes'
 # Once you have the IP of your Express image, put it in here
 set :express_ip, "nomad-berlin.dyndns.org"
 # If you don't have ssh keys set up, then put your express user's password here
-set :password, "!ga6bxD!$"
+# set :password, "secret"
 
 #
 # Make your choice of source code management here, dependent on which your 
