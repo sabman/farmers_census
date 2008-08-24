@@ -1,8 +1,5 @@
 body { background-color:#F1F7D4;}
-#doc { background-color: #FFF;}
-#doc2 { background-color: #FFF; width:975px;}
-#doc3 { background-color: #FFF;}
-#doc4 { background-color: #FFF;}
+#doc2 { background-color: #FFF; text-align: center;} /*950px centerd*/
 #hd, #ft { background-color : #FFF; color: #FFF; height:270px; border:none; }
 #hd h1 { font-size: 210%; padding-left: 10px;}
 #hd img {vertical-align:middle;} /* added */
@@ -149,3 +146,5 @@ display:none;
 }
 
 #first_name {float:left;}
+
+.mainmap{ width:950px; padding-left:100px; padding-right:100px; padding-bottom:20px;} /* */

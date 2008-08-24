@@ -9,13 +9,13 @@
 	<%= yield(:head) %>
 </head>
 <body>
-<div id="doc4" class="yui-t3">
+<div id="doc2" class="yui-t2">
 
   <div id="hd" class="header">
 	  <h1>
-		  <%= link_to image_label_no_mouseover("serve_your_country_food.png"), home_path %>  
+		  <%= link_to image_label_no_mouseover("center/serve_your_country_food.png"), home_path %>  
 		      <%# TODO: add handdrawn banner from brooke %>
-      <%= image_tag("farm_tools.png") %> 
+      <%= image_tag("center/farm_tools.png") %> 
 	  </h1>  
 	  <%= image_tag("hr_gray_875x25.png") %>
 	</div> <!-- hd end -->
@@ -35,11 +35,16 @@
 	 			<%= yield %> 			
     </div>  <!-- yui-g -->
 
+    <div class="yui-g">
+      <%= yield(:map) %>
+    </div> <!-- yui-g -->    
+
 	  <div id="ft"> 
 			<div class="yui-g footer">
 				<div class ='sidebar'>
 					<%= yield(:footer ) || render(:partial => "/layouts/default_sidebar_content") %> 
 				</div> <!-- sidebar end -->	    	
+				A project of <%= link_to "the greenhorns", 'http://thegreenhorns.net/' %>				
 			</div>
 		</div> <!-- ft end -->
 		

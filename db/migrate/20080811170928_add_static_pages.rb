@@ -28,8 +28,7 @@ class AddStaticPages < ActiveRecord::Migration
       cerise.mayo@gmail.com')
       
       
-    Page.create(:name => "FAQ", :permalink => "faq", :label => "text/FAQ.png", 
-      
+    Page.create(:name => "FAQ", :permalink => "faq", :label => "text/FAQ.png",       
       :content => '1. What is  SERVE YOUR COUNTRY FOOD.
 
       It\'s an online database of young farmers, a hand-drawn map of America with lots of dots on it. Each one a new farm.
@@ -37,6 +36,13 @@ class AddStaticPages < ActiveRecord::Migration
       It helps press folks talk to young farmers directly without calling the greenhorns office. 
       It\'s a political installation of transparent commitment to soil fertility and community health.
       and...it\'s fun! It\'s free. And its sponsored by Organic Valley.')
+      
+
+    Page.create(:name => "Other Maps", :permalink => "other_maps", :label => "text/Other_Maps.png", 
+      :content => '
+      
+      ')
+      
       
                   
   end

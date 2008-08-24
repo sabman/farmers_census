@@ -1,0 +1,17 @@
+Farms will have
+  name
+  website
+  region
+  farm_type {organic dairy CSA transitional interns}
+  unique_features
+  address
+  telephone
+  referring_party
+  place_of_contact
+  lat
+  lng
+  
+      
+  
+  
+  

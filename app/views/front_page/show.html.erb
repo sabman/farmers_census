@@ -3,29 +3,20 @@
 <%= javascript_include_tag 'mapping_helpers' %>
 
 <% if session[:current_survey].nil? %>
-	<p><%= link_to image_tag("/images/text/Take_the_Survey.png", 
-		:alt => "Take the Survey", 
-		:title => "Take the Survey", 
-		:id =>"Take_the_Survey", 
-		:mouseover => "/images/text/Take_the_Survey_mouseover.png"), stages_path %></p>
+	<p><%= link_to image_label_mouseover("/images/text/center/Take_the_Survey.png"), stages_path %></p>
 <% else %>	
-	<p> <%= image_tag("/images/text/Survey_in_progress.png", 
-		:alt => "Survey in progress ...", 
-		:id =>"Survey_in_progress" ) %> 
-		<%= link_to image_tag("/images/text/Please_Continue.png", 
-		:alt => "please continue", 
-		:title => "please continue", 
-		:id =>"please_continue", 
-	 	:mouseover => "/images/text/Please_Continue_mouseover.png" ), stages_path %></p>
+	<p> 
+	  <%= image_label_no_mouseover("/images/text/Survey_in_progress.png") %> 
+		<%= link_to image_label_mouseover("/images/text/Please_Continue.png"), stages_path %>
+	</p>
 <% end %>
 
-<p><%= link_to image_tag("/images/text/Nominate_a_Farmer.png", 
-	:alt => "Nominate a Farmer", 
-	:title => "Nominate a Farmer", 
-	:id =>"Nominate_a_Farmer", 
- 	:mouseover => "/images/text/Nominate_a_Farmer_mouseover.png" ), new_nomination_path %></p>
+<p><%= link_to image_label_mouseover("/images/text/Nominate_a_Farmer.png"), new_nomination_path %></p>
 
-<div id="mainmap"><%= @map.div :width => 800, :height => 600 -%></div>
+<% content_for(:map) do %>
+  <div class="mainmap"><%= @map.div :width => 750, :height => 600 %></div> 
+<% end %>
+
 
 <% content_for(:footer) do %>
   <p>The Greenhorns would like to thank Organic Valley for their generous sponsorhisp of Serve Your Country Food.</p>
