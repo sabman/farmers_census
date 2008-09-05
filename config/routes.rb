@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :farmers
+
   map.resources :pages
 
   map.resources :nominations

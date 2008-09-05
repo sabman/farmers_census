@@ -1,8 +1,9 @@
 class Survey < ActiveRecord::Base
   has_many :answers 
   has_and_belongs_to_many :questions
-  has_many :avatars
-
+  has_many :avatars 
+  has_one :farmer
+  
   def percentage_completed
     stages = Stage.find :all
     total = 0; count = 0

@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
   def create
     session[:admin_password] = params[:admin_password]
     if admin?
-      redirect_to(surveys_path)
+      redirect_back_or_default('/admin')
     else
       flash[:notice] = "That password was incorrect"
       redirect_to(login_path)
