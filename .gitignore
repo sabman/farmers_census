@@ -11,3 +11,4 @@ doc/plugins
 config/database.yml
 public/avatars/**/*
 log/development.log
+*~
