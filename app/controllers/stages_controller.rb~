@@ -15,10 +15,6 @@ class StagesController < ApplicationController
     end
   end
 
-	def all
-		@stages = Stage.find(all)
-	end
-
   # GET /stages/1
   # GET /stages/1.xml
   def show

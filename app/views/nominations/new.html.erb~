@@ -54,6 +54,7 @@
     <%= f.text_field :your_contact_details %>
   </p>
   <p>
+		<%= image_tag("hr430x25_2.png") %><br/>	
     <%= image_submit_tag("labels/Nominate.png") %>
   </p>
 <% end %>

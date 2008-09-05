@@ -1,0 +1,20 @@
+<div id="header">
+	<%= render :partial => "header", :locals => {:stage => @stage} %>
+</div>
+
+<% foreach @stages do |stage| %>
+  <% form_for stage do |f| -%>
+	<div id='census_answers'> 
+		<%= render :partial => "answer", :collection => @answers %>
+	 	<%- if @stage.title.downcase == 'getting in touch' -%> <%# TODO: figure out a way to do this: if stage.about?("getting in touch") %>
+			<%# 'getting in touch' stage require the map %> 
+	  	<%= render :partial => "address" %>
+		<%- end -%>	
+	
+		<%= render :partial => "footer", :locals => { 
+				:current_stage => @stage, 
+				:prev_stage => @prev_stage, 
+				:next_stage => @next_stage } %>
+	</div>  
+  <% end -%>
+<% end -%>

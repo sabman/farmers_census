@@ -22,7 +22,7 @@
      	<%= link_to image_label_mouseover("text/Home.png"), home_path %> 
 			<% Page.find(:all).each do |page| %>
 				<%= image_tag("text/pipe.png", :alt => "|") %>
-			  <%= link_to (page.label ? image_label_mouseover(page.label) : page.permalink), static_path(page.permalink) %>
+			  <%= link_to (page.label ? image_label_mouseover(page.label) : "label"), static_path(page.permalink) %>
 			<% end %>
     </div> <!-- yui-g navigation end -->
 
