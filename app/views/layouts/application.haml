@@ -1,0 +1,39 @@
+%html
+  %head
+    %title Serve your country food - 
+      = yield(:title) || "Greenhorns"
+      = stylesheet_link_tag 'reset-fonts-grids'
+	    = stylesheet_link_tag 'styles'
+	    = javascript_include_tag :defaults
+	    = yield(:head)
+
+%body
+  #doc2.yui-t2
+
+  #hd.header
+	  %h1
+		  = link_to image_label_no_mouseover("center/serve_your_country_food.png"), home_path  
+		      -# TODO: add handdrawn banner from brooke
+      = image_tag("center/farm_tools.png")
+	    = image_tag("hr_gray_875x25.png")
+
+  %bd
+    .yui-g.navigation
+     	= link_to image_label_mouseover("text/Home.png"), home_path
+			-Page.find(:all).each do |page|
+				= image_tag("text/pipe.png", :alt => "|")
+				= link_to image_label_mouseover(page.label), static_path(page.permalink)
+
+    .yui-g
+			  %p{:style => "color: red"}= flash[:error]
+			  %p{style => "color: green"}= flash[:notice]
+	 			= yield
+
+    .yui-g
+      = yield(:map)
+
+	  %ft
+			.yui-g.footer
+				.sidebar
+				  = yield(:footer ) || render(:partial => "/layouts/default_sidebar_content")
+				  = link_to "the greenhorns", 'http://thegreenhorns.net/'

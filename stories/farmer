@@ -1,0 +1,12 @@
+This is a story about how a farmer is created in the database after the survey is completed.
+
+Story: completing the survey should, as a consequence, create a farmer in the system
+  As a farmer taking the survey when I answer the questions
+  I want to have my profile automatically created
+  So that I don't have to fill it out explicitly
+  
+  Scenario: I start taking a survey
+    Given: I complete question about personal information
+    When: I submit the survey
+    Then: A record of the Farmer is created in the database 
+          rspec_scaffold farmer name:string email:string address:text telephone:string referring_party:string referee_contact:string farm_id:integer survey_id:integer

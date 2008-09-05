@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  address: MyText
+  telephone: MyString
+  referring_party: MyString
+  referee_contact: MyString
+  farm_id: 1
+  survey_id: 1
+
+two:
+  name: MyString
+  email: MyString
+  address: MyText
+  telephone: MyString
+  referring_party: MyString
+  referee_contact: MyString
+  farm_id: 1
+  survey_id: 1
