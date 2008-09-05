@@ -1,0 +1,963 @@
+--- 
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: First name
+    id: "1"
+    title_label: /images/labels/name.png
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Last name
+    id: "2"
+    title_label: /images/labels/last_name.png
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Name of farm
+    id: "3"
+    title_label: /images/labels/name_of_farm.png
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: options
+    list: urban|rural|suburban|x-urban|other
+    updated_at: 2008-09-05 14:18:40
+    text: "Born:"
+    id: "4"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Why do you farm?
+    id: "5"
+    title_label: /images/labels/why_do_you_farm.png
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Land tenure prospect
+    id: "6"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Previous farming zip codes (comma separated e.g. 12345, 54321)
+    id: "7"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:40
+    text: Children on the farm?
+    id: "8"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: options
+    list: renter|owner|intern|seasonal labor|student|staff
+    updated_at: 2008-09-05 14:18:40
+    text: Status at the Farm
+    id: "9"
+    title_label: 
+    label_list: /images/labels/renter.png|/images/labels/owner.png||/images/labels/seasonal_labor.png|/images/labels/student.png|/images/labels/staff.png
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: options
+    list: married|single|partnership|other|partner also farmer ?|partner/spouse not a farmer|n/a
+    updated_at: 2008-09-05 14:18:40
+    text: Partnership Status
+    id: "10"
+    title_label: 
+    label_list: /images/labels/married.png|/images/labels/single.png|/images/labels/partnership.png|/images/labels/other.png|||
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:40
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Educational background
+    id: "11"
+    title_label: /images/labels/educational_background.png
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Years farming
+    id: "12"
+    title_label: /images/labels/years_farming.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Years at the farm
+    id: "13"
+    title_label: /images/labels/years_at_the_farm.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Acreage
+    id: "14"
+    title_label: /images/labels/acreage.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Primary crops/products
+    id: "15"
+    title_label: /images/labels/primary_crops_products.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Secondary processing on farm?
+    id: "16"
+    title_label: /images/labels/secondary_processing_on_farm.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:41
+    text: Animals?
+    id: "17"
+    title_label: /images/labels/animals.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:41
+    text: Types & breeds of livestock
+    id: "18"
+    title_label: /images/labels/if_so_number_types_breeds.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:41
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:42
+    text: Age of primary farmers
+    id: "19"
+    title_label: /images/labels/age_of_primary_farmers.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:42
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:42
+    text: Number of other young farmers
+    id: "20"
+    title_label: /images/labels/number_of_other_young_farmers.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:42
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:42
+    text: Number of farm laborers
+    id: "21"
+    title_label: /images/labels/number_of_farm_laborers.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:42
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:42
+    text: Can you afford health insurance?
+    id: "22"
+    title_label: /images/labels/can_you_afford_health_insurance.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:42
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:42
+    text: Can you afford to pay a living wage to employees?
+    id: "23"
+    title_label: /images/labels/can_you_afford_to_pay_a_living_wage_to_employees.png
+    label_list: 
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:42
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:43
+    text: Do you accept interns on your farm?
+    id: "24"
+    title_label: /images/labels/internships_on_your_farm.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:43
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:43
+    text: Organic status
+    id: "25"
+    title_label: /images/labels/organic_status.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:43
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:43
+    text: Are you saving your own seed?
+    id: "26"
+    title_label: /images/labels/saving_own_seed.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:43
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:43
+    text: Farmstand
+    id: "27"
+    title_label: /images/labels/farmstand.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "2"
+    created_at: 2008-09-05 14:18:43
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:44
+    text: "Your particular challenges getting started:"
+    id: "28"
+    title_label: /images/labels/your_particular_challenges_getting_started.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:44
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:44
+    text: What made it possible?
+    id: "29"
+    title_label: /images/labels/what_made_it_possible.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:44
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:44
+    text: "What kind of institutional/ political support would you like to see?:"
+    id: "30"
+    title_label: /images/labels/what_kind_of_political_institutional_support_would_you_like_to_see.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:44
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:44
+    text: Would you nominate anyone local to facilitate future young farmer meetings?
+    id: "31"
+    title_label: /images/labels/would_you_nominate_anyone_locally_to_facilitate_future_young_farmer_meetings.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:44
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:45
+    text: Who are your literary and practical heros?
+    id: "32"
+    title_label: /images/labels/who_are_your_literary_and_practical_heroes.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:45
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:45
+    text: political heroes? cultural?
+    id: "33"
+    title_label: /images/labels/cultural.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:45
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: list
+    list: telephone|email|snailmail
+    updated_at: 2008-09-05 14:18:45
+    text: Best way to reach you?
+    id: "34"
+    title_label: /images/labels/best_way_to_reach_you.png
+    label_list: /images/labels/telephone.png|/images/labels/email.png|/images/labels/snailmail.png
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:45
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:45
+    text: Woud you like to join the mailing list y/n
+    id: "35"
+    title_label: /images/labels/would_you_like_to_join_the_mailing_list.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:45
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:46
+    text: Are you interested in being profiled on the site so that the press can find you?
+    id: "36"
+    title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
+    label_list: 
+    stage_id: "3"
+    created_at: 2008-09-05 14:18:46
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:46
+    text: Grange membership?
+    id: "37"
+    title_label: /images/labels/grange_memberships.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:46
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:46
+    text: Local certifying body/regional sustainable aggricultural group
+    id: "38"
+    title_label: /images/labels/local_certifying_body.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:46
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: list
+    list: national farmers organization|national farmers union|farm bureau federation
+    updated_at: 2008-09-05 14:18:47
+    text: Other farm groups
+    id: "39"
+    title_label: /images/labels/other_farm_groups.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:47
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:47
+    text: Any organic growers groups
+    id: "40"
+    title_label: 
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:47
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:47
+    text: Local farm/food groups
+    id: "41"
+    title_label: 
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:47
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:47
+    text: Any coop memberships?
+    id: "42"
+    title_label: /images/labels/coop_membership.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:47
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:48
+    text: Nearby food-related businesses which your farm collaborates with regularly?
+    id: "43"
+    title_label: /images/labels/nearby_food_related_businesses_which_your_farm_collaborates_regularly.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:48
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:48
+    text: Other memberships?
+    id: "44"
+    title_label: 
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:48
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:49
+    text: Estimated yearly farm income (gross)
+    id: "45"
+    title_label: /images/labels/estimated_yearly_farm_income_gross.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:49
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: list
+    list: democrats|republicans|greens|independent
+    updated_at: 2008-09-05 14:18:49
+    text: Political affiliation?
+    id: "46"
+    title_label: /images/labels/political_affiliation.png
+    label_list: /images/labels/democrats.png|/images/labels/republicans.png|/images/labels/greens.png|/images/labels/independent.png
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:49
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:49
+    text: Ethnicity?
+    id: "47"
+    title_label: /images/labels/ethnicity.png
+    label_list: 
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:49
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:50
+    text: Does farm work with low-income people on food security issues?
+    id: "48"
+    title_label: /images/labels/does_your_farm_work_with_low_income_people_on_food_security_issues.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "4"
+    created_at: 2008-09-05 14:18:50
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:50
+    text: $ amount of inputs grown on farm (grain for feeding, green manure, etc)
+    id: "49"
+    title_label: /images/labels/amount_of_inputs_grown_on_farm.png
+    label_list: 
+    stage_id: "5"
+    created_at: 2008-09-05 14:18:50
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:50
+    text: $ amount of inputs purchased WITHIN 200 miles of farm
+    id: "50"
+    title_label: /images/labels/amount_of_inputs_purchased_within_200_miles_of_farm.png
+    label_list: 
+    stage_id: "5"
+    created_at: 2008-09-05 14:18:50
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:51
+    text: $ amount of inputs purchased that are sourced (mined, produced, etc) FURTHER THAN 200 miles of farm
+    id: "51"
+    title_label: /images/labels/amount_of_inputs_that_are_sourced_further_than_200_miles_from_farm.png
+    label_list: 
+    stage_id: "5"
+    created_at: 2008-09-05 14:18:51
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:52
+    text: $ weekly diesel/gas expenditure
+    id: "52"
+    title_label: /images/labels/weekly_diesel_gas_expenditure.png
+    label_list: 
+    stage_id: "5"
+    created_at: 2008-09-05 14:18:52
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:52
+    text: Alternative/cooperative transport
+    id: "53"
+    title_label: /images/labels/alternative_or_cooperative_transport.png
+    label_list: 
+    stage_id: "5"
+    created_at: 2008-09-05 14:18:52
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: list
+    list: natural|food alliance|certified|local branding
+    updated_at: 2008-09-05 14:18:52
+    text: Produce labeling
+    id: "54"
+    title_label: /images/labels/produce_labeling.png
+    label_list: /images/labels/natural.png|/images/labels/food_alliance.png|/images/labels/certified.png|/images/labels/local_branding.png
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:52
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:53
+    text: Any other labeling
+    id: "55"
+    title_label: 
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:53
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:53
+    text: Does farm sell direct to customers?
+    id: "56"
+    title_label: /images/labels/does_farm_sell_directly_to_customers.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:53
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:54
+    text: $ sales to direct customers?
+    id: "57"
+    title_label: 
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:54
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:55
+    text: Does farm run a CSA? (# of members)
+    id: "58"
+    title_label: /images/labels/does_farm_run_a_csa.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:55
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:55
+    text: Total CSA members
+    id: "59"
+    title_label: 
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:55
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:56
+    text: Are there any farmers markets where you sell
+    id: "60"
+    title_label: /images/labels/does_farm_sell_at_farmers_markets.png
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:56
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:56
+    text: Any food brokers/distributors that you sell to?
+    id: "61"
+    title_label: /images/labels/does_farm_sell_to_food_brokers_distributors.png
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:56
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: yes_no
+    list: yes|no
+    updated_at: 2008-09-05 14:18:57
+    text: Any restaurants you directly to?
+    id: "62"
+    title_label: /images/labels/does_farm_sell_directly_to_restaurants.png
+    label_list: /images/labels/yes.png|/images/labels/no.png
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:57
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_area
+    list: 
+    updated_at: 2008-09-05 14:18:57
+    text: Any institutions you sell directly to?
+    id: "63"
+    title_label: /images/labels/does_farm_sell_directly_to_institutions.png
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:57
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:58
+    text: Any internet site you sell through?
+    id: "64"
+    title_label: /images/labels/does_farm_sell_through_the_internet.png
+    label_list: 
+    stage_id: "6"
+    created_at: 2008-09-05 14:18:58
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:58
+    text: telephone
+    id: "65"
+    title_label: /images/labels/telephone.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:18:58
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:59
+    text: email
+    id: "66"
+    title_label: /images/labels/email.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:18:59
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:18:59
+    text: website
+    id: "67"
+    title_label: /images/labels/website.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:18:59
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:00
+    text: street address
+    id: "68"
+    title_label: /images/labels/address.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:00
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:01
+    text: city
+    id: "69"
+    title_label: 
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:01
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:01
+    text: state
+    id: "70"
+    title_label: /images/labels/state.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:01
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:02
+    text: postal code
+    id: "71"
+    title_label: /images/labels/postal_code.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:02
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:03
+    text: country
+    id: "72"
+    title_label: /images/labels/country.png
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:03
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:03
+    text: lat
+    id: "73"
+    title_label: 
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:03
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: text_field
+    list: 
+    updated_at: 2008-09-05 14:19:04
+    text: lng
+    id: "74"
+    title_label: 
+    label_list: 
+    stage_id: "7"
+    created_at: 2008-09-05 14:19:04
+  attributes_cache: {}
+

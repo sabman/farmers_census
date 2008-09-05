@@ -1,0 +1,53 @@
+--- 
+- !ruby/object:Question 
+  attributes: 
+    qtype: MyString
+    list: 
+    updated_at: 2008-09-05 11:41:20
+    text: MyString
+    id: "953125641"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 11:41:20
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: MyString
+    list: 
+    updated_at: 2008-09-05 11:41:20
+    text: MyString
+    id: "996332877"
+    title_label: 
+    label_list: 
+    stage_id: "1"
+    created_at: 2008-09-05 11:41:20
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: 
+    list: 
+    updated_at: 2008-09-05 13:45:58
+    text: whats ur name?
+    id: "996332878"
+    title_label: 
+    label_list: 
+    stage_id: 
+    created_at: 2008-09-05 13:45:58
+  attributes_cache: {}
+
+- !ruby/object:Question 
+  attributes: 
+    qtype: 
+    list: 
+    updated_at: 2008-09-05 13:45:58
+    text: cest ce vu fe?
+    id: "996332879"
+    title_label: 
+    label_list: 
+    stage_id: 
+    created_at: 2008-09-05 13:45:58
+  attributes_cache: {}
+

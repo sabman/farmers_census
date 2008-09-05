@@ -1,0 +1,18 @@
+--- |
+ --- 
+
+--- |
+- !ruby/object:Page 
+
+--- "  attributes: \n"
+--- "    name: new page\n"
+--- "    permalink: new_page\n"
+--- "    updated_at: 2008-09-05 11:41:30\n"
+--- "    id: \"1\"\n"
+--- "    content: a bit of text to give the page some body\n"
+--- "    label: labels/new_page.png\n"
+--- "    created_at: 2008-09-05 11:41:30\n"
+--- "  attributes_cache: {}\n"
+--- |
+
+
