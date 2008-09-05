@@ -3,7 +3,7 @@
 
 <h1><%= link_to 'New page', new_page_path %></h1> <br/><br/>  
 
-<h1>Existing Pages</h1><br/><br/>
+<h1>Existing Pages</h1><br><br>
 <% for page in @pages %>
 	<h2><%=h page.name %></h2> <br/>
 	<b>Permalink:</b> <%=h page.permalink %> <br/>

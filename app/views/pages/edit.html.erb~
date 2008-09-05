@@ -1,6 +1,6 @@
-<center>
-<div id="content">
+
 <h1>Editing page</h1>
+<div id="content">
 <% form_for(@page) do |f| %>
   <%= f.error_messages %>
 
@@ -25,4 +25,3 @@
 <%= link_to 'Index', pages_path %>
 <p/>
 </div>
-</center>

@@ -33,15 +33,13 @@ Here, represented by little dots on this map. We are the young farmers of Americ
 
 <% content_for(:map) do %>
   <div class="mainmap"><%= @map.div :width => 930, :height => 600 %></div> 
+<% end %>
 
 <div>
 United in our commitment to soil fertility, local nutrition, national health and a yummy hereafter.
 <br/>
 Land. Liberty. Stamina. Sunshine. These are the natural ingredients for an edible future.
 </div>
-
-<% end %>
-
 
 <% content_for(:footer) do %>
 	<%= textilize h(Page.find_by_permalink('sponsors').content) %>
