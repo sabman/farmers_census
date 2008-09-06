@@ -5,7 +5,6 @@ class CreateAnswers < ActiveRecord::Migration
       t.integer :question_id
       t.integer :survey_id
       t.integer :farm_id
-      t.integer :user_id
       t.integer :stage_id
 
       t.timestamps

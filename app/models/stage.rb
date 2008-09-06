@@ -1,6 +1,5 @@
 class Stage < ActiveRecord::Base
   has_many :questions
-  #after_save "YamlHelper::write_to_yaml(self.class)"
   
   def percent_completed(survey_id)
     total = questions.count
