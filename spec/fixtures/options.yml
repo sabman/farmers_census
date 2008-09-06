@@ -1,7 +1,349 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  text: MyString
-
-two:
-  text: MyString
+--- 
+- - options_001
+  - updated_at: 2008-09-06 01:59:53
+    text: urban
+    id: "1"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_002
+  - updated_at: 2008-09-06 01:59:53
+    text: rural
+    id: "2"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_003
+  - updated_at: 2008-09-06 01:59:53
+    text: suburban
+    id: "3"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_004
+  - updated_at: 2008-09-06 01:59:53
+    text: x-urban
+    id: "4"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_005
+  - updated_at: 2008-09-06 01:59:53
+    text: other
+    id: "5"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_006
+  - updated_at: 2008-09-06 01:59:53
+    text: renter
+    id: "6"
+    filename: /images/labels/renter.png
+    created_at: 2008-09-06 01:59:53
+- - options_007
+  - updated_at: 2008-09-06 01:59:53
+    text: owner
+    id: "7"
+    filename: /images/labels/owner.png
+    created_at: 2008-09-06 01:59:53
+- - options_008
+  - updated_at: 2008-09-06 01:59:53
+    text: intern
+    id: "8"
+    filename: ""
+    created_at: 2008-09-06 01:59:53
+- - options_009
+  - updated_at: 2008-09-06 01:59:53
+    text: seasonal labor
+    id: "9"
+    filename: /images/labels/seasonal_labor.png
+    created_at: 2008-09-06 01:59:53
+- - options_010
+  - updated_at: 2008-09-06 01:59:53
+    text: student
+    id: "10"
+    filename: /images/labels/student.png
+    created_at: 2008-09-06 01:59:53
+- - options_011
+  - updated_at: 2008-09-06 01:59:53
+    text: staff
+    id: "11"
+    filename: /images/labels/staff.png
+    created_at: 2008-09-06 01:59:53
+- - options_012
+  - updated_at: 2008-09-06 01:59:53
+    text: married
+    id: "12"
+    filename: /images/labels/married.png
+    created_at: 2008-09-06 01:59:53
+- - options_013
+  - updated_at: 2008-09-06 01:59:53
+    text: single
+    id: "13"
+    filename: /images/labels/single.png
+    created_at: 2008-09-06 01:59:53
+- - options_014
+  - updated_at: 2008-09-06 01:59:53
+    text: partnership
+    id: "14"
+    filename: /images/labels/partnership.png
+    created_at: 2008-09-06 01:59:53
+- - options_015
+  - updated_at: 2008-09-06 01:59:53
+    text: other
+    id: "15"
+    filename: /images/labels/other.png
+    created_at: 2008-09-06 01:59:53
+- - options_016
+  - updated_at: 2008-09-06 01:59:53
+    text: partner also farmer ?
+    id: "16"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_017
+  - updated_at: 2008-09-06 01:59:53
+    text: partner/spouse not a farmer
+    id: "17"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_018
+  - updated_at: 2008-09-06 01:59:53
+    text: n/a
+    id: "18"
+    filename: 
+    created_at: 2008-09-06 01:59:53
+- - options_019
+  - updated_at: 2008-09-06 01:59:53
+    text: "yes"
+    id: "19"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:53
+- - options_020
+  - updated_at: 2008-09-06 01:59:53
+    text: "no"
+    id: "20"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:53
+- - options_021
+  - updated_at: 2008-09-06 01:59:54
+    text: "yes"
+    id: "21"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:54
+- - options_022
+  - updated_at: 2008-09-06 01:59:54
+    text: "no"
+    id: "22"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:54
+- - options_023
+  - updated_at: 2008-09-06 01:59:54
+    text: "yes"
+    id: "23"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:54
+- - options_024
+  - updated_at: 2008-09-06 01:59:54
+    text: "no"
+    id: "24"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:54
+- - options_025
+  - updated_at: 2008-09-06 01:59:54
+    text: "yes"
+    id: "25"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:54
+- - options_026
+  - updated_at: 2008-09-06 01:59:54
+    text: "no"
+    id: "26"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:54
+- - options_027
+  - updated_at: 2008-09-06 01:59:54
+    text: "yes"
+    id: "27"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:54
+- - options_028
+  - updated_at: 2008-09-06 01:59:54
+    text: "no"
+    id: "28"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:54
+- - options_029
+  - updated_at: 2008-09-06 01:59:54
+    text: "yes"
+    id: "29"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:54
+- - options_030
+  - updated_at: 2008-09-06 01:59:54
+    text: "no"
+    id: "30"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:54
+- - options_031
+  - updated_at: 2008-09-06 01:59:54
+    text: telephone
+    id: "31"
+    filename: /images/labels/telephone.png
+    created_at: 2008-09-06 01:59:54
+- - options_032
+  - updated_at: 2008-09-06 01:59:54
+    text: email
+    id: "32"
+    filename: /images/labels/email.png
+    created_at: 2008-09-06 01:59:54
+- - options_033
+  - updated_at: 2008-09-06 01:59:54
+    text: snailmail
+    id: "33"
+    filename: /images/labels/snailmail.png
+    created_at: 2008-09-06 01:59:54
+- - options_034
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "34"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_035
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "35"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_036
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "36"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_037
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "37"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_038
+  - updated_at: 2008-09-06 01:59:55
+    text: national farmers organization
+    id: "38"
+    filename: 
+    created_at: 2008-09-06 01:59:55
+- - options_039
+  - updated_at: 2008-09-06 01:59:55
+    text: national farmers union
+    id: "39"
+    filename: 
+    created_at: 2008-09-06 01:59:55
+- - options_040
+  - updated_at: 2008-09-06 01:59:55
+    text: farm bureau federation
+    id: "40"
+    filename: 
+    created_at: 2008-09-06 01:59:55
+- - options_041
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "41"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_042
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "42"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_043
+  - updated_at: 2008-09-06 01:59:55
+    text: democrats
+    id: "43"
+    filename: /images/labels/democrats.png
+    created_at: 2008-09-06 01:59:55
+- - options_044
+  - updated_at: 2008-09-06 01:59:55
+    text: republicans
+    id: "44"
+    filename: /images/labels/republicans.png
+    created_at: 2008-09-06 01:59:55
+- - options_045
+  - updated_at: 2008-09-06 01:59:55
+    text: greens
+    id: "45"
+    filename: /images/labels/greens.png
+    created_at: 2008-09-06 01:59:55
+- - options_046
+  - updated_at: 2008-09-06 01:59:55
+    text: independent
+    id: "46"
+    filename: /images/labels/independent.png
+    created_at: 2008-09-06 01:59:55
+- - options_047
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "47"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_048
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "48"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_049
+  - updated_at: 2008-09-06 01:59:55
+    text: natural
+    id: "49"
+    filename: /images/labels/natural.png
+    created_at: 2008-09-06 01:59:55
+- - options_050
+  - updated_at: 2008-09-06 01:59:55
+    text: food alliance
+    id: "50"
+    filename: /images/labels/food_alliance.png
+    created_at: 2008-09-06 01:59:55
+- - options_051
+  - updated_at: 2008-09-06 01:59:55
+    text: certified
+    id: "51"
+    filename: /images/labels/certified.png
+    created_at: 2008-09-06 01:59:55
+- - options_052
+  - updated_at: 2008-09-06 01:59:55
+    text: local branding
+    id: "52"
+    filename: /images/labels/local_branding.png
+    created_at: 2008-09-06 01:59:55
+- - options_053
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "53"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_054
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "54"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_055
+  - updated_at: 2008-09-06 01:59:55
+    text: "yes"
+    id: "55"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:55
+- - options_056
+  - updated_at: 2008-09-06 01:59:55
+    text: "no"
+    id: "56"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:55
+- - options_057
+  - updated_at: 2008-09-06 01:59:56
+    text: "yes"
+    id: "57"
+    filename: /images/labels/yes.png
+    created_at: 2008-09-06 01:59:56
+- - options_058
+  - updated_at: 2008-09-06 01:59:56
+    text: "no"
+    id: "58"
+    filename: /images/labels/no.png
+    created_at: 2008-09-06 01:59:56

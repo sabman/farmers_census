@@ -1,21 +1,73 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  survey_id: 1
-  parent_id: 1
-  content_type: MyString
-  filename: MyString
-  thumbnail: MyString
-  size: 1
-  width: 1
-  height: 1
-
-two:
-  survey_id: 1
-  parent_id: 1
-  content_type: MyString
-  filename: MyString
-  thumbnail: MyString
-  size: 1
-  width: 1
-  height: 1
+--- 
+- - avatars_001
+  - content_type: image/jpeg
+    thumbnail: 
+    size: "718355"
+    updated_at: 2008-09-06 04:57:05
+    survey_id: "1"
+    id: "1"
+    filename: IMG_2173.JPG
+    height: "1200"
+    parent_id: 
+    width: "1600"
+    created_at: 2008-09-06 04:57:05
+- - avatars_002
+  - content_type: image/jpeg
+    thumbnail: thumb
+    size: "14631"
+    updated_at: 2008-09-06 04:57:05
+    survey_id: 
+    id: "2"
+    filename: IMG_2173_thumb.JPG
+    height: "83"
+    parent_id: "1"
+    width: "110"
+    created_at: 2008-09-06 04:57:05
+- - avatars_003
+  - content_type: image/jpeg
+    thumbnail: 
+    size: "596101"
+    updated_at: 2008-09-06 04:57:22
+    survey_id: "1"
+    id: "3"
+    filename: IMG_2284.JPG
+    height: "1200"
+    parent_id: 
+    width: "1600"
+    created_at: 2008-09-06 04:57:22
+- - avatars_004
+  - content_type: image/jpeg
+    thumbnail: thumb
+    size: "13399"
+    updated_at: 2008-09-06 04:57:22
+    survey_id: 
+    id: "4"
+    filename: IMG_2284_thumb.JPG
+    height: "83"
+    parent_id: "3"
+    width: "110"
+    created_at: 2008-09-06 04:57:22
+- - avatars_005
+  - content_type: image/jpeg
+    thumbnail: 
+    size: "1061094"
+    updated_at: 2008-09-06 04:58:08
+    survey_id: "1"
+    id: "5"
+    filename: IMG_2210.JPG
+    height: "1600"
+    parent_id: 
+    width: "1200"
+    created_at: 2008-09-06 04:58:08
+- - avatars_006
+  - content_type: image/jpeg
+    thumbnail: thumb
+    size: "11781"
+    updated_at: 2008-09-06 04:58:08
+    survey_id: 
+    id: "6"
+    filename: IMG_2210_thumb.JPG
+    height: "110"
+    parent_id: "5"
+    width: "83"
+    created_at: 2008-09-06 04:58:08
