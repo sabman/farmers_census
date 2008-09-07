@@ -9,7 +9,6 @@ describe "/answers/show.html.erb" do
     @answer.stub!(:question_id).and_return("1")
     @answer.stub!(:survey_id).and_return("1")
     @answer.stub!(:farm_id).and_return("1")
-    @answer.stub!(:user_id).and_return("1")
     @answer.stub!(:stage_id).and_return("1")
 
     assigns[:answer] = @answer

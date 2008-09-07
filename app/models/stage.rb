@@ -1,6 +1,6 @@
 class Stage < ActiveRecord::Base
   has_many :questions
-
+  
   def percent_completed(survey_id)
     total = questions.count
     a = questions.map{ |question| Survey.find(survey_id).question_answered?(question.id) ? 1 : 0 }

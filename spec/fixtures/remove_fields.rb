@@ -1,0 +1,2 @@
+require 'find'
+dir = '.'

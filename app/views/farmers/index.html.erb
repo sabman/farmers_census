@@ -1,0 +1,34 @@
+<h1>Listing farmers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Address</th>
+    <th>Telephone</th>
+    <th>Referring party</th>
+    <th>Referee contact</th>
+    <th>Farm</th>
+    <th>Survey</th>
+  </tr>
+
+<% for farmer in @farmers %>
+  <tr>
+    <td><%=h farmer.name %></td>
+    <td><%=h farmer.email %></td>
+    <td><%=h farmer.address %></td>
+    <td><%=h farmer.telephone %></td>
+    <td><%=h farmer.referring_party %></td>
+    <td><%=h farmer.referee_contact %></td>
+    <td><%=h farmer.farm_id %></td>
+    <td><%=h farmer.survey_id %></td>
+    <td><%= link_to 'Show', farmer %></td>
+    <td><%= link_to 'Edit', edit_farmer_path(farmer) %></td>
+    <td><%= link_to 'Destroy', farmer, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New farmer', new_farmer_path %>

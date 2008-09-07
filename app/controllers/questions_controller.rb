@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
-  
+  before_filter :verify_admin
+
   # GET /questions
   # GET /questions.xml
   def index

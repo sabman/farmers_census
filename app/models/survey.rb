@@ -1,8 +1,9 @@
 class Survey < ActiveRecord::Base
   has_many :answers 
   has_and_belongs_to_many :questions
-  has_many :avatars
-
+  has_many :avatars 
+  has_one :farmer
+  
   def percentage_completed
     stages = Stage.find :all
     total = 0; count = 0
@@ -30,7 +31,6 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
-    #return nil if id == 1
     lat_q=questions.find_by_text("lat").id
     ans = answers.find_by_question_id(lat_q).text 
     return nil if ans.to_f == 0     
@@ -38,7 +38,6 @@ class Survey < ActiveRecord::Base
   end    
   
   def lng
-    #return nil if id == 1
     lng_q=questions.find_by_text("lng").id
     ans = answers.find_by_question_id(lng_q).text
     return nil if ans.to_f == 0     
@@ -46,7 +45,6 @@ class Survey < ActiveRecord::Base
   end
   
   def full_address
-    return nil if id == 1
     street_address = find_answer_by_question("street address").text
     city = find_answer_by_question("city").text
     state = find_answer_by_question("state").text
@@ -56,8 +54,15 @@ class Survey < ActiveRecord::Base
   end
   
   def farm_name
-    return nil if id == 1
     find_answer_by_question("Name of farm").text
+  end
+
+  def farmer_name
+    find_answer_by_question("First Name").text + find_answer_by_question("Last Name").text
+  end
+  
+  def Survey.recent
+    Survey.find(:limit => 10, :order => "DESC updated_at")
   end
     
 end

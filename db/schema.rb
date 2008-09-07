@@ -9,14 +9,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080828112028) do
+ActiveRecord::Schema.define(:version => 20080905152357) do
 
   create_table "answers", :force => true do |t|
     t.text     "text"
     t.integer  "question_id"
     t.integer  "survey_id"
     t.integer  "farm_id"
-    t.integer  "user_id"
     t.integer  "stage_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -36,6 +35,19 @@ ActiveRecord::Schema.define(:version => 20080828112028) do
     t.integer  "size"
     t.integer  "width"
     t.integer  "height"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "farmers", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.text     "address"
+    t.string   "telephone"
+    t.string   "referring_party"
+    t.string   "referee_contact"
+    t.integer  "farm_id"
+    t.integer  "survey_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

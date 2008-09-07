@@ -1,0 +1,43 @@
+<p>
+  <b>Name:</b>
+  <%=h @farmer.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @farmer.email %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @farmer.address %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%=h @farmer.telephone %>
+</p>
+
+<p>
+  <b>Referring party:</b>
+  <%=h @farmer.referring_party %>
+</p>
+
+<p>
+  <b>Referee contact:</b>
+  <%=h @farmer.referee_contact %>
+</p>
+
+<p>
+  <b>Farm:</b>
+  <%=h @farmer.farm_id %>
+</p>
+
+<p>
+  <b>Survey:</b>
+  <%=h @farmer.survey_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_farmer_path(@farmer) %> |
+<%= link_to 'Back', farmers_path %>

@@ -2,6 +2,8 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  layout :set_layout
+  
   include AuthenticatedSystem
   helper :all # include all helpers, all the time
   helper_method :admin?
@@ -20,7 +22,10 @@ class ApplicationController < ActionController::Base
     return current_survey
   end
 
-  
+  def set_layout
+    admin? ? 'admin' : 'application'    
+  end
+    
   protected
   def admin?
     session[:admin_password] == Admin::PASSWORD
