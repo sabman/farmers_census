@@ -10,14 +10,16 @@ if @loc.success
   page[:state][:value] = @loc.state
   page[:lng][:value] = @loc.lng
   page[:lat][:value] = @loc.lat
+  page[:lng_display][:innerHTML] = @loc.lng
+  page[:lat_display][:innerHTML] = @loc.lat
   
   page << @map.clear_overlays
-  page << @map.add_overlay(@marker)
+#  page << @map.add_overlay(@marker)
   page << @map.set_center(@center,@zoom)  
 
-  unless @current_survey.lat.nil? and @current_survey.lng.nil?  
-    page << "create_draggable_marker_for_edit(#{@current_survey.lng.to_f}, #{@current_survey.lat.to_f});"
-  end  
+#  unless @current_survey.lat.nil? and @current_survey.lng.nil?  
+    page << "create_draggable_marker_for_edit(#{@loc.lng.to_f}, #{@loc.lat.to_f});"
+#  end  
 else
   page["address-warning-icon"].set_style :display => 'inline'
 end

@@ -697,12 +697,12 @@
     title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
     stage_id: 7
 - - question_073
-  - qtype: text_field
+  - qtype: hidden_field
     text: lat
     title_label: 
     stage_id: 7
 - - question_074
-  - qtype: text_field
+  - qtype: hidden_field
     text: lng
     title_label: 
     stage_id: 7
