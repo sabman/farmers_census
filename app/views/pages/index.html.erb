@@ -1,18 +1,16 @@
-<center>
-<div id="content">
+<p class='nextbutton'><%= link_to 'Create a new page', new_page_path %></p>
 
-<h1><%= link_to 'New page', new_page_path %></h1> <br/><br/>  
+<h2>Existing Pages</h2> <br/> <hr>     
 
-<h1>Existing Pages</h1><br/><br/>
 <% for page in @pages %>
-	<h2><%=h page.name %></h2> <br/>
+	<h3><%=h page.name %></h3> 
+	
 	<b>Permalink:</b> <%=h page.permalink %> <br/>
 	<b>Content:</b> <%=h truncate(page.content, 100, "...") %> <br/>
   <%= link_to 'Show', page %> | 
 	<%= link_to 'Edit', edit_page_path(page) %> | 
 	<%= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete %> 
 	<p/>
+	<hr/>
 <% end %>
 
-</div>
-</center>
