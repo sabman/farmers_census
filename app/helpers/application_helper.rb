@@ -57,16 +57,16 @@ module ApplicationHelper
   
   def image_label_no_mouseover(file)
     image_tag("#{file}",
-				:title => "#{File.basename(file, File.extname(file))}", 
+				:title => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "), 
 		  	:id =>"#{File.basename(file, File.extname(file))}", 
-		  	:alt => "#{File.basename(file, File.extname(file))}")
+		  	:alt => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "))
   end
 
   def image_label_mouseover(file)
     image_tag("#{file}",
-				:title => "#{File.basename(file, File.extname(file))}", 
+				:title => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "), 
 		  	:id =>"#{File.basename(file, File.extname(file))}", 
-		  	:alt => "#{File.basename(file, File.extname(file))}",
+		  	:alt => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "),
 		  	:mouseover => "#{mouseover_file(file)}")
   end
   

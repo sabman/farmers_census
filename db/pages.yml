@@ -1,9 +1,7 @@
 --- 
-- - pages_001
-  - name: About the campaign
-    permalink: about
-    updated_at: 2008-09-07 08:38:34
-    id: "1"
+- - page_001
+  - permalink: about
+    name: About the campaign
     content: |-
       We're *excited* to use this project to make visual the impact of a swelling new force on the American landscape. There are patriots working in this country today whose commitment to the freedom of the nation is exhibited in their fierce loyalty to its citizens, to their nutrition, their water, their open space, their health and their independence. Farmers have been here all along, but in this time especially of high energy costs, sinking dollar, and the changing climate--local food production has become a key puzzle piece, and with the current agricultural community reaching retirement age, recruitment has become a critical motive. 
                           
@@ -11,20 +9,16 @@
                           
       We challenge the eaters, thinkers, mothers, markets and policy makers of this country-- to support the young farmers. We challenge the ecologists, humanists, activists, pacifists and survivalists to join in this movement. We vote with our fork, we vote with our vote, let us vote with our lives-- and restore agriculture, that delicious foundation of our human society. It is hard work, and we can only do it together.
     label: /images/text/About_this_site.png
-    created_at: 2008-09-06 01:59:53
-- - pages_002
-  - name: Sponsors
-    permalink: sponsors
-    updated_at: 2008-09-06 01:59:53
-    id: "2"
+
+- - page_002
+  - permalink: sponsors
+    name: Sponsors
     content: "!http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif!"
     label: /images/text/Sponsors.png
-    created_at: 2008-09-06 01:59:53
-- - pages_003
-  - name: Why?
-    permalink: why
-    updated_at: 2008-09-06 01:59:53
-    id: "3"
+
+- - page_003
+  - permalink: why
+    name: Why?
     content: |-
       This map is a way for us to feel our own numbers, and connect with nearby farmers as well as nearby markets/media.
       
@@ -42,12 +36,10 @@
             Cerise Mayo  New Amsterdam Market director
             cerise.mayo@gmail.com
     label: /images/text/Why.png
-    created_at: 2008-09-06 01:59:53
-- - pages_004
-  - name: FAQ
-    permalink: faq
-    updated_at: 2008-09-06 01:59:53
-    id: "4"
+
+- - page_004
+  - permalink: faq
+    name: FAQ
     content: |-
       1. What is  SERVE YOUR COUNTRY FOOD.
       
@@ -57,12 +49,9 @@
             It's a political installation of transparent commitment to soil fertility and community health.
             and...it's fun! It's free. And its sponsored by Organic Valley.
     label: text/FAQ.png
-    created_at: 2008-09-06 01:59:53
-- - pages_005
-  - name: Other Maps
-    permalink: other_maps
-    updated_at: 2008-09-06 01:59:53
-    id: "5"
+
+- - page_005
+  - permalink: other_maps
+    name: Other Maps
     content: "\n      \n      "
     label: text/Other_Maps.png
-    created_at: 2008-09-06 01:59:53

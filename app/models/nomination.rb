@@ -5,6 +5,12 @@ class Nomination < ActiveRecord::Base
   validates_format_of   :email, :with => /^[A-Z0-9._%-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i, 
                                     :message => "must be a valid email address"
 
+
+                                    
+  def Nomination.recent
+    Nomination.find(:all, :limit => 10, :order => "updated_at DESC" )
+  end
+  
   def full_name
     [first_name, last_name].join(" ")
   end

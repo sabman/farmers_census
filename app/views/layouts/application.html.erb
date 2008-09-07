@@ -29,7 +29,7 @@
     <div class="yui-g middle">
 			  <p style="color: red"><%= flash[:error] %></p>
 			  <p style="color: green"><%= flash[:notice] %></p>
-	 			<%= yield %> 			
+	 			<div id="content"><%= yield %></div> 			
     </div>  <!-- yui-g -->
 
     <div class="yui-g">
@@ -37,7 +37,7 @@
     </div> <!-- yui-g -->    
 
     <div class="yui-g middle">
-      <%= yield(:lower_half) %>      
+      <div id="content"><%= yield(:lower_half) %></div>      
     </div>  
     
 	  <div id="ft"> 

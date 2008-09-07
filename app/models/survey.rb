@@ -45,7 +45,7 @@ class Survey < ActiveRecord::Base
   end
   
   def full_address
-    street_address = find_answer_by_question("street address").text
+    street_address = find_answer_by_question("street address").text 
     city = find_answer_by_question("city").text
     state = find_answer_by_question("state").text
     postal_code = find_answer_by_question("postal code").text
@@ -54,15 +54,15 @@ class Survey < ActiveRecord::Base
   end
   
   def farm_name
-    find_answer_by_question("Name of farm").text
+    find_answer_by_question("Name of farm").nil? ? "" : find_answer_by_question("Name of farm").text 
   end
 
   def farmer_name
-    find_answer_by_question("First Name").text + find_answer_by_question("Last Name").text
+    find_answer_by_question("First name").nil? ? "" : find_answer_by_question("First name").text
   end
   
   def Survey.recent
-    Survey.find(:limit => 10, :order => "DESC updated_at")
+    Survey.find(:all, :order => "created_at ASC", :limit => 10)
   end
     
 end

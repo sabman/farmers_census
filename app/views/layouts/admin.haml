@@ -9,10 +9,8 @@
         -if admin? 
           %li= link_to "logout", logout_path()
       %h1 Admin Dashboard   
-  
-            
-    #container
 
+    #container
       #container2
         #navigation
           %ul
@@ -23,18 +21,13 @@
             %li= link_to "Farmers", farmers_path
             %li= link_to "Farms", "farms_path"
         #more
-          %h3 Find out more
-          %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+          =yield(:more) 
         #content
-          %h2 Heading here
-          %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-          %p.nextbutton= link_to "Back", :action => "index"
           =yield
         #cleardiv
 
     #footer
+      =yield(:footer)       
       %ul
-        %li= link_to "Footer item 1", "#"
-        %li= link_to "Footer item 2", "#"
-        %li= link_to "Footer item 3", "#"
-        %li= link_to "Copyright &copy; sitename", "#"     
+        %li= link_to "logout (public site)", logout_path() 
+        

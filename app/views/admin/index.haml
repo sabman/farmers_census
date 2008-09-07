@@ -1,18 +1,16 @@
 
-%ul
-  %li= link_to "Surveys", surveys_path
-  %li= link_to "Nominations", nominations_path
-  %li= link_to "Farmers", farmers_path
-  %li= link_to "Farms", "farms_path"
 
 %p Recent Surveys
-  -Survey.recent.each do |survey|
-    = link_to "Survey by #{survey.farmer_name} from  #{survey.farm_name}", survey_path(survey) %br /
+- Survey.recent.each do |s|
+  = link_to "Survey by #{s.farmer_name} from  #{s.farm_name}", survey_path(s) 
+  %br
     
 %p Recent Nominations
-%p Recent Farmers
-%p Recent Farms
+- Nomination.recent.each do |n|
+  = link_to "Nomination of #{n.first_name} by #{n.your_name}", nomination_path(n) 
+  %br
+
 %p Public Farmer Profiles
 %p Private Farmer Profiles
 %p Farmers Contacted
-%p Farmers Not Yet Contacted  
+%p Farmers Not Contacted  
