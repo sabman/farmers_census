@@ -8,7 +8,7 @@ namespace :db do
       questions = Question.find(:all, :select => 'id, qtype, text, title_label, stage_id', :include => :options)
       file.write questions.inject({}) { |hash, rec|
         if rec.qtype == "options" or rec.qtype == "list" or rec.qtype == "yes_no" 
-          opts_hash = rec.options.inject({}){ |h, opt| h["options_#{opt.id}"] = {"text", opt.text, "filename", opt.filename}; h }
+          opts_hash = rec.options.inject({}){ |h, opt| h["options_#{opt.id.to_s.rjust(3).gsub(/ /,"0")}"] = {"text", opt.text, "filename", opt.filename}; h }
           hash["question_#{rec.id.to_s.rjust(3).gsub(/ /,"0")}"] = {"qtype", rec.qtype, "text", rec.text, "title_label", rec.title_label, "stage_id", rec.stage_id, "options", opts_hash}
         else
           hash["question_#{rec.id.to_s.rjust(3).gsub(/ /,"0")}"] = {"qtype", rec.qtype, "text", rec.text, "title_label", rec.title_label, "stage_id", rec.stage_id}
