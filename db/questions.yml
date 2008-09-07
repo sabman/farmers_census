@@ -1,0 +1,54 @@
+questions_001:
+  qtype: text_field
+  text: First name
+  title_label: /images/labels/name.png
+  stage_id: "1"
+
+questions_009:
+  qtype: options
+  text: Status at the Farm
+  title_label: 
+  stage_id: "1"
+  
+  options_006:
+    text: renter
+    filename: /images/labels/renter.png
+
+  options_007:
+    text: owner
+    filename: /images/labels/owner.png
+
+  options_008:
+    text: intern
+    filename: ""
+
+  options_009:
+    text: seasonal labor
+    filename: /images/labels/seasonal_labor.png
+
+  options_010:
+    text: student
+    filename: /images/labels/student.png
+
+  options_011:
+    text: staff
+    filename: /images/labels/staff.png
+    
+questions_034:
+  qtype: list
+  text: Best way to reach you?
+  title_label: /images/labels/best_way_to_reach_you.png
+  stage_id: "3"
+
+  options_031:
+    text: telephone
+    filename: /images/labels/telephone.png
+
+  options_032:
+    text: email
+    filename: /images/labels/email.png
+
+  options_033:
+    text: snailmail
+    filename: /images/labels/snailmail.png
+
