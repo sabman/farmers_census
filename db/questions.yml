@@ -17,20 +17,20 @@
 - - question_004
   - qtype: options
     options: 
-      options_3: 
-        text: suburban
-        filename: 
-      options_4: 
-        text: x-urban
-        filename: 
-      options_5: 
+      options_003: 
         text: other
         filename: 
-      options_1: 
+      options_004: 
         text: urban
         filename: 
-      options_2: 
+      options_005: 
         text: rural
+        filename: 
+      options_001: 
+        text: suburban
+        filename: 
+      options_002: 
+        text: x-urban
         filename: 
     text: "Born:"
     title_label: 
@@ -58,51 +58,51 @@
 - - question_009
   - qtype: options
     options: 
-      options_6: 
+      options_006: 
         text: renter
         filename: /images/labels/renter.png
-      options_10: 
-        text: student
-        filename: /images/labels/student.png
-      options_7: 
+      options_007: 
         text: owner
         filename: /images/labels/owner.png
-      options_8: 
+      options_008: 
         text: intern
         filename: ""
-      options_11: 
-        text: staff
-        filename: /images/labels/staff.png
-      options_9: 
+      options_009: 
         text: seasonal labor
         filename: /images/labels/seasonal_labor.png
+      options_010: 
+        text: student
+        filename: /images/labels/student.png
+      options_011: 
+        text: staff
+        filename: /images/labels/staff.png
     text: Status at the Farm
     title_label: 
     stage_id: 1
 - - question_010
   - qtype: options
     options: 
-      options_17: 
-        text: partner/spouse not a farmer
-        filename: 
-      options_18: 
-        text: n/a
-        filename: 
-      options_12: 
-        text: married
-        filename: /images/labels/married.png
-      options_13: 
-        text: single
-        filename: /images/labels/single.png
-      options_14: 
-        text: partnership
-        filename: /images/labels/partnership.png
-      options_15: 
-        text: other
-        filename: /images/labels/other.png
-      options_16: 
+      options_014: 
         text: partner also farmer ?
         filename: 
+      options_015: 
+        text: partner/spouse not a farmer
+        filename: 
+      options_016: 
+        text: n/a
+        filename: 
+      options_017: 
+        text: married
+        filename: /images/labels/married.png
+      options_018: 
+        text: single
+        filename: /images/labels/single.png
+      options_012: 
+        text: partnership
+        filename: /images/labels/partnership.png
+      options_013: 
+        text: other
+        filename: /images/labels/other.png
     text: Partnership Status
     title_label: 
     stage_id: 1
@@ -138,13 +138,6 @@
     stage_id: 2
 - - question_017
   - qtype: yes_no
-    options: 
-      options_20: 
-        text: "no"
-        filename: /images/labels/no.png
-      options_19: 
-        text: "yes"
-        filename: /images/labels/yes.png
     text: Animals?
     title_label: /images/labels/animals.png
     stage_id: 2
@@ -170,13 +163,6 @@
     stage_id: 2
 - - question_022
   - qtype: yes_no
-    options: 
-      options_21: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_22: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Can you afford health insurance?
     title_label: /images/labels/can_you_afford_health_insurance.png
     stage_id: 2
@@ -187,49 +173,21 @@
     stage_id: 2
 - - question_024
   - qtype: yes_no
-    options: 
-      options_23: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_24: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Do you accept interns on your farm?
     title_label: /images/labels/internships_on_your_farm.png
     stage_id: 2
 - - question_025
   - qtype: yes_no
-    options: 
-      options_25: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_26: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Organic status
     title_label: /images/labels/organic_status.png
     stage_id: 2
 - - question_026
   - qtype: yes_no
-    options: 
-      options_28: 
-        text: "no"
-        filename: /images/labels/no.png
-      options_27: 
-        text: "yes"
-        filename: /images/labels/yes.png
     text: Are you saving your own seed?
     title_label: /images/labels/saving_own_seed.png
     stage_id: 2
 - - question_027
   - qtype: yes_no
-    options: 
-      options_30: 
-        text: "no"
-        filename: /images/labels/no.png
-      options_29: 
-        text: "yes"
-        filename: /images/labels/yes.png
     text: Farmstand
     title_label: /images/labels/farmstand.png
     stage_id: 2
@@ -266,13 +224,13 @@
 - - question_034
   - qtype: list
     options: 
-      options_31: 
+      options_031: 
         text: telephone
         filename: /images/labels/telephone.png
-      options_32: 
+      options_032: 
         text: email
         filename: /images/labels/email.png
-      options_33: 
+      options_033: 
         text: snailmail
         filename: /images/labels/snailmail.png
     text: Best way to reach you?
@@ -280,13 +238,6 @@
     stage_id: 3
 - - question_035
   - qtype: yes_no
-    options: 
-      options_34: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_35: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Woud you like to join the mailing list y/n
     title_label: /images/labels/would_you_like_to_join_the_mailing_list.png
     stage_id: 3
@@ -297,13 +248,6 @@
     stage_id: 3
 - - question_037
   - qtype: yes_no
-    options: 
-      options_36: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_37: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Grange membership?
     title_label: /images/labels/grange_memberships.png
     stage_id: 4
@@ -315,14 +259,14 @@
 - - question_039
   - qtype: list
     options: 
-      options_40: 
-        text: farm bureau federation
+      options_038: 
+        text: national farmers organization
         filename: 
-      options_39: 
+      options_039: 
         text: national farmers union
         filename: 
-      options_38: 
-        text: national farmers organization
+      options_040: 
+        text: farm bureau federation
         filename: 
     text: Other farm groups
     title_label: /images/labels/other_farm_groups.png
@@ -349,13 +293,6 @@
     stage_id: 4
 - - question_044
   - qtype: yes_no
-    options: 
-      options_41: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_42: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Other memberships?
     title_label: 
     stage_id: 4
@@ -367,16 +304,16 @@
 - - question_046
   - qtype: list
     options: 
-      options_43: 
+      options_043: 
         text: democrats
         filename: /images/labels/democrats.png
-      options_44: 
+      options_044: 
         text: republicans
         filename: /images/labels/republicans.png
-      options_45: 
+      options_045: 
         text: greens
         filename: /images/labels/greens.png
-      options_46: 
+      options_046: 
         text: independent
         filename: /images/labels/independent.png
     text: Political affiliation?
@@ -389,13 +326,6 @@
     stage_id: 4
 - - question_048
   - qtype: yes_no
-    options: 
-      options_47: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_48: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Does farm work with low-income people on food security issues?
     title_label: /images/labels/does_your_farm_work_with_low_income_people_on_food_security_issues.png
     stage_id: 4
@@ -427,18 +357,18 @@
 - - question_054
   - qtype: list
     options: 
-      options_51: 
-        text: certified
-        filename: /images/labels/certified.png
-      options_52: 
-        text: local branding
-        filename: /images/labels/local_branding.png
-      options_50: 
-        text: food alliance
-        filename: /images/labels/food_alliance.png
-      options_49: 
+      options_049: 
         text: natural
         filename: /images/labels/natural.png
+      options_050: 
+        text: food alliance
+        filename: /images/labels/food_alliance.png
+      options_051: 
+        text: certified
+        filename: /images/labels/certified.png
+      options_052: 
+        text: local branding
+        filename: /images/labels/local_branding.png
     text: Produce labeling
     title_label: /images/labels/produce_labeling.png
     stage_id: 6
@@ -449,13 +379,6 @@
     stage_id: 6
 - - question_056
   - qtype: yes_no
-    options: 
-      options_53: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_54: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Does farm sell direct to customers?
     title_label: /images/labels/does_farm_sell_directly_to_customers.png
     stage_id: 6
@@ -466,13 +389,6 @@
     stage_id: 6
 - - question_058
   - qtype: yes_no
-    options: 
-      options_55: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_56: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Does farm run a CSA? (# of members)
     title_label: /images/labels/does_farm_run_a_csa.png
     stage_id: 6
@@ -493,13 +409,6 @@
     stage_id: 6
 - - question_062
   - qtype: yes_no
-    options: 
-      options_57: 
-        text: "yes"
-        filename: /images/labels/yes.png
-      options_58: 
-        text: "no"
-        filename: /images/labels/no.png
     text: Any restaurants you directly to?
     title_label: /images/labels/does_farm_sell_directly_to_restaurants.png
     stage_id: 6

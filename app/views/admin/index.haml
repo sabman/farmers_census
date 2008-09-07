@@ -6,8 +6,9 @@
   %li= link_to "Farms", "farms_path"
 
 %p Recent Surveys
-  -Survey.recent.each do |survey|
-    = link_to "Survey by #{survey.farmer_name} from  #{survey.farm_name}", survey_path(survey) %br /
+- Survey.recent.each do |s|
+  = link_to "Survey by #{s.farmer_name} from  #{s.farm_name}", survey_path(s) 
+  %br
     
 %p Recent Nominations
 %p Recent Farmers
