@@ -1,466 +1,700 @@
 --- 
-- - question_001
+- - question
   - qtype: text_field
     text: First name
     title_label: /images/labels/name.png
     stage_id: 1
-- - question_002
+- - question
   - qtype: text_field
     text: Last name
     title_label: /images/labels/last_name.png
     stage_id: 1
-- - question_003
+- - question
   - qtype: text_field
     text: Name of farm
     title_label: /images/labels/name_of_farm.png
     stage_id: 1
-- - question_004
+- - question
   - qtype: options
-    options: 
-      options_003: 
-        text: other
-        filename: 
-      options_004: 
+    options:
+      options: 
         text: urban
         filename: 
-      options_005: 
+      options: 
         text: rural
-        filename: 
-      options_001: 
+        filename:
+      options: 
         text: suburban
         filename: 
-      options_002: 
+      options: 
         text: x-urban
         filename: 
+      options: 
+        text: other
+        filename:  
     text: "Born:"
     title_label: 
     stage_id: 1
-- - question_005
+- - question
   - qtype: text_area
     text: Why do you farm?
     title_label: /images/labels/why_do_you_farm.png
     stage_id: 1
-- - question_006
+- - question
   - qtype: text_field
     text: Land tenure prospect
     title_label: 
     stage_id: 1
-- - question_007
+- - question
   - qtype: text_field
     text: Previous farming zip codes (comma separated e.g. 12345, 54321)
     title_label: 
     stage_id: 1
-- - question_008
+    note: severine would like this to be several fields
+- - question
   - qtype: text_field
     text: Children on the farm?
     title_label: 
     stage_id: 1
-- - question_009
+- - question
   - qtype: options
     options: 
-      options_006: 
+      options: 
         text: renter
         filename: /images/labels/renter.png
-      options_007: 
-        text: owner
-        filename: /images/labels/owner.png
-      options_008: 
-        text: intern
-        filename: ""
-      options_009: 
-        text: seasonal labor
-        filename: /images/labels/seasonal_labor.png
-      options_010: 
+      options: 
         text: student
         filename: /images/labels/student.png
-      options_011: 
+      options: 
+        text: owner
+        filename: /images/labels/owner.png
+      options: 
+        text: intern
+        filename: ""
+      options: 
         text: staff
         filename: /images/labels/staff.png
+      options: 
+        text: seasonal labor
+        filename: /images/labels/seasonal_labor.png
     text: Status at the Farm
     title_label: 
     stage_id: 1
-- - question_010
+- - question
   - qtype: options
     options: 
-      options_014: 
-        text: partner also farmer ?
-        filename: 
-      options_015: 
-        text: partner/spouse not a farmer
-        filename: 
-      options_016: 
-        text: n/a
-        filename: 
-      options_017: 
+      options: 
         text: married
         filename: /images/labels/married.png
-      options_018: 
+      options: 
         text: single
         filename: /images/labels/single.png
-      options_012: 
+      options: 
         text: partnership
         filename: /images/labels/partnership.png
-      options_013: 
+      options: 
         text: other
         filename: /images/labels/other.png
+      options: 
+        text: n/a
+        filename: 
     text: Partnership Status
     title_label: 
     stage_id: 1
-- - question_011
+- - question
+  - qtype: yes_no
+    text: Partner also a farmer?
+    title_label:
+    stage_id: 1
+- - question
   - qtype: text_field
-    text: Educational background
+    text: Educational background. What did you study? To what level? Where?
     title_label: /images/labels/educational_background.png
     stage_id: 1
-- - question_012
+    note: not sure this label was updated.
+- - question
   - qtype: text_field
     text: Years farming
     title_label: /images/labels/years_farming.png
     stage_id: 2
-- - question_013
+    note: numeric_field.
+- - question
   - qtype: text_field
     text: Years at the farm
     title_label: /images/labels/years_at_the_farm.png
     stage_id: 2
-- - question_014
+    note: numeric_field. might need changing to years at current farm.
+- - question
   - qtype: text_field
     text: Acreage
     title_label: /images/labels/acreage.png
     stage_id: 2
-- - question_015
+    note: numeric_field.
+- - question
+  - qtype: text_field
+    text: Acreage under cultivation
+    title_label:
+    stage_id: 2
+    note: numeric_field.
+- - question
+  - qtype: text_field
+    text: Acreage in pasture
+    stage_id: 2
+    note: numeric_field.
+- - question
+  - qtype: text_field
+    text: Acreage in conservation/woodland/riparian habitat
+    stage_id: 2
+    note: numeric_field.
+- - question
   - qtype: text_field
     text: Primary crops/products
     title_label: /images/labels/primary_crops_products.png
     stage_id: 2
-- - question_016
+- - question
   - qtype: text_field
     text: Secondary processing on farm?
     title_label: /images/labels/secondary_processing_on_farm.png
     stage_id: 2
-- - question_017
+- - question
   - qtype: yes_no
     text: Animals?
     title_label: /images/labels/animals.png
     stage_id: 2
-- - question_018
+- - question
   - qtype: text_area
     text: Types & breeds of livestock
     title_label: /images/labels/if_so_number_types_breeds.png
     stage_id: 2
-- - question_019
+- - question
   - qtype: text_field
     text: Age of primary farmers
     title_label: /images/labels/age_of_primary_farmers.png
     stage_id: 2
-- - question_020
+- - question
   - qtype: text_field
     text: Number of other young farmers
     title_label: /images/labels/number_of_other_young_farmers.png
     stage_id: 2
-- - question_021
+- - question
   - qtype: text_field
     text: Number of farm laborers
     title_label: /images/labels/number_of_farm_laborers.png
     stage_id: 2
-- - question_022
+- - question
   - qtype: yes_no
     text: Can you afford health insurance?
     title_label: /images/labels/can_you_afford_health_insurance.png
     stage_id: 2
-- - question_023
+- - question
   - qtype: text_area
-    text: Can you afford to pay a living wage to employees?
+    text: Can you afford to pay a living wage to employees? Elaborate on your answer to this question.
     title_label: /images/labels/can_you_afford_to_pay_a_living_wage_to_employees.png
     stage_id: 2
-- - question_024
+    note: need new label
+- - question
   - qtype: yes_no
     text: Do you accept interns on your farm?
     title_label: /images/labels/internships_on_your_farm.png
     stage_id: 2
-- - question_025
+- - question
   - qtype: yes_no
     text: Organic status
     title_label: /images/labels/organic_status.png
     stage_id: 2
-- - question_026
+- - question
   - qtype: yes_no
     text: Are you saving your own seed?
     title_label: /images/labels/saving_own_seed.png
     stage_id: 2
-- - question_027
+- - question
   - qtype: yes_no
     text: Farmstand
     title_label: /images/labels/farmstand.png
     stage_id: 2
-- - question_028
-  - qtype: text_area
-    text: "Your particular challenges getting started:"
-    title_label: /images/labels/your_particular_challenges_getting_started.png
-    stage_id: 3
-- - question_029
-  - qtype: text_area
-    text: What made it possible?
-    title_label: /images/labels/what_made_it_possible.png
-    stage_id: 3
-- - question_030
-  - qtype: text_area
-    text: "What kind of institutional/ political support would you like to see?:"
-    title_label: /images/labels/what_kind_of_political_institutional_support_would_you_like_to_see.png
-    stage_id: 3
-- - question_031
-  - qtype: text_area
-    text: Would you nominate anyone local to facilitate future young farmer meetings?
-    title_label: /images/labels/would_you_nominate_anyone_locally_to_facilitate_future_young_farmer_meetings.png
-    stage_id: 3
-- - question_032
+- - question
+  - qtype: yes_no
+    text: drip irrigation?
+    title_label:
+    stage_id: 2
+- - question
+  - qtype: text_field
+    text: How many bikes on the farm?
+    title_label:
+    stage_id: 2
+    note: numeric
+- - question
+  - qtype: text_field
+    text: How many trucks/cars on the farm?
+    title_label:
+    stage_id: 2
+    note: numeric
+- - question
+  - qtype: yes_no
+    text: Any animal traction?
+    title_label:
+    stage_id: 2
+- - question
+  - qtype: yes_no
+    text: Permanent fencing?
+    title_label:
+    stage_id: 2
+- - question
+  - qtype: yes_no
+    text: Electricity?
+    title_label:
+    stage_id: 2
+- - question
+  - qtype: yes_no
+    text: Running water?
+    title_label:
+    stage_id: 2
+- - question
+  - qtype: text_field
+    text: Greenhouses? Describe number. Are they cheepo reclaimed, or nice ventillated/heated ones?
+    title_label:
+    stage_id: 2
+- - question
   - qtype: text_area
     text: Who are your literary and practical heros?
     title_label: /images/labels/who_are_your_literary_and_practical_heroes.png
     stage_id: 3
-- - question_033
+- - question
   - qtype: text_area
     text: political heroes? cultural?
     title_label: /images/labels/cultural.png
     stage_id: 3
-- - question_034
-  - qtype: list
-    options: 
-      options_031: 
-        text: telephone
-        filename: /images/labels/telephone.png
-      options_032: 
-        text: email
-        filename: /images/labels/email.png
-      options_033: 
-        text: snailmail
-        filename: /images/labels/snailmail.png
-    text: Best way to reach you?
-    title_label: /images/labels/best_way_to_reach_you.png
-    stage_id: 3
-- - question_035
-  - qtype: yes_no
-    text: Woud you like to join the mailing list y/n
-    title_label: /images/labels/would_you_like_to_join_the_mailing_list.png
-    stage_id: 3
-- - question_036
+- - question
   - qtype: text_area
-    text: Are you interested in being profiled on the site so that the press can find you?
-    title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
+    text: What heroic efforts have you gone to, to be a farmer?
+    title_label:
     stage_id: 3
-- - question_037
+- - question
+  - qtype: yes_no
+    text: Does your farming operation fit your sensibilities?
+    title_label:
+    stage_id: 3
+- - question
+  - qtype: text_area
+    text: "Your particular challenges getting started:"
+    title_label: /images/labels/your_particular_challenges_getting_started.png
+    stage_id: 3
+    note: the first few years, what were your particular challenges.
+- - question
+  - qtype: text_area
+    text: "What is your current biggest challenge, today?"
+    title_label:
+    stage_id: 3
+- - question
+  - qtype: text_area
+    text: "What did your mother+friends think?"
+    title_label:
+    stage_id: 3
+- - question
+  - qtype: text_area
+    text: What made it possible?
+    title_label: /images/labels/what_made_it_possible.png
+    stage_id: 3
+    note: What, ultimately, made farming possible?
+- - question
+  - qtype: text_area
+    text: "What kind of institutional/ political support would you like to see?:"
+    title_label: /images/labels/what_kind_of_political_institutional_support_would_you_like_to_see.png
+    stage_id: 3
+    note: If the future president were commited to serving the needs of young farmers, what kind of institutional / political support would you like to see? 
+- - question
+  - qtype: text_area
+    text: Are you worried about market saturation? Is there room for more young farmers in your area? 
+    title_label: 
+    stage_id: 3
+- - question
+  - qtype: text_area
+    text: Would you nominate anyone local to facilitate future young farmer meetings?
+    title_label: /images/labels/would_you_nominate_anyone_locally_to_facilitate_future_young_farmer_meetings.png
+    stage_id: 3
+- - question
   - qtype: yes_no
     text: Grange membership?
     title_label: /images/labels/grange_memberships.png
     stage_id: 4
-- - question_038
+- - question
   - qtype: text_field
     text: Local certifying body/regional sustainable aggricultural group
     title_label: /images/labels/local_certifying_body.png
     stage_id: 4
-- - question_039
+    note: Local certifying body/regional sustainable agricultural group
+- - question
   - qtype: list
     options: 
-      options_038: 
-        text: national farmers organization
-        filename: 
-      options_039: 
-        text: national farmers union
-        filename: 
-      options_040: 
+      options: 
         text: farm bureau federation
         filename: 
+      options: 
+        text: national farmers union
+        filename: 
+      options:
+        text: via campesina
+        filename:
+      options:
+        text: slow food
+        filename:
+      options:
+        text: national family farmers
+        filename:
+      options:
+        text: farm bureau
+        filename:
+      options:
+        text: 4-H
+        filename:
+      options:
+        text: future farmers of america
+        filename:
+      options:
+        text: dairy cooperative
+        filename:
+      options:
+        text: other cooperative
+        filename:
+      options:
+        text: farmers market? 
+        filename:
+      options:
+        text: local sustainable ag. group
+        filename:
+      options: 
+        text: on-farm research
+        filename:
+      options:
+        text: Extenstion/University affiliation
+        filename:
     text: Other farm groups
     title_label: /images/labels/other_farm_groups.png
     stage_id: 4
-- - question_040
-  - qtype: text_field
-    text: Any organic growers groups
-    title_label: 
-    stage_id: 4
-- - question_041
-  - qtype: text_field
-    text: Local farm/food groups
-    title_label: 
-    stage_id: 4
-- - question_042
-  - qtype: text_field
-    text: Any coop memberships?
-    title_label: /images/labels/coop_membership.png
-    stage_id: 4
-- - question_043
+- - question
   - qtype: text_field
     text: Nearby food-related businesses which your farm collaborates with regularly?
     title_label: /images/labels/nearby_food_related_businesses_which_your_farm_collaborates_regularly.png
     stage_id: 4
-- - question_044
+- - question
   - qtype: yes_no
     text: Other memberships?
     title_label: 
     stage_id: 4
-- - question_045
-  - qtype: text_field
-    text: Estimated yearly farm income (gross)
-    title_label: /images/labels/estimated_yearly_farm_income_gross.png
-    stage_id: 4
-- - question_046
+    note: other affiliantions you are proud of? (make text_field)
+- - question
   - qtype: list
     options: 
-      options_043: 
+      options: 
         text: democrats
         filename: /images/labels/democrats.png
-      options_044: 
+      options: 
         text: republicans
         filename: /images/labels/republicans.png
-      options_045: 
+      options: 
         text: greens
         filename: /images/labels/greens.png
-      options_046: 
+      options: 
         text: independent
         filename: /images/labels/independent.png
     text: Political affiliation?
     title_label: /images/labels/political_affiliation.png
     stage_id: 4
-- - question_047
+- - question
   - qtype: text_field
     text: Ethnicity?
     title_label: /images/labels/ethnicity.png
     stage_id: 4
-- - question_048
+- - question
+  - qtype: text_field
+    text: How far do you drive for slaughtering animals?
+    title_label:
+    stage_id: 4
+- - question
+  - qtype: text_field
+    text: For purchasing farm equipment?
+    title_label:
+    stage_id: 4
+- - question
+  - qtype: text_field
+    text: would you ever consider shipping your food on a train/bus/collaborative distribution system if that were an option?
+    title_label:
+    stage_id: 4
+- - question
   - qtype: yes_no
     text: Does farm work with low-income people on food security issues?
     title_label: /images/labels/does_your_farm_work_with_low_income_people_on_food_security_issues.png
     stage_id: 4
-- - question_049
+- - question
+  - qtype: yes_no
+    text: If an urban/peri-urban farm, do you participate in 'sharing the harvest/gleaner' arrangement? 
+    title_label:
+    stage_id: 4
+- - question
+  - qtype: yes_no
+    text: Do you barter?
+    title_label:
+    stage_id: 5
+- - question
+  - qtype: text_field
+    text: Estimated yearly farm income (gross)
+    title_label: /images/labels/estimated_yearly_farm_income_gross.png
+    stage_id: 5
+- - question
   - qtype: text_field
     text: $ amount of inputs grown on farm (grain for feeding, green manure, etc)
     title_label: /images/labels/amount_of_inputs_grown_on_farm.png
     stage_id: 5
-- - question_050
+    note: $/volume/percentage of inputs grown on the farm (grain, hay, fertility crops)
+- - question
   - qtype: text_field
     text: $ amount of inputs purchased WITHIN 200 miles of farm
     title_label: /images/labels/amount_of_inputs_purchased_within_200_miles_of_farm.png
     stage_id: 5
-- - question_051
+- - question
   - qtype: text_area
     text: $ amount of inputs purchased that are sourced (mined, produced, etc) FURTHER THAN 200 miles of farm
     title_label: /images/labels/amount_of_inputs_that_are_sourced_further_than_200_miles_from_farm.png
     stage_id: 5
-- - question_052
+- - question
   - qtype: text_field
     text: $ weekly diesel/gas expenditure
     title_label: /images/labels/weekly_diesel_gas_expenditure.png
     stage_id: 5
-- - question_053
+- - question
+  - qtype: yes_no
+    text: Any alternative fuels/energy on the farm?
+    title_label:
+    stage_id: 5
+- - question
   - qtype: text_area
     text: Alternative/cooperative transport
     title_label: /images/labels/alternative_or_cooperative_transport.png
     stage_id: 5
-- - question_054
+- - question
+  - qtype: list
+    text: Do you practice?
+    title_label:
+    stage_id: 5
+    options:
+      options:
+        text: ipm
+        filename:
+      options:
+        text: soil conservation tillage/practices
+        filename:
+      options:
+        text: pollinator support
+        filename:
+      options:
+        text: intercropping/strip cropping
+        filename:
+      options:  
+        text: insectaries
+        filename:
+      options:
+        text: on-farm composting
+        filename:
+      options:
+        text: rotational cropping
+        filename:
+      options:
+        text:  perrenial crops
+        filename:
+      options:
+        text:  cover/green manure crops
+        filename:
+      options:
+        text: hedgerows
+        filename:
+      options: 
+        text: windbreaks
+        filename:
+      options:
+        text: biological control
+        filename:
+      options:
+        text: gmo free
+        filename:
+      options:
+        text: no sprays at all
+        filename:
+      options:
+        text: certified organic practices
+        filename:
+      options:
+        text: certified biodynamic practices
+        filename:
+- - question
+  - qtype: text_field
+    text: other noteworthy or unique contributions to agrecology
+    title_label:
+    stage_id: 5
+- - question
+  - qtype: text_field
+    text: your feelings about black plastic and the future of agriculture?
+    title_label:
+    stage_id: 5
+- - question
+  - qtype: text_field
+    text: what would make your farm operation more sustainable?
+    title_label:
+    stage_id: 5 
+- - question
   - qtype: list
     options: 
-      options_049: 
-        text: natural
-        filename: /images/labels/natural.png
-      options_050: 
-        text: food alliance
-        filename: /images/labels/food_alliance.png
-      options_051: 
+      options: 
         text: certified
         filename: /images/labels/certified.png
-      options_052: 
+      options: 
         text: local branding
         filename: /images/labels/local_branding.png
+      options: 
+        text: food alliance
+        filename: /images/labels/food_alliance.png
+      options: 
+        text: natural
+        filename: /images/labels/natural.png
     text: Produce labeling
     title_label: /images/labels/produce_labeling.png
     stage_id: 6
-- - question_055
+- - question
   - qtype: text_area
-    text: Any other labeling
-    title_label: 
+    text: Your alliances with food/farming ngo, are they fruitful?
+    title_label:
     stage_id: 6
-- - question_056
+- - question
   - qtype: yes_no
     text: Does farm sell direct to customers?
     title_label: /images/labels/does_farm_sell_directly_to_customers.png
     stage_id: 6
-- - question_057
+- - question
   - qtype: text_field
     text: $ sales to direct customers?
-    title_label: 
+    title_label:
     stage_id: 6
-- - question_058
+- - question
   - qtype: yes_no
     text: Does farm run a CSA? (# of members)
     title_label: /images/labels/does_farm_run_a_csa.png
     stage_id: 6
-- - question_059
+    note: Does farm run a CSA?
+- - question
   - qtype: text_field
     text: Total CSA members
     title_label: 
     stage_id: 6
-- - question_060
-  - qtype: text_area
+    note: numeric
+- - question
+  - qtype: text_field
     text: Are there any farmers markets where you sell
     title_label: /images/labels/does_farm_sell_at_farmers_markets.png
     stage_id: 6
-- - question_061
-  - qtype: text_area
-    text: Any food brokers/distributors that you sell to?
-    title_label: /images/labels/does_farm_sell_to_food_brokers_distributors.png
+- - question
+  - qtype: text_field
+    text: Direct sales
+    title_label: 
     stage_id: 6
-- - question_062
-  - qtype: yes_no
+- - question
+  - qtype: text_field
     text: Any restaurants you directly to?
     title_label: /images/labels/does_farm_sell_directly_to_restaurants.png
     stage_id: 6
-- - question_063
-  - qtype: text_area
+- - question
+  - qtype: text_field
     text: Any institutions you sell directly to?
     title_label: /images/labels/does_farm_sell_directly_to_institutions.png
     stage_id: 6
-- - question_064
+    note: churches, school, hospital
+- - question
   - qtype: text_field
     text: Any internet site you sell through?
     title_label: /images/labels/does_farm_sell_through_the_internet.png
     stage_id: 6
-- - question_065
+- - question
+  - qtype: text_field
+    text: Any food brokers/distributors that you sell to?
+    title_label: /images/labels/does_farm_sell_to_food_brokers_distributors.png
+    stage_id: 6
+- - question
+  - qtype: text_field
+    text: processor
+    title_label: 
+    stage_id: 6
+- - question
   - qtype: text_field
     text: telephone
     title_label: /images/labels/telephone.png
     stage_id: 7
-- - question_066
+- - question
   - qtype: text_field
     text: email
     title_label: /images/labels/email.png
     stage_id: 7
-- - question_067
+- - question
   - qtype: text_field
     text: website
     title_label: /images/labels/website.png
     stage_id: 7
-- - question_068
+- - question
   - qtype: text_field
     text: street address
     title_label: /images/labels/address.png
     stage_id: 7
-- - question_069
+- - question
   - qtype: text_field
     text: city
     title_label: 
     stage_id: 7
-- - question_070
+- - question
   - qtype: text_field
     text: state
     title_label: /images/labels/state.png
     stage_id: 7
-- - question_071
+- - question
   - qtype: text_field
     text: postal code
     title_label: /images/labels/postal_code.png
     stage_id: 7
-- - question_072
+- - question
   - qtype: text_field
     text: country
     title_label: /images/labels/country.png
+    stage_id: 7
+- - question
+  - qtype: text_field
+    text: languages spoken
+    title_label:
+    stage_id: 7
+- - question
+  - qtype: list
+    options: 
+      options: 
+        text: telephone
+        filename: /images/labels/telephone.png
+      options: 
+        text: email
+        filename: /images/labels/email.png
+      options: 
+        text: snailmail
+        filename: /images/labels/snailmail.png
+    text: Best way to reach you?
+    title_label: /images/labels/best_way_to_reach_you.png
+    stage_id: 7
+- - question
+  - qtype: yes_no
+    text: Woud you like to join the mailing list y/n
+    title_label: /images/labels/would_you_like_to_join_the_mailing_list.png
+    stage_id: 7
+- - question
+  - qtype: yes_no
+    text: Are you interested in being profiled on the site so that the press can find you?
+    title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
+    stage_id: 7
+- - question
+  - qtype: yes_no
+    text: Would you like your farm's contact information to be made visible on the map? 
+    title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
     stage_id: 7
 - - question_073
   - qtype: text_field
@@ -472,3 +706,4 @@
     text: lng
     title_label: 
     stage_id: 7
+    notes: lets tell them their lattitude and longitude--just for fun, they'll like to konw! but not as an editable field

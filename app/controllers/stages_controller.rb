@@ -23,6 +23,7 @@ class StagesController < ApplicationController
   # GET /stages/1.xml
   def show
     @stage = Stage.find(params[:id])
+    @avatar = Avatar.new   
     @questions = @stage.questions
     @prev_stage = @stage.previous 
     @next_stage = @stage.next 
@@ -79,6 +80,12 @@ class StagesController < ApplicationController
       @stage = @stage.previous
     end
         
+		if params[:avatar]
+	    @avatar = Avatar.new(params[:avatar])
+	    @avatar.save     
+	    current_survey.avatars << @avatar
+		end
+
     current_survey.update_attributes(params[:survey])
     
     respond_to do |format|
