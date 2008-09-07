@@ -1,7 +1,0 @@
-page.replace_html :progress_bar, :partial => "header", 
-  :locals => { :stage => @stage, :prev_stage => @prev_stage, 
-    :next_stage => @next_stage
-}
-
-page.replace_html :census_answers, :partial => "question", :collection => @questions
-page.visual_effect :highlight, :census_answers

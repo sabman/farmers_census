@@ -5,7 +5,8 @@
 <% form_for @stage do |f| -%>
 	<div id='census_answers'> 
 		<%= render :partial => "answer", :collection => @answers %>
-	 	<%- if @stage.title.downcase == 'getting in touch' -%> <%# TODO: figure out a way to do this: if stage.about?("getting in touch") %>
+	 	<%- if @stage.title.downcase == 'getting in touch' -%> 
+	 	<%# TODO: figure out a way to do this: if stage.about?("getting in touch") %>
 			<%# 'getting in touch' stage require the map %> 
 	  	<%= render :partial => "address" %>
 		<%- end -%>	
