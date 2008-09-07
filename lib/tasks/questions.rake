@@ -29,7 +29,6 @@ namespace :db do
           if q.qtype == 'options' or q.qtype == 'list'
             question[1]["options"].each_value{ |v| 
 							q.options << Option.create(v) 
-							print v
 						}
           elsif q.qtype == 'yes_no'
             opts = [Option.create(:text => "yes", :filename => "/images/labels/yes.png"), Option.create(:text => "no", :filename => "/images/labels/no.png")]

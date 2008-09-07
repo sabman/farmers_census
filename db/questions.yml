@@ -19,21 +19,21 @@
     options:
       options: 
         text: urban
-        filename: 
+        filename: /images/labels/urban.png
       options: 
         text: rural
-        filename:
+        filename: /images/labels/rural.png
       options: 
         text: suburban
-        filename: 
+        filename: /images/labels/suburban.png
       options: 
-        text: x-urban
-        filename: 
+        text: ex-urban
+        filename: /images/labels/exurban.png
       options: 
         text: other
-        filename:  
+        filename: /images/labels/other.png
     text: "Born:"
-    title_label: 
+    title_label: /images/labels/born.png
     stage_id: 1
 - - question
   - qtype: text_area
@@ -43,18 +43,18 @@
 - - question
   - qtype: text_field
     text: Land tenure prospect
-    title_label: 
+    title_label: /images/labels/land_tenure_prospect.png
     stage_id: 1
 - - question
   - qtype: text_field
     text: Previous farming zip codes (comma separated e.g. 12345, 54321)
-    title_label: 
+    title_label: /images/labels/previous_farming_zipcodes.png
     stage_id: 1
     note: severine would like this to be several fields
 - - question
   - qtype: text_field
     text: Children on the farm?
-    title_label: 
+    title_label: /images/labels/children_on_the_farm.png
     stage_id: 1
 - - question
   - qtype: options
@@ -70,7 +70,7 @@
         filename: /images/labels/owner.png
       options: 
         text: intern
-        filename: ""
+        filename: /images/labels/intern.png
       options: 
         text: staff
         filename: /images/labels/staff.png
@@ -78,7 +78,7 @@
         text: seasonal labor
         filename: /images/labels/seasonal_labor.png
     text: Status at the Farm
-    title_label: 
+    title_label: /images/labels/status_at_the_farm.png
     stage_id: 1
 - - question
   - qtype: options
@@ -97,14 +97,14 @@
         filename: /images/labels/other.png
       options: 
         text: n/a
-        filename: 
+        filename: /images/labels/na.png
     text: Partnership Status
-    title_label: 
+    title_label: /images/labels/partnership_status.png
     stage_id: 1
 - - question
   - qtype: yes_no
     text: Partner also a farmer?
-    title_label:
+    title_label: /images/labels/partner_also_a_farmer.png
     stage_id: 1
 - - question
   - qtype: text_field
@@ -113,39 +113,36 @@
     stage_id: 1
     note: not sure this label was updated.
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Years farming
     title_label: /images/labels/years_farming.png
     stage_id: 2
-    note: numeric_field.
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Years at the farm
     title_label: /images/labels/years_at_the_farm.png
     stage_id: 2
-    note: numeric_field. might need changing to years at current farm.
+    note: might need changing to years at current farm.
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Acreage
     title_label: /images/labels/acreage.png
     stage_id: 2
-    note: numeric_field.
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Acreage under cultivation
-    title_label:
+    title_label: /images/labels/acreage_under_cultivation.png
     stage_id: 2
-    note: numeric_field.
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Acreage in pasture
     stage_id: 2
-    note: numeric_field.
+    title_label: /images/labels/acreage_in_pasture.png
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Acreage in conservation/woodland/riparian habitat
     stage_id: 2
-    note: numeric_field.
+    title_label: /images/labels/acreage_in_conservation.png
 - - question
   - qtype: text_field
     text: Primary crops/products
@@ -189,7 +186,7 @@
 - - question
   - qtype: text_area
     text: Can you afford to pay a living wage to employees? Elaborate on your answer to this question.
-    title_label: /images/labels/can_you_afford_to_pay_a_living_wage_to_employees.png
+    title_label: /images/labels/can_you_afford_to_pay.png
     stage_id: 2
     note: need new label
 - - question
@@ -218,17 +215,15 @@
     title_label:
     stage_id: 2
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: How many bikes on the farm?
     title_label:
     stage_id: 2
-    note: numeric
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: How many trucks/cars on the farm?
     title_label:
     stage_id: 2
-    note: numeric
 - - question
   - qtype: yes_no
     text: Any animal traction?
@@ -283,7 +278,7 @@
 - - question
   - qtype: text_area
     text: "What is your current biggest challenge, today?"
-    title_label:
+    title_label: /images/labels/what_is_your_current_biggest_challenge.png
     stage_id: 3
 - - question
   - qtype: text_area
@@ -328,10 +323,10 @@
     options: 
       options: 
         text: farm bureau federation
-        filename: 
+        filename: /images/labels/farm_bureau_federation.png
       options: 
         text: national farmers union
-        filename: 
+        filename: /images/labels/national_farmers_union.png
       options:
         text: via campesina
         filename:
@@ -377,9 +372,9 @@
     title_label: /images/labels/nearby_food_related_businesses_which_your_farm_collaborates_regularly.png
     stage_id: 4
 - - question
-  - qtype: yes_no
+  - qtype: text_field
     text: Other memberships?
-    title_label: 
+    title_label: /images/labels/other_memberships.png
     stage_id: 4
     note: other affiliantions you are proud of? (make text_field)
 - - question
@@ -561,7 +556,7 @@
 - - question
   - qtype: text_area
     text: Your alliances with food/farming ngo, are they fruitful?
-    title_label:
+    title_label: /images/labels/your_alliances.png
     stage_id: 6
 - - question
   - qtype: yes_no
@@ -571,7 +566,7 @@
 - - question
   - qtype: text_field
     text: $ sales to direct customers?
-    title_label:
+    title_label: /images/labels/sales_to_direct_customers.png
     stage_id: 6
 - - question
   - qtype: yes_no
@@ -580,11 +575,10 @@
     stage_id: 6
     note: Does farm run a CSA?
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Total CSA members
-    title_label: 
+    title_label: /images/labels/total_csa_members.png
     stage_id: 6
-    note: numeric
 - - question
   - qtype: text_field
     text: Are there any farmers markets where you sell

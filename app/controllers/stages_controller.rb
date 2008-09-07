@@ -138,7 +138,7 @@ class StagesController < ApplicationController
 
   # check if there is already a survey in progress
   def verify_survey
-    if session[:current_survey] != nil    
+    if current_survey  
       return
     else 
       # if not create a new survey and for every question, create an empty answer

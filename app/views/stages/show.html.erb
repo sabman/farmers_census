@@ -19,7 +19,7 @@
 				<% end %>
 			</div>		
 			<p><%= file_field :avatar, :uploaded_data %></p>
-			<p>Upload images of yourself and your farm and put your face on the map!</p>
+			<%= image_label_no_mouseover("/images/labels/upload_images_of_yourself.png") %>
 		<%- end -%>
 	
 		<%= render :partial => "footer", :locals => { 

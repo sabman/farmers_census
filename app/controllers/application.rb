@@ -17,9 +17,13 @@ class ApplicationController < ActionController::Base
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
   def current_survey
-    return nil if session[:current_survey] == nil
-    current_survey = Survey.find(session[:current_survey])
-    return current_survey
+		begin
+	    return nil if session[:current_survey] == nil
+	    current_survey = Survey.find(session[:current_survey])
+	    return current_survey
+		rescue
+			return nil
+		end
   end
 
   def set_layout
