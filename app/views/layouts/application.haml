@@ -24,7 +24,7 @@
 				= image_tag("text/pipe.png", :alt => "|")
 				= link_to image_label_mouseover(page.label), static_path(page.permalink)
 
-    .yui-g
+    .yui-g.middle
 			  %p{:style => "color: red"}= flash[:error]
 			  %p{style => "color: green"}= flash[:notice]
 	 			= yield

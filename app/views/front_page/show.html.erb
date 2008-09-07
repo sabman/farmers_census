@@ -3,7 +3,6 @@
 <%= javascript_include_tag 'mapping_helpers' %>
 
 <p>
-  <center>
   <div id="content">
   <table>
     <tr><td>
@@ -23,26 +22,23 @@
   </table>
 
   </div>
-  </center>
 </p>
 
-<div>
+<div id="content">
   Its a website, its a portal, its a map, its a database, its an expression of profound patriotism.
-  <br/>
   Here, represented by little dots on this map. We are the young farmers of America.  
 </div>
 
 <% content_for(:map) do %>
   <div class="mainmap"><%= @map.div :width => 930, :height => 600 %></div> 
-
-  <div>
-    United in our commitment to soil fertility, local nutrition, national health and a yummy hereafter.
-    <br/>
-    Land. Liberty. Stamina. Sunshine. These are the natural ingredients for an edible future.
-  </div>   
-
 <% end %>
 
+<% content_for(:lower_half) do %>
+  <div id="content">
+    United in our commitment to soil fertility, local nutrition, national health and a yummy hereafter.
+    Land. Liberty. Stamina. Sunshine. These are the natural ingredients for an edible future.
+  </div>   
+<% end %>
 
 <% content_for(:footer) do %>
 	<%= textilize h(Page.find_by_permalink('sponsors').content) %>

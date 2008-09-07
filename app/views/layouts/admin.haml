@@ -5,13 +5,18 @@
     = stylesheet_link_tag 'admin'
   %body
     #banner
-      %h1 Admin Dashboard
-      
+      %ul{:id => 'nav'}
+        -if admin? 
+          %li= link_to "logout", logout_path()
+      %h1 Admin Dashboard   
+  
+            
     #container
 
       #container2
         #navigation
           %ul
+            %li= link_to "Home", admin_path
             %li= link_to "Pages", pages_path
             %li= link_to "Surveys", surveys_path
             %li= link_to "Nominations", nominations_path
@@ -25,11 +30,11 @@
           %p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
           %p.nextbutton= link_to "Back", :action => "index"
           =yield
-        #cleardiv"
+        #cleardiv
 
-      #footer
-        %ul
-          %li= link_to "Footer item 1", "#"
-          %li= link_to "Footer item 2", "#"
-          %li= link_to "Footer item 3", "#"
-          %li= link_to "Copyright &copy; sitename", "#"
+    #footer
+      %ul
+        %li= link_to "Footer item 1", "#"
+        %li= link_to "Footer item 2", "#"
+        %li= link_to "Footer item 3", "#"
+        %li= link_to "Copyright &copy; sitename", "#"     

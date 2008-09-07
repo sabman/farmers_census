@@ -18,7 +18,8 @@ body
   width:750px;
   text-align:left;
 	font-size: 120%;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family:Constantia, Georgia, "Times New Roman", serif;
 }
 
 #hd,#ft
@@ -557,3 +558,8 @@ div.directory span.current
 }
 
 
+.middle {
+	font-size: 120%;
+  padding-left:100px; 
+	padding-right:100px;    	
+}
