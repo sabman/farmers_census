@@ -3,6 +3,7 @@ log/*.log
 db/schema.rb
 db/schema.sql
 db/*.sqlite3
+db/development.sqlite3
 .DS_Store
 tmp/**/*
 doc/api
@@ -11,3 +12,4 @@ doc/plugins
 config/database.yml
 public/avatars/**/*
 log/development.log
+*~

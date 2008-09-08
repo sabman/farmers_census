@@ -19,10 +19,10 @@
 
   <div id="bd">
     <div class="yui-g navigation">
-     	<%= link_to image_label_mouseover("text/Home.png"), home_path %> 
+     	<%= link_to image_label_no_mouseover("text/home.png"), home_path %> 
 			<% Page.find(:all).each do |page| %>
 				<%= image_tag("text/pipe.png", :alt => "|") %>
-			  <%= link_to (page.label ? image_label_mouseover(page.label) : page.permalink), static_path(page.permalink) %>
+			  <%= link_to (page.label ? image_label_no_mouseover(page.label) : page.permalink), static_path(page.permalink) %>
 			<% end %>
     </div> <!-- yui-g navigation end -->
 

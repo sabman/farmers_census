@@ -2,14 +2,25 @@
 	<%= render :partial => "header", :locals => {:stage => @stage} %>
 </div>
 
-<% form_for @stage do |f| -%>
+<% form_for (@stage,:html => {:multipart => true}) do |f| -%>
 	<div id='census_answers'> 
 		<%= render :partial => "answer", :collection => @answers %>
+
 	 	<%- if @stage.title.downcase == 'getting in touch' -%> 
 	 	<%# TODO: figure out a way to do this: if stage.about?("getting in touch") %>
 			<%# 'getting in touch' stage require the map %> 
 	  	<%= render :partial => "address" %>
 		<%- end -%>	
+
+		<%- if @stage.title.downcase == 'contact details' -%>
+			<div id="images">
+				<% show_avatars do |image| %>
+					<%= image_tag "#{image}" %>
+				<% end %>
+			</div>		
+			<p><%= file_field :avatar, :uploaded_data %></p>
+			<%= image_label_no_mouseover("/images/labels/upload_images_of_yourself.png") %>
+		<%- end -%>
 	
 		<%= render :partial => "footer", :locals => { 
 				:current_stage => @stage, 

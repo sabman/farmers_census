@@ -50,6 +50,23 @@ module FrontPageHelper
   	var mapDetailedOverlay = new GGroundOverlay("/images/handdrawn/map_detailed.jpg", boundaries1);  																					
     mapDetailedOverlay.hide();																					
   	map.addOverlay(mapDetailedOverlay); 
+/*
+var copyright = new GCopyright(1, new GLatLngBounds(new GLatLng(-90,-180), new GLatLng(90,180)), 0, "greenhorns");
+var copyrightCollection = new GCopyrightCollection("greenhorns");
+copyrightCollection.addCopyright(copyright);
+
+var tilelayers = [];
+tilelayers[0] = new GTileLayer(copyrightCollection, 1, 3);
+tilelayers[0].getTileUrl = function (a, b) {
+return "/images/tiles/"+b+"/"+a.x+"/"+a.y+".png";
+};
+tilelayers[0].isPng = function() { return true;};
+tilelayers[0].getOpacity = function() { return 1.0; };
+
+var custommap = new GMapType(tilelayers, new GMercatorProjection(19), "greenhorns", {errorMessage:"Greenhorns"});
+map.addMapType(custommap);
+map.setMapType(custommap);*/
+
 
   	// MAP_SMALL.JPG - init and hide
   	var boundaries2 = new GLatLngBounds(
@@ -63,19 +80,19 @@ module FrontPageHelper
         remove_copyright(); 
   			if(!mapDetailedOverlay.isHidden()){mapDetailedOverlay.hide();}
     	  if(rectOverlay.isHidden()){rectOverlay.show();}
-  			if(mapSmallOverlay.isHidden()){mapSmallOverlay.show();}
+//  			if(mapSmallOverlay.isHidden()){mapSmallOverlay.show();}
   		} 
   		else if(newz >= 6 && newz <= 7) { // 6-7 only show mapDetailedOverlay and recOverlay 
   		  remove_copyright();    
   			if(rectOverlay.isHidden()){rectOverlay.show();}
    			if(mapDetailedOverlay.isHidden()){ mapDetailedOverlay.show();}
-    	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}   			  
+//    	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}   			  
   		} 
   		else { // for everything else no overlays
   		  show_copyright();
   			if(!rectOverlay.isHidden()){rectOverlay.hide();}
    			if(!mapDetailedOverlay.isHidden()){ mapDetailedOverlay.hide();}
-    	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}
+//    	  if(!mapSmallOverlay.isHidden()){mapSmallOverlay.hide();}
   		}}); 
 
       // Overwrite the getMinimumResolution() and getMaximumResolution() methods

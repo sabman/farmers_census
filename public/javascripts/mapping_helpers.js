@@ -3,12 +3,14 @@ function create_draggable_marker_for_edit(lng, lat) {
 	document.getElementById('lng').value = lng; 
 	document.getElementById('lat').value = lat; 
 	// initalize marker 
-	var currMarker = new GMarker( new GLatLng(lat, lng), {draggable: true} ); 
+	var currMarker = new GMarker( new GLatLng(lat, lng), {draggable: true, bouncy: true, icon: icon_standard} ); 
 	map.addOverlay(currMarker); 
 	// Handle drag events to update the form text fields 
 	GEvent.addListener(currMarker, 'drag', function() { 
 		document.getElementById('lng').value = currMarker.getPoint().lng(); 
 		document.getElementById('lat').value = currMarker.getPoint().lat(); 
+		document.getElementById('lng_display').innerHTML = currMarker.getPoint().lng(); 
+		document.getElementById('lat_display').innerHTML = currMarker.getPoint().lat(); 
 	}); 
 } 
 

@@ -27,7 +27,9 @@ namespace :db do
         if stage = Stage.find(question[1]["stage_id"])
           q = Question.create(q_attrs)
           if q.qtype == 'options' or q.qtype == 'list'
-            question[1]["options"].each_value{ |v| q.options << Option.create(v) }
+            question[1]["options"].each_value{ |v| 
+							q.options << Option.create(v) 
+						}
           elsif q.qtype == 'yes_no'
             opts = [Option.create(:text => "yes", :filename => "/images/labels/yes.png"), Option.create(:text => "no", :filename => "/images/labels/no.png")]
             q.options << opts

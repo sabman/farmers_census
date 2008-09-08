@@ -23,6 +23,7 @@ class StagesController < ApplicationController
   # GET /stages/1.xml
   def show
     @stage = Stage.find(params[:id])
+    @avatar = Avatar.new   
     @questions = @stage.questions
     @prev_stage = @stage.previous 
     @next_stage = @stage.next 
@@ -78,8 +79,13 @@ class StagesController < ApplicationController
     elsif params[:next] == 'previous'
       @stage = @stage.previous
     end
-    
-    require 'pp' ; pp params[:survey]    
+        
+		if params[:avatar]
+	    @avatar = Avatar.new(params[:avatar])
+	    @avatar.save     
+	    current_survey.avatars << @avatar
+		end
+
     current_survey.update_attributes(params[:survey])
     
     respond_to do |format|
@@ -132,7 +138,7 @@ class StagesController < ApplicationController
 
   # check if there is already a survey in progress
   def verify_survey
-    if session[:current_survey] != nil    
+    if current_survey  
       return
     else 
       # if not create a new survey and for every question, create an empty answer

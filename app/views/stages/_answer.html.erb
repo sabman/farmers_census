@@ -1,23 +1,31 @@
 <% fields_for "survey[answer_attributes][]", answer do |answer_form| -%>
 
-	<%= image_tag("#{answer.question.title_label}", :alt => "#{answer.question.text}", :title => "#{answer.question.text}") %>
-	
-  <%- if answer.question.qtype == "text_field" or answer.question.qtype == "text_area" -%>
-    <br/><%= answer_form.send("#{answer.question.qtype}", :text, :id => "#{answer.question.text}", :rows => 3) %>
+	<%- unless answer.question.qtype == "hidden_field" %>
+		<%= image_tag("#{answer.question.title_label}", :alt => "#{answer.question.text}", :title => "#{answer.question.text}") %>
+		<br/>
+	<%- end -%>
+
+  <%- if answer.question.qtype == "text_field" or answer.question.qtype == "text_area" or answer.question.qtype == "hidden_field" -%>
+    <%= answer_form.send("#{answer.question.qtype}", :text, :id => "#{answer.question.text}", :rows => 3) %>
+  <%- elsif answer.question.qtype == "numeric_field" -%>
+    <%= answer_form.send("text_field", :text, :id => "#{answer.question.text}", :size => 6) %>
   <%- elsif answer.question.qtype == "list"  -%>
     <%- for option in answer.question.options -%>
-			<br/> <%= check_box_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
+			 <%= check_box_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
 										option.id, answer.options.include?(option), :id => option.text  ) %> 
 						<%= image_tag "#{option.filename}", :alt => "#{option.text}" %> 
     <%- end -%>
   <%- elsif answer.question.qtype == "options" or answer.question.qtype == "yes_no" -%>
   	<%- for option in answer.question.options -%>
-			<br/> <%= radio_button_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
+			 <%= radio_button_tag( "survey[answer_attributes][#{answer.id}][option_ids][]", 
 										option.id, answer.options.include?(option), :id => option.text ) %> 
 						<%= image_tag "#{option.filename}", :alt => "#{option.text}" %> 
     <%- end -%>
 	<%- end -%>
-  <hr/>
+
+	<%- unless answer.question.qtype == "hidden_field" %>
+ 	 <br/>
+	<%- end -%>
 
 <% end -%>
 <br/> 
