@@ -23,7 +23,15 @@ namespace :db do
       questions_yaml = YAML.load(File.read("#{RAILS_ROOT}/db/questions.yml") )
       ActiveRecord::Base.establish_connection(RAILS_ENV)      
       questions_yaml.each do |question|
-        q_attrs = {"text", question[1]["text"], "qtype", question[1]["qtype"], "text", question[1]["text"], "title_label", question[1]["title_label"], "stage_id", question[1]["stage_id"]}
+        q_attrs = 
+        {
+          "text",         question[1]["text"], 
+          "qtype",        question[1]["qtype"], 
+          "text",         question[1]["text"], 
+          "title_label",  question[1]["title_label"], 
+          "stage_id",     question[1]["stage_id"]          
+         }                                  
+          
         if stage = Stage.find(question[1]["stage_id"])
           q = Question.create(q_attrs)
           if q.qtype == 'options' or q.qtype == 'list'
