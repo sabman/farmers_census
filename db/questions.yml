@@ -212,7 +212,7 @@
 - - question
   - qtype: yes_no
     text: drip irrigation?
-    title_label:
+    title_label: /images/labels/drip_irrigation.png
     stage_id: 2
 - - question
   - qtype: numeric_field
@@ -222,17 +222,17 @@
 - - question
   - qtype: numeric_field
     text: How many trucks/cars on the farm?
-    title_label:
+    title_label: /images/labels/how_many_bicycles.png
     stage_id: 2
 - - question
   - qtype: yes_no
     text: Any animal traction?
-    title_label:
+    title_label: /images/labels/any_animal_traction.png
     stage_id: 2
 - - question
   - qtype: yes_no
     text: Permanent fencing?
-    title_label:
+    title_label: /images/labels/permanent_fencing.png
     stage_id: 2
 - - question
   - qtype: yes_no
@@ -247,7 +247,7 @@
 - - question
   - qtype: text_field
     text: Greenhouses? Describe number. Are they cheepo reclaimed, or nice ventillated/heated ones?
-    title_label:
+    title_label: /images/labels/describe_number.png
     stage_id: 2
 - - question
   - qtype: text_area
@@ -262,12 +262,12 @@
 - - question
   - qtype: text_area
     text: What heroic efforts have you gone to, to be a farmer?
-    title_label:
+    title_label: /images/labels/what_heroic_efforts.png
     stage_id: 3
 - - question
   - qtype: yes_no
     text: Does your farming operation fit your sensibilities?
-    title_label:
+    title_label: /images/labels/does_your_farm_fit_sensibilities.png
     stage_id: 3
 - - question
   - qtype: text_area
@@ -283,14 +283,13 @@
 - - question
   - qtype: text_area
     text: "What did your mother+friends think?"
-    title_label:
+    title_label: /images/labels/what_did_your_mothers_friends.png
     stage_id: 3
 - - question
   - qtype: text_area
-    text: What made it possible?
-    title_label: /images/labels/what_made_it_possible.png
+    text: What, ultimately, made farming possible?
+    title_label: /images/labels/what_made_farming_possible.png
     stage_id: 3
-    note: What, ultimately, made farming possible?
 - - question
   - qtype: text_area
     text: "What kind of institutional/ political support would you like to see?:"
@@ -329,40 +328,40 @@
         filename: /images/labels/national_farmers_union.png
       options:
         text: via campesina
-        filename:
+        filename: /images/labels/via_campesina.png
       options:
         text: slow food
-        filename:
+        filename: /images/label/slow_food.png
       options:
         text: national family farmers
         filename:
       options:
         text: farm bureau
-        filename:
+        filename: /images/labels/farm_bureau.png
       options:
         text: 4-H
-        filename:
+        filename: /images/labels/4h.png
       options:
         text: future farmers of america
-        filename:
+        filename: /images/labels/future_farmers_of_america.png
       options:
         text: dairy cooperative
-        filename:
+        filename: /images/label/daily_cooperative.png
       options:
         text: other cooperative
         filename:
       options:
         text: farmers market? 
-        filename:
+        filename: /images/labels/farmers_market.png
       options:
         text: local sustainable ag. group
-        filename:
+        filename: /images/labels/local_sustainable_ag_group.png
       options: 
         text: on-farm research
-        filename:
+        filename: /images/label/on_farm_research.png
       options:
         text: Extenstion/University affiliation
-        filename:
+        filename: /images/labels/extension_university_affiliation.png
     text: Other farm groups
     title_label: /images/labels/other_farm_groups.png
     stage_id: 4
@@ -373,10 +372,9 @@
     stage_id: 4
 - - question
   - qtype: text_field
-    text: Other memberships?
-    title_label: /images/labels/other_memberships.png
+    text: Other affiliations you are proud of?
+    title_label: /images/labels/other_affiliations.png
     stage_id: 4
-    note: other affiliantions you are proud of? (make text_field)
 - - question
   - qtype: list
     options: 
@@ -403,17 +401,17 @@
 - - question
   - qtype: text_field
     text: How far do you drive for slaughtering animals?
-    title_label:
+    title_label: /images/labels/how_far_for_slaughtering.png
     stage_id: 4
 - - question
   - qtype: text_field
     text: For purchasing farm equipment?
-    title_label:
+    title_label: /images/labels/for_purchasing_farming_equipment.png
     stage_id: 4
 - - question
   - qtype: text_field
     text: would you ever consider shipping your food on a train/bus/collaborative distribution system if that were an option?
-    title_label:
+    title_label: /images/labels/consider_shipping.png
     stage_id: 4
 - - question
   - qtype: yes_no
@@ -423,12 +421,12 @@
 - - question
   - qtype: yes_no
     text: If an urban/peri-urban farm, do you participate in 'sharing the harvest/gleaner' arrangement? 
-    title_label:
+    title_label: /images/labels/participate_sharing_harvest.png
     stage_id: 4
 - - question
   - qtype: yes_no
     text: Do you barter?
-    title_label:
+    title_label: /images/labels/do_you_barter.png
     stage_id: 5
 - - question
   - qtype: text_field
@@ -459,7 +457,7 @@
 - - question
   - qtype: yes_no
     text: Any alternative fuels/energy on the farm?
-    title_label:
+    title_label: /images/labels/alternative_fuels.png
     stage_id: 5
 - - question
   - qtype: text_area
@@ -507,7 +505,7 @@
         filename:
       options:
         text: biological control
-        filename:
+        filename: /images/labels/biological_control.png
       options:
         text: gmo free
         filename:
@@ -519,7 +517,7 @@
         filename:
       options:
         text: certified biodynamic practices
-        filename:
+        filename: /images/labels/certified_biodynamic.png
 - - question
   - qtype: text_field
     text: other noteworthy or unique contributions to agrecology
@@ -613,7 +611,7 @@
 - - question
   - qtype: text_field
     text: processor
-    title_label: 
+    title_label: /images/labels/processor.png
     stage_id: 6
 - - question
   - qtype: text_field
@@ -658,7 +656,7 @@
 - - question
   - qtype: text_field
     text: languages spoken
-    title_label:
+    title_label: /images/labels/languages_spoken.png
     stage_id: 7
 - - question
   - qtype: list
@@ -688,7 +686,7 @@
 - - question
   - qtype: yes_no
     text: Would you like your farm's contact information to be made visible on the map? 
-    title_label: /images/labels/are_you_interested_in_being_profiled_on_the_site_so_that_the_press_can_find_you.png
+    title_label: /images/labels/would_you_like_your_farm_map.png
     stage_id: 7
 - - question_073
   - qtype: hidden_field
