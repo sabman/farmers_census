@@ -78,7 +78,8 @@ class StagesController < ApplicationController
     elsif params[:next] == 'previous'
       @stage = @stage.previous
     end
-        
+    
+    require 'pp' ; pp params[:survey]    
     current_survey.update_attributes(params[:survey])
     
     respond_to do |format|
