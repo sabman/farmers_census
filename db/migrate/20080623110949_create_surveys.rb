@@ -2,7 +2,8 @@ class CreateSurveys < ActiveRecord::Migration
   def self.up
     create_table :surveys do |t|
       t.string :title
-
+      t.boolean :public, :default => false 
+      
       t.timestamps
     end
   end

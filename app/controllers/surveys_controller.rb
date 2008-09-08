@@ -85,5 +85,11 @@ class SurveysController < ApplicationController
       format.xml  { head :ok }
     end
   end
-  
+
+  def toggle_public
+    survey = Survey.find(params[:id])
+    survey.public = survey.public? ? false : true
+    survey.save
+    render :nothing => true    
+  end
 end

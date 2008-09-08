@@ -17,19 +17,19 @@
 - - question
   - qtype: options
     options:
-      options: 
+      options0: 
         text: urban
         filename: /images/labels/urban.png
-      options: 
+      options1: 
         text: rural
         filename: /images/labels/rural.png
-      options: 
+      options2: 
         text: suburban
         filename: /images/labels/suburban.png
-      options: 
+      options3: 
         text: ex-urban
         filename: /images/labels/exurban.png
-      options: 
+      options4: 
         text: other
         filename: /images/labels/other.png
     text: "Born:"
@@ -59,22 +59,22 @@
 - - question
   - qtype: options
     options: 
-      options: 
+      options1: 
         text: renter
         filename: /images/labels/renter.png
-      options: 
+      options2: 
         text: student
         filename: /images/labels/student.png
-      options: 
+      options3: 
         text: owner
         filename: /images/labels/owner.png
-      options: 
+      options4: 
         text: intern
         filename: /images/labels/intern.png
-      options: 
+      options5: 
         text: staff
         filename: /images/labels/staff.png
-      options: 
+      options6: 
         text: seasonal labor
         filename: /images/labels/seasonal_labor.png
     text: Status at the Farm
@@ -83,19 +83,19 @@
 - - question
   - qtype: options
     options: 
-      options: 
+      options1: 
         text: married
         filename: /images/labels/married.png
-      options: 
+      options2: 
         text: single
         filename: /images/labels/single.png
-      options: 
+      options3: 
         text: partnership
         filename: /images/labels/partnership.png
-      options: 
+      options4: 
         text: other
         filename: /images/labels/other.png
-      options: 
+      options5: 
         text: n/a
         filename: /images/labels/na.png
     text: Partnership Status
@@ -320,46 +320,46 @@
 - - question
   - qtype: list
     options: 
-      options: 
+      options1: 
         text: farm bureau federation
         filename: /images/labels/farm_bureau_federation.png
-      options: 
+      options2: 
         text: national farmers union
         filename: /images/labels/national_farmers_union.png
-      options:
+      options3:
         text: via campesina
         filename: /images/labels/via_campesina.png
-      options:
+      options4:
         text: slow food
         filename: /images/label/slow_food.png
-      options:
+      options5:
         text: national family farmers
         filename:
-      options:
+      options6:
         text: farm bureau
         filename: /images/labels/farm_bureau.png
-      options:
+      options7:
         text: 4-H
         filename: /images/labels/4h.png
-      options:
+      options8:
         text: future farmers of america
         filename: /images/labels/future_farmers_of_america.png
-      options:
+      options9:
         text: dairy cooperative
         filename: /images/label/daily_cooperative.png
-      options:
+      options10:
         text: other cooperative
         filename:
-      options:
+      options11:
         text: farmers market? 
         filename: /images/labels/farmers_market.png
-      options:
+      options12:
         text: local sustainable ag. group
         filename: /images/labels/local_sustainable_ag_group.png
-      options: 
+      options13: 
         text: on-farm research
         filename: /images/label/on_farm_research.png
-      options:
+      options14:
         text: Extenstion/University affiliation
         filename: /images/labels/extension_university_affiliation.png
     text: Other farm groups
@@ -378,16 +378,16 @@
 - - question
   - qtype: list
     options: 
-      options: 
+      options1: 
         text: democrats
         filename: /images/labels/democrats.png
-      options: 
+      options2: 
         text: republicans
         filename: /images/labels/republicans.png
-      options: 
+      options3: 
         text: greens
         filename: /images/labels/greens.png
-      options: 
+      options4: 
         text: independent
         filename: /images/labels/independent.png
     text: Political affiliation?
@@ -429,28 +429,28 @@
     title_label: /images/labels/do_you_barter.png
     stage_id: 5
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Estimated yearly farm income (gross)
     title_label: /images/labels/estimated_yearly_farm_income_gross.png
     stage_id: 5
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: $ amount of inputs grown on farm (grain for feeding, green manure, etc)
     title_label: /images/labels/amount_of_inputs_grown_on_farm.png
     stage_id: 5
     note: $/volume/percentage of inputs grown on the farm (grain, hay, fertility crops)
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: $ amount of inputs purchased WITHIN 200 miles of farm
     title_label: /images/labels/amount_of_inputs_purchased_within_200_miles_of_farm.png
     stage_id: 5
 - - question
-  - qtype: text_area
+  - qtype: numeric_field
     text: $ amount of inputs purchased that are sourced (mined, produced, etc) FURTHER THAN 200 miles of farm
     title_label: /images/labels/amount_of_inputs_that_are_sourced_further_than_200_miles_from_farm.png
     stage_id: 5
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: $ weekly diesel/gas expenditure
     title_label: /images/labels/weekly_diesel_gas_expenditure.png
     stage_id: 5
@@ -470,52 +470,52 @@
     title_label: /images/labels/do_you_practice.png
     stage_id: 5
     options:
-      options:
+      options1:
         text: ipm
         filename:
-      options:
+      options2:
         text: soil conservation tillage/practices
         filename: /images/labels/soil_conservation.png
-      options:
+      options3:
         text: pollinator support
         filename: /images/labels/pollinator_support.png
-      options:
+      options4:
         text: intercropping/strip cropping
         filename: /images/labels/intercropping.png
-      options:  
+      options5:  
         text: insectaries
         filename: /images/labels/intersectaries.png
-      options:
+      options6:
         text: on-farm composting
         filename: /images/labels/on_farm_composting.png
-      options:
+      options7:
         text: rotational cropping
         filename: /images/labels/rotational_cropping.png
-      options:
+      options8:
         text:  perrenial crops
         filename: /images/labels/perennial_crops.png
-      options:
+      options9:
         text:  cover/green manure crops
         filename: /images/labels/cover_greenmanure.png
-      options:
+      options10:
         text: hedgerows
         filename: /images/labels/hedgerows.png
-      options: 
+      options11: 
         text: windbreaks
         filename: /images/labels/windbreaks.png
-      options:
+      options12:
         text: biological control
         filename: /images/labels/biological_control.png
-      options:
+      options13:
         text: gmo free
         filename: /images/labels/gmo_free.png
-      options:
+      options14:
         text: no sprays at all
         filename: /images/labels/no_sprays_at_all.png
-      options:
+      options15:
         text: certified organic practices
         filename: /images/labels/certified_organic.png
-      options:
+      options16:
         text: certified biodynamic practices
         filename: /images/labels/certified_biodynamic.png
 - - question
@@ -536,16 +536,16 @@
 - - question
   - qtype: list
     options: 
-      options: 
+      options1: 
         text: certified
         filename: /images/labels/certified.png
-      options: 
+      options2: 
         text: local branding
         filename: /images/labels/local_branding.png
-      options: 
+      options3: 
         text: food alliance
         filename: /images/labels/food_alliance.png
-      options: 
+      options4: 
         text: natural
         filename: /images/labels/natural.png
     text: Produce labeling
@@ -562,7 +562,7 @@
     title_label: /images/labels/does_farm_sell_directly_to_customers.png
     stage_id: 6
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: $ sales to direct customers?
     title_label: /images/labels/sales_to_direct_customers.png
     stage_id: 6
@@ -581,11 +581,6 @@
   - qtype: text_field
     text: Are there any farmers markets where you sell
     title_label: /images/labels/does_farm_sell_at_farmers_markets.png
-    stage_id: 6
-- - question
-  - qtype: text_field
-    text: Direct sales
-    title_label: 
     stage_id: 6
 - - question
   - qtype: text_field
@@ -661,13 +656,13 @@
 - - question
   - qtype: list
     options: 
-      options: 
+      options1: 
         text: telephone
         filename: /images/labels/telephone.png
-      options: 
+      options2: 
         text: email
         filename: /images/labels/email.png
-      options: 
+      options3: 
         text: snailmail
         filename: /images/labels/snailmail.png
     text: Best way to reach you?

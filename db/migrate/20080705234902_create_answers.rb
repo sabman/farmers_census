@@ -6,6 +6,7 @@ class CreateAnswers < ActiveRecord::Migration
       t.integer :survey_id
       t.integer :farm_id
       t.integer :stage_id
+      t.boolean :public, :default => false 
 
       t.timestamps
     end

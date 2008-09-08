@@ -9,13 +9,3 @@ class Answer < ActiveRecord::Base
     return false
   end
 end
-
-
-
-
-
-
-
-
-
-                     

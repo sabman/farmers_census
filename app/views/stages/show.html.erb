@@ -2,7 +2,7 @@
 	<%= render :partial => "header", :locals => {:stage => @stage} %>
 </div>
 
-<% form_for (@stage,:html => {:multipart => true}) do |f| -%>
+<% form_for(@stage,:html => {:multipart => true}) do |f| -%>
 	<div id='census_answers'> 
 		<%= render :partial => "answer", :collection => @answers %>
 
