@@ -3,7 +3,7 @@ class SurveysController < ApplicationController
   # GET /surveys
   # GET /surveys.xml
   def index
-    @surveys = Survey.find(:all)
+    @surveys = Survey.paginate(:all, :page => params[:page], :per_page => 30)
 
     respond_to do |format|
       format.html # index.html.erb

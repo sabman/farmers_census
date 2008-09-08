@@ -4,3 +4,4 @@
   %p= link_to "#{nomination.first_name} was nomicated by #{nomination.your_name}" , nomination_path(nomination)  
   %br 
 
+<%= will_paginate @nominations %>

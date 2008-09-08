@@ -1,0 +1,31 @@
+<h1>
+  Survey by <%= @survey.farmer_name %> from <%= @survey.farm_name %>
+</h1>
+
+<table border="1">
+  <tr>
+    <td>Question</td>
+    <td>Answer</td>
+  </tr>
+  <% @survey.answers.each do |answer| %>
+    <tr>
+      <td><%= answer.question.text %></td>
+      <td>
+        <% if answer.text? %>
+          <%= answer.text %>
+        <% elsif !answer.options.blank? %>
+          <ul>
+            <% answer.options.each do |option| %>
+              <li><%= option.text %></li>
+            <% end %>
+          </ul>
+        <% else %>
+          <em>No answer</em>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+  
+    
+  

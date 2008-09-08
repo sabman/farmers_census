@@ -4,7 +4,7 @@ class NominationsController < ApplicationController
   # GET /nominations
   # GET /nominations.xml
   def index
-    @nominations = Nomination.find(:all)
+    @nominations = Nomination.paginate(:all, :page => params[:page], :per_page => 30)
 
     respond_to do |format|
       format.html # index.html.erb
