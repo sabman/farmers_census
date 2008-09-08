@@ -467,7 +467,7 @@
 - - question
   - qtype: list
     text: Do you practice?
-    title_label:
+    title_label: /images/labels/do_you_practice.png
     stage_id: 5
     options:
       options:
@@ -475,46 +475,46 @@
         filename:
       options:
         text: soil conservation tillage/practices
-        filename:
+        filename: /images/labels/soil_conservation.png
       options:
         text: pollinator support
-        filename:
+        filename: /images/labels/pollinator_support.png
       options:
         text: intercropping/strip cropping
-        filename:
+        filename: /images/labels/intercropping.png
       options:  
         text: insectaries
-        filename:
+        filename: /images/labels/intersectaries.png
       options:
         text: on-farm composting
-        filename:
+        filename: /images/labels/on_farm_composting.png
       options:
         text: rotational cropping
-        filename:
+        filename: /images/labels/rotational_cropping.png
       options:
         text:  perrenial crops
-        filename:
+        filename: /images/labels/perennial_crops.png
       options:
         text:  cover/green manure crops
-        filename:
+        filename: /images/labels/cover_greenmanure.png
       options:
         text: hedgerows
-        filename:
+        filename: /images/labels/hedgerows.png
       options: 
         text: windbreaks
-        filename:
+        filename: /images/labels/windbreaks.png
       options:
         text: biological control
         filename: /images/labels/biological_control.png
       options:
         text: gmo free
-        filename:
+        filename: /images/labels/gmo_free.png
       options:
         text: no sprays at all
-        filename:
+        filename: /images/labels/no_sprays_at_all.png
       options:
         text: certified organic practices
-        filename:
+        filename: /images/labels/certified_organic.png
       options:
         text: certified biodynamic practices
         filename: /images/labels/certified_biodynamic.png
@@ -526,12 +526,12 @@
 - - question
   - qtype: text_field
     text: your feelings about black plastic and the future of agriculture?
-    title_label:
+    title_label: /images/labels/your_feelings_black_plastic.png
     stage_id: 5
 - - question
   - qtype: text_field
     text: what would make your farm operation more sustainable?
-    title_label:
+    title_label: /images/labels/make_your_farm_more_sustainable.png
     stage_id: 5 
 - - question
   - qtype: list
