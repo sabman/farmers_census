@@ -97,7 +97,7 @@ class StagesController < ApplicationController
   
   def done    
     @current_survey = current_survey 
-    AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)
+    #AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)
     redirect_to(home_path)
     session[:current_survey] = nil  
   end     

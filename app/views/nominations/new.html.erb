@@ -4,52 +4,52 @@
   <%= f.error_messages %>
 
   <p>
-    <%= image_label "name" %>
-    <%= f.text_field :full_name %>     
+    <%= image_label "name" %> <br/>
+    <%= f.text_field :full_name, :size => 20  %>     
   </p>
   <p>
-    <%= image_label "name_of_farm" %>
-    <%= f.text_field :farm_name %>
+    <%= image_label "name_of_farm" %> <br/>
+    <%= f.text_field :farm_name, :size => 20 %>
   </p>
   <p>
-    <%= image_label "email" %>
-    <%= f.text_field :email %>
+    <%= image_label "email" %> <br/>
+    <%= f.text_field :email, :size => 20 %>
   </p>
   <p>
-    <%= image_label "title" %>
-    <%= f.text_field :title %>
+    <%= image_label "title" %> <br/>
+    <%= f.text_field :title, :size => 20  %>
   </p>
   <p>
-    <%= image_label "address" %>
-    <%= f.text_area :address %>
+    <%= image_label "address" %> <br/>
+    <%= f.text_area :address, :cols => 40, :rows => 3 %>
   </p>
   <p>
-    <%= image_label "telephone2" %>
-    <%= f.text_field :telephone_no, :size => 30  %>
+    <%= image_label "telephone2" %> <br/>
+    <%= f.text_field :telephone_no, :size => 20  %>
   </p>
   <p>
-    <%= image_label "date_of_birth" %>
-    <%= f.text_field :date_of_birth_str %>
+    <%= image_label "date_of_birth" %> <br/>
+    <%= f.text_field :date_of_birth_str, :size => 20  %>
   </p>
   <p>
-    <%= image_label "Nominees_profile" %>
-    <%= f.text_area :nominees_profile %>
+    <%= image_label "Nominees_profile" %> <br/>
+    <%= f.text_area :nominees_profile, :cols => 40, :rows => 5 %>
   </p>
   <p>
-    <%= image_label "Nominees_contributions" %>
-    <%= f.text_area :nominees_contributions %>
+    <%= image_label "Nominees_contributions" %> <br/>
+    <%= f.text_area :nominees_contributions, :cols => 40, :rows => 5 %>
   </p>
   <p>
-    <%= image_label "Your_name" %>
-    <%= f.text_field :your_name %>
+    <%= image_label "Your_name" %> <br/>
+    <%= f.text_field :your_name, :size => 30 %>
   </p>
   <p>
-    <%= image_label "Your_email" %>
-    <%= f.text_field :your_email %>
+    <%= image_label "Your_email" %> <br/>
+    <%= f.text_field :your_email, :size => 30 %>
   </p>
   <p>
-    <%= image_label "Your_contact_details" %>
-    <%= f.text_field :your_contact_details %>
+    <%= image_label "Your_contact_details" %> <br/>
+    <%= f.text_field :your_contact_details, :size => 30 %>
   </p>
   <p>
     <%= image_submit_tag("labels/Nominate.png") %>

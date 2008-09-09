@@ -17,7 +17,11 @@ module FrontPageHelper
         @map.record_init @map.add_overlay(
           GMarker.new([rec.lat.to_f, rec.lng.to_f], 
             :title => "[TITLE]", :icon => icon_handprint,   
-            :info_window => "#{image_tag show_avatar(rec)} <h2>#{rec.farm_name}</h2> #{rec.full_address}"))
+            :info_window => "
+              #{image_tag show_avatar(rec)} 
+              <h2>#{rec.farm_name}</h2> 
+              #{rec.full_address} <br/> 
+              #{link_to "See full profile", survey_path(rec)}"))
        end
     end
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      

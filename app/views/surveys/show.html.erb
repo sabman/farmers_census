@@ -1,0 +1,36 @@
+<h1>
+  Survey by <%= @survey.farmer_name %> from <%= @survey.farm_name %>
+</h1>
+
+<%- if admin? -%>
+  Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %> 
+  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{@survey.id}" ) %>  
+<%- end -%>
+
+<table class='profile'>
+  <tr>
+    <th class='profile'>Question</th>
+    <th class='profile'>Answer</th>
+  </tr>
+  <% @survey.answers.each do |answer| %>
+    <tr class="<%= cycle('profile darker', 'profile lighter') %>">
+      <td class='profile'><%= answer.question.text %></td>
+      <td class='profile'>
+        <% if answer.text? %>
+          <%= answer.text %>
+        <% elsif !answer.options.blank? %>
+          <ul>
+            <% answer.options.each do |option| %>
+              <li><%= option.text %></li>
+            <% end %>
+          </ul>
+        <% else %>
+          <em>No answer</em>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+  
+    
+  

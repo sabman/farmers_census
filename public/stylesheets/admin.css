@@ -188,3 +188,10 @@ div#footer li
 #banner ul#nav li.hot a {
 	color:orange;
 }
+
+tr.darker { background-color: #cccccc; }
+tr.lighter { background-color: #f7f7f7; }
+table { text-align: left; border: 1px solid silver; font-size: 1em; width: 100%; margin: 2px; }
+td { padding: 0.3em; }
+tr { border: 1px solid silver; }
+th { padding: 0.3em; }

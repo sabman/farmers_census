@@ -1,9 +1,11 @@
 class SurveysController < ApplicationController
-  before_filter :verify_admin
+  before_filter :verify_admin, :except => :show
+  before_filter :verify_public_or_admin, :only => :show
+   
   # GET /surveys
   # GET /surveys.xml
   def index
-    @surveys = Survey.find(:all)
+    @surveys = Survey.paginate(:all, :page => params[:page], :per_page => 30)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -91,5 +93,14 @@ class SurveysController < ApplicationController
     survey.public = survey.public? ? false : true
     survey.save
     render :nothing => true    
+  end
+  
+  def verify_public
+    survey = Survey.find(params[:id])
+    survey.public? ? true : redirect_to(login_path)
+  end
+  
+  def verify_public_or_admin
+    verify_public || verify_admin
   end
 end
