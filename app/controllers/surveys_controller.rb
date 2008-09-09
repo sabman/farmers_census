@@ -1,6 +1,6 @@
 class SurveysController < ApplicationController
   before_filter :verify_admin, :except => :show
-  before_filter :veryify_public, :only => :show
+  before_filter :veryify_public || :verify_admin, :only => :show
    
   # GET /surveys
   # GET /surveys.xml
