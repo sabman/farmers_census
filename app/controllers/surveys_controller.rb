@@ -80,7 +80,7 @@ class SurveysController < ApplicationController
     
     respond_to do |format|
       if @survey
-        # send email here
+        AdminMailer.deliver_key_reminder(@survey, request.host_with_port)
         flash[:notice] = "An email has been sent to you with your survey link."
       else
         flash[:notice] = "No survey with your email was found. Please start a new one."

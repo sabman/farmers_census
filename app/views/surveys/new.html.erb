@@ -1,10 +1,10 @@
 <%= error_messages_for :survey %>
 
 <% form_for @survey do |f| %>
+  <%= label_tag 'Email:' %> <br/> 
+  <%= f.text_field :email, :size => 28  %> <br/>
+  <%= f.submit('Begin >') %>
+<% end %>                   
 
-  Email:<br/>
-  <%= f.text_field :email %>
-  
-  <%= f.submit 'Begin >' %>
 
-<% end %>
+Want to resume an earlier surey but <%= link_to "forgot your survey link?", forgotten_surveys_path %>
