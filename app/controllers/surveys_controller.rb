@@ -54,7 +54,7 @@ class SurveysController < ApplicationController
     
   # GET /surveys/resume/<key>
   def resume
-    @survey = Survey.first(:conditions => ['key = ?', params[:key]])
+    @survey = Survey.find_by_key(params[:key])
     
     respond_to do |format|
       if @survey
