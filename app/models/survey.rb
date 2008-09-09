@@ -66,7 +66,7 @@ class Survey < ActiveRecord::Base
   end
   
   def Survey.recent
-    Survey.find(:all, :order => "created_at ASC", :limit => 10)
+    Survey.find(:all, :order => "created_at DESC", :limit => 10)
   end
     
 end
