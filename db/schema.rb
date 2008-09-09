@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080907120748) do
+ActiveRecord::Schema.define(:version => 20080909104735) do
 
   create_table "answers", :force => true do |t|
     t.text     "text"
@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20080907120748) do
     t.integer  "survey_id"
     t.integer  "farm_id"
     t.integer  "stage_id"
+    t.boolean  "public",      :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -116,8 +117,11 @@ ActiveRecord::Schema.define(:version => 20080907120748) do
 
   create_table "surveys", :force => true do |t|
     t.string   "title"
+    t.boolean  "public",     :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "email"
+    t.string   "key"
   end
 
 end

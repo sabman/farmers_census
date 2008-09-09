@@ -1,7 +1,7 @@
 class SurveysController < ApplicationController
-  before_filter :verify_admin, :except => :show
+  before_filter :verify_admin, :except => [:show, :new, :create, :resume, :forgotten, :reminder]
   before_filter :verify_public, :only => :show, :unless => :admin? 
-   
+  
   # GET /surveys
   # GET /surveys.xml
   def index
@@ -26,36 +26,73 @@ class SurveysController < ApplicationController
     end
   end
 
+  # NOTE: /surveys/new is used for the farmer to register their email address
+  # so they can return to a survey
+  
   # GET /surveys/new
-  # GET /surveys/new.xml
   def new
     @survey = Survey.new
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @survey }
     end
   end
 
-  # GET /surveys/1/edit
-  def edit
-    @survey = Survey.find(params[:id])
-  end
-
   # POST /surveys
-  # POST /surveys.xml
   def create
     @survey = Survey.new(params[:survey])
+    Question.all.each do |q|
+      @survey.answers.build({:question_id => q.id, :stage_id => q.stage.id})
+    end
 
     respond_to do |format|
       if @survey.save
-        flash[:notice] = 'Survey was successfully created.'
-        format.html { redirect_to(@survey) }
-        format.xml  { render :xml => @survey, :status => :created, :location => @survey }
+        session[:current_survey]  = @survey.id
+        flash[:notice]            = 'Survey was successfully created.'
+        format.html { redirect_to(url_for(Stage.first)) }
       else
+        p @survey
+        p @survey.key
+        
         format.html { render :action => "new" }
-        format.xml  { render :xml => @survey.errors, :status => :unprocessable_entity }
       end
+    end
+  end
+    
+  # GET /surveys/resume/<key>
+  def resume
+    @survey = Survey.first(:conditions => ['key = ?', params[:key]])
+    
+    respond_to do |format|
+      if @survey
+        session[:current_survey] = @survey.id
+        format.html { redirect_to(stages_path) }
+      else
+        flash[:notice] = "Sorry, your survey key doesn't exist, please start again"
+        redirect_to(home_path)
+      end
+    end
+  end
+  
+  # GET /surveys/forgotten
+  def forgotten
+    respond_to do |format|
+      format.html
+    end
+  end
+
+  # POST /surveys/reminder
+  def reminder
+    @survey = Survey.first(:conditions => ['email = ?', params[:email]])
+    
+    respond_to do |format|
+      if @survey
+        # send email here
+        flash[:notice] = "An email has been sent to you with your survey link."
+      else
+        flash[:notice] = "No survey with your email was found. Please start a new one."
+      end
+      format.html { redirect_to(home_path) }
     end
   end
 

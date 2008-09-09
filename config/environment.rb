@@ -69,6 +69,8 @@ Rails::Initializer.run do |config|
   config.gem "haml", :version => ">= 2.0.2"
   config.gem "GeoRuby", :lib => 'geo_ruby'
   config.gem "will_paginate"
+  
+  config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
 end
 # These defaults are used in GeoKit::Mappable.distance_to and in acts_as_mappable
 GeoKit::default_units = :miles
@@ -131,3 +133,6 @@ ActionMailer::Base.smtp_settings = {
    :user_name => "kiez.team@gmail.com",
    :password => "stick343" 
 }
+
+# For generating unique-ish keys for surveys.
+require 'digest/sha1'

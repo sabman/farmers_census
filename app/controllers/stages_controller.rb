@@ -2,6 +2,11 @@ class StagesController < ApplicationController
   include GeoKit::Geocoders
   before_filter :verify_survey
   
+  # GET /stages/start
+  def start
+    
+  end
+    
   # GET /stages
   # GET /stages.xml
   def index

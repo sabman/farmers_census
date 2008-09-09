@@ -10,10 +10,12 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :answers 
   map.addavatar "avatar/create", :controller => 'avatar', :action => 'create'
   map.home '', :controller => "front_page", :action => "show"   
-  map.resources :surveys, :has_many => :questions
+  map.resources :surveys, :has_many => :questions, :collection => { :forgotten => :get }
   map.resources :questions, :has_one => :stage
   map.resources :stages, :has_many => :questions, :collection => { :done => :get }  
   map.sitemap 'sitemap.xml', :controller => 'sitemap', :action => 'sitemap'
+  
+  map.private_survey '/surveys/resume/:key', :controller => 'surveys', :action => 'resume', :conditions => { :method => :get }
 
   map.resources :sessions 
   map.login '/login', :controller => 'sessions', :action => 'new' 

@@ -1,8 +1,13 @@
 class Survey < ActiveRecord::Base
-  has_many :answers 
-  has_and_belongs_to_many :questions
-  has_many :avatars 
-  has_one :farmer
+  has_many                    :answers 
+  has_and_belongs_to_many     :questions
+  has_many                    :avatars 
+  has_one                     :farmer
+  
+  validates_email_veracity_of :email, :domain_check => false
+  validates_uniqueness_of     :key, :email
+  
+  before_validation_on_create :assign_key
 
   def Survey.find_public
     Survey.find(:all, :conditions => ['public = ?', true])
@@ -68,5 +73,17 @@ class Survey < ActiveRecord::Base
   def Survey.recent
     Survey.find(:all, :order => "created_at DESC", :limit => 10)
   end
-    
+  
+  # TODO verify that this will not result in collisions of doom. Sorry Shoaib.
+  def self.generate_key
+    Digest::SHA1.hexdigest(Time.now.to_s.split(//).sort_by {rand}.join)
+  end
+  
+  protected
+  
+  def assign_key
+    puts "WE ARE ION ASSIGN_KEY"
+    self.key = self.class.generate_key
+  end
+  
 end

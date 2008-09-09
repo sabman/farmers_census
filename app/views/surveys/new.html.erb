@@ -1,0 +1,10 @@
+<%= error_messages_for :survey %>
+
+<% form_for @survey do |f| %>
+
+  Email:<br/>
+  <%= f.text_field :email %>
+  
+  <%= f.submit 'Begin >' %>
+
+<% end %>
