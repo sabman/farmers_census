@@ -16,7 +16,7 @@ module FrontPageHelper
         coords << [rec.lng.to_f, rec.lat.to_f] 
         @map.record_init @map.add_overlay(
           GMarker.new([rec.lat.to_f, rec.lng.to_f], 
-            :title => "[TITLE]", :icon => icon_handprint,   
+            :title => "#{rec.farm_name}", :icon => icon_handprint,   
             :info_window => "
               #{image_tag show_avatar(rec)} 
               <h2>#{rec.farm_name}</h2> 
