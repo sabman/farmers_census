@@ -123,7 +123,10 @@ module FrontPageHelper
 				for (i = 0; i < gmnoprint.length; i++) {
 					gmnoprint[i].style.visibility = "hidden";
 				} 
-    
+
+    		var itemcontrol = new HtmlControl("<img src=\"/images/compass-small.png\"/>");
+				map.addControl(itemcontrol, new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(0, -10)));
+
   		')  	
   		
     @map.to_html 
