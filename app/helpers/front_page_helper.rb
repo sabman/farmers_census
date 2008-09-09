@@ -125,7 +125,9 @@ module FrontPageHelper
 				}
 				var gmnoprint = getElementsByClass("gmnoprint");
 				for (i = 0; i < gmnoprint.length; i++) {
-					gmnoprint[i].style.visibility = "hidden";
+					if (!gmnoprint[0].style.width) {
+						gmnoprint[i].style.visibility = "hidden";
+					}
 				} 
 
     		var itemcontrol = new HtmlControl("<img src=\"/images/compass-small.png\"/>");
