@@ -8,8 +8,8 @@ require 'eycap/recipes'
 # =============================================================================
 
 # Once you have the IP of your Express image, put it in here
-set :express_ip, "nomad-labs.dyndns.org"
-#set :express_ip, "nomad-berlin.dyndns.org"
+#set :express_ip, "nomad-labs.dyndns.org"
+set :express_ip, "nomad-berlin.dyndns.org"
 # If you don't have ssh keys set up, then put your express user's password here
 # set :password, "secret"
 
@@ -17,28 +17,6 @@ set :express_ip, "nomad-labs.dyndns.org"
 # Make your choice of source code management here, dependent on which your 
 # application is currently stored in
 #
-
-# ==============================================================================
-# DEPLOYING USING SUBVERSION
-# ==============================================================================
-
-# set :scm,           :subversion
-# set :keep_releases, 5
-## Replace this with your subversion url
-# set :repository, 'YOUR_SVN_URL'
-## Replace this with your subversion username
-# set :scm_username,  'YOUR_SVN_USERNAME'
-## Replace this with your subversion password (if your setup requires one)
-# set :scm_password,  'YOUR_SVN_PASSWORD'
-## This user is on the Express VM image, you don't need to change it
-# set :user,          'express'
-## Set this to the randomly generated password given to you on boot
-## or to the password you manually changed it to
-# set :password,      'EXPRESS_PASSWORD'
-# set :deploy_via,    :export
-
-# set :runner,        'express'
-
 # comment out if it gives you trouble. newest net/ssh needs this set.
 ssh_options[:paranoid] = false
 
@@ -66,8 +44,8 @@ set :user,        'express'
 #
 # set :ssh_options, { :forward_agent => true }
 
-#set :sql_pass,         '77zxcvb77'
-set :sql_pass,         'abc123'
+set :sql_pass,         '77zxcvb77'
+#set :sql_pass,         'abc123'
 set :application,      'rails'
 set :keep_releases,    5
 set :monit_group,      'rails'
