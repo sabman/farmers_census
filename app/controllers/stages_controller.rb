@@ -1,11 +1,6 @@
 class StagesController < ApplicationController
   include GeoKit::Geocoders
-  before_filter :verify_survey
-  
-  # GET /stages/start
-  def start
-    
-  end
+  before_filter :verify_survey  
     
   # GET /stages
   # GET /stages.xml
@@ -21,7 +16,6 @@ class StagesController < ApplicationController
   end
 
   # GET /stages/1
-  # GET /stages/1.xml
   def show
     @stage = Stage.find(params[:id])
     @avatar = Avatar.new   
@@ -48,11 +42,13 @@ class StagesController < ApplicationController
     elsif params[:next] == 'previous'
       @stage = @stage.previous
     end
-        
+
 		if params[:avatar]
-	    @avatar = Avatar.new(params[:avatar])
-	    @avatar.save     
-	    current_survey.avatars << @avatar
+		  unless(params[:avatar][:uploaded_data]=="")    
+  	    if @avatar = Avatar.create(params[:avatar])
+  	      current_survey.avatars << @avatar
+	      end
+		  end                  
 		end
 
     current_survey.update_attributes(params[:survey])

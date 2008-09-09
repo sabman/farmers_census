@@ -78,7 +78,6 @@ class Survey < ActiveRecord::Base
   protected
   
   def assign_key
-    puts "WE ARE ION ASSIGN_KEY"
     self.key = self.class.generate_key
   end
   

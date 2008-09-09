@@ -8,6 +8,6 @@ class AddQuestionsAndPages < ActiveRecord::Migration
 
   def self.down
     Page.delete_all    
-    Questions.delete_all
+    Question.delete_all
   end
 end
