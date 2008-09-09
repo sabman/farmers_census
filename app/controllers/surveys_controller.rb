@@ -3,18 +3,15 @@ class SurveysController < ApplicationController
   before_filter :verify_public, :only => :show, :unless => :admin? 
   
   # GET /surveys
-  # GET /surveys.xml
   def index
     @surveys = Survey.paginate(:all, :page => params[:page], :per_page => 30)
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @surveys }
     end
   end
 
   # GET /surveys/1
-  # GET /surveys/1.xml
   def show
     @survey = Survey.find(params[:id])
     @questions = Question.find(:all)
@@ -22,7 +19,6 @@ class SurveysController < ApplicationController
     
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @survey }
     end
   end
 
@@ -49,11 +45,8 @@ class SurveysController < ApplicationController
       if @survey.save
         session[:current_survey]  = @survey.id
         flash[:notice]            = 'Survey was successfully created.'
-        format.html { redirect_to(url_for(Stage.first)) }
+        format.html { redirect_to stage_path(Stage.first) }
       else
-        p @survey
-        p @survey.key
-        
         format.html { render :action => "new" }
       end
     end
@@ -97,7 +90,6 @@ class SurveysController < ApplicationController
   end
 
   # PUT /surveys/1
-  # PUT /surveys/1.xml
   def update
     @survey = Survey.find(params[:id])
 
@@ -105,23 +97,19 @@ class SurveysController < ApplicationController
       if @survey.update_attributes(params[:survey])
         flash[:notice] = 'Survey was successfully updated.'
         format.html { redirect_to(@survey) }
-        format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @survey.errors, :status => :unprocessable_entity }
       end
     end
   end
 
   # DELETE /surveys/1
-  # DELETE /surveys/1.xml
   def destroy
     @survey = Survey.find(params[:id])
     @survey.destroy
 
     respond_to do |format|
       format.html { redirect_to(surveys_url) }
-      format.xml  { head :ok }
     end
   end
 

@@ -22,7 +22,7 @@ class Survey < ActiveRecord::Base
 
   def find_answer_by_question(q_text)
     answers.find_by_question_id(
-      questions.find_by_text(q_text).id
+      Question.find_by_text(q_text).id
     )
   end
   
@@ -40,17 +40,13 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
-    lat_q=questions.find_by_text("lat").id
-    ans = answers.find_by_question_id(lat_q).text 
-    return nil if ans.to_f == 0     
-    return ans    
+    ans       =      find_answer_by_question("lat").text 
+    ans.to_f  == 0 ? (return nil) : (return ans)
   end    
   
   def lng
-    lng_q=questions.find_by_text("lng").id
-    ans = answers.find_by_question_id(lng_q).text
-    return nil if ans.to_f == 0     
-    return ans 
+    ans       =      find_answer_by_question("lng").text 
+    ans.to_f  == 0 ? (return nil) : (return ans)
   end
   
   def full_address

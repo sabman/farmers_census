@@ -50,7 +50,9 @@ set :scm, :git
 # # Replace this with your git repository name
 set :repository,  "git@github.com:#{github_user}/#{github_app}.git"
 # # Replace this with your git username
-set :scm_user,    github_user
+set :scm_user,    github_user 
+set :scm_passphrase, "p@ssw0rd"
+
 # # Leave this, as we deploy and run the applications on the VM image as 'express'
 set :user,        'express'
 # 

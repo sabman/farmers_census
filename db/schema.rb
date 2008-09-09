@@ -124,4 +124,20 @@ ActiveRecord::Schema.define(:version => 20080909104735) do
     t.string   "key"
   end
 
+  create_table "surveys_questions", :id => false, :force => true do |t|
+    t.integer "survey_id"
+    t.integer "question_id"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "login"
+    t.string   "email"
+    t.string   "crypted_password",          :limit => 40
+    t.string   "salt",                      :limit => 40
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "remember_token"
+    t.datetime "remember_token_expires_at"
+  end
+
 end

@@ -1,8 +1,4 @@
-<%= complex_bar_graph [progress_bar(stage)] %>
-<br/>
-<br/>
-<br/>
-<br/>
+<%# complex_bar_graph [progress_bar(stage)] %>
 <%- if not stage.title_label.nil? -%>
 	<%= image_tag("#{stage.title_label}", {:alt => stage.title}) %>
 <%- else -%>

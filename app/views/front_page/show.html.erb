@@ -5,18 +5,15 @@
 
 <p>
   <table>
-    <tr><td>
-
+    <tr><td>      
     	<% if session[:current_survey].nil? %>
-    		<%= link_to image_label_no_mouseover("/images/text/take_the_survey.png"), url_for(Stage.find(:first)) %>
+    		<%= link_to image_label_no_mouseover("/images/text/take_the_survey.png"), new_survey_path %>
     	<% else %>	
       	<%= link_to image_label_no_mouseover("/images/text/survey_in_progress.png"), stages_path %>
     	<% end %>
-
     </td><td width="100px"></td><td valign="top">
-
-    	<%= link_to image_label_no_mouseover("/images/text/nominate_a_farmer.png"), new_nomination_path %>
-
+    	<%= link_to image_label_no_mouseover("/images/text/nominate_a_farmer.png"),
+    	    new_nomination_path %>
     </td></tr>
   </table>
 </p>

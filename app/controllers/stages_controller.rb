@@ -20,10 +20,6 @@ class StagesController < ApplicationController
     end
   end
 
-	def all
-		@stages = Stage.find(all)
-	end
-
   # GET /stages/1
   # GET /stages/1.xml
   def show
@@ -64,11 +60,11 @@ class StagesController < ApplicationController
     respond_to do |format|
       if @stage.update_attributes(params[:stage])
         flash[:notice] = 'Stage was successfully updated.'
-        format.html { params[:next] == 'last' ? redirect_to(stages_url) : redirect_to(@stage) }
-        format.xml  { head :ok }
+        format.html { 
+          params[:next] == 'last' ? redirect_to(stages_url) : redirect_to(@stage) 
+        }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @stage.errors, :status => :unprocessable_entity }
       end
     end
   end
@@ -102,9 +98,9 @@ class StagesController < ApplicationController
   
   def done    
     @current_survey = current_survey 
-    #AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)
+    AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)
+    session[:current_survey] = nil
     redirect_to(home_path)
-    session[:current_survey] = nil  
   end     
   
   private
@@ -120,7 +116,7 @@ class StagesController < ApplicationController
       questions.each do |question|
         a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => survey.id)
       end
-      survey.questions << questions
+      #survey.questions << questions
       session[:current_survey] = survey.id 
       flash[:notice] = "Start taking the new census"
     end

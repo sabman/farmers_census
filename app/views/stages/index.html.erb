@@ -1,23 +1,18 @@
-<h1>Census Stages</h1>
-	
-<table>
-  <tr>
-    <th>Stage Number</th>
-    <th>Stage Name</th>
-    <th>Completed</th>
-  </tr>
+<% if @current_survey.percentage_completed >= 70 %>
+	 <p class='notice'>Thank you for taking the survey. We will review your survey and shortly be in touch. <%= link_to "Click here to log out.", :action => "done" %></p> 
+<%- else -%>
+  You have started the survey but no yet completed. 
+  <%= link_to "Click here", :action => "done" %> to log out and come back to it another day.
+<% end %>
 
+<table class="profile">
 <% for stage in @stages %>
-  <tr>
-    <td><%= link_to "Stage: #{stage.id}", stage %></td>
-    <td><%=h stage.title %></td>
-    <td><%=h stage.percent_completed(session[:current_survey]) %></td>
+  <tr class="profile <%= cycle('darker', 'lighter') %>" >
+    <td class="profile"><%= link_to stage.title, stage %></td>
+    <td class="profile">
+      <%=h stage.percent_completed(session[:current_survey]) %>% done
+    </td>
   </tr>
 <% end %>
 </table>
 
-<% if @current_survey.percentage_completed >= 70 %>
-	 <%= link_to "Thank you... check out our map", :action => "done" %>
-<% elsif @current_survey.percentage_completed >= 60 %>
-	Thank you... you are almost there, try to answer just a few questions and you will be on your way!
-<% end %>

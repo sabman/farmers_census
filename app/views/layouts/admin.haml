@@ -29,5 +29,6 @@
     #footer
       =yield(:footer)       
       %ul
+      -if admin? 
         %li= link_to "logout (public site)", logout_path() 
         
