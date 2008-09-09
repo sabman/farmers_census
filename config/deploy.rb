@@ -8,8 +8,8 @@ require 'eycap/recipes'
 # =============================================================================
 
 # Once you have the IP of your Express image, put it in here
-#set :express_ip, "nomad-labs.dyndns.org"
-set :express_ip, "nomad-berlin.dyndns.org"
+set :express_ip, "nomad-labs.dyndns.org"
+#set :express_ip, "nomad-berlin.dyndns.org"
 # If you don't have ssh keys set up, then put your express user's password here
 # set :password, "secret"
 
@@ -45,7 +45,6 @@ set :user,        'express'
 # set :ssh_options, { :forward_agent => true }
 
 set :sql_pass,         '77zxcvb77'
-#set :sql_pass,         'abc123'
 set :application,      'rails'
 set :keep_releases,    5
 set :monit_group,      'rails'
