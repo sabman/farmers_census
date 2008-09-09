@@ -1,17 +1,8 @@
 <% for survey in @surveys %>
-<<<<<<< HEAD:app/views/surveys/index.html.erb
-  <p>
-    <%= link_to "Survey by #{survey.farmer_name} from #{survey.farm_name}", survey_path(survey) %>
-  </p>
-=======
-	Name of farm: <%= survey.farm_name  %> <br/>
-	Full Address: <%= survey.full_address %> <br/>
-	Lng, Lat: <%= survey.lng %>, <%= survey.lat %> <br/> 
+  <%= link_to "Survey by #{survey.farmer_name} from #{survey.farm_name}", survey_path(survey) %> <br/>
 	Make Public? <%= check_box_tag "make_public", "#{survey.id}", survey.public? %> 
-  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{survey.id}" ) %>
-  
+  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{survey.id}" ) %>  
 	<hr/>
->>>>>>> 31809cc64e1ad1be905ffa3975887e5a29129a55:app/views/surveys/index.html.erb
 <% end %>
 
 <%= will_paginate @surveys %>

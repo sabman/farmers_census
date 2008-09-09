@@ -1,5 +1,5 @@
 <%= GMap.header %>
-<%= show_maps Survey.find(:all)  %>
+<%= show_maps Survey.find_public %>
 <%= javascript_include_tag 'mapping_helpers' %>
 
 <p>

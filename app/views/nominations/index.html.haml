@@ -1,7 +1,7 @@
 %h2 Listing nominations
   
 - for nomination in @nominations 
-  %p= link_to "#{nomination.first_name} was nomicated by #{nomination.your_name}" , nomination_path(nomination)  
+  %p= link_to "#{nomination.first_name} was nominated by #{nomination.your_name}" , nomination_path(nomination)  
   %br 
 
-<%= will_paginate @nominations %>
+= will_paginate @nominations

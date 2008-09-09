@@ -3,6 +3,10 @@ class Survey < ActiveRecord::Base
   has_and_belongs_to_many :questions
   has_many :avatars 
   has_one :farmer
+
+  def Survey.find_public
+    Survey.find(:all, :conditions => ['public = ?', true])
+  end
   
   def percentage_completed
     stages = Stage.find :all
