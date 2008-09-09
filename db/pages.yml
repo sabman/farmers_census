@@ -32,8 +32,63 @@
 - - page_006
   - permalink: mapslinks
     name: Maps and Links
-    content: tmp
     label: /images/text/maps.png
+    content: |-
+      if you know of a map that provides compelling information- we'd love 
+      to put it up. Please email severine@pixiepoppins.org
+
+      amtrak routes
+
+      http://www.railescapes.com/images/amtrak/map_north_america.jpg
+      native american reservations
+
+      http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bia-map-indian-reservations-usa.png/800px-Bia-map-indian-reservations-usa.png
+      http://www.aaanativearts.com/Native_American_map.jpg
+      soil maps
+
+      http://www.epa.gov/oppefed1/ecorisk_ders/xsoils_fig1big.gif
+      http://www.soils.umn.edu/academics/classes/soil2125/img/4usoils.jpg
+      hardiness zone map
+
+      http://www.signaturelandscapes.com/images/hardiness.jpg
+      prairie map
+
+      http://bsi.montana.edu/prairiemap/files/images/PrairieMap_ecoregions1.jpg
+      rare plants
+
+      http://www.fs.fed.us/wildflowers/rareplants/images/USA-2000-population-density.gif
+      biodiveristy
+
+      http://www.fnai.org/ARROW/almanac/images/biology_index_map01.jpg
+      subsidy payments map
+      http://images.google.com/imgres?imgurl=http://www.nass.usda.gov/research/atlas02/Crops/Hay%2520and%2520Forage%2520Crops%2520Harvested/Hay%2520-%2520All%2520Hay%2520Including%2520Alfalfa,%2520Other%2520Tame,%2520Small%2520Grain,%2520and%2520Wild,%2520Harvested%2520Acres-choropleth%2520map.gif&imgrefurl=http://www.nass.usda.gov/research/atlas02/index.html&h=612&w=792&sz=83&hl=en&start=32&um=1&tbnid=r--6ddjd8jE-dM:&tbnh=111&tbnw=143&prev=/images%3Fq%3Dedible%2Bwild%2Bplants%2Bmap%26start%3D20%26ndsp%3D20%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN
+      ag maps
+
+      http://www.mapsofworld.com/usa/thematic-maps/maps/corn-cotton-and-barley-growing-area.gif
+      sky at night
+
+      http://www.geog.nau.edu/courses/alew/ggr346/text/maps/usa_lights.gif
+      regional food map
+
+      http://www.salmonnation.com/place/images/RAFT_map.gif
+      federal lands
+
+      http://images.google.com/imgres?imgurl=http://education.usgs.gov/common/resources/mapcatalog/images/land/forestcoverusa.jpg&imgrefurl=http://education.usgs.gov/common/resources/mapcatalog/land.html&h=467&w=408&sz=115&hl=en&start=7&um=1&tbnid=PlcFuXEPu7XwVM:&tbnh=128&tbnw=112&prev=/images%3Fq%3Dforest%2Bmap%2Busa%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DG
+      land cover
+
+      http://images.google.com/imgres?imgurl=http://education.usgs.gov/common/resources/mapcatalog/images/land/forestcoverusa.jpg&imgrefurl=http://education.usgs.gov/common/resources/mapcatalog/land.html&h=467&w=408&sz=115&hl=en&start=7&um=1&tbnid=PlcFuXEPu7XwVM:&tbnh=128&tbnw=112&prev=/images%3Fq%3Dforest%2Bmap%2Busa%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DG
+      historic soil maps for each state
+
+      http://alabamamaps.ua.edu/historicalmaps/us_states/states.html
+      satellite image
+
+      http://education.usgs.gov/common/resources/mapcatalog/images/image/usa_sat.jpg
+      hay map
+
+      http://www.nass.usda.gov/research/atlas02/Crops/Hay%20and%20Forage%20Crops%20Harvested/Hay%20-%20All%20Hay%20Including%20Alfalfa,%20Other%20Tame,%20Small%20Grain,%20and%20Wild,%20Harvested%20Acres-choropleth%20map.gif
+      change in number of farms
+
+      http://images.google.com/imgres?imgurl=http://www.nass.usda.gov/research/atlas02/Crops/Hay%2520and%2520Forage%2520Crops%2520Harvested/Hay%2520-%2520All%2520Hay%2520Including%2520Alfalfa,%2520Other%2520Tame,%2520Small%2520Grain,%2520and%2520Wild,%2520Harvested%2520Acres-choropleth%2520map.gif&imgrefurl=http://www.nass.usda.gov/research/atlas02/index.html&h=612&w=792&sz=83&hl=en&start=32&um=1&tbnid=r--6ddjd8jE-dM:&tbnh=111&tbnw=143&prev=/images%3Fq%3Dedible%2Bwild%2Bplants%2Bmap%26start%3D20%26ndsp%3D20%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN
 - - page_004
   - permalink: faq
     name: FAQ

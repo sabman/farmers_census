@@ -8,7 +8,7 @@
     <tr><td>
 
     	<% if session[:current_survey].nil? %>
-    		<%= link_to image_label_mouseover("/images/text/center/Take_the_Survey.png"), url_for(Stage.find(:first)) %>
+    		<%= link_to image_label_no_mouseover("/images/text/take_the_survey.png"), url_for(Stage.find(:first)) %>
     	<% else %>	
       	<%= link_to image_label_no_mouseover("/images/text/survey_in_progress.png"), stages_path %>
     	<% end %>

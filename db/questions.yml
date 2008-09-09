@@ -217,12 +217,12 @@
 - - question
   - qtype: numeric_field
     text: How many bikes on the farm?
-    title_label:
+    title_label: /images/labels/how_many_bicycles.png
     stage_id: 2
 - - question
   - qtype: numeric_field
     text: How many trucks/cars on the farm?
-    title_label: /images/labels/how_many_bicycles.png
+    title_label: 
     stage_id: 2
 - - question
   - qtype: yes_no
@@ -237,12 +237,12 @@
 - - question
   - qtype: yes_no
     text: Electricity?
-    title_label:
+    title_label: /images/labels/electricity.png
     stage_id: 2
 - - question
   - qtype: yes_no
     text: Running water?
-    title_label:
+    title_label: /images/labels/runningwater.png
     stage_id: 2
 - - question
   - qtype: text_field
@@ -299,7 +299,7 @@
 - - question
   - qtype: text_area
     text: Are you worried about market saturation? Is there room for more young farmers in your area? 
-    title_label: 
+    title_label: /images/labels/market_saturation.png
     stage_id: 3
 - - question
   - qtype: text_area
@@ -331,10 +331,10 @@
         filename: /images/labels/via_campesina.png
       options4:
         text: slow food
-        filename: /images/label/slow_food.png
+        filename: /images/labels/slow_food.png
       options5:
         text: national family farmers
-        filename:
+        filename: /images/labels/national_family_farmers.png
       options6:
         text: farm bureau
         filename: /images/labels/farm_bureau.png
@@ -346,10 +346,10 @@
         filename: /images/labels/future_farmers_of_america.png
       options9:
         text: dairy cooperative
-        filename: /images/label/daily_cooperative.png
+        filename: /images/label/dairy_cooperative.png
       options10:
         text: other cooperative
-        filename:
+        filename: /images/label/other_cooperative.png
       options11:
         text: farmers market? 
         filename: /images/labels/farmers_market.png
@@ -487,7 +487,7 @@
         filename: /images/labels/intersectaries.png
       options6:
         text: on-farm composting
-        filename: /images/labels/on_farm_composting.png
+        filename: /images/labels/on_farming_composting.png
       options7:
         text: rotational cropping
         filename: /images/labels/rotational_cropping.png
