@@ -1,6 +1,6 @@
 class SurveysController < ApplicationController
   before_filter :verify_admin, :except => :show
-  before_filter :veryify_public || :verify_admin, :only => :show
+  before_filter :verify_public, :only => :show, :unless => :verify_admin
    
   # GET /surveys
   # GET /surveys.xml
@@ -95,7 +95,7 @@ class SurveysController < ApplicationController
     render :nothing => true    
   end
   
-  def veryify_public
+  def verify_public
     survey = Survey.find(params[:id])
     survey.public? ? true : redirect_to(login_path)
   end
