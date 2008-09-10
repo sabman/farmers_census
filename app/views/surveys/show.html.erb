@@ -1,11 +1,12 @@
 <h1>
   Survey by <%= @survey.farmer_name %> from <%= @survey.farm_name %>
 </h1>
-<h3>User email: <%= @survey.email %></h3>
 
 <%- if admin? -%>
+  <h3>User email: <%= @survey.email %></h3>
   Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %> 
-  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{@survey.id}" ) %>  
+  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, 
+                    :with => "'id='+#{@survey.id}" ) %>  
 <%- end -%>
 
 <table class='profile'>
