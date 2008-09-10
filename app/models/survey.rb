@@ -65,12 +65,19 @@ class Survey < ActiveRecord::Base
   def farmer_name
     find_answer_by_question("First name").nil? ? "" : find_answer_by_question("First name").text
   end
+
+  def farmer_grounded?
+    ans = find_answer_by_question("Status at the Farm")
+    return false  if ans.options.blank?
+    ans.options.each{|opt| return true if opt.text == "owner" }
+    return false      
+  end
   
   def Survey.recent
     Survey.find(:all, :order => "created_at DESC", :limit => 10)
   end
   
-  # TODO verify that this will not result in collisions of doom. Sorry Shoaib.
+  # TODO verify that this will not result in collisions of doom.
   def self.generate_key
     Digest::SHA1.hexdigest(Time.now.to_s.split(//).sort_by {rand}.join)
   end

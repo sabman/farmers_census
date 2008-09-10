@@ -35,11 +35,9 @@ module ApplicationHelper
   
   def show_avatar(rec=nil)
     rec = @current_survey ? @current_survey : rec
-    if rec.avatars.first
-      return rec.avatars.first.public_filename(:thumb)
-    else
-      return 'no_avatar.jpg'
-    end
+    rec.avatars.first != nil ? rec.avatars.first.public_filename(:thumb) : 'no_avatar.jpg'
+  rescue
+    return 'no_avatar.jpg'
   end
 
   def show_avatars(rec=nil)
@@ -49,6 +47,8 @@ module ApplicationHelper
     else
       yield 'no_avatar.jpg'
     end
+  rescue
+    return 'no_avatar.jpg'
   end
 
   def mouseover_file(file)

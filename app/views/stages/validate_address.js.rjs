@@ -1,8 +1,13 @@
 page["address-warning-icon"].set_style :display => 'none'
 page["address-unsure-icon"].set_style :display => 'none'
 page["address-good-icon"].set_style :display => 'none'
+page["address-good-text"][:innerHTML] = ""
+page["address-warning-text"][:innerHTML] = ""
+
 if @loc.success 
   page["address-good-icon"].set_style :display => 'inline'
+  page["address-good-text"][:innerHTML] = "address verified (you can also drag the marker)"
+  page["address-good-text"].set_style :color => 'green'
   page["street address"][:value] = @loc.street_address 
   page[:city][:value] = @loc.city
   page[:country][:value] = @loc.country_code
@@ -14,14 +19,16 @@ if @loc.success
   page[:lat_display][:innerHTML] = @loc.lat
   
   page << @map.clear_overlays
-#  page << @map.add_overlay(@marker)
+  #page << @map.add_overlay(@marker)
   page << @map.set_center(@center,@zoom)  
 
-#  unless @current_survey.lat.nil? and @current_survey.lng.nil?  
+  #unless @current_survey.lat.nil? and @current_survey.lng.nil?  
     page << "create_draggable_marker_for_edit(#{@loc.lng.to_f}, #{@loc.lat.to_f});"
-#  end  
+  #end  
 else
   page["address-warning-icon"].set_style :display => 'inline'
+  page["address-warning-text"][:innerHTML] = "address not found (try changing it or drag the marker)"
+  page["address-warning-text"].set_style :color => 'red'
 end
 
 # TODO 

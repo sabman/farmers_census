@@ -158,3 +158,36 @@ function rand( min, max ) {
         return Math.floor(Math.random() * (min + 1));
     }
 }
+
+function create_transp_round_green_icon() {
+  var icon = new GIcon();
+  icon.image = "/images/circle_green_24_transp.png";
+  icon.shadow = "/images/shadow-circle_green_24_transp.png";
+  icon.iconSize = new GSize(24.0, 24.0);
+  icon.shadowSize = new GSize(37.0, 24.0);
+  icon.iconAnchor = new GPoint(12.0, 12.0);
+  icon.infoWindowAnchor = new GPoint(12.0, 12.0);
+	return icon;
+}
+
+function create_transp_big_blue_icon() {
+	var icon = new GIcon();
+	icon.image = "/images/circle_blue_transp.png";
+	icon.shadow = "/images/shadow-circle_blue_transp.png";
+	icon.iconSize = new GSize(48.0, 48.0);
+	icon.shadowSize = new GSize(73.0, 48.0);
+	icon.iconAnchor = new GPoint(24.0, 24.0);
+	icon.infoWindowAnchor = new GPoint(24.0, 24.0);
+	return icon;
+}
+
+function create_transp_round_red_icon() {
+  var icon = new GIcon();
+  icon.image = "/images/circle_red_24_transp.png";
+  icon.shadow = "/images/shadow-circle_red_24_transp.png";
+  icon.iconSize = new GSize(24.0, 24.0);
+  icon.shadowSize = new GSize(37.0, 24.0);
+  icon.iconAnchor = new GPoint(12.0, 12.0);
+  icon.infoWindowAnchor = new GPoint(12.0, 12.0);
+	return icon;
+}

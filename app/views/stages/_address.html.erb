@@ -47,9 +47,9 @@
 <div id="map_canvas" style="width: 640px; height: 320px" ></div>
 
 <div class="form_row">
-	<%= image_tag 'tick.png', :id => 'address-good-icon', :title => 'valid address' , :alt => 'valid address' %>
-	<%= image_tag 'exclamation.png', :id => 'address-warning-icon' , :title => 'invalid address', :alt => 'invalid address' %>
-	<%= image_tag 'question-mark.gif', :id => 'address-unsure-icon' , :title => 'address unvarified' , :alt => 'address unvarified' %>
+	<%= image_tag 'tick.png', :id => 'address-good-icon', :title => 'valid address' , :alt => 'valid address' %><span id="address-good-text"></span>
+	<%= image_tag 'exclamation.png', :id => 'address-warning-icon' , :title => 'invalid address', :alt => 'invalid address' %><span id="address-warning-text"></span>
+	<%= image_tag 'question-mark.gif', :id => 'address-unsure-icon' , :title => 'address unvarified' , :alt => 'address unvarified' %><span id="address-unsure-text"></span>
 	<%= image_tag 'spinner.gif', :alt=>"spinner", :id=>"spinner", :style=>"display:none;", :alt => 'checking address...' %>
 	
 	<%= link_to_remote 'check address',

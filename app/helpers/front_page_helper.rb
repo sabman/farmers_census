@@ -4,29 +4,46 @@ module FrontPageHelper
   include GeoRuby::SimpleFeatures
   
   def show_maps recs
-    @map = GMap.new("map_div", "map")
+    @map  =   GMap.new("map_div", "map")
     @map.control_init(:small_map => true, :map_type => false)
-    @map.record_init @map.add_map_type(GMapType::G_PHYSICAL_MAP)    
-    @map.set_map_type_init(GMapType::G_PHYSICAL_MAP)
-    @map.record_init('var icon_handprint = create_icon();')
-    icon_handprint = Variable.new("icon_handprint")
-    coords = [] 
+    @map.record_init  @map.add_map_type(GMapType::G_PHYSICAL_MAP)    
+    @map.set_map_type_init  GMapType::G_PHYSICAL_MAP
+    
+    # main icon (green, round & transparent)
+    @map.record_init  'var icon_green_circle = create_transp_round_green_icon();'
+    icon_green_circle =   Variable.new("icon_green_circle")         
+
+    # main icon (red, round & transparent)
+    @map.record_init  'var icon_red_circle = create_transp_round_red_icon();'
+    icon_red_circle =   Variable.new("icon_red_circle")         
+    
+    # get the big blue transparent icon for clusters  
+    @map.record_init  'var icon_blue_circle = create_transp_big_blue_icon();'
+    icon_blue_circle =   Variable.new("icon_blue_circle")    
+    
+    markers  =   [] 
+    coords    =   [] 
+    
     recs.each do |rec|
-      unless rec.lng == nil or rec.lat == nil
-        coords << [rec.lng.to_f, rec.lat.to_f] 
-        @map.record_init @map.add_overlay(
-          GMarker.new([rec.lat.to_f, rec.lng.to_f], 
-            :title => "#{rec.farm_name}", :icon => icon_handprint,   
-            :info_window => "
-              #{image_tag show_avatar(rec)} 
-              <h2>#{rec.farm_name}</h2> 
-              #{rec.full_address} <br/> 
-              #{link_to "See full profile", survey_path(rec)}"))
+      unless rec.lng == nil or rec.lat == nil   
+        coords << [rec.lng.to_f, rec.lat.to_f]
+        icon = rec.farmer_grounded? ? icon_green_circle : icon_red_circle
+        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{rec.farm_name}", :icon => icon, :info_window => get_info_window_text(rec) )
        end
     end
+    # Uncomment to test Clustering by creating lots of markers
+    # (0..100).each{  
+    #                 markers << GMarker.new( [33+15*rand(0), -110.4819+25*rand(0)], 
+    #                                         :info_window => "<a href='http://yahoo.com/'>Yahoo!</a>", 
+    #                                         :title => "<a href='http://google.com/'>google</a>", 
+    #                                         :icon => icon_green_circle )
+    # }
+
+    clusterer =   Clusterer.new(markers, :max_visible_markers => 2, :icon => icon_blue_circle)
+    @map.overlay_init clusterer
+
+    
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      
-   # bnd = MultiPoint.from_coordinates(coords).envelope
-   # @map.center_zoom_on_bounds_init([[bnd.lower_corner.y,bnd.lower_corner.x],[bnd.upper_corner.y,bnd.upper_corner.x]])
     @map.center_zoom_init([37.5,-93.6],4)   
     
     @map.record_init( '      
@@ -137,4 +154,11 @@ module FrontPageHelper
   		
     @map.to_html 
   end
+  
+  private
+
+  def get_info_window_text(survey)
+    "#{image_tag show_avatar(survey)} <h2>#{survey.farm_name}</h2> #{survey.full_address} <br/> #{link_to "See full profile", survey_path(survey)}"
+  end
+  
 end

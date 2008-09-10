@@ -2,7 +2,7 @@
 
 <h2><%= @page.name %></h2>
 
-<%= textilize h(@page.content) %>
+<%= textilize(@page.content) %>
 
 <%- if admin? -%>   
   <hr>
