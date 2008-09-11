@@ -106,11 +106,12 @@ namespace(:deploy) do
       cd #{release_path} &&
       ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml &&
       ln -nfs #{shared_path}/config/mongrel_cluster.yml #{release_path}/config/mongrel_cluster.yml &&
-      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb 
+      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb  &&
+      ln -nfs /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/ 
     CMD
   end
 
-  #   ln -nfs /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/
+  #   
   
   desc "Long deploy will throw up the maintenance.html page and run migrations 
         then it restarts and enables the site again."
