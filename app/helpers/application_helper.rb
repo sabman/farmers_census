@@ -69,5 +69,11 @@ module ApplicationHelper
 		  	:alt => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "),
 		  	:mouseover => "#{mouseover_file(file)}")
   end
+
+  def new_line_for_address(answer_text)
+    unless ["street address", "city" , "country" , "state", "postal code"].include?(answer_text) 
+      return "<br/>"     
+    end
+  end    
   
 end

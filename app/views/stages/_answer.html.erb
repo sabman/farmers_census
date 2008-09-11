@@ -1,8 +1,12 @@
 <% fields_for "survey[answer_attributes][]", answer do |answer_form| -%>
 
+  <%- if answer.question.text == "languages spoken" -%>
+  	<%= render :partial => "address" %>
+  <%- end -%>
+
 	<%- unless answer.question.qtype == "hidden_field" %>
 		<%= image_tag("#{answer.question.title_label}", :alt => "#{answer.question.text}", :title => "#{answer.question.text}") %>
-		<br/>
+    <%= new_line_for_address(answer.question.text) %>  
 	<%- end -%>
 
   <%- if answer.question.qtype == "text_field" or answer.question.qtype == "text_area" or answer.question.qtype == "hidden_field" -%>
@@ -24,11 +28,9 @@
 										option.id, answer.options.include?(option), :id => option.text ) %> 
 						<%= image_tag "#{option.filename}", :alt => "#{option.text}" %> <br/>
     <%- end -%>
-	<%- end -%>
-
-	<%- unless answer.question.qtype == "hidden_field" %>
- 	 <br/>
-	<%- end -%>
+	<%- end -%>      
+	
+  <%= new_line_for_address(answer.question.text) %>  
 
 <% end -%>
-<br/> 
+<%= new_line_for_address(answer.question.text) %>

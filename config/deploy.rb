@@ -105,7 +105,8 @@ namespace(:deploy) do
       cd #{release_path} &&
       ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml &&
       ln -nfs #{shared_path}/config/mongrel_cluster.yml #{release_path}/config/mongrel_cluster.yml &&
-      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb
+      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb 
+      ln -s /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/
     CMD
   end
   
@@ -134,19 +135,14 @@ namespace(:deploy) do
   end
 end
 
-namespace(:photos_dir_symlink) do
-  run "ln -s /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/"
-end
-
 namespace(:db) do
   task :migrate, :roles => :app, :except => { :no_symlink => true } do
     run "rails_ENV=#{rails_env} rake db:migrate"
   end
 end
 
-# TASKS
-after "photos_dir_symlink"
 
+# TASKS
 # Don't change unless you know what you are doing!
 after "deploy", "deploy:cleanup"
 after "deploy:migrations", "deploy:cleanup"

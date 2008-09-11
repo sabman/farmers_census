@@ -28,7 +28,6 @@ class SurveysController < ApplicationController
   # GET /surveys/new
   def new
     @survey = Survey.new
-    flash[:notice] = "Enter your email to start a new survey; to resume an older survey have your survey link sent to your registerd email click: <a href=\'#{forgotten_surveys_url}\'>forgot my survey link</a>"
     respond_to do |format|      
       format.html # new.html.erb
     end
@@ -44,7 +43,7 @@ class SurveysController < ApplicationController
     respond_to do |format|
       if @survey.save
         session[:current_survey]  = @survey.id
-        flash[:notice]            = 'Survey was successfully created.'
+        flash[:notice]            = 'The survey as begun.'
         format.html { redirect_to stage_path(Stage.first) }
       else
         format.html { render :action => "new" }

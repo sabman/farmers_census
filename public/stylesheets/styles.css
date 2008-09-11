@@ -1,3 +1,4 @@
+
 /* 
   MAIN ELEMENTS
 */
@@ -588,4 +589,9 @@ th.profile { padding: 0.3em; }
 	text-align: center;
 	margin: 10px auto;
 	padding: 5px 20px;
+}
+
+
+#country{
+	size:10;
 }

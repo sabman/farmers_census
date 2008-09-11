@@ -1,10 +1,12 @@
 <%= error_messages_for :survey %>
 
+<p class='notice'>
+  Enter your email to start a new survey; to resume an older survey have your survey link sent to your registered email click:  <%= link_to "Forgot my survey link", forgotten_surveys_url%> 
+</p>
+
 <% form_for @survey do |f| %>
 	<%= image_tag("/images/labels/email.png", :alt => "email", :title => "email") %><br/>
   <%= f.text_field :email, :size => 28  %> <br/>
   <%= f.submit('Begin >') %>
 <% end %>                   
 
-
-Want to resume an earlier survey but <%= link_to "forgot your survey link?", forgotten_surveys_path %>
