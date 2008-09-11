@@ -3,13 +3,15 @@
   - permalink: about
     name: About the campaign
     content: |-
+      !/images/text/about_the_campaign.png!
+
       We're *excited* to use this project to make visual the impact of a swelling new force on the American landscape. There are patriots working in this country today whose commitment to the freedom of the nation is exhibited in their fierce loyalty to its citizens, to their nutrition, their water, their open space, their health and their independence. Farmers have been here all along, but in this time especially of high energy costs, sinking dollar, and the changing climate--local food production has become a key puzzle piece, and with the current agricultural community reaching retirement age, recruitment has become a critical motive. 
       
       America has always respected its farmers ideologically, but the financial and social rewards have not always followed. The time has come for us to embrace farming and its practitioners--to recognize their service, to praise them, and to pay them a living wage. The time has come for the agricultural arts, so valued by our forefathers, to inspire the best, brightest and most dedicated young people to enter the field. Farming is hard work, it is good work, it is bold work. Farming means nurturing the interface of humanity and ecology, cherishing that delicate, complex and fragrant soil. Bringing forth food, life and a sustained well being for this country.
       
       We challenge the eaters, thinkers, mothers, markets and policy makers of this country-- to support the young farmers. We challenge the ecologists, humanists, activists, pacifists and survivalists to join in this movement. We vote with our fork, we vote with our vote, let us vote with our lives-- and restore agriculture, that delicious foundation of our human society. It is hard work, and we can only do it together.
       
-      h1. Why?
+      !/images/text/why.png!
       
       This map is a way for us to feel our own numbers, and connect with nearby farmers as well as nearby markets/media.
       
@@ -20,6 +22,15 @@
       Journalists from national and local media will be able to access profiles of young farmers and get in contact with these rock star farmers
       
       The survey questions will generate useable demographic information about the obstacles for young farmers, the feasibility of various land-tenure options, and the potential rural economic development impact of a surge in new farmers.
+
+      !/images/text/who.png!
+
+      Words and concepts by Severine and the Greenhorns
+
+      Illustrations and handwriting by Brooke Budner
+
+      Development and mapmaking by Mikel and Mapufacture
+
     label: /images/text/about_the_site.png
 - - page_002
   - permalink: sponsors
@@ -27,7 +38,7 @@
     content: |-
       The Greenhorns would like to thank Organic Valley for their generous sponsorship of *Serve Your Country Food*
       
-      !=http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif!
+      !http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif!
     label: /images/text/sponsors.png
 - - page_006
   - permalink: mapslinks
@@ -38,61 +49,54 @@
       to put it up. Please email severine@pixiepoppins.org
 
       amtrak routes
-
-      http://www.railescapes.com/images/amtrak/map_north_america.jpg
+      !{width:700px}http://www.railescapes.com/images/amtrak/map_north_america.jpg!
+      
       native american reservations
+      !{width:700px}http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bia-map-indian-reservations-usa.png/800px-Bia-map-indian-reservations-usa.png!
+      !{width:700px}http://www.aaanativearts.com/Native_American_map.jpg!
 
-      http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bia-map-indian-reservations-usa.png/800px-Bia-map-indian-reservations-usa.png
-      http://www.aaanativearts.com/Native_American_map.jpg
       soil maps
+      !{width:700px}http://www.epa.gov/oppefed1/ecorisk_ders/xsoils_fig1big.gif!
+      !{width:700px}http://www.soils.umn.edu/academics/classes/soil2125/img/4usoils.jpg!
 
-      http://www.epa.gov/oppefed1/ecorisk_ders/xsoils_fig1big.gif
-      http://www.soils.umn.edu/academics/classes/soil2125/img/4usoils.jpg
       hardiness zone map
+      !{width:700px}http://www.signaturelandscapes.com/images/hardiness.jpg!
 
-      http://www.signaturelandscapes.com/images/hardiness.jpg
       prairie map
+      !{width:700px}http://bsi.montana.edu/prairiemap/files/images/PrairieMap_ecoregions1.jpg!
 
-      http://bsi.montana.edu/prairiemap/files/images/PrairieMap_ecoregions1.jpg
       rare plants
+      !{width:700px}http://www.fs.fed.us/wildflowers/rareplants/images/USA-2000-population-density.gif!
 
-      http://www.fs.fed.us/wildflowers/rareplants/images/USA-2000-population-density.gif
       biodiveristy
+      !{width:700px}http://www.fnai.org/ARROW/almanac/images/biology_index_map01.jpg!
 
-      http://www.fnai.org/ARROW/almanac/images/biology_index_map01.jpg
       subsidy payments map
-      http://images.google.com/imgres?imgurl=http://www.nass.usda.gov/research/atlas02/Crops/Hay%2520and%2520Forage%2520Crops%2520Harvested/Hay%2520-%2520All%2520Hay%2520Including%2520Alfalfa,%2520Other%2520Tame,%2520Small%2520Grain,%2520and%2520Wild,%2520Harvested%2520Acres-choropleth%2520map.gif&imgrefurl=http://www.nass.usda.gov/research/atlas02/index.html&h=612&w=792&sz=83&hl=en&start=32&um=1&tbnid=r--6ddjd8jE-dM:&tbnh=111&tbnw=143&prev=/images%3Fq%3Dedible%2Bwild%2Bplants%2Bmap%26start%3D20%26ndsp%3D20%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN
+      !{width:700px}http://www.uky.edu/CommInfoStudies/IRJCI/CropSubsidyMap.gif!
+
       ag maps
+      !{width:700px}http://www.mapsofworld.com/usa/thematic-maps/maps/corn-cotton-and-barley-growing-area.gif!
 
-      http://www.mapsofworld.com/usa/thematic-maps/maps/corn-cotton-and-barley-growing-area.gif
       sky at night
+      !{width:700px}http://www.geog.nau.edu/courses/alew/ggr346/text/maps/usa_lights.gif!
 
-      http://www.geog.nau.edu/courses/alew/ggr346/text/maps/usa_lights.gif
       regional food map
+      !{width:700px}http://www.salmonnation.com/place/images/RAFT_map.gif!
 
-      http://www.salmonnation.com/place/images/RAFT_map.gif
-      federal lands
-
-      http://images.google.com/imgres?imgurl=http://education.usgs.gov/common/resources/mapcatalog/images/land/forestcoverusa.jpg&imgrefurl=http://education.usgs.gov/common/resources/mapcatalog/land.html&h=467&w=408&sz=115&hl=en&start=7&um=1&tbnid=PlcFuXEPu7XwVM:&tbnh=128&tbnw=112&prev=/images%3Fq%3Dforest%2Bmap%2Busa%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DG
       land cover
+      !{width:700px}http://education.usgs.gov/common/resources/mapcatalog/images/land/forestcoverusa.jpg!
 
-      http://images.google.com/imgres?imgurl=http://education.usgs.gov/common/resources/mapcatalog/images/land/forestcoverusa.jpg&imgrefurl=http://education.usgs.gov/common/resources/mapcatalog/land.html&h=467&w=408&sz=115&hl=en&start=7&um=1&tbnid=PlcFuXEPu7XwVM:&tbnh=128&tbnw=112&prev=/images%3Fq%3Dforest%2Bmap%2Busa%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DG
-      historic soil maps for each state
+      "historic soil maps for each state":http://alabamamaps.ua.edu/historicalmaps/us_states/states.html
 
-      http://alabamamaps.ua.edu/historicalmaps/us_states/states.html
       satellite image
-
-      http://education.usgs.gov/common/resources/mapcatalog/images/image/usa_sat.jpg
+      !{width:700px}http://education.usgs.gov/common/resources/mapcatalog/images/image/usa_sat.jpg!
+ 
       hay map
+      !{width:700px}http://www.nass.usda.gov/research/atlas02/Crops/Hay%20and%20Forage%20Crops%20Harvested/Hay%20-%20All%20Hay%20Including%20Alfalfa,%20Other%20Tame,%20Small%20Grain,%20and%20Wild,%20Harvested%20Acres-choropleth%20map.gif!
 
-      http://www.nass.usda.gov/research/atlas02/Crops/Hay%20and%20Forage%20Crops%20Harvested/Hay%20-%20All%20Hay%20Including%20Alfalfa,%20Other%20Tame,%20Small%20Grain,%20and%20Wild,%20Harvested%20Acres-choropleth%20map.gif
-      change in number of farms
+      "agro-veillance":http://pruned.blogspot.com/2008/09/agro-veillance.html
+      !http://farm4.static.flickr.com/3236/2823417545_594c5cdd73_o.jpg!
 
-      http://images.google.com/imgres?imgurl=http://www.nass.usda.gov/research/atlas02/Crops/Hay%2520and%2520Forage%2520Crops%2520Harvested/Hay%2520-%2520All%2520Hay%2520Including%2520Alfalfa,%2520Other%2520Tame,%2520Small%2520Grain,%2520and%2520Wild,%2520Harvested%2520Acres-choropleth%2520map.gif&imgrefurl=http://www.nass.usda.gov/research/atlas02/index.html&h=612&w=792&sz=83&hl=en&start=32&um=1&tbnid=r--6ddjd8jE-dM:&tbnh=111&tbnw=143&prev=/images%3Fq%3Dedible%2Bwild%2Bplants%2Bmap%26start%3D20%26ndsp%3D20%26um%3D1%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN
-
-      http://nonais.org/
-
-      http://pruned.blogspot.com/2008/09/agro-veillance.html
 - - page_004
   - permalink: faq
     name: FAQ
@@ -120,9 +124,7 @@
 
       Empirically, we've all seen the many many rosy-cheeked babies and young families at farming conferences, we all know that many of our college friends are farming, and that city gardening and Michael Pollan reading are at an all time high. But the American psyche, the American media, and the American political system needs compelling statistics, not just compelling stories. Or anyway so we've been told.
 
-      The USDA agricultural census is another critical place to report on your experience as a young or beginning farmer, and we urge you to click over there and add your name to the contact list for the next census.
-
-      link:https://www.agcounts.usda.gov/cgi-bin/counts
+      The USDA agricultural census is another critical place to report on your experience as a young or beginning farmer, and we urge you to "click over there":https://www.agcounts.usda.gov/cgi-bin/counts and add your name to the contact list for the next census.
 
       The information from that census is used by researchers, foundations, advocates and policy-makers to shape the rules of agriculture, the state programs, the grants, the research- basically the whole support network.
 
@@ -196,16 +198,16 @@
 
       4. If a reporter calls, make yourself accessible with email and cell phone. Ask them for their dead-line and be descriptive about photo opportunities  on your farm.
 
-      h1. Local food. Local heros. Local press.
+      !/images/text/local_food.png!
 
       Our motive with the press-release is to help journalists gain access to your story. They are out hunting for juicy photo-ops, back-roads rock stars and real stories about real Americans working to heal this land. Your story, your struggle and the drama of your greenhouse collapse, these are compelling features for local reporters. Ultimately, the success of young farmer relies to a certain extent on market demand, if we can compellingly articulate the benefits of supporting local ag, and particularly next-generation ag--so much the better for farmers market sales and CSA subscriptions. Cultivate a relationship with your local media as well as community and they will help turn folks out for your harvest festival and raise money when your barn collapses*. And if the demand swells, so to can the supply, and the opportunities for other young farmers to get growing. * Joel Salatin says so in his classic book, You Can Farm.
 
-      h1. Serve Your Country Food ethic.
+      !/images/text/serve_your_country_food_ethic.png!
 
       Why are we doing this project? What is our intention? Why young farmers?
 
       We are working on the social promotion of young farmers because we mostly are young farmers on the Greenhorns team. We recognize that we are the inheritors of a system in crisis.
 
-      h1. Need more guidance about getting started in farming?
+      !/images/text/need_guidance.png!
 
-      here! download our 30-page zine  "Greenhorns guide for beginning farmers.
+      here! download our 30-page zine  "Greenhorns guide for beginning farmers":/farm_guide.pdf
