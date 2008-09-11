@@ -55,7 +55,7 @@ class StagesController < ApplicationController
     
     respond_to do |format|
       if @stage.update_attributes(params[:stage])
-        flash[:notice] = 'Stage was successfully updated.'
+        #flash[:notice] = 'Stage was successfully updated.'
         format.html { 
           params[:next] == 'last' ? redirect_to(stages_url) : redirect_to(@stage) 
         }
@@ -114,7 +114,7 @@ class StagesController < ApplicationController
       end
       #survey.questions << questions
       session[:current_survey] = survey.id 
-      flash[:notice] = "Start taking the new census"
+      #flash[:notice] = "Start taking the new census"
     end
   end
 end

@@ -18,8 +18,8 @@
 					<%= image_tag "#{image}" %>
 				<% end %>
 			</div>		
-			<p><%= file_field :avatar, :uploaded_data %></p>
 			<%= image_label_no_mouseover("/images/labels/upload_images_of_yourself.png") %>
+			<p><%= file_field :avatar, :uploaded_data, :size => 20 %></p>
 		<%- end -%>
 	
 		<%= render :partial => "footer", :locals => { 

@@ -12,12 +12,17 @@
 <table class='profile'>
   <tr>
     <th class='profile'>Question</th>
-    <th class='profile'>Answer</th>
+    <!-- <th class='profile'>Answer</th> -->
   </tr>
   <% @survey.answers.each do |answer| %>
+		<% if answer.question.qtype != "hidden_field" %>
     <tr class="<%= cycle('profile darker', 'profile lighter') %>">
-      <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %></td>
+      <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
+<!--
+			</td>
       <td class='profile'>
+-->
+<p/>
         <% if answer.text? %>
           <%= answer.text %>
         <% elsif !answer.options.blank? %>
@@ -31,5 +36,6 @@
         <% end %>
       </td>
     </tr>
+		<% end %>
   <% end %>
 </table>
