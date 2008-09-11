@@ -222,7 +222,7 @@
 - - question
   - qtype: numeric_field
     text: How many trucks/cars on the farm?
-    title_label: 
+    title_label: /images/labels/how_many_trucks_cars_on_the_farm.png
     stage_id: 2
 - - question
   - qtype: yes_no
@@ -346,10 +346,10 @@
         filename: /images/labels/future_farmers_of_america.png
       options9:
         text: dairy cooperative
-        filename: /images/label/dairy_cooperative.png
+        filename: /images/labels/dairy_cooperative.png
       options10:
         text: other cooperative
-        filename: /images/label/other_cooperative.png
+        filename: /images/labels/other_cooperative.png
       options11:
         text: farmers market? 
         filename: /images/labels/farmers_market.png
@@ -358,10 +358,10 @@
         filename: /images/labels/local_sustainable_ag_group.png
       options13: 
         text: on-farm research
-        filename: /images/label/on_farm_research.png
+        filename: /images/labels/on_farm_research.png
       options14:
-        text: Extenstion/University affiliation
-        filename: /images/labels/extension_university_affiliation.png
+        text: Extension/University affiliation
+        filename: /images/labels/university.png
     text: Other farm groups
     title_label: /images/labels/other_farm_groups.png
     stage_id: 4
@@ -406,7 +406,7 @@
 - - question
   - qtype: text_field
     text: For purchasing farm equipment?
-    title_label: /images/labels/for_purchasing_farming_equipment.png
+    title_label: /images/labels/for_purchasing_farm_equipment.png
     stage_id: 4
 - - question
   - qtype: text_field
@@ -472,7 +472,7 @@
     options:
       options1:
         text: ipm
-        filename:
+        filename: /images/labels/ipm.png
       options2:
         text: soil conservation tillage/practices
         filename: /images/labels/soil_conservation.png
@@ -521,7 +521,7 @@
 - - question
   - qtype: text_field
     text: other noteworthy or unique contributions to agrecology
-    title_label:
+    title_label: /images/labels/other_noteworthy.png
     stage_id: 5
 - - question
   - qtype: text_field
@@ -631,7 +631,7 @@
 - - question
   - qtype: text_field
     text: city
-    title_label: 
+    title_label: /images/labels/city.png
     stage_id: 7
 - - question
   - qtype: text_field
