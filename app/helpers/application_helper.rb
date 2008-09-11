@@ -55,11 +55,11 @@ module ApplicationHelper
     File.join(File.dirname(file), File.basename(file, File.extname(file))+"_mouseover"+File.extname(file))    
   end   
   
-  def image_label_no_mouseover(file)
-    image_tag("#{file}",
-				:title => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "), 
-		  	:id =>"#{File.basename(file, File.extname(file))}", 
-		  	:alt => "#{File.basename(file, File.extname(file))}".gsub(/_/, " "))
+  def image_label_no_mouseover(file, title = nil) 
+    missing_lable_text = file.nil? ? " <em>MISSING: #{title}</em>" : ""                   # make a comment about the text for missing label
+    file = '/images/labels/missing_small.png' if file.nil? or file == ""                  # make the file path for missing label 
+    title = title ? title : "#{File.basename(file, File.extname(file))}".gsub(/_/, " ")   # set the tile if provided otherwise workout from filename
+    image_tag("#{file}", :title => title,  :id => title.gsub(/ /,"_" ), :alt => title) + missing_lable_text
   end
 
   def image_label_mouseover(file)

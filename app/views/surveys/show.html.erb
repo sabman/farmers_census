@@ -16,7 +16,7 @@
   </tr>
   <% @survey.answers.each do |answer| %>
     <tr class="<%= cycle('profile darker', 'profile lighter') %>">
-      <td class='profile'><%= answer.question.text %></td>
+      <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %></td>
       <td class='profile'>
         <% if answer.text? %>
           <%= answer.text %>
