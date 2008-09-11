@@ -111,8 +111,6 @@ namespace(:deploy) do
     CMD
   end
 
-  #   
-  
   desc "Long deploy will throw up the maintenance.html page and run migrations 
         then it restarts and enables the site again."
   task :long do
