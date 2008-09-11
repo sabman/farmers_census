@@ -71,7 +71,7 @@ module ApplicationHelper
   end
 
   def new_line_for_address(answer_text)
-    unless ["street address", "city" , "country" , "state", "postal code"].include?(answer_text) 
+    unless( ["street address", "city" , "country" , "state", "postal code"].include?(answer_text) )
       return "<br/>"     
     end
   end    

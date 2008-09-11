@@ -9,7 +9,7 @@
     <%= new_line_for_address(answer.question.text) %>  
 	<%- end -%>
 
-  <%- if answer.question.qtype == "text_field" or answer.question.qtype == "text_area" or answer.question.qtype == "hidden_field" -%>
+  <%- if ["text_field", "text_area", "hidden_field"].include?(answer.question.qtype) -%>
     <%= answer_form.send("#{answer.question.qtype}", :text, :id => "#{answer.question.text}", :rows => 3) %>
   <%- elsif answer.question.qtype == "numeric_field" -%>
     <%= answer_form.send("text_field", :text, :id => "#{answer.question.text}", :size => 6) %>
