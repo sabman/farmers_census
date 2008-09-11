@@ -406,7 +406,7 @@
 - - question
   - qtype: text_field
     text: For purchasing farm equipment?
-    title_label: /images/labels/for_purchasing_farming_equipment.png
+    title_label: /images/labels/for_purchasing_farm_equipment.png
     stage_id: 4
 - - question
   - qtype: text_field
