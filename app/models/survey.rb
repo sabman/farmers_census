@@ -41,12 +41,10 @@ class Survey < ActiveRecord::Base
   
   def lat
     ans = find_answer_by_question("lat").text
-    ans.to_f  == 0 ? (return nil) : (return ans)  #>> nil.to_f => 0.0
   end    
   
   def lng
-    ans = find_answer_by_question("lng").text 
-    ans.to_f  == 0 ? (return nil) : (return ans)  #>> nil.to_f => 0.0    
+    ans = find_answer_by_question("lng").text     
   end
   
   def full_address
