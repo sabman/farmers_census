@@ -4,39 +4,34 @@
 
 <script type="text/javascript" charset="utf-8">   
 
-	// Create a standard icon TODO: get the fingure print graphic from Serverine
-	//var icon_standard = addOptionsToIcon(new GIcon(),{shadowSize : new GSize(37,34),iconAnchor : new GPoint(9,34),infoWindowAnchor : new GPoint(9,2),infoShadowAnchor : new GPoint(18,25),shadow : "/images/shadow50.png",image : "/images/marker.png",iconSize : new GSize(20,34)});
 	var icon_standard = create_icon();
 
 	var map;
 	window.onload = addCodeToFunction(window.onload,function() {
 	if (GBrowserIsCompatible()) {
-	map = new GMap2(document.getElementById("map_canvas"));
+	  map = new GMap2(document.getElementById("map_canvas"));
 
-	// remove all map types not needed  and add Physical map
-	map.removeMapType(G_SATELLITE_MAP);    
-	map.removeMapType(G_HYBRID_MAP);
-	map.addMapType(G_PHYSICAL_MAP)
-  map.removeMapType(G_NORMAL_MAP);	
-	map.addControl(new GLargeMapControl());
- 	map.addControl(new GMapTypeControl());
+  	// remove all map types not needed  and add Physical map
+  	map.removeMapType(G_SATELLITE_MAP);    
+  	map.removeMapType(G_HYBRID_MAP);
+  	map.addMapType(G_PHYSICAL_MAP)
+    map.removeMapType(G_NORMAL_MAP);	
+  	map.addControl(new GLargeMapControl());
+   	map.addControl(new GMapTypeControl());
 
-	// center the map
-  var pointCenter = new GLatLng(37.7185903255881,-99.052734375);	
-	map.setCenter(pointCenter,4);
+  	// center the map
+    var pointCenter = new GLatLng(37.7185903255881,-99.052734375);	
+  	map.setCenter(pointCenter,4);
 	
- 	<%- unless @current_survey.lat.nil? or  @current_survey.lng.nil? -%>
-  	create_draggable_marker_for_edit(
-  	    <%= @current_survey.lng.to_f %>, <%= @current_survey.lat.to_f %>
-  	);
-	  pointCenter = new GLatLng(<%= @current_survey.lat.to_f %>,<%= @current_survey.lng.to_f %>);	
-		map.setCenter(pointCenter,5);
-	<%- end -%>
+   	<%- unless @current_survey.lat.nil? or  @current_survey.lng.nil? -%>
+    	create_draggable_marker_for_edit(<%= @current_survey.lng.to_f %>, <%= @current_survey.lat.to_f %> );
+  	  pointCenter = new GLatLng(<%= @current_survey.lat.to_f %>,<%= @current_survey.lng.to_f %>);	
+  		map.setCenter(pointCenter,5);
+  	<%- end -%>
 	
- 	<%- unless @current_survey.full_address.nil?   -%>
- 		   // TODO: add a merker for full address 
-	<%- end -%>
-
+   	<%- unless @current_survey.full_address.nil?   -%>
+   		   // TODO: add a merker for full address 
+  	<%- end -%>
 	}
 	});                                                                          
 
@@ -46,11 +41,30 @@
 
 <div id="map_canvas" style="width: 640px; height: 320px" ></div>
 
-<div class="form_row">
-	<%= image_tag 'tick.png', :id => 'address-good-icon', :title => 'valid address' , :alt => 'valid address' %><span id="address-good-text"></span>
-	<%= image_tag 'exclamation.png', :id => 'address-warning-icon' , :title => 'invalid address', :alt => 'invalid address' %><span id="address-warning-text"></span>
-	<%= image_tag 'question-mark.gif', :id => 'address-unsure-icon' , :title => 'address unvarified' , :alt => 'address unvarified' %><span id="address-unsure-text"></span>
-	<%= image_tag 'spinner.gif', :alt=>"spinner", :id=>"spinner", :style=>"display:none;", :alt => 'checking address...' %>
+<div class="form_row notice">
+	<span id="address-good-text"></span>
+	<%= image_tag 'tick.png', 
+	              :id => 'address-good-icon', 
+	              :title => 'valid address' , 
+	              :alt => 'valid address' %>
+	
+  <span id="address-warning-text"></span>
+	<%= image_tag 'exclamation.png', 
+	              :id => 'address-warning-icon' , 
+	              :title => 'invalid address', 
+	              :alt => 'invalid address' %> 
+
+  <span id="address-unsure-text"></span>                                                                                               	
+	<%= image_tag 'question-mark.gif', 
+	              :id => 'address-unsure-icon' , 
+	              :title => 'address unvarified' , 
+	              :alt => 'address unvarified' %>
+	
+	<%= image_tag 'spinner.gif', 
+	            :alt=>"spinner", 
+	            :id=>"spinner", 
+	            :style=>"display:none;", 
+	            :alt => 'checking address...' %>
 	
 	<%= link_to_remote 'check address',
 	      :url => {:controller => 'stages', :action => 'validate_address'},

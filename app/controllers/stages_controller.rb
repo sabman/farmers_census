@@ -11,7 +11,6 @@ class StagesController < ApplicationController
     
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @stages }
     end
   end
 
@@ -27,8 +26,6 @@ class StagesController < ApplicationController
     
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @stage }
-      format.js 
     end
   end
 
@@ -55,7 +52,6 @@ class StagesController < ApplicationController
     
     respond_to do |format|
       if @stage.update_attributes(params[:stage])
-        flash[:notice] = 'Stage was successfully updated.'
         format.html { 
           params[:next] == 'last' ? redirect_to(stages_url) : redirect_to(@stage) 
         }
@@ -73,7 +69,6 @@ class StagesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(stages_url) }
-      format.xml  { head :ok }
     end
   end
 
@@ -94,9 +89,9 @@ class StagesController < ApplicationController
   
   def done    
     @current_survey = current_survey 
+    redirect_to(home_path)
     AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)
     session[:current_survey] = nil
-    redirect_to(home_path)
   end     
   
   private
@@ -105,16 +100,9 @@ class StagesController < ApplicationController
   def verify_survey
     if current_survey  
       return
-    else 
-      # if not create a new survey and for every question, create an empty answer
-      survey = Survey.create
-      questions = Question.find :all  
-      questions.each do |question|
-        a = Answer.create(:question_id => question.id, :stage_id => question.stage.id, :survey_id => survey.id)
-      end
-      #survey.questions << questions
-      session[:current_survey] = survey.id 
-      flash[:notice] = "Start taking the new census"
+    else      
+      redirect_to(new_survey_path)
     end
   end
+  
 end

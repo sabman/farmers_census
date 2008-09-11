@@ -1,8 +1,7 @@
 <% if @current_survey.percentage_completed >= 70 %>
 	 <p class='notice'>Thank you for taking the survey. We will review your survey and shortly be in touch. <%= link_to "Click here to log out.", :action => "done" %></p> 
 <%- else -%>
-  You have started the survey but no yet completed. 
-  <%= link_to "Click here", :action => "done" %> to log out and come back to it another day.
+  <p class="notice">You have started the survey but no yet completed. <%= link_to "Click here", :action => "done" %> to stop and come back to it another day.</p>
 <% end %>
 
 <table class="profile">

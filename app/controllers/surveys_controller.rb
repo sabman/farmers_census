@@ -28,8 +28,8 @@ class SurveysController < ApplicationController
   # GET /surveys/new
   def new
     @survey = Survey.new
-
-    respond_to do |format|
+    flash[:notice] = "Enter your email to start a new survey; to resume an older survey have your survey link sent to your registerd email click: <a href=\'#{forgotten_surveys_url}\'>forgot my survey link</a>"
+    respond_to do |format|      
       format.html # new.html.erb
     end
   end

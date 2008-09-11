@@ -40,22 +40,31 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
-    ans       =      find_answer_by_question("lat").text 
-    ans.to_f  == 0 ? (return nil) : (return ans)
+    ans = find_answer_by_question("lat").text
+    ans.to_f  == 0 ? (return nil) : (return ans)  #>> nil.to_f => 0.0
   end    
   
   def lng
-    ans       =      find_answer_by_question("lng").text 
-    ans.to_f  == 0 ? (return nil) : (return ans)
+    ans = find_answer_by_question("lng").text 
+    ans.to_f  == 0 ? (return nil) : (return ans)  #>> nil.to_f => 0.0    
   end
   
   def full_address
     street_address = find_answer_by_question("street address").text 
-    city = find_answer_by_question("city").text
+    street_address = street_address + ", " unless street_address.empty?
+    
+    city = find_answer_by_question("city").text 
+    city = city + "," unless city.empty?
+    
     state = find_answer_by_question("state").text
+    state = state + "," unless state.empty?
+        
     postal_code = find_answer_by_question("postal code").text
+    postal_code = postal_code + "," unless postal_code.empty?
+    
     country = find_answer_by_question("country").text    
-    "#{street_address}, #{city}, #{state} #{postal_code}, #{country}"
+    
+    "#{street_address} #{city} #{state} #{postal_code} #{country}"
   end
   
   def farm_name
