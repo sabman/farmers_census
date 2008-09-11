@@ -2,6 +2,7 @@
 <%= hidden_field_tag "next", "same" %>
 
 <div id="submit_buttons">
+<nobr>
 	<%- if(prev_stage != current_stage) -%>
 		<%= submit_tag "<< #{prev_stage.title}",
 						{ :disable_with => "on to the previous page ...", 
@@ -19,6 +20,7 @@
 						{ :disable_with => "loading front page ...",
 							:onclick => "$('next').value='last';" } %>
 	<%- end -%>
+</nobr>
 </div>
 	
 
