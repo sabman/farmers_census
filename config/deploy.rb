@@ -8,7 +8,8 @@ require 'eycap/recipes'
 # =============================================================================
 
 # Once you have the IP of your Express image, put it in here
-set :express_ip, "nomad-labs.dyndns.org"
+#set :express_ip, "nomad-labs.dyndns.org"
+set :express_ip, "www.serveyourcountryfood.net"
 #set :express_ip, "nomad-berlin.dyndns.org"
 # If you don't have ssh keys set up, then put your express user's password here
 # set :password, "secret"
@@ -106,9 +107,10 @@ namespace(:deploy) do
       ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml &&
       ln -nfs #{shared_path}/config/mongrel_cluster.yml #{release_path}/config/mongrel_cluster.yml &&
       ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb 
-      ln -s /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/
     CMD
   end
+
+  #   ln -nfs /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/
   
   desc "Long deploy will throw up the maintenance.html page and run migrations 
         then it restarts and enables the site again."
