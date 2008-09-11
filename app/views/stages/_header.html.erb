@@ -1,4 +1,5 @@
 <%# complex_bar_graph [progress_bar(stage)] %>
+<%= image_tag("/images/stages/stage" + stage.id.to_s + ".png") %>
 <%- if not stage.title_label.nil? -%>
 	<%= image_tag("#{stage.title_label}", {:alt => stage.title}) %>
 <%- else -%>
