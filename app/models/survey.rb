@@ -51,16 +51,16 @@ class Survey < ActiveRecord::Base
   
   def full_address
     street_address = find_answer_by_question("street address").text 
-    street_address = street_address + ", " unless street_address.empty?
+    street_address = street_address + ", " unless "#{street_address}".empty?
     
     city = find_answer_by_question("city").text 
-    city = city + "," unless city.empty?
+    city = city + "," unless "#{city}".empty?
     
     state = find_answer_by_question("state").text
-    state = state + "," unless state.empty?
+    state = state + "," unless "#{state}".empty?
         
     postal_code = find_answer_by_question("postal code").text
-    postal_code = postal_code + "," unless postal_code.empty?
+    postal_code = postal_code + "," unless "#{postal_code}".empty?
     
     country = find_answer_by_question("country").text    
     

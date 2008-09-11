@@ -55,16 +55,17 @@ class SurveysController < ApplicationController
   # GET /surveys/resume/<key>
   def resume
     @survey = Survey.find_by_key(params[:key])
-    
+        
     respond_to do |format|
-      if @survey
-        session[:current_survey] = @survey.id
+      unless @survey.nil?
+        session[:current_survey] = @survey
         format.html { redirect_to(stages_path) }
       else
-        flash[:notice] = "Sorry, your survey key doesn't exist, please start again"
+        flash[:notice] = "Sorry, your survey key doesn't exist, please start a new one"
         redirect_to(home_path)
       end
-    end
+    end  
+    
   end
   
   # GET /surveys/forgotten

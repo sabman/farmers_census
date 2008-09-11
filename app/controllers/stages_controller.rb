@@ -98,11 +98,7 @@ class StagesController < ApplicationController
 
   # check if there is already a survey in progress
   def verify_survey
-    if current_survey  
-      return
-    else      
-      redirect_to(new_survey_path)
-    end
+    current_survey.nil?
   end
   
 end

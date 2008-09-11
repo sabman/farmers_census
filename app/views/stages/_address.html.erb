@@ -24,12 +24,12 @@
   	map.setCenter(pointCenter,4);
 	
    	<%- unless @current_survey.lat.nil? or  @current_survey.lng.nil? -%>
-    	create_draggable_marker_for_edit(<%= @current_survey.lng.to_f %>, <%= @current_survey.lat.to_f %> );
+    	create_draggable_marker_for_edit(<%= @current_survey.lng.to_f %>, <%= @current_survey.lat.to_f %>);
   	  pointCenter = new GLatLng(<%= @current_survey.lat.to_f %>,<%= @current_survey.lng.to_f %>);	
   		map.setCenter(pointCenter,5);
   	<%- end -%>
 	
-   	<%- unless @current_survey.full_address.nil?   -%>
+   	<%- unless @current_survey.full_address.empty?   -%>
    		   // TODO: add a merker for full address 
   	<%- end -%>
 	}

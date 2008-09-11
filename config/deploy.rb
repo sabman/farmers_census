@@ -134,6 +134,10 @@ namespace(:deploy) do
   end
 end
 
+namespace(:photos_dir_symlink) do
+  run "ln -s /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/"
+end
+
 namespace(:db) do
   task :migrate, :roles => :app, :except => { :no_symlink => true } do
     run "rails_ENV=#{rails_env} rake db:migrate"
@@ -141,6 +145,8 @@ namespace(:db) do
 end
 
 # TASKS
+after "photos_dir_symlink"
+
 # Don't change unless you know what you are doing!
 after "deploy", "deploy:cleanup"
 after "deploy:migrations", "deploy:cleanup"
