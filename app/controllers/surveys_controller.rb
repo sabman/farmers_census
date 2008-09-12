@@ -1,4 +1,5 @@
 class SurveysController < ApplicationController
+  include GeoKit::Geocoders  
   before_filter :verify_admin, :except => [:show, :new, :create, :resume, :forgotten, :reminder]
   before_filter :verify_public, :only => :show, :unless => :admin? 
   
@@ -118,6 +119,16 @@ class SurveysController < ApplicationController
     survey.public = survey.public? ? false : true
     survey.save
     render :nothing => true    
+  end
+
+  def geocode_address
+    @survey = Survey.find(params[:id])    
+    loc = MultiGeocoder.geocode(@survey.full_address)
+    if loc.success
+      @survey.lat = loc.lat
+      @survey.lng = loc.lng 
+    end
+    redirect_to(survey_path(@survey))
   end
   
   def verify_public

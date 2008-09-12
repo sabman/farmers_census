@@ -42,11 +42,23 @@ class Survey < ActiveRecord::Base
   def lat
     ans = find_answer_by_question("lat").text
   end    
+
+  def lat=(lat)
+    ans = find_answer_by_question("lat")
+    ans.text = lat
+    ans.save
+  end
   
   def lng
     ans = find_answer_by_question("lng").text     
   end
-  
+
+  def lng=(lng)
+    ans = find_answer_by_question("lng")
+    ans.text = lng
+    ans.save
+  end
+    
   def full_address
     street_address = find_answer_by_question("street address").text 
     street_address = street_address + ", " unless "#{street_address}".empty?

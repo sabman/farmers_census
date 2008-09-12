@@ -7,22 +7,22 @@
   Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %> 
   <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, 
                     :with => "'id='+#{@survey.id}" ) %>  
+                  
+  <%- if( @survey.lat.nil? or @survey.lng.nil? ) -%>
+    The user has not geocoded their address. <%= link_to "Click here", geocode_address_survey_path(@survey) %> to put address on map 
+  <%- else -%>
+    Address is valid (<%= "#{@survey.lat},  #{@survey.lng}" %>)
+  <%- end -%>
 <%- end -%>
 
 <table class='profile'>
   <tr>
     <th class='profile'>Question</th>
-    <!-- <th class='profile'>Answer</th> -->
   </tr>
   <% @survey.answers.each do |answer| %>
 		<% if answer.question.qtype != "hidden_field" %>
     <tr class="<%= cycle('profile darker', 'profile lighter') %>">
       <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
-<!--
-			</td>
-      <td class='profile'>
--->
-<p/>
         <% if answer.text? %>
           <%= answer.text %>
         <% elsif !answer.options.blank? %>
