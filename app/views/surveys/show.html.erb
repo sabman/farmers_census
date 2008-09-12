@@ -4,15 +4,17 @@
 
 <%- if admin? -%>
   <h3>User email: <%= @survey.email %></h3>
-  Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %> 
+  <p>Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %></p> 
   <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, 
                     :with => "'id='+#{@survey.id}" ) %>  
                   
-  <%- if( @survey.lat.nil? or @survey.lng.nil? ) -%>
-    The user has not geocoded their address. <%= link_to "Click here", geocode_address_survey_path(@survey) %> to put address on map 
+  <%- unless( @survey.locaion_is_valid? ) -%>
+    <p>The user has not geocoded their address. <%= link_to "Click here", geocode_address_survey_path(@survey) %> to put address on the map.</p>
   <%- else -%>
-    Address is valid (<%= "#{@survey.lat},  #{@survey.lng}" %>)
+    <p>Address is geocoded (<%= "#{@survey.lat},  #{@survey.lng}" %>)</p>
   <%- end -%>
+  <p>Full address: <%= "#{@survey.full_address}" %></p>
+  
 <%- end -%>
 
 <table class='profile'>

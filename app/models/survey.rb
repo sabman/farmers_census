@@ -100,7 +100,10 @@ class Survey < ActiveRecord::Base
   def self.generate_key
     Digest::SHA1.hexdigest(Time.now.to_s.split(//).sort_by {rand}.join)
   end
-  
+   
+  def locaion_is_valid?
+    not (lat.nil? or lng.nil? or lat.empty? or lng.empty?)
+  end
   protected
   
   def assign_key
