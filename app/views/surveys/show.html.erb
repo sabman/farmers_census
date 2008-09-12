@@ -19,23 +19,26 @@
   <tr>
     <th class='profile'>Question</th>
   </tr>
-  <% @survey.answers.each do |answer| %>
-		<% if answer.question.qtype != "hidden_field" %>
-    <tr class="<%= cycle('profile darker', 'profile lighter') %>">
-      <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
-        <% if answer.text? %>
-          <%= answer.text %>
-        <% elsif !answer.options.blank? %>
-          <ul>
-            <% answer.options.each do |option| %>
-              <li><%= option.text %></li>
-            <% end %>
-          </ul>
-        <% else %>
-          <em>No answer</em>
-        <% end %>
-      </td>
-    </tr>
-		<% end %>
-  <% end %>
+<% @survey.answers.each do |answer| %>
+	<% if answer.question.qtype != "hidden_field" %>
+  <tr class="<%= cycle('profile darker', 'profile lighter') %>">
+    <td class='profile'>
+      <%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
+      <p>
+      <% if answer.text? %>
+        <%= answer.text %>
+      <% elsif !answer.options.blank? %>
+        <ul>
+          <% answer.options.each do |option| %>
+            <li><%= option.text %></li>           
+          <% end %>
+        </ul>
+      <% else %>
+        <em>No answer</em>
+      <% end %>
+      </p>
+    </td>
+  </tr>
+	<% end %>
+<% end %>
 </table>
