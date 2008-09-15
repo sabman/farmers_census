@@ -4,38 +4,43 @@
 
 <%- if admin? -%>
   <h3>User email: <%= @survey.email %></h3>
-  Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %> 
+  <p>Make Public? <%= check_box_tag "make_public", "#{@survey.id}", @survey.public? %></p> 
   <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, 
                     :with => "'id='+#{@survey.id}" ) %>  
+                  
+  <%- unless( @survey.locaion_is_valid? ) -%>
+    <p>The user has not geocoded their address. <%= link_to "Click here", geocode_address_survey_path(@survey) %> to put address on the map.</p>
+  <%- else -%>
+    <p>Address is geocoded (<%= "#{@survey.lat},  #{@survey.lng}" %>)</p>
+  <%- end -%>
+  <p>Full address: <%= "#{@survey.full_address}" %></p>
+  
 <%- end -%>
 
 <table class='profile'>
   <tr>
     <th class='profile'>Question</th>
-    <!-- <th class='profile'>Answer</th> -->
   </tr>
-  <% @survey.answers.each do |answer| %>
-		<% if answer.question.qtype != "hidden_field" %>
-    <tr class="<%= cycle('profile darker', 'profile lighter') %>">
-      <td class='profile'><%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
-<!--
-			</td>
-      <td class='profile'>
--->
-<p/>
-        <% if answer.text? %>
-          <%= answer.text %>
-        <% elsif !answer.options.blank? %>
-          <ul>
-            <% answer.options.each do |option| %>
-              <li><%= option.text %></li>
-            <% end %>
-          </ul>
-        <% else %>
-          <em>No answer</em>
-        <% end %>
-      </td>
-    </tr>
-		<% end %>
-  <% end %>
+<% @survey.answers.each do |answer| %>
+	<% if answer.question.qtype != "hidden_field" %>
+  <tr class="<%= cycle('profile darker', 'profile lighter') %>">
+    <td class='profile'>
+      <%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
+      <p>
+      <% if answer.text? %>
+        <%= answer.text %>
+      <% elsif !answer.options.blank? %>
+        <ul>
+          <% answer.options.each do |option| %>
+            <li><%= option.text %></li>           
+          <% end %>
+        </ul>
+      <% else %>
+        <em>No answer</em>
+      <% end %>
+      </p>
+    </td>
+  </tr>
+	<% end %>
+<% end %>
 </table>
