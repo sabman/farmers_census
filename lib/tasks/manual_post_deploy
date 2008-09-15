@@ -1,0 +1,1 @@
+cap invoke COMMAND="cd /data/rails/current; ln -nfs /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public"  HOSTS="www.serveyourcountryfood.net"
