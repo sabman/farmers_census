@@ -158,7 +158,7 @@ module FrontPageHelper
   private
 
   def get_info_window_text(survey)
-    "#{image_tag show_avatar(survey)} <h2>#{survey.farm_name}</h2> #{survey.farmer_name} <br/> #{link_to "See full profile", survey_path(survey)}"
+    "<div>#{image_tag show_avatar(survey)} <h2>#{survey.farm_name}</h2> #{survey.farmer_name} <br/> #{link_to "See full profile", survey_path(survey)}</div>"
   end
   
 end

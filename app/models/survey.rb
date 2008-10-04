@@ -40,7 +40,8 @@ class Survey < ActiveRecord::Base
   end
   
   def lat
-    ans = find_answer_by_question("lat").text
+    ans = find_answer_by_question("lat")
+    ans.nil? ? nil : ans.text
   end    
 
   def lat=(lat)
@@ -50,7 +51,8 @@ class Survey < ActiveRecord::Base
   end
   
   def lng
-    ans = find_answer_by_question("lng").text     
+    ans = find_answer_by_question("lng")
+    ans.nil? ? nil : ans.text
   end
 
   def lng=(lng)
@@ -59,22 +61,12 @@ class Survey < ActiveRecord::Base
     ans.save
   end
     
-  def full_address
-    street_address = find_answer_by_question("street address").text 
-    street_address = street_address + ", " unless "#{street_address}".empty?
-    
-    city = find_answer_by_question("city").text 
-    city = city + "," unless "#{city}".empty?
-    
-    state = find_answer_by_question("state").text
-    state = state + "," unless "#{state}".empty?
-        
-    postal_code = find_answer_by_question("postal code").text
-    postal_code = postal_code + "," unless "#{postal_code}".empty?
-    
-    country = find_answer_by_question("country").text    
-    
-    "#{street_address} #{city} #{state} #{postal_code} #{country}"
+  def full_address     
+    address = ["street address", "city", "state", "postal code", "country"].collect do |field|
+      ans = find_answer_by_question(field)
+      ans.nil? ? nil : ans.text
+    end    
+    address.join(", ")
   end
   
   def farm_name

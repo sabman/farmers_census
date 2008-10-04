@@ -323,7 +323,7 @@ input
   width:400px;
   border:2px solid red;
   padding:7px;
-  padding-bottom:12px;
+  padding-bottom:10px;
   margin-bottom:20px;
   background-color:#f0f0f0;
 }
@@ -333,7 +333,7 @@ input
   text-align:left;
   font-weight:bold;
   padding:5px 5px 5px 15px;
-  font-size:12px;
+  font-size:10px;
   margin:-7px;
   background-color:#c00;
   color:#fff;
@@ -343,13 +343,15 @@ input
 {
   color:#333;
   margin-bottom:0;
+  font-size:11px;
   padding:5px;
 }
 
 #errorExplanation ul li
 {
-  font-size:12px;
-  list-style:square;
+  font-size:10px;
+  margin:7px;
+  /*list-style:square;*/
 }
 
 

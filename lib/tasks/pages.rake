@@ -3,7 +3,6 @@ namespace :db do
 
     desc 'Dump pages into the db/pages.yml'
     task :dump => :environment do
-      ActiveRecord::Base.establish_connection(RAILS_ENV)
       pages = Page.find(:all, :select => "id, name, permalink, content, label")
       File.open("#{RAILS_ROOT}/db/pages.yml", 'w+') do |file|        
         file.write pages.inject({}) { |hash, page|
@@ -15,9 +14,14 @@ namespace :db do
     desc 'Load pages into the database from db/pages.yml'
     task :load => :environment do
       pages_yaml = YAML.load(File.read("#{RAILS_ROOT}/db/pages.yml") )
-      ActiveRecord::Base.establish_connection(RAILS_ENV)      
+      i = "000"
       pages_yaml.each do |page_yaml|
-        Page.create(page_yaml[1])
+        begin # update
+          p = Page.find(i.succ!.to_i)  
+          p.update_attributes(page_yaml[1])          
+        rescue ActiveRecord::RecordNotFound # create
+          p = Page.create(page_yaml[1])          
+        end
       end
     end  
     

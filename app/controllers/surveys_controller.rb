@@ -44,7 +44,7 @@ class SurveysController < ApplicationController
     respond_to do |format|
       if @survey.save
         session[:current_survey]  = @survey.id
-        flash[:notice]            = 'The survey as begun.'
+        flash[:notice]            = 'The survey has begun.'
         format.html { redirect_to stage_path(Stage.first) }
       else
         format.html { render :action => "new" }

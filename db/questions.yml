@@ -694,3 +694,8 @@
     title_label: 
     stage_id: 7
     notes: lets tell them their lattitude and longitude--just for fun, they'll like to konw! but not as an editable field
+- - question_075
+  - qtype: yes_no
+    text: Interested in sharing your info with eat well guide/local harvest?
+    title_label:  /images/labels/interested_in_sharing_your_info_eat_well_guide.png
+    stage_id: 7

@@ -4,7 +4,6 @@ namespace :db do
     Defaults to development database.  Set RAILS_ENV to override.'
     task :dump => :environment do
       file = File.open("#{RAILS_ROOT}/db/questions.yml", 'w+') 
-      ActiveRecord::Base.establish_connection(RAILS_ENV)
       questions = Question.find(:all, :select => 'id, qtype, text, title_label, stage_id', :include => :options)
       file.write questions.inject({}) { |hash, rec|
         if rec.qtype == "options" or rec.qtype == "list"
@@ -21,26 +20,29 @@ namespace :db do
     desc 'Load questions into database from YAML dump. Defaults to development database.  Set RAILS_ENV to override.'
     task :load => :environment do
       questions_yaml = YAML.load(File.read("#{RAILS_ROOT}/db/questions.yml") )
-      ActiveRecord::Base.establish_connection(RAILS_ENV)      
+      i = "000"
       questions_yaml.each do |question|
         q_attrs = 
-        {
+        {     
           "text",         question[1]["text"], 
           "qtype",        question[1]["qtype"], 
           "text",         question[1]["text"], 
           "title_label",  question[1]["title_label"], 
           "stage_id",     question[1]["stage_id"]          
-         }                                  
-          
-        if stage = Stage.find(question[1]["stage_id"])
-          q = Question.create(q_attrs)
-          if q.qtype == 'options' or q.qtype == 'list'
-            question[1]["options"].each_value{ |v| 
-							q.options << Option.create(v) 
-						}
-          elsif q.qtype == 'yes_no'
-            opts = [Option.create(:text => "yes", :filename => "/images/labels/yes.png"), Option.create(:text => "no", :filename => "/images/labels/no.png")]
-            q.options << opts
+        }                                            
+        if stage = Stage.find(question[1]["stage_id"]) 
+          begin # update 
+            q = Question.find(i.succ!.to_i) 
+            q.update_attributes(q_attrs)           
+            # TODO: updating options not supported at the moment 
+          rescue ActiveRecord::RecordNotFound # create
+            q = Question.create(q_attrs)    
+            if q.qtype == 'options' or q.qtype == 'list'
+              question[1]["options"].each_value{ |v| q.options << Option.create(v) }
+            elsif q.qtype == 'yes_no'
+              q.options << [  Option.create(:text => "yes", :filename => "/images/labels/yes.png"), 
+                              Option.create(:text => "no",  :filename => "/images/labels/no.png")  ]
+            end
           end
           q.save
         else 
