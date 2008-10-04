@@ -191,3 +191,21 @@ function create_transp_round_red_icon() {
   icon.infoWindowAnchor = new GPoint(12.0, 12.0);
 	return icon;
 }
+
+function create_ebubble() {
+//	bubble = new EBubble(map, "/images/bubble.png",new GSize(436,505), new GSize(350,370), new GPoint(38,34), new GPoint(222,495));
+//	bubble = new EBubble(map, "/images/bubble-1.png",new GSize(390,430), new GSize(310,315), new GPoint(34,32), new GPoint(194,426));
+	bubble = new EBubble(map, "/images/bubble-2.png",new GSize(360,430), new GSize(280,315), new GPoint(34,28), new GPoint(194,426));
+	return bubble;
+}
+
+// createMarker functionthat uses an ebubble
+function createMarker(point,html) {
+  var marker = new GMarker(point);
+	var bubble = create_ebubble();
+  // === Open the EBubble instead of an Info Window ===
+  GEvent.addListener(marker, "click", function() {
+    bubble.openOnMarker(marker,html);
+  });
+  return marker;
+}
