@@ -12,3 +12,8 @@ production:
   bucket_name: appname
   access_key_id: 
   secret_access_key: 
+
+express:
+  bucket_name: appname
+  access_key_id: 
+  secret_access_key: 

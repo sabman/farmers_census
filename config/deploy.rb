@@ -106,9 +106,8 @@ namespace(:deploy) do
       cd #{release_path} &&
       ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml &&
       ln -nfs #{shared_path}/config/mongrel_cluster.yml #{release_path}/config/mongrel_cluster.yml &&
-      ln -nfs /data/rails/shared/deployed_apps/farmers_census/public/avatars /data/rails/current/public/  &&
-      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb && 
-      cd .
+      ln -nfs #{shared_path}/deployed_apps/farmers_census/public/avatars #{release_path}/public  &&
+      ln -nfs #{shared_path}/config/environments/express.rb #{release_path}/config/environments/express.rb
     CMD
   end
 
