@@ -160,11 +160,19 @@ module FrontPageHelper
   private
 
   def get_info_window_text(survey)
+    if survey.avatars.first.nil?
+      width="134"
+      height="200"
+    else
+      width="#{survey.avatars.first.thumbnails.first.width}"
+      height="#{survey.avatars.first.thumbnails.first.height}"
+    end
+    
     "
     <div class='bubble'>
       <table><tr>
         <td>
-          #{link_to image_tag( show_avatar(survey)), survey_path(survey)} 
+          #{link_to image_tag( show_avatar(survey), :width => width, :height => height), survey_path(survey)} 
         </td> 
         <td> 
           <h3>#{survey.farm_name}</h3>
