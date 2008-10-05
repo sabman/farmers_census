@@ -136,4 +136,5 @@ ActionMailer::Base.smtp_settings = {
 }
 
 # For generating unique-ish keys for surveys.
+# TODO: check if this should be in initializers
 require 'digest/sha1'
