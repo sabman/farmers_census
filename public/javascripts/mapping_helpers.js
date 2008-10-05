@@ -195,7 +195,8 @@ function create_transp_round_red_icon() {
 function create_ebubble() {
 //	bubble = new EBubble(map, "/images/bubble.png",new GSize(436,505), new GSize(350,370), new GPoint(38,34), new GPoint(222,495));
 //	bubble = new EBubble(map, "/images/bubble-1.png",new GSize(390,430), new GSize(310,315), new GPoint(34,32), new GPoint(194,426));
-	bubble = new EBubble(map, "/images/bubble-2.png",new GSize(360,430), new GSize(280,315), new GPoint(34,28), new GPoint(194,426));
+//	bubble = new EBubble(map, "/images/bubble-2.png",new GSize(360,430), new GSize(280,315), new GPoint(34,28), new GPoint(194,426));
+	bubble = new EBubble(map, "/images/bubble-3.png",new GSize(388,428), new GSize(330,300), new GPoint(26,20), new GPoint(220,422), true);
 	return bubble;
 }
 

@@ -594,3 +594,32 @@ th.profile { padding: 0.3em; }
 #country{
 	size:10;
 }
+
+
+/* gmap info window - bubble */
+div.bubble
+{
+  vertical-align:middle;
+  margin: 2px;
+  padding: 4px;
+	border: thin silver solid;
+  height: auto;
+  width: auto;
+  float: left;
+  text-align: center;
+}	
+div.bubble img
+{
+  float:left;
+  vertical-align:middle;
+  margin: 3px;
+  border: 1px solid #ffffff;
+}
+div.bubble a:hover img {border: 1px solid #006644;}
+div.desc
+{
+  text-align: center;
+  font-weight: normal;
+  width: auto;
+  margin: 2px;
+}

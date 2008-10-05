@@ -28,9 +28,9 @@ module FrontPageHelper
       unless rec.lng == nil or rec.lat == nil   
         coords << [rec.lng.to_f, rec.lat.to_f]
         icon = rec.farmer_grounded? ? icon_green_circle : icon_red_circle
-        #markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{rec.farm_name}", :icon => icon, :info_window => get_info_window_text(rec) ) 
-        @map.record_init("var marker = createMarker(new GLatLng(#{rec.lat.to_f}, #{rec.lng.to_f}), #{get_info_window_text(rec)});")
-        @map.record_init("map.addOverlay(marker);")
+        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{rec.farm_name}", :icon => icon, :info_window => get_info_window_text(rec) ) 
+        #@map.record_init("var marker = createMarker(new GLatLng(#{rec.lat.to_f}, #{rec.lng.to_f}), #{get_info_window_text(rec)});")
+        #@map.record_init("map.addOverlay(marker);")
        end
     end
     # Uncomment to test Clustering by creating lots of markers
@@ -41,8 +41,8 @@ module FrontPageHelper
     #                                         :icon => icon_green_circle )
     # }
 
-    # clusterer =   Clusterer.new(markers, :max_visible_markers => 2, :icon => icon_blue_circle)
-    # @map.overlay_init clusterer
+    clusterer =   Clusterer.new(markers, :max_visible_markers => 2, :icon => icon_blue_circle)
+    @map.overlay_init clusterer
 
     
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      
@@ -160,7 +160,20 @@ module FrontPageHelper
   private
 
   def get_info_window_text(survey)
-    "<div style='background-color:#FFF; width:280px; height:300px;'>#{image_tag show_avatar(survey)} <h2>#{survey.farm_name}</h2> #{survey.farmer_name} <br/> #{link_to "See full profile", survey_path(survey)}</div>"
+    "
+    <div class='bubble'>
+      <table><tr>
+        <td>
+          #{link_to image_tag( show_avatar(survey)), survey_path(survey)} 
+        </td> 
+        <td> 
+          <h3>#{survey.farm_name}</h3>
+          #{survey.farmer_name}   <br/>
+          #{link_to "See full profile", survey_path(survey)}
+        </td> 
+        </tr></table>
+    </div>
+    "
   end
   
 end
