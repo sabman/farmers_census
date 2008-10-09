@@ -4,6 +4,9 @@ class FrontPageController < ApplicationController
 
   def index # TODO: clean this hack for caching
     @public_surveys = Survey.find_public
+    # if current_survey 
+    #   flash[:notice] = "#{survey in progress ... link_to 'continue' , stages_path}"
+    # end
     render :action => :show
   end 
 
