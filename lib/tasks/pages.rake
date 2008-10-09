@@ -23,7 +23,15 @@ namespace :db do
           p = Page.create(page_yaml[1])          
         end
       end
-    end  
+    end 
+
+    desc 'Clear pages from the database'
+    task :clear => :environment do
+			pages = Page.find(:all)
+			pages.each do |p|
+				p.destroy
+			end
+    end   
     
   end       
 end

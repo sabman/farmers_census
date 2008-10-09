@@ -5,7 +5,7 @@
   <%- end -%>
 
 	<%- unless answer.question.qtype == "hidden_field" %>
-		<%= image_tag("#{answer.question.title_label}", :alt => "#{answer.question.text}", :title => "#{answer.question.text}") %>
+		<%= image_tag("#{answer.question.title_label}", :alt => "#{answer.question.text}", :title => "#{answer.question.text}", :class => "question") %>
     <%= new_line_for_address(answer.question.text) %>  
 	<%- end -%>
 

@@ -161,19 +161,18 @@ function rand( min, max ) {
 
 function create_transp_round_green_icon() {
   var icon = new GIcon();
-  icon.image = "/images/circle_green_24_transp.png";
-  icon.shadow = "/images/shadow-circle_green_24_transp.png";
-  icon.iconSize = new GSize(24.0, 24.0);
-  icon.shadowSize = new GSize(37.0, 24.0);
-  icon.iconAnchor = new GPoint(12.0, 12.0);
-  icon.infoWindowAnchor = new GPoint(12.0, 12.0);
+  icon.image = "/images/circle_green_12.png";
+  icon.shadow = "";
+  icon.iconSize = new GSize(12.0, 12.0);
+  icon.iconAnchor = new GPoint(6.0, 6.0);
+  icon.infoWindowAnchor = new GPoint(6.0, 6.0);
 	return icon;
 }
 
 function create_transp_big_blue_icon() {
 	var icon = new GIcon();
-	icon.image = "/images/circle_blue_transp.png";
-	icon.shadow = "/images/shadow-circle_blue_transp.png";
+	icon.image = "/images/circle_blue_12.png";
+//	icon.shadow = "/images/shadow-circle_blue_transp.png";
 	icon.iconSize = new GSize(48.0, 48.0);
 	icon.shadowSize = new GSize(73.0, 48.0);
 	icon.iconAnchor = new GPoint(24.0, 24.0);
@@ -183,30 +182,11 @@ function create_transp_big_blue_icon() {
 
 function create_transp_round_red_icon() {
   var icon = new GIcon();
-  icon.image = "/images/circle_red_24_transp.png";
-  icon.shadow = "/images/shadow-circle_red_24_transp.png";
-  icon.iconSize = new GSize(24.0, 24.0);
-  icon.shadowSize = new GSize(37.0, 24.0);
-  icon.iconAnchor = new GPoint(12.0, 12.0);
-  icon.infoWindowAnchor = new GPoint(12.0, 12.0);
+  icon.image = "/images/circle_red_12.png";
+  icon.shadow = "";
+  icon.iconSize = new GSize(12.0, 12.0);
+  icon.iconAnchor = new GPoint(6.0, 6.0);
+  icon.infoWindowAnchor = new GPoint(6.0, 6.0);
 	return icon;
 }
 
-function create_ebubble() {
-//	bubble = new EBubble(map, "/images/bubble.png",new GSize(436,505), new GSize(350,370), new GPoint(38,34), new GPoint(222,495));
-//	bubble = new EBubble(map, "/images/bubble-1.png",new GSize(390,430), new GSize(310,315), new GPoint(34,32), new GPoint(194,426));
-//	bubble = new EBubble(map, "/images/bubble-2.png",new GSize(360,430), new GSize(280,315), new GPoint(34,28), new GPoint(194,426));
-	bubble = new EBubble(map, "/images/bubble-3.png",new GSize(388,428), new GSize(330,300), new GPoint(26,20), new GPoint(220,422), true);
-	return bubble;
-}
-
-// createMarker functionthat uses an ebubble
-function createMarker(point,html) {
-  var marker = new GMarker(point);
-	var bubble = create_ebubble();
-  // === Open the EBubble instead of an Info Window ===
-  GEvent.addListener(marker, "click", function() {
-    bubble.openOnMarker(marker,html);
-  });
-  return marker;
-}

@@ -21,8 +21,9 @@
   <tr>
     <th class='profile'>Question</th>
   </tr>
+<% questions = ['First name', 'Last name', 'Name of farm', 'Born:', 'Why do you farm?', 'Years farming', 'Years at the farm', 'Acreage', 'Primary crops/products', 'Do you accept interns on your farm?', 'Who are your literary and practical heros?', 'political heroes? cultural?', 'What heroic efforts have you gone to, to be a farmer?', 'What did your mother+friends think?', 'What kind of institutional/ political support would you like to see?:', 'Do you practice?', 'website', ] %>
 <% @survey.answers.each do |answer| %>
-	<% if answer.question.qtype != "hidden_field" %>
+	<% if questions.index(answer.question.text)  %>
   <tr class="<%= cycle('profile darker', 'profile lighter') %>">
     <td class='profile'>
       <%= image_label_no_mouseover(answer.question.title_label, answer.question.text) %>
