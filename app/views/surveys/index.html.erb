@@ -1,8 +1,8 @@
 <% for survey in @surveys %>
   <p><%= link_to "Survey by #{survey.farmer_name} from #{survey.farm_name}", survey_path(survey) %></p>
   <p>User email: <%= survey.email %></p>  
-	Make Public? <%= check_box_tag "make_public", "#{survey.id}", survey.public? %> 
-  <%= observe_field("make_public", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{survey.id}" ) %>  
+	Make Public? <%= check_box_tag "make_public_#{survey.id}", "#{survey.id}", survey.public? %> 
+  <%= observe_field("make_public_#{survey.id}", :frequency => 1, :url => {:action => "toggle_public"}, :with => "'id='+#{survey.id}" ) %>  
 	<hr/>
 <% end %>
 

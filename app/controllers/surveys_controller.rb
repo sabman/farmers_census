@@ -2,6 +2,7 @@ class SurveysController < ApplicationController
   include GeoKit::Geocoders  
   before_filter :verify_admin, :except => [:show, :new, :create, :resume, :forgotten, :reminder]
   before_filter :verify_public, :only => :show, :unless => :admin? 
+  cache_sweeper :survey_sweeper, :only => [:create, :update, :destroy, :toggle_public, :geocode_address] 
   
   # GET /surveys
   def index
