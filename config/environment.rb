@@ -27,7 +27,7 @@ Rails::Initializer.run do |config|
   config.gem "GeoRuby", :lib => 'geo_ruby'
   config.gem "will_paginate"
   config.gem "image_science", :version => ">= 1.1.3" 
-  config.gem "json",    :version => '1.1.2'  
+  config.gem "json",    :version => '>= 1.1.2'  
   
   config.action_controller.page_cache_directory = RAILS_ROOT + "/public/"
 end
