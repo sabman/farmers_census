@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Serve your country food - Greenhorns</title>
+  <link href="/stylesheets/reset-fonts-grids.css?1220577199" media="screen" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/styles.css?1223205617" media="screen" rel="stylesheet" type="text/css" />			
+	<script src="/javascripts/prototype.js?1213283525" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1213283525" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1213283525" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1213283525" type="text/javascript"></script>
+<script src="/javascripts/application.js?1218256357" type="text/javascript"></script>	
+	
+</head>
+<body>
+  <script src="http://serveyourcountryfood.uservoice.com/pages/general/widgets/tab.js?alignment=left&amp;color=6644FF" type="text/javascript"></script>
+
+<div id="doc2" class="yui-t2">
+
+  <div id="hd" class="header">
+		<a href="/"><img alt="serve your country food 2" id="serve_your_country_food_2" src="/images/center/serve_your_country_food_2.jpg?1221461934" title="serve your country food 2" /></a>  
+    <img alt="Farm_tools" src="/images/center/farm_tools.png?1219585109" /> 
+	  
+	</div> <!-- hd end -->
+
+  <div id="bd">
+    <div class="yui-g navigation">
+     	<a href="/"><img alt="home" id="home" src="/images/text/home.png?1220882437" title="home" /></a> 
+			
+				<img alt="|" src="/images/text/pipe.png?1221205587" />
+			  <a href="/static/about"><img alt="about the site" id="about_the_site" src="/images/text/about_the_site.png?1220882437" title="about the site" /></a>
+			
+				<img alt="|" src="/images/text/pipe.png?1221205587" />
+			  <a href="/static/sponsors"><img alt="sponsors" id="sponsors" src="/images/text/sponsors.png?1220882437" title="sponsors" /></a>
+			
+				<img alt="|" src="/images/text/pipe.png?1221205587" />
+			  <a href="/static/mapslinks"><img alt="maps" id="maps" src="/images/text/maps.png?1220882437" title="maps" /></a>
+			
+				<img alt="|" src="/images/text/pipe.png?1221205587" />
+			  <a href="/static/faq"><img alt="faq" id="faq" src="/images/text/faq.png?1220882437" title="faq" /></a>
+			
+    </div> <!-- yui-g navigation end -->
+
+    <div class="yui-g middle">
+                        	 			<div id="content"><script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAa7SFeUyLeV9ADXW6EhbOsBTv6-6POP26rMAbqeA492fvcL7fjRSkyJ0vLxFdgAZjR_-H_IPs112aBg&amp;hl=" type="text/javascript"></script>
+<script src="/javascripts/ym4r-gm.js" type="text/javascript"></script>
+<style type="text/css">
+ v:* { behavior:url(#default#VML);}
+</style>
+<script type="text/javascript">
+var map;
+window.onload = addCodeToFunction(window.onload,function() {
+if (GBrowserIsCompatible()) {
+map = new GMap2(document.getElementById("map_div"));
+map.setCenter(new GLatLng(37.5,-93.6),4);map.addMapType(G_PHYSICAL_MAP);
+map.setMapType(G_PHYSICAL_MAP);
+var icon_green_circle = create_transp_round_green_icon();
+var icon_red_circle = create_transp_round_red_icon();
+var icon_blue_circle = create_transp_big_blue_icon();
+map.addOverlay(new Clusterer([addDescriptionToMarker(addInfoWindowToMarker(new GMarker(new GLatLng(40.676817,-73.834406),{icon : icon_green_circle,title : "Strawberry Fields"}),"\n    <div class='bubble'>\n      <table><tr>\n        <td>\n          <a href=\"/surveys/1\"><img alt=\"No_avatar\" height=\"200\" src=\"/images/no_avatar.jpg?1221140011\" width=\"134\" /></a> \n        </td> \n        <td> \n          <h3>Strawberry Fields</h3>\n          Shoaib   <br/>\n          <a href=\"/surveys/1\">See full profile</a>\n        </td> \n        </tr></table>\n    </div>\n    ",{}),"Strawberry Fields"),addDescriptionToMarker(addInfoWindowToMarker(new GMarker(new GLatLng(37.7815693701492,-122.287445068359),{icon : icon_red_circle,title : "strawhill"}),"\n    <div class='bubble'>\n      <table><tr>\n        <td>\n          <a href=\"/surveys/2\"><img alt=\"Img_2173_thumb\" height=\"83\" src=\"/avatars/0000/0001/IMG_2173_thumb.JPG?1223203992\" width=\"110\" /></a> \n        </td> \n        <td> \n          <h3>strawhill</h3>\n          Sabman   <br/>\n          <a href=\"/surveys/2\">See full profile</a>\n        </td> \n        </tr></table>\n    </div>\n    ",{}),"strawhill"),addDescriptionToMarker(addInfoWindowToMarker(new GMarker(new GLatLng(38.95107,-94.270814),{icon : icon_red_circle,title : "blah"}),"\n    <div class='bubble'>\n      <table><tr>\n        <td>\n          <a href=\"/surveys/4\"><img alt=\"Img_2087_thumb\" height=\"110\" src=\"/avatars/0000/0003/IMG_2087_thumb.JPG?1223214528\" width=\"83\" /></a> \n        </td> \n        <td> \n          <h3>blah</h3>\n          super man   <br/>\n          <a href=\"/surveys/4\">See full profile</a>\n        </td> \n        </tr></table>\n    </div>\n    ",{}),"blah")],icon_blue_circle,2,5,5,10));
+      
+				var copyright = new GCopyright(1, new GLatLngBounds(new GLatLng(-90,-180), new GLatLng(90,180)), 0, "greenhorns");
+				var copyrightCollection = new GCopyrightCollection("greenhorns");
+				copyrightCollection.addCopyright(copyright);
+
+				var tilelayers = [];
+				tilelayers[0] = new GTileLayer(copyrightCollection, 1, 18);
+
+				function TileToQuadKey (x, y, zoom){
+    			var quad = "";
+    			for (var i = zoom; i > 0; i--){
+        		var mask = 1 << (i - 1);
+        		var cell = 0;
+        		if ((x & mask) != 0)
+            	cell++;
+        		if ((y & mask) != 0)
+            	cell += 2;
+        		quad += cell;
+    			}
+    			return quad;
+				}
+
+				tilelayers[0].getTileUrl = function (a, b) {
+					return "/images/tiles/" + TileToQuadKey(a.x,a.y,b) + ".png"; 
+				};
+				tilelayers[0].isPng = function() { return true;};
+				tilelayers[0].getOpacity = function() { return 1.0; };
+
+				var custommap = new GMapType(tilelayers, new GMercatorProjection(19), "greenhorns", {errorMessage:"Greenhorns"});
+				map.addMapType(custommap);
+				map.setMapType(custommap);
+               	     
+ 			 	GEvent.addListener(map, "zoomend", function(oldz, newz){
+    	 		if(newz > 6) {
+						map.setMapType(G_PHYSICAL_MAP);
+  				} else {
+						map.setMapType(custommap);
+					}
+				}); 
+
+ 	     	// Overwrite the getMinimumResolution() and getMaximumResolution() methods
+      	var mt = map.getMapTypes();
+      	for (var i=0; i<mt.length; i++) {
+        	mt[i].getMinimumResolution = function() {return 3;}
+      	}	
+ 	      // Add a move listener to restrict the bounds range
+   		  GEvent.addListener(map, "move", function() {
+        	checkBounds();        
+      	});
+
+      	// The allowed region which the whole map must be within
+      	var allowedBounds = new GLatLngBounds(new GLatLng(13.75,-140), new GLatLng(56.9,-55));
+      
+      	// If the map position is out of range, move it back
+      	function checkBounds() {
+        	// Perform the check and return if OK
+        	if (allowedBounds.contains(map.getCenter())) {
+          	return;
+        	}
+        	// It`s not OK, so find the nearest allowed point and move there
+       	 	var C = map.getCenter();
+        	var X = C.lng();
+        	var Y = C.lat();
+
+        	var AmaxX = allowedBounds.getNorthEast().lng();
+        	var AmaxY = allowedBounds.getNorthEast().lat();
+        	var AminX = allowedBounds.getSouthWest().lng();
+       	 	var AminY = allowedBounds.getSouthWest().lat();
+
+        	if (X < AminX) {X = AminX;}
+        	if (X > AmaxX) {X = AmaxX;}
+        	if (Y < AminY) {Y = AminY;}
+        	if (Y > AmaxY) {Y = AmaxY;}
+        	//alert ("Restricting "+Y+" "+X);
+        	map.setCenter(new GLatLng(Y,X));
+      	}
+
+				function getElementsByClass(searchClass,node,tag) {
+					var classElements = new Array();
+					if ( node == null )
+					node = document;
+					if ( tag == null )
+						tag = "*";
+					var els = node.getElementsByTagName(tag);
+					var elsLen = els.length;
+					var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
+					for (i = 0, j = 0; i < elsLen; i++) {
+						if ( pattern.test(els[i].className) ) {
+							classElements[j] = els[i];
+							j++;
+						}
+					}
+					return classElements;
+				}
+				var gmnoprint = getElementsByClass("gmnoprint");
+				for (i = 0; i < gmnoprint.length; i++) {
+					if (!gmnoprint[0].style.width) {
+						gmnoprint[i].style.visibility = "hidden";
+					}
+				} 
+
+    		var itemcontrol = new HtmlControl("<img src=\"/images/compass-small.png\"/>");
+				map.addControl(itemcontrol, new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(0, -10)));
+
+  		map.addControl(new GSmallMapControl());
+}
+});
+</script>
+<script src="/javascripts/mapping_helpers.js?1223205617" type="text/javascript"></script>
+<script src="/javascripts/HtmlControl.js?1220946340" type="text/javascript"></script>
+<script src="/javascripts/clusterer.js?1217032787" type="text/javascript"></script>
+
+
+<p>
+  <table>
+    <tr><td>      
+    	
+    		<a href="/surveys/new"><img alt="take the survey" id="take_the_survey" src="/images/text/take_the_survey.png?1220946340" title="take the survey" /></a>
+    	
+    </td><td width="100px"></td><td valign="top">
+    	<a href="/nominations/new"><img alt="nominate a farmer" id="nominate_a_farmer" src="/images/text/nominate_a_farmer.png?1220882437" title="nominate a farmer" /></a>
+    </td></tr>
+  </table>
+</p>
+
+<br/><br/>
+<div>
+<img width="700" src="/images/text/its_a_website.png" alt="Its a website, its a portal, its a map, its a database, its an expression of profound patriotism. Here, represented by little dots on this map. We are the young farmers of America." />
+</div>
+
+
+
+
+
+
+</div> 			
+    </div>  <!-- yui-g -->
+
+    <div class="yui-g">
+      
+  <div class="mainmap"><div id="map_div" style="width:930px;height:600px" ></div></div> 
+
+    </div> <!-- yui-g -->    
+
+    <div class="yui-g middle">
+      <div id="content">
+  <div>
+<img width="700" src="/images/text/united_in_our_commitment.png" alt="United in our commitment to soil fertility, local nutrition, national health and a yummy hereafter. Land. Liberty. Stamina. Sunshine. These are the natural ingredients for an edible future." />
+  </div>   
+</div>      
+    </div>  
+    
+	  <div id="ft"> 
+			<div class="yui-g footer">
+				<div class ='sidebar'>
+					
+	<p>The Greenhorns would like to thank Organic Valley for their generous sponsorship of <strong>Serve Your Country Food</strong></p>
+<p><img src="http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif" alt="" /></p>
+ 
+				A project of <a href="http://thegreenhorns.net/">the greenhorns</a>				
+				</div> <!-- sidebar end -->	    	
+			</div>
+		</div> <!-- ft end -->		
+		
+ 	</div> <!-- bd end -->     
+</div> <!-- doc2 end -->
+
+  <!-- google analytics -->
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-472321-9");
+    pageTracker._trackPageview();
+  </script>
+</body>
+</html>
