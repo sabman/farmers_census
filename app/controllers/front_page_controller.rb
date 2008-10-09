@@ -4,7 +4,7 @@ class FrontPageController < ApplicationController
 
   def index # TODO: clean this hack for caching
     @public_surveys = Survey.find_public
-    render :template => 'front_page/show'
+    render :action => :show
   end 
 
   def show

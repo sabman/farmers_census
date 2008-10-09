@@ -12,3 +12,4 @@ config/database.yml
 public/avatars/**/*
 log/development.log
 *~
+public/index.html
