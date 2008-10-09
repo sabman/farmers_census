@@ -15,7 +15,7 @@ Flash.writeDataTo = function(name, element) {
     content = Flash.data[name].toString().replace(/\+/g, ' ');
   	element.innerHTML = unescape(content);
   } else {
+  	element.innerHTML = '';
 		element.style.display = 'none';
 	}
-
 };
