@@ -9,7 +9,6 @@ class FrontPageController < ApplicationController
 
   def show
     @public_surveys = Survey.find_public
-    puts( "flash = #{flash}") 
   end
 
 end

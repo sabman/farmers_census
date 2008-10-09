@@ -1,0 +1,2679 @@
+
+
+Processing FrontPageController#show (for 0.0.0.0 at 2008-10-09 22:55:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+  [4;36;1mSurvey Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such column: public: SELECT * FROM "surveys" WHERE (public = 't') [0m
+
+
+Processing FrontPageController#show (for 0.0.0.0 at 2008-10-09 22:58:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+  [4;36;1mSurvey Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such column: public: SELECT * FROM "surveys" WHERE (public = 't') [0m
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 22:58:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.02090 (47 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 22:58:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00151 (663 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 22:58:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00102 (984 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 22:58:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1012 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 22:58:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00103 (974 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 22:58:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1006 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 22:58:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00104 (965 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 22:58:37) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (995 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 22:58:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;36;1mQuestion Load (0.001329)[0m   [0;1mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 22:58:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000402)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000351)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.02827 (35 reqs/sec) | DB: 0.00075 (2%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 22:58:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000378)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000290)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.00488 (204 reqs/sec) | DB: 0.00067 (13%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00110 (906 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00104 (960 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00111 (899 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00121 (826 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 22:58:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00094 (1062 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00089 (1119 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00090 (1117 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1088 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00090 (1107 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1017 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 22:58:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00106 (947 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+Rendering /surveys/index.html.erb
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:05:50) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.02079 (48 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:05:51) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00090 (1111 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:05:51) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00088 (1137 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:05:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00120 (830 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:05:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00116 (864 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:05:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1021 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:05:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00115 (873 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:05:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1002 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:05:51) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;36;1mQuestion Load (0.001587)[0m   [0;1mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:05:51) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000393)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000588)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.03534 (28 reqs/sec) | DB: 0.00098 (2%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:05:51) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000445)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000315)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.00553 (180 reqs/sec) | DB: 0.00076 (13%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00189 (528 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00115 (872 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1165 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00091 (1100 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00158 (633 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00183 (547 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00187 (533 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00172 (581 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00097 (1028 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00181 (552 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:05:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00124 (805 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:06:23) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.02102 (47 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:06:23) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1004 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-09 23:06:23) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00102 (979 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:06:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00108 (927 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:06:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00105 (953 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:06:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1023 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:06:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1022 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-09 23:06:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1014 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:06:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;36;1mQuestion Load (0.001373)[0m   [0;1mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:06:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000401)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000412)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.02940 (34 reqs/sec) | DB: 0.00081 (2%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-09 23:06:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000381)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000285)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.00486 (205 reqs/sec) | DB: 0.00067 (13%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (995 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1011 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (999 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00109 (916 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-09 23:06:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00138 (724 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00115 (866 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00097 (1028 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00170 (586 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00172 (580 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00126 (793 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-09 23:06:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00122 (817 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing FrontPageController#show (for 0.0.0.0 at 2008-10-09 23:15:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+  [4;36;1mSurvey Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such column: public: SELECT * FROM "surveys" WHERE (public = 't') [0m
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2008-10-09 23:29:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://test.host/
+Completed in 0.02120 (47 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/logout]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2008-10-09 23:29:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Redirected to http://test.host/login
+Completed in 0.02137 (46 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/sessions]
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2008-10-09 23:29:03) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/admin
+Rendering sessions/new
+Completed in 0.00225 (445 reqs/sec) | Rendering: 0.00123 (54%) | DB: 0.00000 (0%) | 200 OK [http://test.host/sessions/new]
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2008-10-09 23:34:18) [GET]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://test.host/
+Completed in 0.01972 (50 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/logout]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2008-10-09 23:34:18) [GET]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Redirected to http://test.host/login
+Completed in 0.02259 (44 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/sessions]
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2008-10-09 23:34:18) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/admin
+Rendering sessions/new
+Completed in 0.00170 (588 reqs/sec) | Rendering: 0.00093 (54%) | DB: 0.00000 (0%) | 200 OK [http://test.host/sessions/new]
+Unable to load user, underlying cause no such file to load -- user 
+
+ /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:102:in `require_or_load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:61:in `depend_on'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:457:in `require_dependency'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/fixtures.rb:867:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.1/lib/active_record/fixtures.rb:850:in `fixtures'
+./spec/controllers/users_controller_spec.rb:8
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:40:in `module_eval'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:40:in `describe'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/extensions/class.rb:14:in `instance_eval'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/extensions/class.rb:14:in `subclass'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_methods.rb:38:in `describe'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/example/example_group_factory.rb:43:in `create_example_group'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/extensions/main.rb:27:in `describe'
+./spec/controllers/users_controller_spec.rb:7
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:503:in `load'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:14:in `load_files'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:13:in `each'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/example_group_runner.rb:13:in `load_files'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/options.rb:85:in `run_examples'
+/Users/sabman/Rails/projects/farmer-census/vendor/plugins/rspec/lib/spec/runner/command_line.rb:19:in `run'
+script/spec:4
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.02617 (38 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1302 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:24) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1302 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-10-10 01:05:24) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00089 (1118 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-10-10 01:05:25) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00175 (572 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-10-10 01:05:25) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1305 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-10-10 01:05:25) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00142 (704 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#update (for 0.0.0.0 at 2008-10-10 01:05:25) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00147 (678 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-10-10 01:05:25) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1167 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-10-10 01:05:25) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1328 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#create (for 0.0.0.0 at 2008-10-10 01:05:25) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "question"=>{}, "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1356 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions?]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1251 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00073 (1371 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1333 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#edit (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1001 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1/edit]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1308 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/new]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00128 (781 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/new]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00073 (1362 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/new]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00073 (1362 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/new]
+
+
+Processing QuestionsController#new (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1342 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/new]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1318 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1358 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1358 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1158 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1001 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00083 (1203 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#show (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00146 (685 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions/1]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1321 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1338 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00073 (1362 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1349 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1319 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00146 (685 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing QuestionsController#index (for 0.0.0.0 at 2008-10-10 01:05:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"questions"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1183 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/questions]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-10 01:05:25) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00091 (1095 reqs/sec) | DB: 0.00144 (157%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-10 01:05:25) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00116 (865 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#destroy (for 0.0.0.0 at 2008-10-10 01:05:26) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00091 (1095 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-10 01:05:26) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00089 (1123 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-10 01:05:26) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00116 (858 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-10 01:05:26) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00131 (762 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-10 01:05:26) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00101 (993 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#update (for 0.0.0.0 at 2008-10-10 01:05:26) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00998 (100 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-10 01:05:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;36;1mQuestion Load (0.000458)[0m   [0;1mSELECT * FROM "questions" [0m
+Rendering template within layouts/application
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-10 01:05:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000699)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000327)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.03868 (25 reqs/sec) | DB: 0.00103 (2%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#create (for 0.0.0.0 at 2008-10-10 01:05:26) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"surveys", "survey"=>{}}
+  [4;35;1mQuestion Load (0.000460)[0m   [0mSELECT * FROM "questions" [0m
+  [4;36;1mStage Load (0.000263)[0m   [0;1mSELECT * FROM "stages" LIMIT 1[0m
+Redirected to http://test.host/stages/
+Completed in 0.00560 (178 reqs/sec) | DB: 0.00072 (12%) | 302 Found [http://test.host/surveys?]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00176 (567 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00117 (853 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1091 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#edit (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00197 (507 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys/1/edit]
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#new (for 0.0.0.0 at 2008-10-10 01:05:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"surveys"}
+Rendering template within layouts/application
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"surveys"}
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00118 (846 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00126 (794 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1082 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00917 (109 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00125 (799 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00102 (981 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing SurveysController#index (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"surveys"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00089 (1120 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/surveys]
+
+
+Processing FrontPageController#show (for 0.0.0.0 at 2008-10-10 01:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "controller"=>"front_page"}
+  [4;35;1mSurvey Load (0.000000)[0m   [0mSQLite3::SQLException: no such column: public: SELECT * FROM "surveys" WHERE (public = 't') [0m
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:27) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1002 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:27) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1346 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:27) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1237 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-10-10 01:05:27) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00154 (650 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-10-10 01:05:28) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00151 (661 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-10-10 01:05:28) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00110 (911 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-10-10 01:05:28) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (996 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#update (for 0.0.0.0 at 2008-10-10 01:05:28) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1182 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-10-10 01:05:28) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1009 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-10-10 01:05:28) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1272 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#create (for 0.0.0.0 at 2008-10-10 01:05:28) [POST]
+  Session ID: 
+  Parameters: {"answer"=>{}, "action"=>"create", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1195 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers?]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1009 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1167 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00149 (669 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#edit (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00118 (843 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1/edit]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1084 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00078 (1285 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1018 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1023 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#new (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (999 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/new]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1169 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1240 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00150 (668 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1023 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00164 (611 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00108 (924 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#show (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1018 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers/1]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1316 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00158 (634 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1001 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1317 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00117 (856 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00089 (1119 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing AnswersController#index (for 0.0.0.0 at 2008-10-10 01:05:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"answers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1159 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/answers]
+
+
+Processing SitemapController#sitemap (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"sitemap", "controller"=>"sitemap"}
+  [4;36;1mStage Load (0.000371)[0m   [0;1mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering sitemap/sitemap
+Completed in 0.02152 (46 reqs/sec) | Rendering: 0.00162 (7%) | DB: 0.00037 (1%) | 200 OK [http://test.host/sitemap.xml]
+
+
+Processing SitemapController#sitemap (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"sitemap", "controller"=>"sitemap"}
+  [4;35;1mStage Load (0.000442)[0m   [0mSELECT * FROM "stages" [0m
+Rendering template within layouts/application
+Rendering sitemap/sitemap
+Completed in 0.00484 (206 reqs/sec) | Rendering: 0.00102 (21%) | DB: 0.00044 (9%) | 200 OK [http://test.host/sitemap.xml]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:29) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+Redirected to http://test.host/stages
+Completed in 0.03000 (33 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:29) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+Redirected to http://test.host/stages
+Completed in 0.00208 (480 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:29) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"stages"}
+Redirected to http://test.host/stages
+Completed in 0.00190 (527 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/stages/destroy/1]
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-10-10 01:05:29) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-10-10 01:05:29) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-10-10 01:05:29) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-10-10 01:05:29) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#update (for 0.0.0.0 at 2008-10-10 01:05:29) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-10-10 01:05:29) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-10-10 01:05:29) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+
+
+Processing StagesController#create (for 0.0.0.0 at 2008-10-10 01:05:29) [POST]
+  Session ID: 
+  Parameters: {"stage"=>{}, "action"=>"create", "controller"=>"stages"}
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00226 (442 reqs/sec) | Rendering: 0.00073 (32%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00395 (253 reqs/sec) | Rendering: 0.00140 (35%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00270 (369 reqs/sec) | Rendering: 0.00096 (35%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/edit
+Completed in 0.00265 (376 reqs/sec) | Rendering: 0.00098 (37%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/edit/1]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00217 (461 reqs/sec) | Rendering: 0.00072 (33%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00389 (257 reqs/sec) | Rendering: 0.00139 (35%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00261 (382 reqs/sec) | Rendering: 0.00092 (35%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00223 (447 reqs/sec) | Rendering: 0.00080 (35%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#new (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"stages"}
+Rendering template within layouts/application
+Rendering stages/new
+Completed in 0.00324 (309 reqs/sec) | Rendering: 0.00168 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/stages/new]
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#show (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"stages"}
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+Rendering template within layouts/application
+
+
+Processing StagesController#index (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"stages"}
+Rendering template within layouts/application
+
+
+Processing SessionsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://test.host/
+Completed in 0.01787 (55 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/logout]
+
+
+Processing SessionsController#create (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"sessions"}
+Redirected to http://test.host/login
+Completed in 0.00074 (1356 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/sessions]
+
+
+Processing SessionsController#new (for 0.0.0.0 at 2008-10-10 01:05:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/admin
+Rendering sessions/new
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00178 (55%) | DB: 0.00000 (0%) | 200 OK [http://test.host/sessions/new]
+
+
+Processing NominationsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1166 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1216 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#destroy (for 0.0.0.0 at 2008-10-10 01:05:30) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1015 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#update (for 0.0.0.0 at 2008-10-10 01:05:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00087 (1153 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#update (for 0.0.0.0 at 2008-10-10 01:05:30) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1177 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#update (for 0.0.0.0 at 2008-10-10 01:05:31) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00241 (414 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#update (for 0.0.0.0 at 2008-10-10 01:05:31) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#update (for 0.0.0.0 at 2008-10-10 01:05:31) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00083 (1207 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#create (for 0.0.0.0 at 2008-10-10 01:05:31) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"nominations", "nomination"=>{}}
+Rendering template within layouts/application
+
+
+Processing NominationsController#create (for 0.0.0.0 at 2008-10-10 01:05:31) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"nominations", "nomination"=>{}}
+Sent mail to farmers.census@gmail.com
+
+Date: Fri, 10 Oct 2008 01:05:31 +1100
+From: farmers.census@gmail.com
+To: farmers.census@gmail.com
+Subject: [American-Farmer] Hey Severine! a new nomination was submitted!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+G'day Severine!
+
+	A new survey is waiting for you at:	http://test.host/nominations
+
+-- the farm team
+
+
+Processing NominationsController#create (for 0.0.0.0 at 2008-10-10 01:05:31) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"nominations", "nomination"=>{}}
+Sent mail to farmers.census@gmail.com
+
+Date: Fri, 10 Oct 2008 01:05:31 +1100
+From: farmers.census@gmail.com
+To: farmers.census@gmail.com
+Subject: [American-Farmer] Hey Severine! a new nomination was submitted!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+G'day Severine!
+
+	A new survey is waiting for you at:	http://test.host/nominations
+
+-- the farm team
+
+
+Processing NominationsController#edit (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00083 (1201 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1/edit]
+
+
+Processing NominationsController#edit (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1215 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1/edit]
+
+
+Processing NominationsController#edit (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00161 (621 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1/edit]
+
+
+Processing NominationsController#edit (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00167 (600 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1/edit]
+
+
+Processing NominationsController#new (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"nominations"}
+Rendering template within layouts/application
+
+
+Processing NominationsController#new (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"nominations"}
+Rendering template within layouts/application
+
+
+Processing NominationsController#new (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"nominations"}
+Rendering template within layouts/application
+
+
+Processing NominationsController#new (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"nominations"}
+Rendering template within layouts/application
+
+
+Processing NominationsController#new (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"nominations"}
+Rendering template within layouts/application
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00096 (1044 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00093 (1075 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00094 (1061 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00083 (1206 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00163 (614 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00113 (885 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00108 (927 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations/1]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00108 (922 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00109 (914 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00109 (914 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1222 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00083 (1210 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1190 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing NominationsController#index (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"nominations"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00092 (1086 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/nominations]
+
+
+Processing PagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:32) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00107 (934 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:32) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00101 (986 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#destroy (for 0.0.0.0 at 2008-10-10 01:05:32) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1243 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#update (for 0.0.0.0 at 2008-10-10 01:05:32) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1228 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#update (for 0.0.0.0 at 2008-10-10 01:05:32) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1245 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#update (for 0.0.0.0 at 2008-10-10 01:05:32) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1161 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#update (for 0.0.0.0 at 2008-10-10 01:05:32) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1176 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#update (for 0.0.0.0 at 2008-10-10 01:05:32) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1187 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1]
+
+
+Processing PagesController#create (for 0.0.0.0 at 2008-10-10 01:05:32) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"pages", "page"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1223 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages?]
+
+
+Processing PagesController#create (for 0.0.0.0 at 2008-10-10 01:05:32) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"pages", "page"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00080 (1250 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages?]
+
+
+Processing PagesController#create (for 0.0.0.0 at 2008-10-10 01:05:32) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"pages", "page"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00107 (938 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages?]
+
+
+Processing PagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1236 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1/edit]
+
+
+Processing PagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1172 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1/edit]
+
+
+Processing PagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1264 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1/edit]
+
+
+Processing PagesController#edit (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1264 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/1/edit]
+
+
+Processing PagesController#new (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00093 (1070 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/new]
+
+
+Processing PagesController#new (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1240 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/new]
+
+
+Processing PagesController#new (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00081 (1240 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/new]
+
+
+Processing PagesController#new (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1218 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/new]
+
+
+Processing PagesController#new (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00085 (1183 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages/new]
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+Rendering template within layouts/application
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+Rendering template within layouts/application
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+Rendering template within layouts/application
+
+
+Processing PagesController#show (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"pages"}
+Rendering template within layouts/application
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00108 (930 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00107 (937 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00093 (1075 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00082 (1226 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00170 (588 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00158 (631 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing PagesController#index (for 0.0.0.0 at 2008-10-10 01:05:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"pages"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00113 (882 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/pages]
+
+
+Processing FarmersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1322 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1342 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#destroy (for 0.0.0.0 at 2008-10-10 01:05:33) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1358 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#update (for 0.0.0.0 at 2008-10-10 01:05:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1309 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#update (for 0.0.0.0 at 2008-10-10 01:05:33) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1324 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#update (for 0.0.0.0 at 2008-10-10 01:05:34) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1344 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#update (for 0.0.0.0 at 2008-10-10 01:05:34) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00150 (666 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#update (for 0.0.0.0 at 2008-10-10 01:05:34) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00101 (988 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#create (for 0.0.0.0 at 2008-10-10 01:05:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"farmers", "farmer"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00086 (1166 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers?]
+
+
+Processing FarmersController#create (for 0.0.0.0 at 2008-10-10 01:05:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"farmers", "farmer"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1329 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers?]
+
+
+Processing FarmersController#create (for 0.0.0.0 at 2008-10-10 01:05:34) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"farmers", "farmer"=>{}}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00073 (1364 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers?]
+
+
+Processing FarmersController#edit (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00161 (619 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1/edit]
+
+
+Processing FarmersController#edit (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00168 (594 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1/edit]
+
+
+Processing FarmersController#edit (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00093 (1074 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1/edit]
+
+
+Processing FarmersController#edit (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00138 (724 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1/edit]
+
+
+Processing FarmersController#new (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1001 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/new]
+
+
+Processing FarmersController#new (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (1003 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/new]
+
+
+Processing FarmersController#new (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1189 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/new]
+
+
+Processing FarmersController#new (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00074 (1358 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/new]
+
+
+Processing FarmersController#new (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00155 (643 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/new]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00099 (1013 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00100 (996 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00098 (1016 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00105 (949 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00090 (1114 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00159 (628 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#show (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00087 (1142 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers/1]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1314 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00084 (1194 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1338 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00077 (1292 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00079 (1265 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00075 (1329 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing FarmersController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"farmers"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00076 (1317 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/farmers]
+
+
+Processing AdminController#index (for 0.0.0.0 at 2008-10-10 01:05:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Redirected to http://test.host/login
+Filter chain halted as [:verify_admin] rendered_or_redirected.
+Completed in 0.00097 (1027 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/admin]

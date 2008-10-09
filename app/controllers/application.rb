@@ -3,8 +3,6 @@
 
 class ApplicationController < ActionController::Base
   layout :set_layout
-
-  include CacheableFlash
   
   include AuthenticatedSystem
   helper :all # include all helpers, all the time
