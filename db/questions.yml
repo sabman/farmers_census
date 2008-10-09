@@ -52,7 +52,7 @@
     stage_id: 1
     note: severine would like this to be several fields
 - - question
-  - qtype: text_field
+  - qtype: yes_no
     text: Children on the farm?
     title_label: /images/labels/children_on_the_farm.png
     stage_id: 1
@@ -149,7 +149,7 @@
     title_label: /images/labels/primary_crops_products.png
     stage_id: 2
 - - question
-  - qtype: text_field
+  - qtype: yes_no
     text: Secondary processing on farm?
     title_label: /images/labels/secondary_processing_on_farm.png
     stage_id: 2
@@ -169,12 +169,12 @@
     title_label: /images/labels/age_of_primary_farmers.png
     stage_id: 2
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Number of other young farmers
     title_label: /images/labels/number_of_other_young_farmers.png
     stage_id: 2
 - - question
-  - qtype: text_field
+  - qtype: numeric_field
     text: Number of farm laborers
     title_label: /images/labels/number_of_farm_laborers.png
     stage_id: 2
@@ -184,7 +184,7 @@
     title_label: /images/labels/can_you_afford_health_insurance.png
     stage_id: 2
 - - question
-  - qtype: text_area
+  - qtype: text_field
     text: Can you afford to pay a living wage to employees? Elaborate on your answer to this question.
     title_label: /images/labels/can_you_afford_to_pay.png
     stage_id: 2
@@ -409,7 +409,7 @@
     title_label: /images/labels/for_purchasing_farm_equipment.png
     stage_id: 4
 - - question
-  - qtype: text_field
+  - qtype: yes_no
     text: would you ever consider shipping your food on a train/bus/collaborative distribution system if that were an option?
     title_label: /images/labels/consider_shipping.png
     stage_id: 4
@@ -552,7 +552,7 @@
     title_label: /images/labels/produce_labeling.png
     stage_id: 6
 - - question
-  - qtype: text_area
+  - qtype: yes_no
     text: Your alliances with food/farming ngo, are they fruitful?
     title_label: /images/labels/your_alliances.png
     stage_id: 6

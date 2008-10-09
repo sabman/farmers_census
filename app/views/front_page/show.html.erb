@@ -5,6 +5,16 @@
 <%= javascript_include_tag  'clusterer'        %>
 <%= javascript_include_tag  'EBubble'        %>
 
+<% content_for(:map) do %>
+  <div><center>
+    <img width="700" src="/images/text/its_a_website.png" alt="Its a website, its a portal, its a map, its a database, its an expression of profound patriotism. Here, represented by little dots on this map. We are the young farmers of America." />
+  </center></div>
+
+  <div class="mainmap"><%= @map.div :width => 930, :height => 600 %></div></div> 
+
+  <center><img src="/images/circle_green_12.png" />farmer owns land&nbsp;&nbsp;&nbsp;<img src="/images/circle_red_12.png" />farmer doesn't own land</center>
+<% end %>
+
 <p>
   <table>
     <tr><td>      
@@ -20,15 +30,6 @@
   </table>
 </p>
 
-<br/><br/>
-<div>
-<img width="700" src="/images/text/its_a_website.png" alt="Its a website, its a portal, its a map, its a database, its an expression of profound patriotism. Here, represented by little dots on this map. We are the young farmers of America." />
-</div>
-
-<% content_for(:map) do %>
-  <div class="mainmap"><%= @map.div :width => 930, :height => 600 %></div> 
-<% end %>
-
 <% content_for(:lower_half) do %>
   <div>
 <img width="700" src="/images/text/united_in_our_commitment.png" alt="United in our commitment to soil fertility, local nutrition, national health and a yummy hereafter. Land. Liberty. Stamina. Sunshine. These are the natural ingredients for an edible future." />
@@ -36,5 +37,7 @@
 <% end %>
 
 <% content_for(:footer) do %>
-	<%= textilize h(Page.find_by_permalink('sponsors').content) %>
+	<p>The Greenhorns would like to thank Organic Valley for their generous sponsorship of <strong>Serve Your Country Food</strong></p>
+  <p><img src="http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif" alt="" /></p>
+	A project of <a href="http://thegreenhorns.net/">the greenhorns</a>	
 <% end %>

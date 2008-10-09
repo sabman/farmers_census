@@ -21,12 +21,16 @@
 
   <div id="bd">
     <div class="yui-g navigation">
-     	<%= link_to image_label_no_mouseover("text/home.png"), home_path %> 
+     	<%= link_to image_label_no_mouseover("text/home_small.png"), home_path %> 
 			<% Page.find(:all).each do |page| %>
-				<%= image_tag("text/pipe.png", :alt => "|") %>
+				<%= image_tag("text/pipe_small.png", :alt => "|") %>
 			  <%= link_to (page.label ? image_label_no_mouseover(page.label) : page.permalink), static_path(page.permalink) %>
 			<% end %>
     </div> <!-- yui-g navigation end -->
+
+    <div class="yui-g">
+      <%= yield(:map) %>
+    </div> <!-- yui-g --> 
 
     <div class="yui-g middle">
       <% [:error, :warning, :notice].each do |level|
@@ -35,11 +39,7 @@
         <% end -%>
       <% end -%>
 	 			<div id="content"><%= yield %></div> 			
-    </div>  <!-- yui-g -->
-
-    <div class="yui-g">
-      <%= yield(:map) %>
-    </div> <!-- yui-g -->    
+    </div>  <!-- yui-g -->   
 
     <div class="yui-g middle">
       <div id="content"><%= yield(:lower_half) %></div>      
