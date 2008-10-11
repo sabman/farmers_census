@@ -10,8 +10,9 @@ Flash.transferFromCookies = function() {
 };
 
 Flash.writeDataTo = function(name, element) {
-  var content = "";
+  var content = "";   
   if(Flash.data[name]) {
+		element.style.display = 'block';
     content = Flash.data[name].toString().replace(/\+/g, ' ');
   	element.innerHTML = unescape(content);
   } else {
