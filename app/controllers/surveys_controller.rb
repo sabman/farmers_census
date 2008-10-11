@@ -1,7 +1,12 @@
 class SurveysController < ApplicationController
   include GeoKit::Geocoders  
+
   before_filter :verify_admin, :except => [:show, :new, :create, :resume, :forgotten, :reminder]
   before_filter :verify_public, :only => :show, :unless => :admin? 
+
+  cache_sweeper :survey_sweeper, :only => [:create, :update, :destroy, :toggle_public, :geocode_address] 
+
+  caches_page :show
   
   # GET /surveys
   def index
@@ -81,10 +86,14 @@ class SurveysController < ApplicationController
     
     respond_to do |format|
       if @survey
-        AdminMailer.deliver_key_reminder(@survey, request.host_with_port)
-        flash[:notice] = "An email has been sent to you with your survey link."
+        begin        
+          AdminMailer.deliver_key_reminder(@survey, request.host_with_port)          
+        rescue Net::SMTPAuthenticationError
+          nil
+        end        
+        flash["notice"] = "An email has been sent to you with your survey link."
       else
-        flash[:notice] = "No survey with your email was found. Please start a new one."
+        flash["notice"] = "No survey with your email was found. Please start a new one."
       end
       format.html { redirect_to(home_path) }
     end

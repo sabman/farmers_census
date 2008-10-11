@@ -5,7 +5,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :nominations
   map.resources :answers 
   map.addavatar "avatar/create", :controller => 'avatar', :action => 'create'
-  map.home '', :controller => "front_page", :action => "show"   
+  map.home '', :controller => "front_page", :action => "index"
   map.resources :surveys, :has_many => :questions, :collection => { :forgotten => :get }, :member => {:geocode_address => :get} 
   map.resources :questions, :has_one => :stage
   map.resources :stages, :has_many => :questions, :collection => { :done => :get }  

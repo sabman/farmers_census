@@ -12,3 +12,9 @@ config/database.yml
 public/avatars/**/*
 log/development.log
 *~
+
+public/index.html
+public/pages
+public/static
+public/surveys
+public/javascripts/all.js

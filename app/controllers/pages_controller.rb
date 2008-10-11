@@ -1,5 +1,10 @@
 class PagesController < ApplicationController
   before_filter :verify_admin, :except => [:show]
+  
+  caches_page :show
+  cache_sweeper :page_sweeper, :only => [:create, :update, :destroy] 
+  
+  
   # GET /pages
   # GET /pages.xml
   def index

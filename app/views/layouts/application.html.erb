@@ -33,12 +33,14 @@
     </div> <!-- yui-g --> 
 
     <div class="yui-g middle">
-      <% [:error, :warning, :notice].each do |level|
-          if flash[level] -%>
-            <div class="flash <%= level.to_s -%>"><%= flash[level] -%></div>
-        <% end -%>
-      <% end -%>
-	 			<div id="content"><%= yield %></div> 			
+      <div id="flash_error" class="flash error"></div>
+      <div id="flash_notice" class="flash notice"></div>
+      <script type="text/javascript">
+        Flash.transferFromCookies();
+        Flash.writeDataTo('error', $('flash_error'));
+        Flash.writeDataTo('notice', $('flash_notice'));
+      </script>
+	 		<div id="content"><%= yield %></div> 			
     </div>  <!-- yui-g -->   
 
     <div class="yui-g middle">

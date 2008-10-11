@@ -1,9 +1,9 @@
 <%= GMap.header %>
-<%= show_maps Survey.find_public %>
+<%= show_maps @public_surveys %>
 <%= javascript_include_tag  'mapping_helpers'  %>
 <%= javascript_include_tag  'HtmlControl'      %>
 <%= javascript_include_tag  'clusterer'        %>
-<%= javascript_include_tag  'EBubble'        %>
+<%# javascript_include_tag  'EBubble'        %>
 
 <% content_for(:map) do %>
   <div><center>
