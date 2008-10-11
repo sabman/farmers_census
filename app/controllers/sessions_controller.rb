@@ -20,8 +20,11 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    (0..Survey.count-1).each do |i|
-      expire_page( :controller => 'surveys', :action => 'show', :id => i ) 
+    Survey.all(:select => "id").each do |survey|
+      expire_page( :controller => 'surveys', :action => 'show', :id => survey.id ) 
+    end    
+    Page.all(:select => "permalink").each do |page|
+      expire_page(static_path(page.permalink)) 
     end    
     session[:admin_password] = nil
     flash[:notice] = "You have been logged out."
