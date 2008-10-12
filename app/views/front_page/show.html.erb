@@ -6,13 +6,13 @@
 <%# javascript_include_tag  'EBubble'        %>
 
 <% content_for(:map) do %>
-  <div><center>
-    <img width="700" src="/images/text/its_a_website.png" alt="Its a website, its a portal, its a map, its a database, its an expression of profound patriotism. Here, represented by little dots on this map. We are the young farmers of America." />
-  </center></div>
-
   <div class="mainmap"><%= @map.div :width => 930, :height => 600 %></div></div> 
 
   <center><img src="/images/circle_green_12.png" />farmer owns land&nbsp;&nbsp;&nbsp;<img src="/images/circle_red_12.png" />farmer doesn't own land</center>
+
+  <div><center>
+    <img width="700" src="/images/text/its_a_website.png" alt="Its a website, its a portal, its a map, its a database, its an expression of profound patriotism. Here, represented by little dots on this map. We are the young farmers of America." />
+  </center></div>
 <% end %>
 
 <p>
