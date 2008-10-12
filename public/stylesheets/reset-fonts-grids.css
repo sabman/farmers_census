@@ -25,7 +25,7 @@ address,caption,cite,code,dfn,em,strong,th,var {
 }
 
 li {
-list-style:none;
+/* list-style:none; */
 }
 
 caption,th {
