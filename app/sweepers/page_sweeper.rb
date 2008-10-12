@@ -12,7 +12,7 @@ class PageSweeper < ActionController::Caching::Sweeper
   private
 
     def expire_cache(page)
-      expire_page(:controller => 'pages', :action => 'show') 
+      expire_page(static_path(page.permalink)) 
     end
     
 end

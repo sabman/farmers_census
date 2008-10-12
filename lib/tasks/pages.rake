@@ -21,7 +21,9 @@ namespace :db do
           p.update_attributes(page_yaml[1])          
         rescue ActiveRecord::RecordNotFound # create
           p = Page.create(page_yaml[1])          
-        end
+        end 
+        ActionController::Base::expire_page("/static/#{p.permalink}.html")
+        # FIXME: change to getting the route via Routs
       end
     end 
 
@@ -30,6 +32,8 @@ namespace :db do
 			pages = Page.find(:all)
 			pages.each do |p|
 				p.destroy
+        ActionController::Base::expire_page("/static/#{p.permalink}.html")
+        # FIXME: change to getting the route via Routs
 			end
     end   
     

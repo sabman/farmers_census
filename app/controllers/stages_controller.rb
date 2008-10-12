@@ -1,6 +1,8 @@
 class StagesController < ApplicationController
   include GeoKit::Geocoders
   before_filter :verify_survey  
+
+  cache_sweeper :survey_sweeper,  :only => [:done] 
     
   # GET /stages
   # GET /stages.xml
