@@ -28,16 +28,14 @@ module FrontPageHelper
       unless rec.lng == nil or rec.lat == nil   
         coords << [rec.lng.to_f, rec.lat.to_f]
         icon = rec.farmer_grounded? ? icon_green_circle : icon_red_circle
-        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{rec.farm_name}", :icon => icon, :info_window => get_info_window_text(rec) ) 
-        #@map.record_init("var marker = createMarker(new GLatLng(#{rec.lat.to_f}, #{rec.lng.to_f}), #{get_info_window_text(rec)});")
-        #@map.record_init("map.addOverlay(marker);")
+        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{link_to rec.farm_name, survey_path(rec)}", :icon => icon, :info_window => get_info_window_text(rec) ) 
        end
     end
     # Uncomment to test Clustering by creating lots of markers
     # (0..100).each{  
     #                 markers << GMarker.new( [33+15*rand(0), -110.4819+25*rand(0)], 
-    #                                         :info_window => "<a href='http://yahoo.com/'>Yahoo!</a>", 
-    #                                         :title => "<a href='http://google.com/'>google</a>", 
+    #                                         :info_window => "<a href='http://yahoo.com/'>infowin: Yahoo!</a>", 
+    #                                         :title => "<a href='http://google.com/'>title: google</a>", 
     #                                         :icon => icon_green_circle )
     # }
 

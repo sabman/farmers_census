@@ -171,7 +171,7 @@ function create_transp_round_green_icon() {
 
 function create_transp_big_blue_icon() {
 	var icon = new GIcon();
-	icon.image = "/images/circle_blue_12.png";
+	icon.image = "/images/circle_blue.png";
 //	icon.shadow = "/images/shadow-circle_blue_transp.png";
 	icon.iconSize = new GSize(48.0, 48.0);
 	icon.shadowSize = new GSize(73.0, 48.0);
