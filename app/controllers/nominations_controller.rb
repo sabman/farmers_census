@@ -39,7 +39,7 @@ class NominationsController < ApplicationController
 
     respond_to do |format|
       if @nomination.save
-        AdminMailer.deliver_nomination_notification(@nomination, request.host_with_port) 
+#        AdminMailer.deliver_nomination_notification(@nomination, request.host_with_port) 
         flash[:notice] = "#{@nomination.your_name}, thank you for the nomination."
         format.html { redirect_to(home_path) }
       else
