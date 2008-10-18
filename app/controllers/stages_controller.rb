@@ -92,7 +92,7 @@ class StagesController < ApplicationController
   def done    
     @current_survey = current_survey 
     begin
-      AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)      
+      #AdminMailer.deliver_survey_notification(current_survey, request.host_with_port)      
     rescue Net::SMTPAuthenticationError
       nil
     end
