@@ -34,12 +34,12 @@ module FrontPageHelper
        end
     end
     # Uncomment to test Clustering by creating lots of markers
-    (0..100).each{  
-                    markers << GMarker.new( [33+15*rand(0), -110.4819+25*rand(0)], 
-                                            :info_window => "<a href='http://yahoo.com/'>infowin: Yahoo!</a>", 
-                                            :title => "<a href='http://google.com/'>title: google</a>", 
-                                            :icon => icon_green_circle )
-    }
+    # (0..100).each{  
+    #                 markers << GMarker.new( [33+15*rand(0), -110.4819+25*rand(0)], 
+    #                                         :info_window => "<a href='http://yahoo.com/'>infowin: Yahoo!</a>", 
+    #                                         :title => "<a href='http://google.com/'>title: google</a>", 
+    #                                         :icon => icon_green_circle )
+    # }
 
     clusterer =   Clusterer.new(markers, :max_visible_markers => 2, :icon => icon_blue_circle)
     @map.overlay_init clusterer
