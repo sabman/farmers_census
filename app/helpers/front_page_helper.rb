@@ -28,7 +28,9 @@ module FrontPageHelper
       unless rec.lng == nil or rec.lat == nil   
         coords << [rec.lng.to_f, rec.lat.to_f]
         icon = rec.farmer_grounded? ? icon_green_circle : icon_red_circle
-        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], :title => "#{link_to rec.farm_name, survey_path(rec)}", :icon => icon, :info_window => get_info_window_text(rec) ) 
+        markers << GMarker.new([rec.lat.to_f, rec.lng.to_f], 
+                      :title => "#{link_to rec.farm_name, survey_path(rec)}", 
+                      :icon => icon, :info_window => get_info_window_text(rec) ) 
        end
     end
     # Uncomment to test Clustering by creating lots of markers
