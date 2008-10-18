@@ -159,8 +159,8 @@ module FrontPageHelper
   
   private
 
-  def get_info_window_text(survey)
-    if survey.avatars.first.nil?
+  def get_info_window_text(survey)        
+    if survey.avatars.first.nil? or !survey.avatars.first.image?
       width="134"
       height="200"
     else

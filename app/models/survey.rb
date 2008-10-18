@@ -27,7 +27,8 @@ class Survey < ActiveRecord::Base
   end
   
   def question_answered?(question_id)
-    ans = answers.find_by_question_id(question_id) 
+    ans = answers.find_by_question_id(question_id)    
+    return false if(ans.nil?)
     return false if( (ans.text.nil? or ans.text =="") and ans.options.empty? )
     return true
   end

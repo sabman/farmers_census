@@ -8,4 +8,6 @@ describe FrontPageHelper do
     included_modules.should include(FrontPageHelper)
   end
   
+  it "should show the main map" 
+  
 end

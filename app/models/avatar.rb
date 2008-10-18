@@ -6,7 +6,7 @@ class Avatar < ActiveRecord::Base
                  #:resize_to => '110x110>',
                  :thumbnails => {:thumb => "110x110>"}
   
-  #validates_as_attachment 
+  validates_as_attachment 
   
   belongs_to :survey  
 end
