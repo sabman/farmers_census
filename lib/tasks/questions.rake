@@ -33,6 +33,17 @@ namespace :db do
         if stage = Stage.find(question[1]["stage_id"]) 
           begin # update 
             q = Question.find(i.succ!.to_i) 
+            # are we updating qtype from a non-options question to yes-no?
+            if q.qtype != "yes_no" and (q.qtype != "options" or q.qtype != "list") and q_attrs["qtype"] == "yes_no"
+              q.options << [  Option.create(:text => "yes", :filename => "/images/labels/yes.png"), 
+                              Option.create(:text => "no",  :filename => "/images/labels/no.png")  ]              
+              q.save
+            end
+            if q.qtype == "yes_no" and q.options.empty?
+              q.options << [  Option.create(:text => "yes", :filename => "/images/labels/yes.png"), 
+                              Option.create(:text => "no",  :filename => "/images/labels/no.png")  ]              
+              q.save              
+            end              
             q.update_attributes(q_attrs)           
             # TODO: updating options not supported at the moment 
           rescue ActiveRecord::RecordNotFound # create
