@@ -36,8 +36,12 @@
   </div>   
 <% end %>
 
-<% content_for(:footer) do %>
-	<p>The Greenhorns would like to thank Organic Valley for their generous sponsorship of <strong>Serve Your Country Food</strong></p>
-  <p><img src="http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif" alt="" /></p>
-	A project of <a href="http://thegreenhorns.net/">the greenhorns</a>	
+<% content_for(:footer) do %> 
+  <%= render :partial => "layouts/donations" %>
+	<p>
+	  The Greenhorns would like to thank Organic Valley for their generous sponsorship of <strong>Serve Your Country Food</strong>
+	</p>
+  <p>
+    <img src="http://www.organicvalley.coop/fileadmin/templates/images/logos/ov_logo01.gif" alt="" />
+  </p>
 <% end %>

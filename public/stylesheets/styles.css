@@ -96,6 +96,7 @@ h1.section_header
   border:1px dashed #fff;
   background-color:#ebdbcc;
   padding:10px;
+	height:300px;
 }
 
 .sidebar h1.section_header
@@ -109,7 +110,7 @@ h1.section_header
   font-family:Constantia, Georgia, "Times New Roman", serif;
   margin:0 auto;
   line-height:1.4;
-  font-size:95%;
+  font-size:125%;
   padding:1px;
 }
 
@@ -623,3 +624,4 @@ div.desc
   width: auto;
   margin: 2px;
 }
+
