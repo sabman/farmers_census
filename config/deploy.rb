@@ -38,7 +38,7 @@ set :user,        'express'
 # 
 # # This is the branch you wish to deploy, by default we've set it to master,
 # # however you might want to set it to 'stable' or some other branch you're using
-# set :branch,      "master"
+set :branch,      "master"
 # # Deploy using an ssh agent.  On Mac OS X you may need to run:
 # # or something similar, to add your key to the agent and run it
 # #  ssh-agent; ssh-add ~/.ssh/id_dsa
