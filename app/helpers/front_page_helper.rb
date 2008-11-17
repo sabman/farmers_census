@@ -40,10 +40,13 @@ module FrontPageHelper
     #                                         :title => "<a href='http://google.com/'>title: google</a>", 
     #                                         :icon => icon_green_circle )
     # }
-
-    clusterer =   Clusterer.new(markers, :max_visible_markers => 2, :icon => icon_blue_circle)
-    @map.overlay_init clusterer
-
+    # :max_visible_markers => 50, :grid_size => 10, :min_markers_per_cluster => 35
+    #clusterer =   Clusterer.new(markers, :max_visible_markers => 150, :grid_size => 2, :icon => icon_blue_circle)
+    #@map.overlay_init clusterer
+    
+    markers.each do |marker|
+      @map.record_init( @map.add_overlay(marker) )
+    end
     
     coords = (coords.length == 0) ? [[-121.640625,26.431228],[-68.554687,47.15984]] : coords # if there are no records just zoom/center over 0,0      
     @map.center_zoom_init([37.5,-93.6],4)   
